@@ -1,0 +1,41 @@
+{
+  "name": "crossquestions",
+  "private": true,
+  "dependencies": {
+    "ionic": "driftyco/ionic-bower#1.1.0",
+    "angular-ios9-uiwebview-patch": "~1.1.1",
+    "angular-messages": "~1.4.7",
+    "lodash": "~3.10.0",
+    "moment": "~2.10.6"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.3"
+  },
+  "overrides": {
+    "ionic": {
+      "main": [
+        "./fonts/*",
+        "./js/ionic.bundle.js",
+        "./scss/ionic.scss"
+      ]
+    }
+  },
+  "resolutions": {
+    "angular": "1.4.3"
+  },
+  "authors": [
+    "ilyass LAZAAR <ilazaar@sqli.com>"
+  ],
+  "description": "Application  Cordova Mobile made by LAZ & CHA",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

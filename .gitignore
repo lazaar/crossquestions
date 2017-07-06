@@ -1,0 +1,18 @@
+/config.xml
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+platforms/
+plugins/
+
+www/js/constants/configConstantes.js
+bower_components
+src/app/constants/configConstantes.js
+src/app/module/smarttag.js
+.sass-cache
+.tmp
+.idea
+www
+
+.bowerrc

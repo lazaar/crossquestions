@@ -1,0 +1,7 @@
+{
+  "logDebug"       : false,
+  "server"         : "https://hubnews-val.airbus.com",
+  "APP_ID"         : "com.lazcha.crossQuestions",
+  "APP_NAME"       : "crossQuestions",
+  "APP_DESCRIPTION": "Cross Questions"
+}
