@@ -2,8 +2,12 @@
 
     'use strict';
     angular.module('crossQuestions').constant('cqConstantes', {
-        server:{		
-
+        states:{		
+        	home:'home',
+        	levels:'levels',
+        	group:'group',
+        	crossWord:'crossWord',
+        	question:'question'
     	}
     });
 })();

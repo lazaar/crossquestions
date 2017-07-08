@@ -1,0 +1,7 @@
+<ion-content>
+Group {{vm.group}}
+
+<div ng-repeat="n in [].constructor(5) track by $index">
+    <a href="" ng-click="mainCtrl.goToState('crossWord', {cw:$index})">Cross Words {{ $index}}</a>
+</div>
+</ion-content>

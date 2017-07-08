@@ -2,22 +2,22 @@
     'use strict';
     angular
         .module('crossQuestions')
-        .factory('videoService', function(){
+        .factory('exempleService', function(){
 
 
         // ############################################# //
         // ############### PUBLIC BUSINESS ############# //
         // ############################################# //
 
-         function getVideoFromChannel(){
-            getVideosByNumber();
+         function service(){
+            fctPrivate();
          }
 
         // ############################################### //
         // ############### Private BUSINESS ############# //
         // ############################################# //
 
-        var getVideosByNumber = function(){
+        var fctPrivate = function(){
 
         };
 
@@ -25,7 +25,7 @@
 
 
             return {
-                getVideoFromChannel:getVideoFromChannel
+                service:service
             };
         });
 }());

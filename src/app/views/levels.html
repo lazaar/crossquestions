@@ -1,0 +1,7 @@
+<ion-content>
+Levels
+
+<div ng-repeat="n in [].constructor(5) track by $index">
+    <a href="" ng-click="mainCtrl.goToState('group', {group:$index})">Group {{ $index}}</a>
+</div>
+</ion-content>

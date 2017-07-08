@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('crossQuestions').factory('routerHelper', function ($log, $rootScope, $state, $ionicHistory) {
+    angular.module('crossQuestions').factory('routerHelper', function ($state) {
 
         // ################################### //
         // ######## PUBLIC BUSINESS ########## //
@@ -29,15 +29,12 @@
          */
         function goToState(to, params, options) {
             $state.go(to, params, options);
-            var state = $state.get(to),
-                disableAnimateEnter = !!state.disableAnimateEnter,
-                historyRoot = !!state.historyRoot;
 
-            $ionicHistory.nextViewOptions({
+            /*$ionicHistory.nextViewOptions({
                 disableAnimate: disableAnimateEnter,
                 disableBack: false,
                 historyRoot: historyRoot
-            });
+            });*/
         }
 
         // ################################### //

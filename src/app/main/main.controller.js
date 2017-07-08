@@ -4,14 +4,14 @@
     angular
         .module('crossQuestions')
         //Controller of the main page
-        .controller('MainController', function () {
+        .controller('MainController', function (routerHelper) {
 
             var vm = this;
 
 
 
             function init(){
-console.log(vm);
+                vm.goToState = routerHelper.goToState;
             }
 
             init();

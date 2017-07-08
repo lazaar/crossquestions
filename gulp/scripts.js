@@ -19,7 +19,6 @@ gulp.task('scripts', function () {
     return gulp.src([startupScript, files, exludeFilesMock, exludeFilesSpec])
         .pipe($.jshint())
         .pipe($.jshint.reporter('jshint-stylish'))
-        .pipe($.jshint.reporter('fail'))
         .pipe(browserSync.reload({stream: true}))
         .pipe($.size())
 });

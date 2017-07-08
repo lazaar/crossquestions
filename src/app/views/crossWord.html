@@ -1,0 +1,7 @@
+<ion-content>
+Cross Word {{vm.cw}}
+
+<div ng-repeat="n in [].constructor(5) track by $index">
+    <a href="" ng-click="mainCtrl.goToState('question', {question:$index})">Question {{ $index}}</a>
+</div>
+</ion-content>
