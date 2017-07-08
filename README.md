@@ -43,17 +43,17 @@ Se positionner dans le dossier ou vous souhaitez cloner le repository
 Accès ssh :
 
 ```sh
-$  git clone git@gitlab-lyon.dmz.lyon.sqli.com:airbus/hub-news-mobile.git
+$  git clone git@github.com:{{username}}/crossquestions.git
 ```
 Accès https :
 
 ```sh
-$  git clone https://gitlab-lyon.sqli.com/airbus/hub-news-mobile.git
+$  git clone https://github.com/lazaar/crossquestions.git
 ```
 
 Aller dans le dossier cloner :
 ```sh
-$  cd hub-news-mobile
+$  cd crossquestions
 ```
 
 ##### Installer les dépendances node.js et bower.js
