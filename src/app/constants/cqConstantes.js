@@ -8,6 +8,9 @@
         	group:'group',
         	crossWord:'crossWord',
         	question:'question'
-    	}
+    	},
+        localStorage:{
+            
+        }
     });
 })();
