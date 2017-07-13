@@ -1,4 +1,6 @@
-<ion-content>
-Home
-<a href="" ng-click="mainCtrl.goToState('levels')">Levels</a>
+<ion-content class="home-page" scroll="false">
+	<div class="logo">
+		<img src="assets/images/logo.png" alt="logo" ng-show="vm.showLogo">
+	</div>
+	<a href="" ng-click="mainCtrl.goToState('levels')" class="play-btn"><i class="ion-play"></i></a>
 </ion-content>

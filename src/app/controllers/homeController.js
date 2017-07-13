@@ -8,7 +8,7 @@
         .controller('homeController', HomeControllerFct);
 
 
-    function HomeControllerFct(){
+    function HomeControllerFct($scope){
 
         var vm = this;
 
@@ -17,7 +17,11 @@
          * init of the controler
          */
         function init(){
-            console.log(vm);
+             _.delay(function(){
+                    $scope.$apply(function(){
+                        vm.showLogo = true;
+                    });
+                }, 500);
         }
         // ################# INITALIZE ################# //
 

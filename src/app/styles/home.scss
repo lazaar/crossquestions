@@ -1,0 +1,45 @@
+.home-page{
+	height:100%;
+	background: $home-background-color  url("../assets/images/back.png") no-repeat;
+	background-size:cover;
+	.logo{
+		height: 45%;
+		background-color: $home-logo-color; 
+		text-align: center;
+		position: relative; 
+		> img{ 
+			max-width: 60%;
+		    top: 0;
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    right: 0;
+		    margin: auto;
+			&.ng-hide-remove{ animation:0.5s $home-logo-animation ease; }
+		}
+	}
+
+	.play-btn{
+		width: 100px;
+	    height: 100px;
+	    display: block;
+	    background: $home-play-background-color;
+	    border-radius: 90px;
+	    margin: auto;
+	    margin-top: 15%;
+	    position:relative;
+	    @include box-shadow(0px, 4px, 0px, $home-logo-border-color);
+	    .ion-play{
+	    	color: $home-play-color;
+		    font-size: 65px;
+		    position: absolute;
+		    top: 0;
+		    bottom: 0;
+		    left: 0;
+		    right: 0;
+		    margin: auto;
+		    width: 33px;
+		    height: 64px;
+	    }
+	}
+}
