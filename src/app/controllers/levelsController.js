@@ -8,7 +8,7 @@
         .controller('levelsController', LevelsControllerFct);
 
 
-    function LevelsControllerFct(){
+    function LevelsControllerFct(dataService){
 
         var vm = this;
 
@@ -17,7 +17,9 @@
          * init of the controler
          */
         function init(){
-            console.log(vm);
+            dataService.getData().then(function(datas){
+                vm.levels = datas;
+            });
         }
         // ################# INITALIZE ################# //
 

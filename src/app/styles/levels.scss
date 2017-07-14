@@ -1,0 +1,29 @@
+.levels-page{
+	height:100%;
+	background: $levels-background-color  url("../assets/images/back.png") no-repeat;
+	background-size:cover;
+
+	.title{
+		text-align: center;
+	    font-size: 40px;
+	    color: $levels-title-color;
+	    background: $levels-title-background;
+	    line-height: 70px;
+	}
+	.levels{
+	    padding: 20px;
+    	margin-top: 40px;
+    	li{
+    		background: $levels-item-background;
+		    line-height: 50px;
+		    font-size: 20px;
+		    padding: 10px 25px;
+		    position: relative;
+		    margin-bottom: 15px;
+		    i{
+		    	position: absolute;
+    			right: 15px;
+		    }
+    	}
+	}
+}

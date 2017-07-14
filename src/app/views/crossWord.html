@@ -1,5 +1,12 @@
-<ion-content>
+<ion-content class="cw-page">
 Cross Word {{vm.cw}}
+	<div class="grid">
+		<div class="row" ng-repeat="row in vm.grid track by $index" >
+	        <div class="col" ng-repeat="col in row track by $index">
+	        	<span class="content" ng-if="col.content">{{ col.content }}<span>
+	        </div>
+	    </div>
+	</div>
 
 <div ng-repeat="n in [].constructor(5) track by $index">
     <a href="" ng-click="mainCtrl.goToState('question', {question:$index})">Question {{ $index}}</a>
