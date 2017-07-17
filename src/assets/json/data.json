@@ -1,55 +1,89 @@
 [
 	{
 		"levelId":1,
-		"groups":[{
-			"groupId" : 1,
-			"crosswords" : [
-				{
-					"crosswordId" : 1,
-					"width":30,
-					"height":30,
-					"questions" :[
-						{
-							"questionId": 1,
-							"x":1,
-							"y":1,
-							"direction":"v | h",
-							"title":"Title here",
-							"content":"Question here",
-							"type":"image | text",
-							"answer":"ABC",
-							"letters":"ABCRDSZBHF"
-						}
-					]
-				}
-			]
-		}]
+		"crosswords" : [
+			{
+				"crosswordId" : 1,
+				"width":10,
+				"height":10,
+				"questions" :[
+					{
+						"questionId": 1,
+						"x":1,
+						"y":1,
+						"direction":"h",
+						"title":"Title here",
+						"content":"Question here",
+						"type":"image | text",
+						"answer":"ABC",
+						"letters":"ABCRDSZBHF"
+					},
+					{
+						"questionId": 2,
+						"x":0,
+						"y":4,
+						"direction":"v",
+						"title":"Title here",
+						"content":"Question here",
+						"type":"image | text",
+						"answer":"ACEF",
+						"letters":"ABCRDSZBHF"
+					},
+					{
+						"questionId": 3,
+						"x":4,
+						"y":2,
+						"direction":"h",
+						"title":"Title here",
+						"content":"Question here",
+						"type":"image | text",
+						"answer":"GHFER",
+						"letters":"ABCRDSZBHF"
+					}
+				]
+			},
+			{
+				"crosswordId" : 1,
+				"width":10,
+				"height":10,
+				"questions" :[
+					{
+						"questionId": 1,
+						"x":1,
+						"y":1,
+						"direction":"v | h",
+						"title":"Title here",
+						"content":"Question here",
+						"type":"image | text",
+						"answer":"ABC",
+						"letters":"ABCRDSZBHF"
+					}
+				]
+			},{},{}
+		]
 	},
 	{
 		"levelId":1,
-		"groups":[{
-			"groupId" : 1,
-			"crosswords" : [
-				{
-					"crosswordId" : 1,
-					"width":30,
-					"height":30,
-					"questions" :[
-						{
-							"questionId": 1,
-							"x":1,
-							"y":1,
-							"direction":"v | h",
-							"title":"Title here",
-							"content":"Question here",
-							"type":"image | text",
-							"answer":"ABC",
-							"letters":"ABCRDSZBHF"
-						}
-					]
-				}
-			]
-		}]
+		"crosswords" : [
+			{
+				"crosswordId" : 1,
+				"width":10,
+				"height":10,
+				"questions" :[
+					{
+						"questionId": 1,
+						"x":1,
+						"y":1,
+						"direction":"v | h",
+						"title":"Title here",
+						"content":"Question here",
+						"type":"image | text",
+						"answer":"ABC",
+						"letters":"ABCRDSZBHF"
+					}
+				]
+			}
+		]
 	},
 	{},
 	{},

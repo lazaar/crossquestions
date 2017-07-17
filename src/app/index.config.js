@@ -39,7 +39,7 @@
                 controller: 'levelsController as vm'
             })
             .state(cqConstantes.states.group, {
-                url: '/'+cqConstantes.states.group+'/:group',
+                url: '/'+cqConstantes.states.group+'/:level',
                 templateUrl: 'app/views/group.html',
                 controller: 'groupController as vm'
             })
@@ -49,7 +49,7 @@
                 controller: 'crossWordController as vm'
             })
             .state(cqConstantes.states.question, {
-                url: '/'+cqConstantes.states.question+'/:question',
+                url: '/'+cqConstantes.states.question+'/:i/:j/:direction',
                 templateUrl: 'app/views/question.html',
                 controller: 'questionController as vm'
             });

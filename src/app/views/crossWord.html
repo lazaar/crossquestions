@@ -1,14 +1,14 @@
-<ion-content class="cw-page">
-Cross Word {{vm.cw}}
-	<div class="grid">
+<ion-content class="cw-page" scroll="false">
+	<div class="grid"  on-swipe="vm.goToQuestion()" >
 		<div class="row" ng-repeat="row in vm.grid track by $index" >
-	        <div class="col" ng-repeat="col in row track by $index">
-	        	<span class="content" ng-if="col.content">{{ col.content }}<span>
+	        <div class="col" ng-repeat="col in row track by $index"
+	        	on-drag-right="vm.goToQuestion($parent.$index, $index,'h')"
+	        	on-drag-left="vm.goToQuestion($parent.$index, $index,'h')"
+	        	on-drag-up="vm.goToQuestion($parent.$index, $index,'v')"
+	        	on-drag-down="vm.goToQuestion($parent.$index, $index,'v')"
+	        	ng-click="vm.goToQuestion($parent.$index, $index, col.v ? 'v': 'h')">
+	        	<span class="content" ng-if="col.content" >{{ col.content }}<span>
 	        </div>
 	    </div>
 	</div>
-
-<div ng-repeat="n in [].constructor(5) track by $index">
-    <a href="" ng-click="mainCtrl.goToState('question', {question:$index})">Question {{ $index}}</a>
-</div>
 </ion-content>

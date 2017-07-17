@@ -1,13 +1,18 @@
 .cw-page{
-	background:#8dd0ff;
+	background: $levels-background-color  url("../assets/images/back.png") no-repeat;
+	background-size:cover;
 
 	.grid{
+		margin-top: 40px;
 		.col .content{
 			background-color: white;
 		    display: block;
 		    text-align: center;
 		    min-height: 30px;
 		    line-height: 30px;
+		}
+		.row{
+			min-height: 35px;
 		}
 	}
 }

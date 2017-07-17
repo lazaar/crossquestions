@@ -1,3 +1,13 @@
-<ion-content>
-Question {{vm.question}}
+<ion-content class="question-page">
+<p class="title">{{vm.question.title}}</p>
+<div class="content">
+	{{vm.question.content}}
+</div>
+<ul class="answer">
+	<li ng-repeat="letter in vm.answer">{{letter.content}}</li>
+</ul>
+
+<ul class="letters">
+	<li ng-repeat="letter in vm.question.letters track by $index">{{letter}}</li>
+</ul>
 </ion-content>

@@ -1,0 +1,30 @@
+.group-page{
+	background: $levels-background-color  url("../assets/images/back.png") no-repeat;
+	background-size:cover;
+
+	.title{
+		text-align: center;
+	    font-size: 40px;
+	    color: $levels-title-color;
+	    background: $levels-title-background;
+	    line-height: 70px;
+	}
+	.crossWords{
+	    padding: 10px 20px;
+	    margin-top: 20px;
+	    li{
+	    	width: 33.33%;
+    		float: left;
+    		padding: 10px 15px;
+    		text-align: center;
+    		span{
+    			background: $group-background-cw;
+			    display: block;
+			    line-height: 75px;
+			    border-radius: 20px;
+			    font-size: 30px;
+			    color: $group-color-cw;
+    		}
+	    }
+	}
+}

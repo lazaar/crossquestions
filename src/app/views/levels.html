@@ -2,7 +2,7 @@
 	<div class="title">Levels</div>
 
 	<ul class="levels">
-		<li ng-repeat="level in vm.levels track by $index" ng-click="mainCtrl.goToState('group', {group:$index})">
+		<li ng-repeat="level in vm.levels track by $index" ng-click="mainCtrl.goToState('group', {level:$index})">
 			<span>Level {{$index+1}}</span>
 			<i class="ion-chevron-right"></i>
 		</li>
