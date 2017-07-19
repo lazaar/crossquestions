@@ -8,4 +8,58 @@
 	    background: $levels-title-background;
 	    line-height: 70px;
 	}
+	.question-content{
+		height: 40%;
+	    background: rgba(255,255,255,0.5);
+	    width: 70%;
+	    margin: auto;
+	    margin-top: 40px;
+	    border-radius: 20px;
+	    padding: 10px;
+	    p{
+	    	position: relative;
+		    top: 50%;
+		    transform: translateY(-50%);
+		    text-align: center;
+	    }
+	    img{
+	    	max-width: 100%;
+	    	position: relative;
+		    top: 50%;
+		    transform: translateY(-50%);
+		    text-align: center;
+	    }
+	}
+
+	.letters, .answer{
+		text-align: center;
+		margin-top: 30px;
+		li{
+			width: 30px;
+		    display: inline-block;
+		    background: white;
+		    text-align: center;
+		    height: 30px;
+		    line-height: 30px;
+		    margin-right: 5px;
+		}
+	}
+	.letters{
+		li{
+			background:#000000;
+			color: #FFFFFF;
+		}
+
+	}
+	.hint{
+		display: block;
+	    background: #0a2238;
+	    width: 200px;
+	    margin: auto;
+	    text-align: center;
+	    color: white;
+	    font-size: 17px;
+	    line-height: 30px;
+	    margin-top: 30px;
+	}
 }

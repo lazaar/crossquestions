@@ -7,7 +7,7 @@
 	        	on-drag-up="vm.goToQuestion($parent.$index, $index,'v')"
 	        	on-drag-down="vm.goToQuestion($parent.$index, $index,'v')"
 	        	ng-click="vm.goToQuestion($parent.$index, $index, col.v ? 'v': 'h')">
-	        	<span class="content" ng-if="col.content" >{{ col.content }}<span>
+	        	<span class="content" ng-if="col.content" ng-bind-html="col.content"><span>
 	        </div>
 	    </div>
 	</div>

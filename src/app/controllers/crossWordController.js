@@ -14,10 +14,13 @@
 
         // ############## PRIVATE BUSINESS ############# //
         var goToQuestion = function(i,j,direction){
-            if(direction && vm.grid[i][j][direction] && !isInTransition){
+            if(direction && vm.grid[i][j][direction] !== undefined && !isInTransition){
                 isInTransition = true;
                 routerHelper.goToState(cqConstantes.states.question,{'i': i,'j': j,'direction': direction});
             }
+            _.delay(function(){
+                isInTransition= false;
+            }, 100);
         };
 
         /**

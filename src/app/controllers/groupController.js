@@ -13,7 +13,10 @@
         var vm = this;
 
         vm.goToCrossWords = function(id){
-            cwService.initCrossWords(_.get(vm.crosswords,id));
+            var cw = _.get(vm.crosswords,id);
+            cw.id = id;
+            cw.levelId = vm.level;
+            cwService.initCrossWords(cw);
             routerHelper.goToState(cqConstantes.states.crossWord,{'cw': id});
         };
 

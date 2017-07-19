@@ -21,13 +21,13 @@
 					{
 						"questionId": 2,
 						"x":0,
-						"y":4,
+						"y":3,
 						"direction":"v",
 						"title":"Title here",
-						"content":"Question here",
-						"type":"image | text",
+						"content":"http://lorempixel.com/output/animals-q-c-640-480-10.jpg",
+						"type":"image",
 						"answer":"ACEF",
-						"letters":"ABCRDSZBHF"
+						"letters":"ABCEDSZBHF"
 					},
 					{
 						"questionId": 3,

@@ -10,7 +10,7 @@
         	question:'question'
     	},
         localStorage:{
-            
+            correctedQuestions : 'correctedQuestions'
         }
     });
 })();

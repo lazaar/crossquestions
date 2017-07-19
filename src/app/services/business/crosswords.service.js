@@ -2,7 +2,7 @@
     'use strict';
     angular
         .module('crossQuestions')
-        .factory('cwService', function(dataModel){
+        .factory('cwService', function(dataModel, storageHelper){
 
 
 
@@ -23,13 +23,14 @@
 
                 _.forEach(crossWord.questions, function(question, index) {
                     answer = question.answer.split('');
+                    question.isAlreadyCorrected = !_.indexOf(storageHelper.getItem('correctedQuestions'),crossWord.levelId+'-'+crossWord.id+'-'+index);
                     if(question.direction === 'h'){
                         for(i = 0; i < answer.length; i++){
-                            initCase(question.x, question.y+i, 'h', index);
+                            initCase(question.x, question.y+i, question.isAlreadyCorrected ? answer[i] : '&nbsp;', 'h', index);
                         }
                     }else{
                         for(i = 0; i < answer.length; i++){
-                            initCase(question.x + i , question.y,'v', index); 
+                            initCase(question.x + i , question.y, question.isAlreadyCorrected ? answer[i] : '&nbsp;', 'v', index); 
                         }
                     } 
 
@@ -39,15 +40,34 @@
                 dataModel.crosswords = crossWord;
              }
 
+             function correctQuestion(index){
+                var i;
+                var question = _.get(dataModel.crosswords.questions,index);
+                question.isAlreadyCorrected = true;
+                var answers = question.answer.split('');
+                if(question.direction === 'h'){
+                    for(i = 0; i < answers.length; i++){
+                        grid[question.x][question.y+i].content  = answers[i];
+                    }
+                }else{
+                    for(i = 0; i < answers.length; i++){
+                        grid[question.x + i][question.y].content = answers[i];
+                    }
+                }
+             }
+
         // ############################################### //
         // ############### Private BUSINESS ############# //
         // ############################################# //
 
-            var initCase = function(i, j, direction, index){
+            var initCase = function(i, j, content, direction, index){
                 if(!grid[i][j].content){
-                    grid[i][j] = createCase(' ','blank', direction, index);
+                    grid[i][j] = createCase(content,'blank', direction, index);
                 }
                 else{
+                    if(content !== '&nbsp;' && grid[i][j].content === '&nbsp;'){
+                        grid[i][j].content  = content;
+                    }
                     grid[i][j][direction] = index ;
                 }
 
@@ -63,7 +83,8 @@
             };
 
             return {
-                initCrossWords:initCrossWords
+                initCrossWords:initCrossWords,
+                correctQuestion:correctQuestion
             };
         });
 }());

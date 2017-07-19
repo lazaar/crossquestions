@@ -1,13 +1,16 @@
-<ion-content class="question-page">
-<p class="title">{{vm.question.title}}</p>
-<div class="content">
-	{{vm.question.content}}
-</div>
-<ul class="answer">
-	<li ng-repeat="letter in vm.answer">{{letter.content}}</li>
-</ul>
+<ion-content class="question-page" scroll="false">
+	<p class="title">{{vm.question.title}}</p>
+	<div class="question-content">
+		<p ng-if="vm.question.type != 'image'">{{vm.question.content}}</p>
+		<img ng-if="vm.question.type == 'image'" ng-src="{{vm.question.content}}" alt="{{vm.question.title}}"/>
+	</div>
+	<ul class="answer">
+		<li ng-repeat="letter in vm.answer track by $index" ng-click="vm.onAnswerClick($index)" ng-bind-html="letter.content"></li>
+	</ul>
 
-<ul class="letters">
-	<li ng-repeat="letter in vm.question.letters track by $index">{{letter}}</li>
-</ul>
+	<ul class="letters">
+		<li ng-repeat="letter in vm.letters track by $index" ng-click="vm.onLetterClick($index)" ng-bind-html="letter"></li>
+	</ul>
+
+	<a ng-click="vm.showLetter()" class="hint" ng-if="!vm.question.isAlreadyCorrected">Use Hint</a>
 </ion-content>
