@@ -10,7 +10,8 @@
         	question:'question'
     	},
         localStorage:{
-            correctedQuestions : 'correctedQuestions'
+            correctedQuestions : 'correctedQuestions',
+            hints:'hints'
         }
     });
 })();

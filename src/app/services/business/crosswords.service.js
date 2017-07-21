@@ -2,7 +2,7 @@
     'use strict';
     angular
         .module('crossQuestions')
-        .factory('cwService', function(dataModel, storageHelper){
+        .factory('cwService', function(dataModel, storageHelper, hintService){
 
 
 
@@ -13,7 +13,8 @@
 
              function initCrossWords(crossWord){
 
-                var i, answer;
+                var i, answer, isHint = false;
+                dataModel.crosswords = crossWord;
 
                 //Init two dimensional Array
                 grid = new Array(crossWord.width);
@@ -26,18 +27,19 @@
                     question.isAlreadyCorrected = !_.indexOf(storageHelper.getItem('correctedQuestions'),crossWord.levelId+'-'+crossWord.id+'-'+index);
                     if(question.direction === 'h'){
                         for(i = 0; i < answer.length; i++){
-                            initCase(question.x, question.y+i, question.isAlreadyCorrected ? answer[i] : '&nbsp;', 'h', index);
+                            isHint = hintService.isHint(question.x, question.y+i);
+                            initCase(question.x, question.y+i, question.isAlreadyCorrected || isHint ? answer[i] : '&nbsp;', 'h', index);
                         }
                     }else{
                         for(i = 0; i < answer.length; i++){
-                            initCase(question.x + i , question.y, question.isAlreadyCorrected ? answer[i] : '&nbsp;', 'v', index); 
+                            isHint = hintService.isHint(question.x + i, question.y);
+                            initCase(question.x + i , question.y, question.isAlreadyCorrected || isHint ? answer[i] : '&nbsp;', 'v', index); 
                         }
                     } 
 
                 });
                 
-                crossWord.grid = grid;
-                dataModel.crosswords = crossWord;
+                dataModel.crosswords.grid = grid;
              }
 
              function correctQuestion(index){
@@ -48,12 +50,19 @@
                 if(question.direction === 'h'){
                     for(i = 0; i < answers.length; i++){
                         grid[question.x][question.y+i].content  = answers[i];
+                        grid[question.x][question.y+i].type  = 'corrected';
                     }
                 }else{
                     for(i = 0; i < answers.length; i++){
                         grid[question.x + i][question.y].content = answers[i];
+                        grid[question.x = i][question.y].type  = 'corrected';
                     }
                 }
+             }
+
+             function updateCase(i,j,content, type){
+                grid[i][j].content = content;
+                grid[i][j].type  = type;
              }
 
         // ############################################### //
@@ -62,7 +71,7 @@
 
             var initCase = function(i, j, content, direction, index){
                 if(!grid[i][j].content){
-                    grid[i][j] = createCase(content,'blank', direction, index);
+                    grid[i][j] = createCase(content,content ==='&nbsp;' ? 'blank' : 'corrected', direction, index);
                 }
                 else{
                     if(content !== '&nbsp;' && grid[i][j].content === '&nbsp;'){
@@ -84,7 +93,8 @@
 
             return {
                 initCrossWords:initCrossWords,
-                correctQuestion:correctQuestion
+                correctQuestion:correctQuestion,
+                updateCase:updateCase
             };
         });
 }());

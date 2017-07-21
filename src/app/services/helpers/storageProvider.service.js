@@ -28,7 +28,7 @@
          * @param value
          */
         function setItem(name, value) {
-            $log.debug(DEBUG, 'Add Item', name, value);
+            $log.debug(DEBUG, 'Add Item', getName(name), value, JSON.stringify(value));
             localStorage.setItem(getName(name), JSON.stringify(value));
         }
 
@@ -37,7 +37,6 @@
          * @param name
          */
         function getItem(name) {
-            $log.debug(DEBUG, 'Get Item', name);
             return JSON.parse(localStorage.getItem(getName(name)));
         }
 

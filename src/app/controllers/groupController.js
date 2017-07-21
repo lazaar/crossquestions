@@ -30,7 +30,6 @@
             dataService.getData().then(function(datas){
                 level = _.get(datas,vm.level);
                 vm.crosswords =level ? level.crosswords : [];
-            cwService.initCrossWords(_.get(vm.crosswords,0));
             });
         }
         // ################# INITALIZE ################# //

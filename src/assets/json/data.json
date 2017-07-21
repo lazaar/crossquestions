@@ -31,14 +31,14 @@
 					},
 					{
 						"questionId": 3,
-						"x":4,
+						"x":5,
 						"y":2,
 						"direction":"h",
 						"title":"Title here",
 						"content":"Question here",
 						"type":"image | text",
 						"answer":"GHFER",
-						"letters":"ABCRDSZBHF"
+						"letters":"ACRDSZBGHFE"
 					}
 				]
 			},
