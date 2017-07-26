@@ -1,0 +1,41 @@
+@include font-face('tex', 'texgyreadventor-bold',300);
+@include font-face('tex', 'texgyreadventor-regular',200);
+@include font-face('mouse', 'wicked_mouse');
+
+.cw-btn{
+    font-family: 'mouse';
+    min-height: 40px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 15px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    &.has-icon{
+    	padding-left:30px;
+    	position: relative;
+    	i{
+    		position:absolute;
+    		left: 10px;
+    	}
+    }
+
+	&.cw-red-btn{
+		background-color: $red;
+		@include box-shadow(0px, 4px, 0px, darken($red, 20%));
+	}
+	&.cw-orange-btn{
+		background-color: $orange;
+		@include box-shadow(0px, 4px, 0px, darken($orange, 20%));
+	}
+	&.cw-yellow-btn{
+		background-color: $yellow;
+		@include box-shadow(0px, 4px, 0px, darken($yellow, 20%));
+	}
+	&.cw-blue-btn{
+		background-color: $blue;
+		@include box-shadow(0px, 4px, 0px, darken($blue, 20%));
+	}
+}

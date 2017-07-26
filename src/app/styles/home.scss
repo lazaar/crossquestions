@@ -3,7 +3,7 @@
 	background: $home-background-color  url("../assets/images/back.png") no-repeat;
 	background-size:cover;
 	.logo{
-		height: 45%;
+		height: 35%;
 		background-color: $home-logo-color; 
 		text-align: center;
 		position: relative; 
@@ -18,28 +18,45 @@
 			&.ng-hide-remove{ animation:0.5s $home-logo-animation ease; }
 		}
 	}
-
-	.play-btn{
-		width: 100px;
-	    height: 100px;
-	    display: block;
-	    background: $home-play-background-color;
-	    border-radius: 90px;
-	    margin: auto;
-	    margin-top: 15%;
-	    position:relative;
-	    @include box-shadow(0px, 4px, 0px, $home-logo-border-color);
-	    .ion-play{
-	    	color: $home-play-color;
-		    font-size: 65px;
-		    position: absolute;
-		    top: 0;
-		    bottom: 0;
-		    left: 0;
-		    right: 0;
+	.main-menu{
+		height: calc(65% - 70px);
+		.btns-wrapper{
+			position: relative;
+		    top: 20px;
+		}
+		.cw-btn{
+		    display: block;
+		    max-width: 280px;
+		    width: 80%;
 		    margin: auto;
-		    width: 33px;
-		    height: 64px;
-	    }
+
+
+		    margin-bottom: 20px;
+		    font-size: 25px;
+		    height: 55px;
+		    line-height: 55px;
+		    i{
+		    	font-size: 35px;
+		    }
+		    @media(max-height:567px){
+		    	margin-bottom: 15px;
+			    font-size: 21px;
+			    height: 45px;
+			    line-height: 45px;
+		    }
+		}
+	}
+
+	.bottom-btns{
+		height: 70px;
+		text-align: center;
+		.cw-btn{
+		    height: 56px;
+		    line-height: 56px;
+		    width: 56px;
+		    margin: 0 10px;
+		    font-size: 40px;
+		    padding: 0;
+		}
 	}
 }
