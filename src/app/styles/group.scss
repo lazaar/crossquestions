@@ -1,22 +1,108 @@
 .group-page{
-	background: $levels-background-color  url("../assets/images/back.png") no-repeat;
-	background-size:cover;
-	.crossWords{
-	    padding: 10px 20px;
-	    margin-top: 20px;
-	    li{
-	    	width: 33.33%;
-    		float: left;
-    		padding: 10px 15px;
-    		text-align: center;
-    		span{
-    			background: $group-background-cw;
-			    display: block;
-			    line-height: 75px;
-			    border-radius: 20px;
-			    font-size: 30px;
-			    color: $group-color-cw;
+	height:calc(100% + 1px);
+	background: $levels-background-color;
+	padding-top:70px;
+	text-align:center;
+	.slider{
+		padding: 40px 0;
+		height: calc(100% - 100px);
+		ion-slide{
+			padding:0 20px;
+    		height: 100%;
+    		.top-content{
+			    background: $red;
+			    border-radius: 10px;
+			    height: calc(100% - 50px);
+			    color: #FFFFFF;
+			    font-family: 'mouse';
+			    position: relative;
+			    text-align:center; 
+			    .cw-number{
+			    	font-size: 60px;
+			    	position: absolute;
+			    	top: 0;
+			    	bottom: 0;
+			    	right: 0;
+			    	left: 0;
+			    	margin:auto; 
+			    	display: block;
+			    	border-radius:45px;
+			    	border:2px solid #FFFFFF;
+				    width: 90px;
+				    height: 90px;
+				    padding-top: 33px;
+			    }
+
+			    .state{
+			    	position: absolute;
+			    	bottom: 20px;
+			    	left: 0;
+			    	right: 0;
+			    	margin:auto;
+			    	font-family: 'tex';
+			    	font-weight: 300;
+			    	font-size: 25px; 
+			    }
     		}
-	    }
+		    .bottom-content{
+			    background: darken($red,20%);
+			    height: 80px;
+			    padding-top: 30px;
+			    margin-top: -30px;
+			    border-radius: 10px;
+			    .cw-stars-state{
+			    	height: 100%;
+			    	display: inline-block;
+			    	text-align:center;
+			    	width: 100%; 
+			    	i{
+					    font-size: 40px;
+					    line-height: 50px;
+					    margin: 0 10px;
+					    color: $yellow;
+					    &.disable{
+					    	color:rgba(0,0,0,0.2);
+					    }
+			    	}
+			    }
+		    }
+		}
+	}
+	.add-hints{
+	    font-size: 22px;
+	    margin-top: 20px;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	}
+}
+
+.group-page .slider ion-slide{
+	&.cw-blue{
+		.top-content{background: $blue;}
+    	.bottom-content{background: darken($blue,20%);}
+	}
+	&.cw-orange{
+		.top-content{background: $orange;}
+    	.bottom-content{background: darken($orange,20%);}
+	}
+	&.cw-green{
+		.top-content{background: #2ecc71;}
+    	.bottom-content{background: darken(#2ecc71,20%);}
+	}
+	&.cw-purple{
+		.top-content{background: #9b59b6;}
+    	.bottom-content{background: darken(#9b59b6,20%);}
+	}
+	&.cw-dark-grey{
+		.top-content{background: #34495e;}
+    	.bottom-content{background: darken(#34495e,20%);}
+	}
+	&.cw-grey{
+		.top-content{background: #95a5a6;}
+    	.bottom-content{background: darken(#95a5a6,20%);}
+	}
+	&.cw-turquoise{
+		.top-content{background: #1abc9c;}
+    	.bottom-content{background: darken(#1abc9c,20%);}
 	}
 }

@@ -1,9 +1,40 @@
-<ion-content class="group-page">
+<ion-nav-bar class="bar bar-header bar-light cw-header" align-title="center">
 
-	<div class="title">level {{vm.level + 1}}</div>
-	<ul class="crossWords clearfix">
-		<li ng-repeat="cw in vm.crosswords track by $index" ng-click="vm.goToCrossWords($index)">
-			<span>{{$index + 1}}</span>
-		</li>
-	</ul>
+      <ion-nav-buttons side="right">
+        <button  class="cw-stars" >120 <i class="ion-ios-star"></i></button>
+      </ion-nav-buttons>
+
+    <ion-nav-title>
+        Level {{vm.level +1}}
+    </ion-nav-title>
+
+    <ion-nav-buttons side="left">
+        <button class="cw-button-back button button-icon"><i class="ion-ios-arrow-back"></i></button>
+    </ion-nav-buttons>
+
+</ion-nav-bar>
+
+<ion-content class="group-page" scroll="false">
+  
+  <ion-slide-box show-pager="false">
+
+    <ion-slide ng-repeat="cw in vm.crosswords track by $index" ng-click="vm.goToCrossWords($index)" class="cw-red">
+          <div class="top-content">
+              <span class="cw-number">{{$index + 1}}</span>
+              <span class="state">8/10</span>
+          </div>
+
+          <div class="bottom-content">
+             <span class="cw-stars-state">
+                <i class="ion-ios-star"></i>
+                <i class="ion-ios-star"></i>
+                <i class="ion-ios-star disable"></i>
+              </span>
+          </div>
+    </ion-slide>
+
+  </ion-slide-box>
+
+  <a href="" ng-click="mainCtrl.goToState('hints')" class="cw-btn cw-blue-btn has-icon add-hints"><i class="ion-ios-lightbulb-outline"></i> Add hints</a>
+
 </ion-content>
