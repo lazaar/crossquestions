@@ -1,14 +1,39 @@
+
+<ion-nav-bar class="bar bar-header bar-light cw-header" align-title="center">
+
+      <ion-nav-buttons side="right">
+        <button  class="cw-hints" >10 <i class="ion-ios-lightbulb-outline"></i></button>
+      </ion-nav-buttons>
+
+    <ion-nav-title>
+             <span class="cw-stars-state">
+                <i class="ion-ios-star"></i>
+                <i class="ion-ios-star"></i>
+                <i class="ion-ios-star disable"></i>
+              </span>
+    </ion-nav-title>
+
+    <ion-nav-buttons side="left">
+        <button class="cw-button-back button button-icon" ng-click="mainCtrl.goBack()"><i class="ion-ios-arrow-back"></i></button>
+    </ion-nav-buttons>
+
+</ion-nav-bar>
+
 <ion-content class="cw-page" scroll="false">
-	<div class="grid"  on-swipe="vm.goToQuestion()" >
-		<div class="row" ng-repeat="row in vm.grid track by $index" >
-	        <div class="col" ng-repeat="col in row track by $index"
-	        	on-drag-right="vm.goToQuestion($parent.$index, $index,'h')"
-	        	on-drag-left="vm.goToQuestion($parent.$index, $index,'h')"
-	        	on-drag-up="vm.goToQuestion($parent.$index, $index,'v')"
-	        	on-drag-down="vm.goToQuestion($parent.$index, $index,'v')"
-	        	ng-click="vm.goToQuestion($parent.$index, $index, col.v ? 'v': 'h')">
-	        	<span class="content" ng-if="col.content" ng-bind-html="col.content"><span>
-	        </div>
-	    </div>
+	<div class="grid-wrapper">
+		<div class="grid"  on-swipe="vm.goToQuestion()" >
+			<div class="row" ng-repeat="row in vm.grid track by $index" >
+		        <div class="col" ng-repeat="col in row track by $index"
+		        	on-drag-right="vm.goToQuestion($parent.$index, $index,'h')"
+		        	on-drag-left="vm.goToQuestion($parent.$index, $index,'h')"
+		        	on-drag-up="vm.goToQuestion($parent.$index, $index,'v')"
+		        	on-drag-down="vm.goToQuestion($parent.$index, $index,'v')"
+		        	ng-click="vm.goToQuestion($parent.$index, $index, col.v ? 'v': 'h')">
+		        	<div class="content" ng-if="col.content" ng-class="col.type">
+		        		<span ng-bind-html="col.content"></span>
+		        	<div>
+		        </div>
+		    </div>
+		</div>
 	</div>
 </ion-content>

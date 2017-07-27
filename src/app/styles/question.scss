@@ -1,26 +1,47 @@
 .question-page{
-	background: $levels-background-color  url("../assets/images/back.png") no-repeat;
+	height:calc(100% + 1px);
+	background: $levels-background-color  url("../assets/images/back2.png") no-repeat;
 	background-size:cover;
-	.question-content{
-		height: 40%;
-	    background: rgba(255,255,255,0.5);
+	padding-top:70px;
+	text-align:center;
+	.question-wrapper{
+		height: calc(100% - 50px);
+		padding-top: 40px;
+		 @media(max-height:567px){
+			padding-top: 0px;
+	    }
+	}
+	.title{
 	    width: 70%;
 	    margin: auto;
-	    margin-top: 40px;
-	    border-radius: 20px;
+	    font-family: 'tex';
+	    font-weight: 300;
+	    background: $blue;
+	    color: #FFFFFF;
+	    min-height: 35px;
+	    font-size: 18px;
+	    padding: 6px;
+	}
+	.question-content{
+		height: 40%;
+	    background: rgba(0,0,0,0.1);
+	    width: 70%;
+	    margin: auto;
 	    padding: 10px;
 	    p{
 	    	position: relative;
 		    top: 50%;
 		    transform: translateY(-50%);
 		    text-align: center;
+		    font-family: 'tex';
+		    margin-bottom: 0;
+		    font-weight: 200;
+		    font-size: 16px;
 	    }
-	    img{
-	    	max-width: 100%;
-	    	position: relative;
-		    top: 50%;
-		    transform: translateY(-50%);
-		    text-align: center;
+	    .img{
+		    height: 100%;
+		    width: 100%;
+		    background-size: cover;
 	    }
 	}
 
@@ -28,31 +49,44 @@
 		text-align: center;
 		margin-top: 30px;
 		li{
-			width: 30px;
+			width: 35px;
 		    display: inline-block;
 		    background: white;
 		    text-align: center;
-		    height: 30px;
-		    line-height: 30px;
-		    margin-right: 5px;
+		    height: 35px;
+		    line-height: 35px;
+		     margin: 2px;
+		     font-family: 'tex';
+		     color: $blue;
+		     font-size: 20px;
 		}
 	}
-	.letters{
-		li{
-			background:#000000;
-			color: #FFFFFF;
-		}
-
+	.answer .corrected{
+		background:$red;
+		color: #FFFFFF;
 	}
-	.hint{
-		display: block;
-	    background: #0a2238;
-	    width: 200px;
-	    margin: auto;
-	    text-align: center;
-	    color: white;
-	    font-size: 17px;
-	    line-height: 30px;
-	    margin-top: 30px;
+	.letters .blank{
+		background:transparent;
+	}
+	.hints-buttons{
+		height: 50px;
+		line-height: 35px;
+		color: #FFFFFF;
+		background: $darkBlue;
+		font-family: 'mouse';
+		font-size: 17px;
+		padding:0;
+		a{
+			position: relative;
+			padding-left: 40px; 
+			i{
+				position:absolute;
+				left: 18px;
+    			font-size: 27px;
+			}
+			&:first-child{
+				border-right:1px solid #FFFFFF;
+			}
+		}
 	}
 }

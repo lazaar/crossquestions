@@ -1,16 +1,40 @@
+<ion-nav-bar class="bar bar-header bar-light cw-header" align-title="center">
+
+      <ion-nav-buttons side="right">
+        <button  class="cw-hints" >10 <i class="ion-ios-lightbulb-outline"></i></button>
+      </ion-nav-buttons>
+
+    <ion-nav-title>
+             <span class="cw-stars-state">
+                <i class="ion-ios-star"></i>
+                <i class="ion-ios-star"></i>
+                <i class="ion-ios-star disable"></i>
+              </span>
+    </ion-nav-title>
+
+    <ion-nav-buttons side="left">
+        <button class="cw-button-back button button-icon" ng-click="mainCtrl.goBack()"><i class="ion-ios-arrow-back"></i></button>
+    </ion-nav-buttons>
+
+</ion-nav-bar>
+
 <ion-content class="question-page" scroll="false">
-	<p class="title">{{vm.question.title}}</p>
-	<div class="question-content">
-		<p ng-if="vm.question.type != 'image'">{{vm.question.content}}</p>
-		<img ng-if="vm.question.type == 'image'" ng-src="{{vm.question.content}}" alt="{{vm.question.title}}"/>
-	</div>
-	<ul class="answer">
-		<li ng-repeat="letter in vm.answer track by $index" ng-click="vm.onAnswerClick($index)" ng-bind-html="letter.content"></li>
-	</ul>
+  <div class="question-wrapper">
+    <p class="title">{{vm.question.title}}</p>
+    <div class="question-content">
+      <p ng-if="vm.question.type != 'image'">{{vm.question.content}}</p>
+      <div ng-if="vm.question.type == 'image'" ng-style="{'background-image':'url('+vm.question.content+')'}" class="img"></div>
+    </div>
+    <ul class="answer">
+      <li ng-repeat="letter in vm.answer track by $index" ng-click="vm.onAnswerClick($index)" ng-bind-html="letter.content" ng-class="letter.type"></li>
+    </ul>
 
-	<ul class="letters">
-		<li ng-repeat="letter in vm.letters track by $index" ng-click="vm.onLetterClick($index)" ng-bind-html="letter"></li>
-	</ul>
-
-	<a ng-click="vm.showLetter()" class="hint" ng-if="!vm.question.isAlreadyCorrected">Use Hint</a>
+    <ul class="letters">
+      <li ng-repeat="letter in vm.letters track by $index" ng-click="vm.onLetterClick($index)" ng-bind-html="letter" ng-class="{'blank': letter.length > 1}"></li>
+    </ul>
+  </div>
+  <div class="hints-buttons row">
+    <a ng-click="vm.showLetter()" class="col" ng-if="!vm.question.isAlreadyCorrected"><i class="ion-ios-lightbulb-outline"></i>Use Hint</a>
+    <a ng-click="vm.showLetter()" class="col" ng-if="!vm.question.isAlreadyCorrected"><i class="ion-android-share-alt"></i>Share</a> 
+  </div>
 </ion-content>
