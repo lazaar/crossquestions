@@ -1,29 +1,63 @@
 .levels-page{
-	height:100%;
-	background: $levels-background-color  url("../assets/images/back.png") no-repeat;
-	background-size:cover;
-
-	.title{
-		text-align: center;
-	    font-size: 40px;
-	    color: $levels-title-color;
-	    background: $levels-title-background;
-	    line-height: 70px;
-	}
+	height:calc(100% + 1px);
+	background: $levels-background-color;
+	padding-top:70px;
 	.levels{
-	    padding: 20px;
-    	margin-top: 40px;
+		padding:10px 30px;
     	li{
-    		background: $levels-item-background;
-		    line-height: 50px;
-		    font-size: 20px;
-		    padding: 10px 25px;
-		    position: relative;
-		    margin-bottom: 15px;
-		    i{
-		    	position: absolute;
-    			right: 15px;
-		    }
+    		.top-content{
+			    background: $lightBlue;
+			    line-height: 20px;
+			    font-size: 20px;
+			    padding: 10px 10px;
+			    position: relative;
+			    color: #FFFFFF;
+			    font-family: 'mouse';
+			    border-radius: 10px;
+			    z-index: 4;
+			    i{
+				    font-size: 40px;
+				    position: absolute;
+				    height: 41px;
+				    bottom: 0;
+				    margin: auto;
+				    top: 0;
+			    }
+    		}
+
+    		.bottom-content{
+			    background: darken($lightBlue,20%);
+			    line-height: 5px;
+			    padding: 0 10px;
+			    position: relative;
+			    color: #FFFFFF;
+			    margin-bottom: 25px;
+			    border-radius: 10px;
+			    padding-top: 18px;
+			    margin-top: -20px;
+				font-family: 'tex';
+			    font-weight: 300;
+			    font-size: 18px;
+			    .state{
+			    	line-height: 20px;
+			    }
+    		}
+    		&.disable{
+    			.top-content{
+    				background: darken($lightBlue,20%);
+    				height: 80px;
+    				margin-bottom: 20px;
+    				line-height: 40px;
+    				 border-top: 10px solid darken($lightBlue,5%);
+    				 color: darken($lightBlue,5%);
+    				i{
+    					height: 48px;
+    				 	color: darken($lightBlue,5%);
+
+    				}
+    			}
+    			.bottom-content{display:none;}
+    		}
     	}
 	}
 }

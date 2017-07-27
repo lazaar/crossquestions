@@ -1,10 +1,33 @@
-<ion-content class="levels-page">
-	<div class="title">Levels</div>
+<ion-nav-bar class="bar bar-header bar-light cw-header" align-title="center">
 
+      <ion-nav-buttons side="right">
+        <button  class="cw-stars" >120 <i class="ion-ios-star"></i></button>
+      </ion-nav-buttons>
+
+    <ion-nav-title>
+        <img src="assets/images/logo-white.png" alt="logo" class="logo">
+    </ion-nav-title>
+
+    <ion-nav-buttons side="left">
+        <button class="cw-button-back button button-icon"><i class="ion-ios-arrow-back"></i></button>
+    </ion-nav-buttons>
+
+</ion-nav-bar>
+
+<ion-content class="levels-page">
 	<ul class="levels">
 		<li ng-repeat="level in vm.levels track by $index" ng-click="mainCtrl.goToState('group', {level:$index})">
-			<span>Level {{$index+1}}</span>
-			<i class="ion-chevron-right"></i>
+      <div class="top-content row">
+          <span align="left" class="col col-10"> <i class="ion-play"></i>  </span>
+         <span align="center" class="col col-90"> Level {{$index+1}}</span>
+      </div>
+
+      <div class="bottom-content row">
+         <span align="left" class="state col col-50">10/10</span>
+         <span align="right" class="col col-50 cw-stars">120 <i class="ion-ios-star"></i></span>
+      </div>
+			
+			
 		</li>
 	</ul>
 

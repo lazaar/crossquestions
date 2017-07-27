@@ -1,13 +1,6 @@
 .question-page{
 	background: $levels-background-color  url("../assets/images/back.png") no-repeat;
 	background-size:cover;
-	.title{
-		text-align: center;
-	    font-size: 40px;
-	    color: $levels-title-color;
-	    background: $levels-title-background;
-	    line-height: 70px;
-	}
 	.question-content{
 		height: 40%;
 	    background: rgba(255,255,255,0.5);
