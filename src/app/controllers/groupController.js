@@ -8,7 +8,7 @@
         .controller('groupController', GroupControllerFct);
 
 
-    function GroupControllerFct($stateParams, routerHelper, cqConstantes, cwService , dataService){
+    function GroupControllerFct($stateParams, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
 
         var vm = this;
 
@@ -20,6 +20,9 @@
             routerHelper.goToState(cqConstantes.states.crossWord,{'cw': id});
         };
 
+        vm.getNumberCorrectionByCw = function(cwId){
+            return correctionService.getNumberCorrectionByCw(vm.level, cwId);
+        };
         // ############## PRIVATE BUSINESS ############# //
         /**
          * init of the controler
@@ -27,6 +30,9 @@
         function init(){
             var level;
             vm.level = parseInt($stateParams.level);
+
+            vm.currentLevel = dataModel.currentLevel;
+            vm.currentCw = dataModel.currentCw;
             dataService.getData().then(function(datas){
                 level = _.get(datas,vm.level);
                 vm.crosswords =level ? level.crosswords : [];

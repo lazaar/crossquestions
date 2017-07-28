@@ -11,7 +11,8 @@
     	},
         localStorage:{
             correctedQuestions : 'correctedQuestions',
-            hints:'hints'
+            letters:'letters',
+            playInfo:'playInfo'
         }
     });
 })();

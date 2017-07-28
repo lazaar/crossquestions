@@ -52,6 +52,21 @@
 			    margin-top: -30px;
 			    border-radius: 10px;
 		    }
+		    &.disable{
+		    	.top-content{
+		    		height: 100%; color:rgba(0,0,0,0.2);
+		    		.cw-number{
+		    			border:none;
+		    		}
+		    		.levels{
+		    			display: none;
+		    		}
+		    		.state i{
+		    			font-size: 60px;
+		    		}
+		    	}
+		    	.bottom-content{display:none;}
+		    }
 		}
 	}
 	.add-hints{
@@ -66,6 +81,10 @@
 	&.cw-blue{
 		.top-content{background: $blue;}
     	.bottom-content{background: darken($blue,20%);}
+	}
+	&.cw-red{
+		.top-content{background: $red;}
+    	.bottom-content{background: darken($red,20%);}
 	}
 	&.cw-orange{
 		.top-content{background: $orange;}

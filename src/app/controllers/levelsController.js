@@ -8,7 +8,7 @@
         .controller('levelsController', LevelsControllerFct);
 
 
-    function LevelsControllerFct(dataService){
+    function LevelsControllerFct(dataService, dataModel){
 
         var vm = this;
 
@@ -17,6 +17,8 @@
          * init of the controler
          */
         function init(){
+            vm.currentLevel = dataModel.currentLevel;
+            vm.currentCw = dataModel.currentCw;
             dataService.getData().then(function(datas){
                 vm.levels = datas;
             });

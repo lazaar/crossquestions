@@ -4,7 +4,7 @@
     angular
         .module('crossQuestions')
         //Controller of the main page
-        .controller('MainController', function (routerHelper, dataService, $ionicHistory) {
+        .controller('MainController', function (routerHelper,starService, dataService, $ionicHistory) {
 
             var vm = this;
             vm.goBack = function (){
@@ -16,6 +16,7 @@
                 vm.goToState = routerHelper.goToState;
                 //Init Data
                 dataService.getData();
+                starService.init();
             }
 
             init();

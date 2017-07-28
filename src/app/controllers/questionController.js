@@ -8,7 +8,7 @@
         .controller('questionController', QuestionControllerFct);
 
 
-    function QuestionControllerFct($stateParams, $ionicHistory, hintService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
+    function QuestionControllerFct($stateParams, $ionicHistory, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
 
         var vm = this;
         var grid = dataModel.crosswords.grid, numberLetter = 0, questionId;
@@ -67,9 +67,7 @@
         var checkAnswer = function(){
             if(_.map(vm.answer, 'content').join('') === vm.question.answer){
                 cwService.correctQuestion(questionId);
-                var value = storageHelper.getItem('correctedQuestions') ? storageHelper.getItem('correctedQuestions') : [];
-                value.push(dataModel.crosswords.levelId+'-'+dataModel.crosswords.id+'-'+questionId);
-                storageHelper.setItem('correctedQuestions', value);
+                correctionService.saveQuestions(questionId);
                 $ionicHistory.goBack();
             }
             else{
@@ -138,7 +136,7 @@
             }
 
             //add LocalStorage
-            hintService.saveHint(igrid,jgrid,answers[currentIndex]);
+            correctionService.saveHint(igrid,jgrid,answers[currentIndex]);
         };
         // ################# INITALIZE ################# //
         /**

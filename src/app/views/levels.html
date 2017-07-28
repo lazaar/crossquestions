@@ -16,14 +16,14 @@
 
 <ion-content class="levels-page">
 	<ul class="levels">
-		<li ng-repeat="level in vm.levels track by $index" ng-click="mainCtrl.goToState('group', {level:$index})">
+		<li ng-repeat="level in vm.levels track by $index" ng-click="$index < vm.currentLevel && mainCtrl.goToState('group', {level:$index})" ng-class="{'disable': $index >= vm.currentLevel }">
       <div class="top-content row">
-          <span align="left" class="col col-10"> <i class="ion-play"></i>  </span>
+          <span align="left" class="col col-10"> <i class="{{$index >= vm.currentLevel ? 'ion-android-lock' : 'ion-play'}}"></i>  </span>
          <span align="center" class="col col-90"> Level {{$index+1}}</span>
       </div>
 
       <div class="bottom-content row">
-         <span align="left" class="state col col-50">10/10</span>
+         <span align="left" class="state col col-50">{{($index + 1) == vm.currentLevel ? vm.currentCw : level.crosswords.length}}/{{level.crosswords.length || 0}}</span>
          <span align="right" class="col col-50 cw-stars">120 <i class="ion-ios-star"></i></span>
       </div>
 			

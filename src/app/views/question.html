@@ -29,12 +29,12 @@
       <li ng-repeat="letter in vm.answer track by $index" ng-click="vm.onAnswerClick($index)" ng-bind-html="letter.content" ng-class="letter.type"></li>
     </ul>
 
-    <ul class="letters">
+    <ul class="letters" ng-if="!vm.question.isAlreadyCorrected">
       <li ng-repeat="letter in vm.letters track by $index" ng-click="vm.onLetterClick($index)" ng-bind-html="letter" ng-class="{'blank': letter.length > 1}"></li>
     </ul>
   </div>
-  <div class="hints-buttons row">
-    <a ng-click="vm.showLetter()" class="col" ng-if="!vm.question.isAlreadyCorrected"><i class="ion-ios-lightbulb-outline"></i>Use Hint</a>
-    <a ng-click="vm.showLetter()" class="col" ng-if="!vm.question.isAlreadyCorrected"><i class="ion-android-share-alt"></i>Share</a> 
+  <div class="hints-buttons row" ng-if="!vm.question.isAlreadyCorrected">
+    <a ng-click="vm.showLetter()" class="col"><i class="ion-ios-lightbulb-outline"></i>Use Hint</a>
+    <a ng-click="vm.showLetter()" class="col"><i class="ion-android-share-alt"></i>Share</a> 
   </div>
 </ion-content>

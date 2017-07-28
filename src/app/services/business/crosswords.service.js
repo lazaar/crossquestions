@@ -2,7 +2,7 @@
     'use strict';
     angular
         .module('crossQuestions')
-        .factory('cwService', function(dataModel, storageHelper, hintService){
+        .factory('cwService', function(dataModel, storageHelper, correctionService){
 
 
 
@@ -24,21 +24,22 @@
 
                 _.forEach(crossWord.questions, function(question, index) {
                     answer = question.answer.split('');
-                    question.isAlreadyCorrected = !_.indexOf(storageHelper.getItem('correctedQuestions'),crossWord.levelId+'-'+crossWord.id+'-'+index);
+                    question.isAlreadyCorrected = correctionService.isQuestions(index);
                     if(question.direction === 'h'){
                         for(i = 0; i < answer.length; i++){
-                            isHint = hintService.isHint(question.x, question.y+i);
+                            isHint = correctionService.isHint(question.x, question.y+i);
                             initCase(question.x, question.y+i, question.isAlreadyCorrected || isHint ? answer[i] : '&nbsp;', 'h', index);
                         }
                     }else{
                         for(i = 0; i < answer.length; i++){
-                            isHint = hintService.isHint(question.x + i, question.y);
+                            isHint = correctionService.isHint(question.x + i, question.y);
                             initCase(question.x + i , question.y, question.isAlreadyCorrected || isHint ? answer[i] : '&nbsp;', 'v', index); 
                         }
                     } 
 
                 });
                 
+                dataModel.crosswords.corrections = correctionService.getCorrection();
                 dataModel.crosswords.grid = grid;
              }
 
@@ -55,7 +56,7 @@
                 }else{
                     for(i = 0; i < answers.length; i++){
                         grid[question.x + i][question.y].content = answers[i];
-                        grid[question.x = i][question.y].type  = 'corrected';
+                        grid[question.x + i][question.y].type  = 'corrected';
                     }
                 }
              }
@@ -76,6 +77,7 @@
                 else{
                     if(content !== '&nbsp;' && grid[i][j].content === '&nbsp;'){
                         grid[i][j].content  = content;
+                        grid[i][j].type  = 'corrected';
                     }
                     grid[i][j][direction] = index ;
                 }
