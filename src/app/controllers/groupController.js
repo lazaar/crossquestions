@@ -8,7 +8,7 @@
         .controller('groupController', GroupControllerFct);
 
 
-    function GroupControllerFct($stateParams, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
+    function GroupControllerFct($stateParams, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
 
         var vm = this;
 
@@ -20,22 +20,27 @@
             routerHelper.goToState(cqConstantes.states.crossWord,{'cw': id});
         };
 
-        vm.getNumberCorrectionByCw = function(cwId){
-            return correctionService.getNumberCorrectionByCw(vm.level, cwId);
-        };
         // ############## PRIVATE BUSINESS ############# //
+        var updateData = function(data){
+            _.each(data, function(item, index){
+                item.stars = starService.getStartsByCw(vm.level, index);
+                item.numberCorrectionByCw = correctionService.getNumberCorrectionByCw(vm.level, index);
+            });
+            return data;
+        };
         /**
          * init of the controler
          */
         function init(){
             var level;
             vm.level = parseInt($stateParams.level);
+            vm.numberStars = dataModel.numberStars;
 
             vm.currentLevel = dataModel.currentLevel;
             vm.currentCw = dataModel.currentCw;
             dataService.getData().then(function(datas){
                 level = _.get(datas,vm.level);
-                vm.crosswords =level ? level.crosswords : [];
+                vm.crosswords = updateData(level ? level.crosswords : []);
             });
         }
         // ################# INITALIZE ################# //

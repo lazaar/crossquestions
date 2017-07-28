@@ -1,7 +1,7 @@
 <ion-nav-bar class="bar bar-header bar-light cw-header" align-title="center">
 
       <ion-nav-buttons side="right">
-        <button  class="cw-stars" >120 <i class="ion-ios-star"></i></button>
+        <button  class="cw-stars" >{{vm.numberStars}} <i class="ion-ios-star"></i></button>
       </ion-nav-buttons>
 
     <ion-nav-title>
@@ -24,15 +24,13 @@
           ng-class="{'disable':isDisabled}">
           <div class="top-content">
               <span class="cw-number">{{$index + 1}}</span>
-              <span class="state levels">{{vm.getNumberCorrectionByCw($index)}}/{{cw.questions.length || 0}}</span>
+              <span class="state levels">{{cw.numberCorrectionByCw}}/{{cw.questions.length || 0}}</span>
               <span class="state" ng-if="isDisabled"><i class="ion-android-lock"></i></span>
           </div>
 
           <div class="bottom-content">
              <span class="cw-stars-state">
-                <i class="ion-ios-star"></i>
-                <i class="ion-ios-star"></i>
-                <i class="ion-ios-star disable"></i>
+                <i class="ion-ios-star" ng-repeat="n in [].constructor(3) track by $index" ng-class="{'disable': $index >= cw.stars}"></i>
               </span>
           </div>
     </ion-slide>

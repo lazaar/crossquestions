@@ -54,9 +54,7 @@
          }
 
         function getCorrection(){
-            if(!values){
-                values = storageHelper.getItem('letters') || {};
-            }
+            values = storageHelper.getItem('letters') || {};
             var levelId =dataModel.crosswords.levelId,
                 cwId =dataModel.crosswords.id;
 

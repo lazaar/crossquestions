@@ -30,6 +30,7 @@
             vm.goToQuestion = goToQuestion;
             vm.cw = $stateParams.cw;
             vm.grid = dataModel.crosswords.grid;
+            vm.stars = dataModel.crosswords.stars;
         }
         // ################# INITALIZE ################# //
 

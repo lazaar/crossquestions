@@ -59,6 +59,7 @@
                         grid[question.x + i][question.y].type  = 'corrected';
                     }
                 }
+                dataModel.crosswords.corrections = correctionService.getCorrection();
              }
 
              function updateCase(i,j,content, type){

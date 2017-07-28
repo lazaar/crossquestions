@@ -1,7 +1,7 @@
 <ion-nav-bar class="bar bar-header bar-light cw-header" align-title="center">
 
       <ion-nav-buttons side="right">
-        <button  class="cw-stars" >120 <i class="ion-ios-star"></i></button>
+        <button  class="cw-stars" >{{vm.numberStars}} <i class="ion-ios-star"></i></button>
       </ion-nav-buttons>
 
     <ion-nav-title>
@@ -24,7 +24,7 @@
 
       <div class="bottom-content row">
          <span align="left" class="state col col-50">{{($index + 1) == vm.currentLevel ? vm.currentCw : level.crosswords.length}}/{{level.crosswords.length || 0}}</span>
-         <span align="right" class="col col-50 cw-stars">120 <i class="ion-ios-star"></i></span>
+         <span align="right" class="col col-50 cw-stars">{{level.stars}} <i class="ion-ios-star"></i></span>
       </div>
 			
 			

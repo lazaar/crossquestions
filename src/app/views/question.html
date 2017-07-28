@@ -6,9 +6,7 @@
 
     <ion-nav-title>
              <span class="cw-stars-state">
-                <i class="ion-ios-star"></i>
-                <i class="ion-ios-star"></i>
-                <i class="ion-ios-star disable"></i>
+                <i class="ion-ios-star" ng-repeat="n in [].constructor(3) track by $index" ng-class="{'disable': $index >= vm.stars}"></i>
               </span>
     </ion-nav-title>
 
