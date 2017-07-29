@@ -8,9 +8,15 @@
         .controller('crossWordController', CrossWordControllerFct);
 
 
-    function CrossWordControllerFct($stateParams, dataModel, cwService, cqConstantes, routerHelper){
+    function CrossWordControllerFct($stateParams,$scope, dataModel, cwService, cqConstantes, routerHelper){
 
         var vm = this, isInTransition= false;
+
+        $scope.$on( '$ionicView.beforeEnter', function( scopes, states ) {
+            if(states.fromCache){
+                vm.stars = dataModel.crosswords.stars;
+            }
+        });
 
         // ############## PRIVATE BUSINESS ############# //
         var goToQuestion = function(i,j,direction){

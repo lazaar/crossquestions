@@ -8,9 +8,16 @@
         .controller('groupController', GroupControllerFct);
 
 
-    function GroupControllerFct($stateParams, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
+    function GroupControllerFct($stateParams, $scope, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
 
         var vm = this;
+
+        $scope.$on( '$ionicView.beforeEnter', function( scopes, states ) {
+            if(states.fromCache){
+                reload();
+                vm.crosswords = updateData(vm.crosswords);
+            }
+        });
 
         vm.goToCrossWords = function(id){
             var cw = _.get(vm.crosswords,id);
@@ -18,6 +25,10 @@
             cw.levelId = vm.level;
             cwService.initCrossWords(cw);
             routerHelper.goToState(cqConstantes.states.crossWord,{'cw': id});
+        };
+
+        vm.isDisabled = function(index){
+            return (vm.level+1) === vm.currentLevel && vm.currentCw - 1 < index;
         };
 
         // ############## PRIVATE BUSINESS ############# //
@@ -28,16 +39,21 @@
             });
             return data;
         };
+
+        function reload(){
+            vm.numberStars = dataModel.numberStars;
+            vm.currentLevel = dataModel.currentLevel;
+            vm.currentCw = dataModel.currentCw;
+            console.log(vm);
+        }
+
         /**
          * init of the controler
          */
         function init(){
             var level;
             vm.level = parseInt($stateParams.level);
-            vm.numberStars = dataModel.numberStars;
-
-            vm.currentLevel = dataModel.currentLevel;
-            vm.currentCw = dataModel.currentCw;
+            reload();
             dataService.getData().then(function(datas){
                 level = _.get(datas,vm.level);
                 vm.crosswords = updateData(level ? level.crosswords : []);

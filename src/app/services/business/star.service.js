@@ -46,7 +46,7 @@
             var values = storageHelper.getItem('playInfo') || {},
                 levelId =dataModel.crosswords.levelId,
                 cwId =dataModel.crosswords.id;
-            if(values.currentCw - 1 !=  cwId && values.currentLevel - 1 !=  levelId ){
+            if(values.currentCw - 1 !==  cwId || values.currentLevel - 1 !==  levelId ){
                 return;
             }
 

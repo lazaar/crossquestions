@@ -23,7 +23,7 @@
       </div>
 
       <div class="bottom-content row">
-         <span align="left" class="state col col-50">{{($index + 1) == vm.currentLevel ? vm.currentCw : level.crosswords.length}}/{{level.crosswords.length || 0}}</span>
+         <span align="left" class="state col col-50">{{($index + 1) == vm.currentLevel ? (vm.currentCw - 1): level.crosswords.length}}/{{level.crosswords.length || 0}}</span>
          <span align="right" class="col col-50 cw-stars">{{level.stars}} <i class="ion-ios-star"></i></span>
       </div>
 			

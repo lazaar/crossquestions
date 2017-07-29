@@ -133,13 +133,13 @@
                 vm.letters[indexInLetter] = '&nbsp;';
             }
 
+            //add LocalStorage
+            correctionService.saveHint(igrid,jgrid,answers[currentIndex]);
+
             //Check Answer
            if(++numberLetter === vm.answer.length){
                 checkAnswer();  
             }
-
-            //add LocalStorage
-            correctionService.saveHint(igrid,jgrid,answers[currentIndex]);
         };
         // ################# INITALIZE ################# //
         /**

@@ -19,13 +19,12 @@
   <ion-slide-box show-pager="false">
 
     <ion-slide ng-repeat="cw in vm.crosswords track by $index"
-          ng-init="isDisabled = (vm.level+1) == vm.currentLevel && vm.currentCw - 1 < $index"
-          ng-click="!isDisabled && vm.goToCrossWords($index)" class="cw-red"
-          ng-class="{'disable':isDisabled}">
+          ng-click="!vm.isDisabled($index) && vm.goToCrossWords($index)" class="cw-red"
+          ng-class="{'disable':vm.isDisabled($index)}">
           <div class="top-content">
               <span class="cw-number">{{$index + 1}}</span>
               <span class="state levels">{{cw.numberCorrectionByCw}}/{{cw.questions.length || 0}}</span>
-              <span class="state" ng-if="isDisabled"><i class="ion-android-lock"></i></span>
+              <span class="state" ng-if="vm.isDisabled($index)"><i class="ion-android-lock"></i></span>
           </div>
 
           <div class="bottom-content">

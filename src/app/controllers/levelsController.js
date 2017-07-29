@@ -8,9 +8,16 @@
         .controller('levelsController', LevelsControllerFct);
 
 
-    function LevelsControllerFct(dataService, starService, dataModel){
+    function LevelsControllerFct(dataService,$scope, starService, dataModel){
 
         var vm = this;
+
+        $scope.$on( '$ionicView.beforeEnter', function( scopes, states ) {
+            if(states.fromCache){
+                reload();
+                vm.levels = updateData(vm.levels);
+            }
+        });
 
         // ############## PRIVATE BUSINESS ############# //
         var updateData = function(data){
@@ -19,13 +26,17 @@
             });
             return data;
         };
+
+        function reload(){
+            vm.currentLevel = dataModel.currentLevel;
+            vm.currentCw = dataModel.currentCw;
+            vm.numberStars = dataModel.numberStars;
+        }
         /**
          * init of the controler
          */
         function init(){
-            vm.currentLevel = dataModel.currentLevel;
-            vm.currentCw = dataModel.currentCw;
-            vm.numberStars = dataModel.numberStars;
+            reload();
             dataService.getData().then(function(datas){
                 vm.levels = updateData(datas);
             });
