@@ -8,13 +8,19 @@
         .controller('crossWordController', CrossWordControllerFct);
 
 
-    function CrossWordControllerFct($stateParams,$scope, dataModel, cwService, cqConstantes, routerHelper){
+    function CrossWordControllerFct($stateParams,$scope,$timeout, dataModel, cwService, cqConstantes, routerHelper){
 
         var vm = this, isInTransition= false;
 
-        $scope.$on( '$ionicView.beforeEnter', function( scopes, states ) {
+        $scope.$on( '$ionicView.afterEnter', function( scopes, states ) {
             if(states.fromCache){
-                vm.stars = dataModel.crosswords.stars;
+                if(vm.stars !== dataModel.crosswords.stars){
+                    vm.animateStars = true;
+                   vm.stars = dataModel.crosswords.stars;
+                   $timeout(function(){
+                    vm.animateStars = false;
+                   },300);
+                }
             }
         });
 

@@ -23,7 +23,7 @@
       <p ng-if="vm.question.type != 'image'">{{vm.question.content}}</p>
       <div ng-if="vm.question.type == 'image'" ng-style="{'background-image':'url('+vm.question.content+')'}" class="img"></div>
     </div>
-    <ul class="answer">
+    <ul class="answer" ng-class="vm.state">
       <li ng-repeat="letter in vm.answer track by $index" ng-click="vm.onAnswerClick($index)" ng-bind-html="letter.content" ng-class="letter.type"></li>
     </ul>
 

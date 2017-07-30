@@ -8,7 +8,7 @@
         .controller('questionController', QuestionControllerFct);
 
 
-    function QuestionControllerFct($stateParams, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
+    function QuestionControllerFct($stateParams,$timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
 
         var vm = this;
         var grid = dataModel.crosswords.grid, numberLetter = 0, questionId;
@@ -70,11 +70,17 @@
                 cwService.correctQuestion(questionId);
 
                 starService.correctedQuestion();
+                vm.state = 'correct';
                 
-                $ionicHistory.goBack();
+                _.delay(function(){
+                    $ionicHistory.goBack();
+                }, 450);
             }
             else{
-                console.log('wrong');
+                vm.state = 'wrong';
+                $timeout(function(){
+                    vm.state = '';
+                }, 200);
             }
         };
 

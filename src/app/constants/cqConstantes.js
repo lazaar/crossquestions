@@ -13,6 +13,10 @@
             correctedQuestions : 'correctedQuestions',
             letters:'letters',
             playInfo:'playInfo'
+        },
+        popupMessage:{
+            newLevelUnlocked:'New Level unlocked',
+            newCwUnlocked:'New Cross Word unlocked',
         }
     });
 })();

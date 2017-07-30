@@ -8,7 +8,7 @@
         .controller('levelsController', LevelsControllerFct);
 
 
-    function LevelsControllerFct(dataService,$scope, starService, dataModel){
+    function LevelsControllerFct($ionicScrollDelegate, $timeout, $location, dataService,$scope, starService, dataModel){
 
         var vm = this;
 
@@ -29,6 +29,7 @@
 
         function reload(){
             vm.currentLevel = dataModel.currentLevel;
+            vm.currentLevel = dataModel.currentLevel;
             vm.currentCw = dataModel.currentCw;
             vm.numberStars = dataModel.numberStars;
         }
@@ -39,7 +40,13 @@
             reload();
             dataService.getData().then(function(datas){
                 vm.levels = updateData(datas);
+                if(vm.currentLevel-2 > 2){
+                    $location.hash('level-'+ (vm.currentLevel-2));
+                    var delegate = $ionicScrollDelegate.$getByHandle('content');
+                    delegate.anchorScroll(true); 
+                }
             });
+
         }
         // ################# INITALIZE ################# //
 

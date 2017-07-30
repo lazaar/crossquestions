@@ -8,7 +8,7 @@
         .controller('groupController', GroupControllerFct);
 
 
-    function GroupControllerFct($stateParams, $scope, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
+    function GroupControllerFct($stateParams,popupService, $scope, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
 
         var vm = this;
 
@@ -44,7 +44,6 @@
             vm.numberStars = dataModel.numberStars;
             vm.currentLevel = dataModel.currentLevel;
             vm.currentCw = dataModel.currentCw;
-            console.log(vm);
         }
 
         /**
@@ -54,6 +53,7 @@
             var level;
             vm.level = parseInt($stateParams.level);
             reload();
+            vm.activeSlide = (vm.level+1) === vm.currentLevel ? (vm.currentCw - 1) : 0;
             dataService.getData().then(function(datas){
                 level = _.get(datas,vm.level);
                 vm.crosswords = updateData(level ? level.crosswords : []);

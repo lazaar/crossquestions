@@ -1,0 +1,29 @@
+.popup-open{
+pointer-events: initial;
+}
+.backdrop{
+	&.active{
+		opacity: 0;
+	}
+	&.visible{
+		visibility: hidden;
+	}
+}
+.popup-container.infoText{
+	top: initial;
+    bottom: 10%;
+    .popup{
+	    background: rgba(0,0,0,0.6);
+	    border-radius: 16px;
+	    border: none;
+	    border-top: 5px solid $yellow;
+	    &-head{
+	    	border: none;
+	    	h3{
+	    		color: #FFFFFF;
+	    	}
+	    }
+	}
+
+
+}

@@ -61,6 +61,16 @@
 		     font-size: 20px;
 		}
 	}
+	.answer.correct{
+		animation:0.5s tada ease; 
+		li{
+			background:$red;
+			color: #FFFFFF;
+		}
+	}
+	.answer.wrong{
+		animation:0.3s shake ease; 
+	}
 	.answer .corrected{
 		background:$red;
 		color: #FFFFFF;

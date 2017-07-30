@@ -16,7 +16,7 @@
 
 <ion-content class="group-page" scroll="false">
   
-  <ion-slide-box show-pager="false">
+  <ion-slide-box show-pager="false" active-slide="vm.activeSlide">
 
     <ion-slide ng-repeat="cw in vm.crosswords track by $index"
           ng-click="!vm.isDisabled($index) && vm.goToCrossWords($index)" class="cw-red"

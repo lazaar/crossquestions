@@ -7,7 +7,7 @@
 
     <ion-nav-title>
              <span class="cw-stars-state">
-                <i class="ion-ios-star" ng-repeat="n in [].constructor(3) track by $index" ng-class="{'disable': $index >= vm.stars}"></i>
+                <i class="ion-ios-star" ng-repeat="n in [].constructor(3) track by $index" ng-class="{'disable': $index >= vm.stars, 'animatStars':vm.animateStars}"></i>
               </span>
     </ion-nav-title>
 
@@ -26,7 +26,7 @@
 		        	on-drag-left="vm.goToQuestion($parent.$index, $index,'h')"
 		        	on-drag-up="vm.goToQuestion($parent.$index, $index,'v')"
 		        	on-drag-down="vm.goToQuestion($parent.$index, $index,'v')"
-		        	ng-click="vm.goToQuestion($parent.$index, $index, col.v ? 'v': 'h')">
+		        	ng-click="vm.goToQuestion($parent.$index, $index, col.v != undefined ? 'v': 'h')">
 		        	<div class="content" ng-if="col.content" ng-class="col.type">
 		        		<span ng-bind-html="col.content"></span>
 		        	<div>

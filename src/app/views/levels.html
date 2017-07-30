@@ -14,9 +14,12 @@
 
 </ion-nav-bar>
 
-<ion-content class="levels-page">
+<ion-content class="levels-page" delegate-handle="content">
 	<ul class="levels">
-		<li ng-repeat="level in vm.levels track by $index" ng-click="$index < vm.currentLevel && mainCtrl.goToState('group', {level:$index})" ng-class="{'disable': $index >= vm.currentLevel }">
+		<li ng-repeat="level in vm.levels track by $index"
+        ng-click="$index < vm.currentLevel && mainCtrl.goToState('group', {level:$index})"
+        ng-class="{'disable': $index >= vm.currentLevel }"
+        id="level-{{$index}}">
       <div class="top-content row">
           <span align="left" class="col col-10"> <i class="{{$index >= vm.currentLevel ? 'ion-android-lock' : 'ion-play'}}"></i>  </span>
          <span align="center" class="col col-90"> Level {{$index+1}}</span>

@@ -2,7 +2,7 @@
     'use strict';
     angular
         .module('crossQuestions')
-        .factory('starService', function(storageHelper, dataModel){
+        .factory('starService', function(storageHelper, dataModel, popupService, cqConstantes){
 
         // ############################################# //
         // ############### PUBLIC BUSINESS ############# //
@@ -39,6 +39,8 @@
             var starsLevel = _.get(values, 'level-'+levelId+'.stars',0);  
             _.set(values, 'level-'+levelId+'.stars', ++starsLevel);
 
+            dataModel.crosswords.stars++;
+
             storageHelper.setItem('letters', values);
          }
 
@@ -54,10 +56,12 @@
                 values.currentCw = 0;
                 values.currentLevel = parseInt(values.currentLevel); 
                 values.currentLevel++;
+                popupService.infoText(cqConstantes.popupMessage.newLevelUnlocked);
             }
             else{
                 values.currentCw = parseInt(values.currentCw); 
-                values.currentCw++; 
+                values.currentCw++;
+                popupService.infoText(cqConstantes.popupMessage.newCwUnlocked);
            }
             dataModel.currentLevel = values.currentLevel;
             dataModel.currentCw = values.currentCw;
