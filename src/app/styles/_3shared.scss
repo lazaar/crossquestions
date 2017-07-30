@@ -40,7 +40,7 @@
 		@include box-shadow(0px, 4px, 0px, darken($blue, 20%));
 	}
 
-	&:active, &:focus, &:hover, &.activated{
+	&:active, &:focus, &.activated{
 		box-shadow:none !important;
 	}
 }

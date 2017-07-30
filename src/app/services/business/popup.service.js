@@ -8,29 +8,49 @@
         // ############################################# //
         // ############### PUBLIC BUSINESS ############# //
         // ############################################# //
+        var infoTextPopup,
+            hintsPopup;
 
-         function confirm(title){
+         function showPopupHints(){
+            if(hintsPopup === undefined){
+              hintsPopup = $ionicPopup.alert({
+                  template: '',
+                  title: 'Hints',
+                  cssClass:'hints',
+                  templateUrl:'app/views/template/hints.html',
+                  scope: null,
+                  okText:'Close'
+              }).then(function(){
+                hintsPopup = undefined;
+              });
+            }
 
+            return hintsPopup;
          }
 
          function infoText(text){
-            var myPopup = $ionicPopup.show({
+          if(infoTextPopup !== undefined){
+            infoTextPopup.close();
+          }
+            infoTextPopup = $ionicPopup.show({
                 template: '',
                 title: text,
                 cssClass:'infoText',
                 scope: null,
                 buttons: []
             });
-              $timeout(function() {
-                 myPopup.close();
-              }, 2000);
+            $timeout(function() {
+               infoTextPopup.close();
+               infoTextPopup= undefined;
+            }, 2000);
          }
         // ############################################### //
         // ############### Private BUSINESS ############# //
         // ############################################# //
 
             return {
-                infoText:infoText
+                infoText:infoText,
+                showPopupHints:showPopupHints
             };
         });
 }());

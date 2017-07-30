@@ -1,7 +1,7 @@
 <ion-nav-bar class="bar bar-header bar-light cw-header" align-title="center">
 
       <ion-nav-buttons side="right">
-        <button  class="cw-hints" >10 <i class="ion-ios-lightbulb-outline"></i></button>
+        <button  class="cw-hints" ng-click="vm.openHints()">{{vm.hints}} <i class="ion-ios-lightbulb-outline"></i></button>
       </ion-nav-buttons>
 
     <ion-nav-title>
@@ -32,7 +32,7 @@
     </ul>
   </div>
   <div class="hints-buttons row" ng-if="!vm.question.isAlreadyCorrected">
-    <a ng-click="vm.showLetter()" class="col"><i class="ion-ios-lightbulb-outline"></i>Use Hint</a>
+    <a ng-click="vm.showLetter()" class="col" ng-class="{'disable': vm.hints === 0}"><i class="ion-ios-lightbulb-outline"></i>Use Hint</a>
     <a ng-click="vm.showLetter()" class="col"><i class="ion-android-share-alt"></i>Share</a> 
   </div>
 </ion-content>

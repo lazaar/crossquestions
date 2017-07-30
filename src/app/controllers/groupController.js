@@ -27,6 +27,10 @@
             routerHelper.goToState(cqConstantes.states.crossWord,{'cw': id});
         };
 
+        vm.showPopupHints = function(){
+            popupService.showPopupHints();
+        };
+
         vm.isDisabled = function(index){
             return (vm.level+1) === vm.currentLevel && vm.currentCw - 1 < index;
         };

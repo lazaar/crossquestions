@@ -8,7 +8,7 @@
         .controller('questionController', QuestionControllerFct);
 
 
-    function QuestionControllerFct($stateParams,$timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
+    function QuestionControllerFct($stateParams, popupService, $timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
 
         var vm = this;
         var grid = dataModel.crosswords.grid, numberLetter = 0, questionId;
@@ -98,6 +98,11 @@
         };
 
         var showLetter=function(){
+
+            if(vm.hints === 0){
+                openHints();
+                return;
+            }
             
             var ramdonIndex = _.random(0, vm.question.answer.length - 1),
                 answers = vm.question.answer.split(''), currentIndex;
@@ -138,6 +143,8 @@
             }else{
                 vm.letters[indexInLetter] = '&nbsp;';
             }
+            starService.incrementHints(-1);
+            vm.hints --;
 
             //add LocalStorage
             correctionService.saveHint(igrid,jgrid,answers[currentIndex]);
@@ -146,6 +153,12 @@
            if(++numberLetter === vm.answer.length){
                 checkAnswer();  
             }
+        };
+
+        var openHints = function(){
+            popupService.showPopupHints().then(function(){
+                vm.hints = dataModel.hints;
+            });
         };
         // ################# INITALIZE ################# //
         /**
@@ -170,10 +183,12 @@
 
             vm.letters = vm.question.letters.split('');
             vm.answer = initAnswer();
+            vm.openHints = openHints;
             vm.onLetterClick = onLetterClick;
             vm.onAnswerClick = onAnswerClick;
             vm.showLetter = showLetter;
             vm.stars = dataModel.crosswords.stars;
+            vm.hints = dataModel.hints;
         }
 
         init();

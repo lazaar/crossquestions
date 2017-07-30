@@ -15,11 +15,13 @@
                 values.currentLevel = 1;
                 values.currentCw = 1;
                 values.numberStars = 0;
+                values.hints = 5;
                 storageHelper.setItem('playInfo', values);
             }
             dataModel.currentLevel = values.currentLevel;
             dataModel.currentCw = values.currentCw;
             dataModel.numberStars = values.numberStars;
+            dataModel.hints = values.hints;
          }
 
 
@@ -87,6 +89,13 @@
             var values = storageHelper.getItem('letters');
             return _.get(values, 'level-'+level+'.crossword-'+index+'.stars',0); 
          }
+
+        function incrementHints(value){
+            var playInfo = storageHelper.getItem('playInfo') || {};
+            playInfo.hints += value;
+            dataModel.hints = playInfo.hints;
+            storageHelper.setItem('playInfo', playInfo);
+         }
         // ############################################### //
         // ############### Private BUSINESS ############# //
         // ############################################# //
@@ -95,7 +104,8 @@
                 init:init,
                 correctedQuestion: correctedQuestion,
                 getStartsByLevels:getStartsByLevels,
-                getStartsByCw:getStartsByCw
+                getStartsByCw:getStartsByCw,
+                incrementHints:incrementHints
             };
         });
 }());
