@@ -144,7 +144,7 @@
                 vm.letters[indexInLetter] = '&nbsp;';
             }
             starService.incrementHints(-1);
-            vm.hints --;
+            vm.hints--;
 
             //add LocalStorage
             correctionService.saveHint(igrid,jgrid,answers[currentIndex]);

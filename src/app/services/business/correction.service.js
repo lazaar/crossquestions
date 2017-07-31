@@ -10,9 +10,7 @@
         // ############################################# //
 
          function saveHint(i, j, letter){
-            if(!values){
-                values = storageHelper.getItem('letters') || {};
-            }
+            values = storageHelper.getItem('letters') || {};
             var levelId =dataModel.crosswords.levelId,
                 cwId =dataModel.crosswords.id;
 
@@ -30,14 +28,15 @@
          }
 
         function saveQuestions(index){
-            if(!values){
-                values = storageHelper.getItem('letters') || {};
-            }
+            values = storageHelper.getItem('letters') || {};
             var levelId =dataModel.crosswords.levelId,
                 cwId =dataModel.crosswords.id;
 
             var correctedQuestions = _.get(values, 'level-'+levelId+'.crossword-'+cwId+'.corrections',[]);
             correctedQuestions.push(index);
+            if(correctedQuestions.length === dataModel.crosswords.questions.length){
+                _.set(values, 'level-'+levelId+'.crossword-'+cwId+'.hints',[]);
+            }
             _.set(values, 'level-'+levelId+'.crossword-'+cwId+'.corrections',correctedQuestions);
             storageHelper.setItem('letters', values);
          }
