@@ -28,12 +28,9 @@
                 if(music){
                     music.pause();
                 }
-                console.log('pause', music);
-
             }, false);
 
             document.addEventListener('resume', function () {
-                console.log('resume', music);
                 if(music){
                     music.play();
                 }

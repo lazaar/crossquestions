@@ -19,7 +19,7 @@
   <ion-slide-box show-pager="false" active-slide="vm.activeSlide">
 
     <ion-slide ng-repeat="cw in vm.crosswords track by $index"
-          ng-click="!vm.isDisabled($index) && vm.goToCrossWords($index); mainCtrl.clickSound()" class="cw-red"
+          ng-click="!vm.isDisabled($index) && vm.goToCrossWords($index)" class="cw-red"
           ng-class="{'disable':vm.isDisabled($index)}">
           <div class="top-content">
               <span class="cw-number">{{$index + 1}}</span>

@@ -45,7 +45,7 @@
 
 
         var onLetterClick = function(index){
-            if(numberLetter >= vm.answer.length || vm.question.isAlreadyCorrected){
+            if(numberLetter >= vm.answer.length || vm.question.isAlreadyCorrected || vm.letters[index] === '&nbsp;'){
                 return;
             }
             for (var i =  0; i < vm.answer.length; i++) {
@@ -88,15 +88,13 @@
         };
 
         var onAnswerClick = function(index){
-            if(vm.question.isAlreadyCorrected){
+            if(vm.question.isAlreadyCorrected || vm.answer[index].index === undefined || vm.answer[index].index === -1){
                 return;
             }
-            if(vm.answer[index].index !== undefined  && vm.answer[index].index !== -1){
-                vm.letters[vm.answer[index].index] = vm.answer[index].content;
-                vm.answer[index].content = '&nbsp;';
-                vm.answer[index].index = -1;
-                numberLetter--;
-            }
+            vm.letters[vm.answer[index].index] = vm.answer[index].content;
+            vm.answer[index].content = '&nbsp;';
+            vm.answer[index].index = -1;
+            numberLetter--;
             soundService.playSound(cqConstantes.sounds.letterClickOut);
         };
 

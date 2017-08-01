@@ -18,14 +18,18 @@
                 return url;
             };
 
+            var sounds = new Array(3), index=0;
             function playSound(url){
 
                 if(typeof Media === 'undefined' || !dataModel.isSound){
                     return;
                 }
-                var result = new Media(getUrl(url));
-                result.play();
-                return result;
+                if(sounds[index]){
+                    sounds[index].release();
+                }
+                sounds[index] = new Media(getUrl(url));
+                sounds[index].play();
+                index = (index+1) % 3;
             }
 
             function playBackgroundMusic(){
@@ -34,14 +38,15 @@
                 }
                 if(menuMusic){
                     menuMusic.pause();
-                    menuMusic = undefined;
                 }
-                backgroundMusic = new Media(getUrl(cqConstantes.sounds.backgroundMusic), null, null, function(status){
-                    if(status === Media.MEDIA_STOPPED) {
-                        backgroundMusic.seekTo(0);
-                        backgroundMusic.play();
-                    }
-                });
+                if(!backgroundMusic){
+                    backgroundMusic = new Media(getUrl(cqConstantes.sounds.backgroundMusic), null, null, function(status){
+                        if(status === Media.MEDIA_STOPPED) {
+                            backgroundMusic.seekTo(0);
+                            backgroundMusic.play();
+                        }
+                    });
+                }
                 backgroundMusic.play();
             }
 
@@ -51,14 +56,16 @@
                 }
                 if(backgroundMusic){
                     backgroundMusic.pause();
-                    backgroundMusic = undefined;
                 }
-                menuMusic = new Media(getUrl(cqConstantes.sounds.menuMusic), null, null, function(status){
-                    if(status === Media.MEDIA_STOPPED) {
-                        menuMusic.seekTo(0);
-                        menuMusic.play();
-                    }
-                });
+
+                if(!menuMusic){
+                    menuMusic = new Media(getUrl(cqConstantes.sounds.menuMusic), null, null, function(status){
+                        if(status === Media.MEDIA_STOPPED) {
+                            menuMusic.seekTo(0);
+                            menuMusic.play();
+                        }
+                    });
+                }
                 menuMusic.play();
 
             }

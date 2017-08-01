@@ -14,7 +14,7 @@
 
         $scope.$on( '$ionicView.beforeEnter', function( scopes, states ) {
             if(states.fromCache){
-                reload();
+                reload(true);
                 vm.crosswords = updateData(vm.crosswords);
             }
         });
@@ -25,6 +25,7 @@
             cw.levelId = vm.level;
             cwService.initCrossWords(cw);
             routerHelper.goToState(cqConstantes.states.crossWord,{'cw': id});
+            soundService.playSound(cqConstantes.sounds.click);
         };
 
         vm.showPopupHints = function(){
@@ -44,11 +45,11 @@
             return data;
         };
 
-        function reload(){
+        function reload(fromCache){
             vm.numberStars = dataModel.numberStars;
             vm.currentLevel = dataModel.currentLevel;
             vm.currentCw = dataModel.currentCw;
-            if(!soundService.getMenuMusic()){
+            if(fromCache){
                 soundService.playMenuMusic();
             }
         }
@@ -59,7 +60,7 @@
         function init(){
             var level;
             vm.level = parseInt($stateParams.level);
-            reload();
+            reload(false);
             vm.activeSlide = (vm.level+1) === vm.currentLevel ? (vm.currentCw - 1) : 0;
             dataService.getData().then(function(datas){
                 level = _.get(datas,vm.level);
