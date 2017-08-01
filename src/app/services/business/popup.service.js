@@ -15,7 +15,7 @@
             if(hintsPopup === undefined){
               hintsPopup = $ionicPopup.alert({
                   template: '',
-                  title: 'Hints',
+                  title: 'Coins',
                   cssClass:'hints',
                   templateUrl:'app/views/template/hints.html',
                   scope: null,

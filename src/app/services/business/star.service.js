@@ -15,7 +15,7 @@
                 values.currentLevel = 1;
                 values.currentCw = 1;
                 values.numberStars = 0;
-                values.hints = 5;
+                values.hints = 25;
                 values.isSound = 1;
                 values.isMusique = 1;
                 storageHelper.setItem('playInfo', values);
@@ -71,6 +71,8 @@
            }
             dataModel.currentLevel = values.currentLevel;
             dataModel.currentCw = values.currentCw;
+            values.hints += 5;
+            dataModel.hints += 5;
             storageHelper.setItem('playInfo', values);
          }
 

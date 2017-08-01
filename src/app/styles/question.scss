@@ -89,13 +89,22 @@
 		a{
 			position: relative;
 			padding-left: 40px; 
-			i{
+			> i{
 				position:absolute;
 				left: 18px;
     			font-size: 27px;
 			}
 			&:first-child{
 				border-right:1px solid #FFFFFF;
+			}
+			.coins{
+				font-size: 14px;
+			    display: inline-block;
+			    margin-left: 9px;
+			    color: $yellow;
+			    position: relative;
+			    top: -8px;
+
 			}
 		}
 	}

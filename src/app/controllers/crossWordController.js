@@ -17,10 +17,17 @@
                 if(vm.stars !== dataModel.crosswords.stars){
                     vm.animateStars = true;
                    vm.stars = dataModel.crosswords.stars;
-                   vm.hints = dataModel.hints;
                    $timeout(function(){
                     vm.animateStars = false;
                    },300);
+                }
+            }
+        });
+
+        $scope.$on( '$ionicView.beforeEnter', function( scopes, states ) {
+            if(states.fromCache){
+                if(vm.stars !== dataModel.crosswords.stars){
+                   vm.hints = dataModel.hints;
                 }
             }
         });

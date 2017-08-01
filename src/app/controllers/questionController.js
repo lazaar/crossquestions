@@ -100,7 +100,7 @@
 
         var showLetter=function(){
 
-            if(vm.hints === 0){
+            if(vm.hints < 5){
                 openHints();
                 return;
             }
@@ -144,8 +144,8 @@
             }else{
                 vm.letters[indexInLetter] = '&nbsp;';
             }
-            starService.incrementHints(-1);
-            vm.hints--;
+            starService.incrementHints(-5);
+            vm.hints -= 5;
 
             //add LocalStorage
             correctionService.saveHint(igrid,jgrid,answers[currentIndex]);

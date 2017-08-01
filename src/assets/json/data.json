@@ -60,6 +60,25 @@
 					}
 				]
 			}
+			,
+			{
+				"crosswordId" : 1,
+				"width":10,
+				"height":10,
+				"questions" :[
+					{
+						"questionId": 1,
+						"x":1,
+						"y":1,
+						"direction":"v | h",
+						"title":"Title here",
+						"content":"Question here",
+						"type":"image | text",
+						"answer":"ABC",
+						"letters":"ABCRDSZBHF"
+					}
+				]
+			}
 		]
 	},
 	{

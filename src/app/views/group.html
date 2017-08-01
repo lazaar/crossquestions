@@ -15,6 +15,10 @@
 </ion-nav-bar>
 
 <ion-content class="group-page" scroll="false">
+  <div class="progressiveBar" ng-style="{'left': '-'+vm.left+'%'}">
+    <div>{{vm.level+1 == vm.currentLevel ? (vm.currentCw - 1): vm.crosswords.length}}/{{vm.crosswords.length || 0}}</div>
+
+  </div>
   
   <ion-slide-box show-pager="false" active-slide="vm.activeSlide">
 
@@ -36,6 +40,6 @@
 
   </ion-slide-box>
 
-  <a href="" ng-click="vm.showPopupHints(); mainCtrl.clickSound()" class="cw-btn cw-blue-btn has-icon add-hints"><i class="ion-ios-lightbulb-outline"></i> Add hints</a>
+  <a href="" ng-click="vm.showPopupHints(); mainCtrl.clickSound()" class="cw-btn cw-blue-btn has-icon add-hints"><i class="ion-ribbon-b"></i> Add Coins</a>
 
 </ion-content>

@@ -51,7 +51,7 @@ $header-height:60px;
     background-color: $darkBlue;
     background-image:none;
     color: #FFFFFF;
-    @include box-shadow(0px, 5px, 0px, darken($darkBlue, 20%));
+    @include box-shadow(0px, 5px, 0px, darken($darkBlue, 5%));
     .title{
     	height: $header-height;
     	line-height: $header-height;
