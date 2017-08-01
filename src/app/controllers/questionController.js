@@ -8,7 +8,7 @@
         .controller('questionController', QuestionControllerFct);
 
 
-    function QuestionControllerFct($stateParams, popupService, $timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
+    function QuestionControllerFct($stateParams,shareService, popupService, soundService, $timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
 
         var vm = this;
         var grid = dataModel.crosswords.grid, numberLetter = 0, questionId;
@@ -57,6 +57,7 @@
             }
             vm.letters[index] = '&nbsp;';
             numberLetter++;
+            soundService.playSound(cqConstantes.sounds.letterClick);
 
             if(numberLetter === vm.answer.length){
                 checkAnswer();  
@@ -72,6 +73,8 @@
                 starService.correctedQuestion();
                 vm.state = 'correct';
                 
+                soundService.playSound(cqConstantes.sounds.correct);
+
                 _.delay(function(){
                     $ionicHistory.goBack();
                 }, 450);
@@ -94,7 +97,7 @@
                 vm.answer[index].index = -1;
                 numberLetter--;
             }
-
+            soundService.playSound(cqConstantes.sounds.letterClickOut);
         };
 
         var showLetter=function(){
@@ -184,6 +187,7 @@
             vm.letters = vm.question.letters.split('');
             vm.answer = initAnswer();
             vm.openHints = openHints;
+            vm.shareScreen = shareService.shareScreen;
             vm.onLetterClick = onLetterClick;
             vm.onAnswerClick = onAnswerClick;
             vm.showLetter = showLetter;

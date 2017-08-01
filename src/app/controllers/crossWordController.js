@@ -8,7 +8,7 @@
         .controller('crossWordController', CrossWordControllerFct);
 
 
-    function CrossWordControllerFct($stateParams, popupService, $scope, $timeout, dataModel, cwService, cqConstantes, routerHelper){
+    function CrossWordControllerFct($stateParams, popupService, $scope, $timeout, dataModel, soundService, cwService, cqConstantes, routerHelper){
 
         var vm = this, isInTransition= false;
 
@@ -45,6 +45,7 @@
          * init of the controler
          */
         function init(){
+            soundService.playBackgroundMusic();
             vm.goToQuestion = goToQuestion;
             vm.openHints = openHints;
             vm.cw = $stateParams.cw;

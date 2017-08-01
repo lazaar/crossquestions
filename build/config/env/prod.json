@@ -1,7 +1,8 @@
 {
   "logDebug"       : false,
   "server"         : "./assets/json/data.json",
-  "APP_ID"         : "com.lazcha.crossQuestions",
-  "APP_NAME"       : "crossQuestions",
-  "APP_DESCRIPTION": "Cross Questions"
+  "APP_ID"         : "com.lazcha.crossWords",
+  "APP_NAME"       : "Cross Words",
+  "APP_DESCRIPTION": "Cross Words"
+
 }

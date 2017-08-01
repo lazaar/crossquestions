@@ -1,7 +1,7 @@
 .question-page{
 	height:calc(100% + 1px);
 	background: $levels-background-color  url("../assets/images/back2.png") no-repeat;
-	background-size:cover;
+	background-size:cover !important;
 	padding-top:70px;
 	text-align:center;
 	.question-wrapper{

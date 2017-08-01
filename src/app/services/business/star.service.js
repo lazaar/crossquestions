@@ -16,12 +16,16 @@
                 values.currentCw = 1;
                 values.numberStars = 0;
                 values.hints = 5;
+                values.isSound = 1;
+                values.isMusique = 1;
                 storageHelper.setItem('playInfo', values);
             }
             dataModel.currentLevel = values.currentLevel;
             dataModel.currentCw = values.currentCw;
             dataModel.numberStars = values.numberStars;
             dataModel.hints = values.hints;
+            dataModel.isSound = values.isSound;
+            dataModel.isMusique = values.isMusique;
          }
 
 
@@ -55,7 +59,7 @@
             }
 
             if(values.currentCw === dataModel.data[dataModel.crosswords.levelId].crosswords.length){
-                values.currentCw = 0;
+                values.currentCw = 1;
                 values.currentLevel = parseInt(values.currentLevel); 
                 values.currentLevel++;
                 popupService.infoText(cqConstantes.popupMessage.newLevelUnlocked);

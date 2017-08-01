@@ -53,7 +53,5 @@
                 templateUrl: 'app/views/question.html',
                 controller: 'questionController as vm'
             });
-
-         $urlRouterProvider.otherwise('/');
     }
 })();

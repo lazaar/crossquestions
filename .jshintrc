@@ -20,14 +20,12 @@
   "smarttabs": true,
   "globals"  : {
     "angular"  : false,
-    "PushNotification"  : false,
+    "AppRate"  : false,
     "device"  : false,
     "cordova"  : false,
     "StatusBar": false,
     "moment"   : false,
     "_"        : false,
-    "ImgCache" : false,
-    "YT"       : false,
-    "jQuery"   : false
+    "Media" : false
   }
 }

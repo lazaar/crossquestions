@@ -8,7 +8,7 @@
         .controller('groupController', GroupControllerFct);
 
 
-    function GroupControllerFct($stateParams,popupService, $scope, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
+    function GroupControllerFct($stateParams,popupService, $scope, soundService, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
 
         var vm = this;
 
@@ -48,6 +48,9 @@
             vm.numberStars = dataModel.numberStars;
             vm.currentLevel = dataModel.currentLevel;
             vm.currentCw = dataModel.currentCw;
+            if(!soundService.getMenuMusic()){
+                soundService.playMenuMusic();
+            }
         }
 
         /**
