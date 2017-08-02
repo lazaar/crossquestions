@@ -102,6 +102,18 @@
             dataModel.hints = playInfo.hints;
             storageHelper.setItem('playInfo', playInfo);
          }
+
+        function getLastDate(){
+            var values = storageHelper.getItem('playInfo');
+            return _.get(values, 'lastDate'); 
+         }
+
+        function setLastDate(value){
+            var playInfo = storageHelper.getItem('playInfo');
+             _.set(playInfo, 'lastDate', value); 
+             storageHelper.setItem('playInfo', playInfo);
+         }
+
         // ############################################### //
         // ############### Private BUSINESS ############# //
         // ############################################# //
@@ -111,7 +123,9 @@
                 correctedQuestion: correctedQuestion,
                 getStartsByLevels:getStartsByLevels,
                 getStartsByCw:getStartsByCw,
-                incrementHints:incrementHints
+                incrementHints:incrementHints,
+                getLastDate:getLastDate,
+                setLastDate:setLastDate
             };
         });
 }());

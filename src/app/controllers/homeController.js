@@ -8,10 +8,19 @@
         .controller('homeController', HomeControllerFct);
 
 
-    function HomeControllerFct(shareService, $scope, soundService, dataModel){
+    function HomeControllerFct(shareService, $scope, cqConstantes, soundService,starService, popupService,  dataModel){
 
         var vm = this;
 
+        var gift = function(){
+            var lastDate = starService.getLastDate(), 
+                today = new Date().toDateString();
+            if(lastDate !== today){
+                starService.incrementHints(5);
+                popupService.showPopup(cqConstantes.popupMessage.giftTitle, cqConstantes.popupMessage.giftContent.replace('{coins}',5), 'gift');
+                starService.setLastDate(today);
+            }  
+        };
 
         vm.toggleMusique = function(){
             soundService.toggleMusic();
@@ -31,6 +40,7 @@
          * init of the controler
          */
         function init(){
+            gift();
             soundService.playMenuMusic();
             vm.share = shareService.shareApp;
             vm.isMusique = dataModel.isMusique;

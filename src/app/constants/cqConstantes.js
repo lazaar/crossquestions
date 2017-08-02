@@ -19,7 +19,9 @@
         popupMessage:{
             newLevelUnlocked:'New Level unlocked',
             newCwUnlocked:'New Cross Word unlocked',
-            shareTitle:'The best Cross Word Application'
+            shareTitle:'The best Cross Word Application',
+            giftTitle:'Daily Gift',
+            giftContent:'You recieved {coins} Coins',
         },
         sounds:{
             backgroundMusic:'/assets/sounds/game.mp3',

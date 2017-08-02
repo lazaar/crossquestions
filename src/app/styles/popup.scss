@@ -28,7 +28,7 @@
 
 }
 
-.popup-container.hints{
+.popup-container.hints,.popup-container.cw-popup{
 	background: rgba(0,0,0,0.5);
 	.popup{
 		background: $blue;
@@ -53,7 +53,34 @@
 		    	border-bottom-right-radius: 20px;
 		    }
     	}
-
+	}
+}
+.popup-container.gift{
+	.popup .popup-head{
+		position:relative;
+		&::before{
+		    content: "";
+		    display: block;
+		    background-image: url(../assets/images/gift.png);
+		    height: 20px;
+		    width: 20px;
+		    margin: auto;
+		    background-size: contain;
+		    background-repeat: no-repeat;
+		    position: absolute;
+		    left: 15px;
+		    top: 0;
+		    bottom: 0;
+		}
+	}
+	.popup .popup-body{
+    	font-size: 18px;
+    	text-align: center;
+	}
+}
+.popup-container.hints{
+	background: rgba(0,0,0,0.5);
+	.popup{
     	.hint-state{
 		    font-size: 17px;
 		    font-family: 'mouse';

@@ -9,6 +9,7 @@
         // ############### PUBLIC BUSINESS ############# //
         // ############################################# //
         var infoTextPopup,
+            generalPopup,
             hintsPopup;
 
          function showPopupHints(){
@@ -28,6 +29,33 @@
             return hintsPopup;
          }
 
+         function showPopup(title, content, cssClass){
+            if(generalPopup === undefined){
+              var css =  cssClass ? cssClass:'';
+              var options = {
+                  template: content,
+                  scope: null,
+                  okText:'Close'
+              };
+
+              if(title){
+                options.title = title;
+              }
+              else{
+                css += ' withoutTitle';
+              }
+              css += ' cw-popup';
+
+              options.cssClass = css;
+
+              generalPopup = $ionicPopup.alert(options).then(function(){
+                generalPopup = undefined;
+              });
+            }
+
+            return generalPopup;
+         }
+         
          function infoText(text){
           if(infoTextPopup !== undefined){
             infoTextPopup.close();
@@ -50,7 +78,8 @@
 
             return {
                 infoText:infoText,
-                showPopupHints:showPopupHints
+                showPopupHints:showPopupHints,
+                showPopup:showPopup
             };
         });
 }());
