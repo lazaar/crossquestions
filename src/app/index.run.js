@@ -49,17 +49,17 @@
 
             toggleSounds();
             admobService.init();
-            coinsService.init();
         };
 
 
         $ionicPlatform.ready(function () {
 
             routerHelper.goToState(cqConstantes.states.home);
+            
+            coinsService.init();
             if(typeof cordova !== 'undefined'){
                 initCordovaPlugins();
             }
-            
         });
 
         $log.debug('runBlock end');

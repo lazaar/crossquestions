@@ -8,13 +8,13 @@
         // ############################################# //
         // ############### PUBLIC BUSINESS ############# //
         // ############################################# //
-        var coinsList;
+        var coinsConfiguration;
 
          function init(){
-            coinsList = storageHelper.getItem('coinsList');
-            if(!coinsList){
-              coinsList = {};
-              coinsList.rewardVideo = {
+            coinsConfiguration = storageHelper.getItem('coinsList');
+            if(!coinsConfiguration){
+              coinsConfiguration = {};
+              coinsConfiguration.rewardVideo = {
                 count:0
               };
             }
@@ -22,11 +22,14 @@
 
          function isShowVideo(){
             var result = false;
-            if(_.get(coinsList,'rewardVideo.date', '') !== new Date().toDateString()){
-              coinsList.rewardVideo.count=0;
+            if(typeof AdMob === 'undefined'){
+              return false;
+            }
+            if(_.get(coinsConfiguration,'rewardVideo.date', '') !== new Date().toDateString()){
+              coinsConfiguration.rewardVideo.count=0;
               result = true;
             }
-            else if(_.get(coinsList,'rewardVideo.count', 4) <= 3){
+            else if(_.get(coinsConfiguration,'rewardVideo.count', 4) <= 3){
               result = true;
             }
 
@@ -34,9 +37,9 @@
          }
 
          function showVideo(){
-            coinsList.rewardVideo.count++;
-            coinsList.rewardVideo.date = new Date().toDateString();
-            storageHelper.setItem('coinsList', coinsList);
+            coinsConfiguration.rewardVideo.count++;
+            coinsConfiguration.rewardVideo.date = new Date().toDateString();
+            storageHelper.setItem('coinsList', coinsConfiguration);
          }
 
 

@@ -8,14 +8,15 @@
         .controller('hintsController', HintsControllerFct);
 
 
-    function HintsControllerFct($document, $scope, admobService, coinsService, dataModel, $timeout, starService){
-        var vm = this, watchVideo = -1;
+    function HintsControllerFct($document, $log, $scope, admobService, coinsService, dataModel, $timeout, starService){
+        var vm = this;
 
         var initRewardVideo = function(){
+            var  watchVideo = -1, failedCount = 0;
              vm.videoReady=false;
-            if(coinsService.isShowVideo()){
+             if(coinsService.isShowVideo()){
                 admobService.prepareVideo();
-            }
+             }
 
             $document.off('onAdPresent');
             $document.off('onAdDismiss');
@@ -45,9 +46,12 @@
 
             document.addEventListener('onAdFailLoad', function(data){
                 if(data.adType === 'rewardvideo') {
+                    $log.debug('onAdFailLoad', data);
                      vm.videoReady = false;
                      $scope.$apply();
-                    admobService.prepareVideo();
+                     if(++failedCount < 5){
+                        admobService.prepareVideo();
+                     }
                 }
             });
 
@@ -55,6 +59,7 @@
                 if(data.adType === 'rewardvideo'){
                   vm.videoReady = true; 
                   $scope.$apply(); 
+                  failedCount=0;
                 } 
             });
         };
