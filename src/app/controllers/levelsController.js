@@ -8,7 +8,7 @@
         .controller('levelsController', LevelsControllerFct);
 
 
-    function LevelsControllerFct($ionicScrollDelegate, $timeout, $location, dataService,$scope, starService, dataModel){
+    function LevelsControllerFct($ionicScrollDelegate,cqConstantes, $timeout, $location, admobService, dataService,$scope, starService, dataModel){
 
         var vm = this;
 
@@ -32,6 +32,9 @@
             vm.currentLevel = dataModel.currentLevel;
             vm.currentCw = dataModel.currentCw;
             vm.numberStars = dataModel.numberStars;
+            if(Math.random()<cqConstantes.ads.bannerLevels){
+                admobService.generateBanner();
+            }
         }
         /**
          * init of the controler

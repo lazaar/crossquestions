@@ -106,6 +106,10 @@
 			    &:last-child{
 			    	border:none;
 			    }
+			    &.disable{
+			    	color: lighten($blue,10%);
+			    	.hint-plus{color: lighten($blue,10%);border-color: lighten($blue,10%);}
+			    }
     		}
     		.hint-plus{
 			    position: absolute;

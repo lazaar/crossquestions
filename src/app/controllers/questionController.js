@@ -8,7 +8,7 @@
         .controller('questionController', QuestionControllerFct);
 
 
-    function QuestionControllerFct($stateParams,shareService, popupService, soundService, $timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
+    function QuestionControllerFct($stateParams,shareService, popupService, admobService, soundService, $timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
 
         var vm = this;
         var grid = dataModel.crosswords.grid, numberLetter = 0, questionId;
@@ -81,6 +81,11 @@
             }
             else{
                 vm.state = 'wrong';
+                if(Math.random()<cqConstantes.ads.interLose){
+                    _.delay(function(){
+                        admobService.generateInterstitial();
+                    },100);
+                }
                 $timeout(function(){
                     vm.state = '';
                 }, 200);

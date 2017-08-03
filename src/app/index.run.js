@@ -6,7 +6,7 @@
         .run(runBlock);
 
     /** @ngInject */
-    function runBlock($log, $ionicPlatform, admobService, $state, routerHelper, cqConstantes, soundService) {
+    function runBlock($log, $ionicPlatform, admobService, coinsService, $state, routerHelper, cqConstantes, soundService) {
 
         var initAppRate = function(){
             AppRate.preferences.storeAppURL= {
@@ -49,6 +49,7 @@
 
             toggleSounds();
             admobService.init();
+            coinsService.init();
         };
 
 

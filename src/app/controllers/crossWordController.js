@@ -8,7 +8,7 @@
         .controller('crossWordController', CrossWordControllerFct);
 
 
-    function CrossWordControllerFct($stateParams, popupService, $scope, $timeout, dataModel, soundService, cwService, cqConstantes, routerHelper){
+    function CrossWordControllerFct($stateParams,admobService, popupService, $scope, $timeout, dataModel, soundService, cwService, cqConstantes, routerHelper){
 
         var vm = this, isInTransition= false;
 
@@ -16,6 +16,7 @@
             if(states.fromCache){
                 if(vm.stars !== dataModel.crosswords.stars){
                     vm.animateStars = true;
+                    admobService.generateBanner();
                    vm.stars = dataModel.crosswords.stars;
                    $timeout(function(){
                     vm.animateStars = false;
@@ -52,6 +53,16 @@
          * init of the controler
          */
         function init(){
+            if(Math.random()<cqConstantes.ads.bannerCrossWords){
+                admobService.generateBanner();
+            }
+
+            if(Math.random()<cqConstantes.ads.interCrossWords){
+                _.delay(function(){
+                    admobService.generateInterstitial();
+                },2000);
+            }
+
             soundService.playBackgroundMusic();
             vm.goToQuestion = goToQuestion;
             vm.openHints = openHints;

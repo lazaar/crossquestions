@@ -8,7 +8,7 @@
         .controller('groupController', GroupControllerFct);
 
 
-    function GroupControllerFct($stateParams,popupService, $timeout, $scope, soundService, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
+    function GroupControllerFct($stateParams,popupService,admobService,  $timeout, $scope, soundService, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
 
         var vm = this;
 
@@ -46,6 +46,12 @@
         };
 
         function reload(fromCache){
+            admobService.removeBanner();
+            if(Math.random()<cqConstantes.ads.interGroup){
+                _.delay(function(){
+                    admobService.generateInterstitial();
+                },1000);
+            }
             vm.numberStars = dataModel.numberStars;
             vm.currentLevel = dataModel.currentLevel;
             vm.currentCw = dataModel.currentCw;

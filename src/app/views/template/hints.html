@@ -1,9 +1,9 @@
 <div ng-controller="hintsController as hintCtrl">
 	<div class="hint-state" ng-class="hintCtrl.animateHint">{{hintCtrl.hints}} <i class="ion-ribbon-b"></i></div>
 	<ul class="hint-list">
-		<li ng-click="hintCtrl.addHints(5)">
-			<span class="hint-description">Share in Facebook</span>
-			<span class="hint-plus"><i class="ion-plus"></i>5</span>
+		<li ng-click="hintCtrl.videoReady && hintCtrl.showVideo()" ng-class="{'disable':!hintCtrl.videoReady}">
+			<span class="hint-description">Watch Video</span>
+			<span class="hint-plus"><i class="ion-plus"></i>2</span>
 		</li>
 		<li>
 			<span class="hint-description">Like page</span>

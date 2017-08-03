@@ -14,7 +14,8 @@
         localStorage:{
             correctedQuestions : 'correctedQuestions',
             letters:'letters',
-            playInfo:'playInfo'
+            playInfo:'playInfo',
+            coinsList:'coinsList'
         },
         popupMessage:{
             newLevelUnlocked:'New Level unlocked',
@@ -30,6 +31,13 @@
             letterClick:'/assets/sounds/letterClick.mp3',
             correct:'/assets/sounds/correct.wav',
             letterClickOut:'/assets/sounds/letterClickOut.wav',
+        },
+        ads:{
+            bannerCrossWords:0.75,
+            bannerLevels:0.70,
+            interGroup:0.2,
+            interCrossWords:0.1,
+            interLose:0.1,
         }
     });
 })();

@@ -26,6 +26,7 @@
     "StatusBar": false,
     "moment"   : false,
     "_"        : false,
+    "AdMob"        : false,
     "Media" : false
   }
 }
