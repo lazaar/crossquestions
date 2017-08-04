@@ -21,7 +21,6 @@
                 starService.setLastDate(today);
             }  
         };
-
         vm.toggleMusique = function(){
             soundService.toggleMusic();
             vm.isMusique= !vm.isMusique;

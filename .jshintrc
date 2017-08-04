@@ -24,6 +24,7 @@
     "device"  : false,
     "cordova"  : false,
     "StatusBar": false,
+    "facebookConnectPlugin": false,
     "moment"   : false,
     "_"        : false,
     "AdMob"        : false,

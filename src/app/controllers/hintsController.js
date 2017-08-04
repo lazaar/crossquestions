@@ -8,7 +8,7 @@
         .controller('hintsController', HintsControllerFct);
 
 
-    function HintsControllerFct($document, $log, $scope, admobService, coinsService, dataModel, $timeout, starService){
+    function HintsControllerFct($document, $log, $scope, facebookService, admobService, coinsService, dataModel, $timeout, starService){
         var vm = this;
 
         var initRewardVideo = function(){
@@ -64,6 +64,55 @@
             });
         };
 
+        var initFacebookConnextion = function(){
+          vm.isConnectedToFacebook = facebookService.isConnectedToFacebook();
+          var loginToFacebook = function(){
+            facebookService.login(function(){
+              addHints(1);
+              vm.isConnectedToFacebook = true;
+            });
+          };
+          vm.loginToFacebook = loginToFacebook;
+
+          vm.isShareFacebook = coinsService.isShareFacebook();
+          var shareToFacebook = function(){
+            if(vm.isConnectedToFacebook){
+              facebookService.shareFacebook(function(){
+                addHints(3);
+                vm.isShareFacebook = false;
+              });
+            }
+            else{
+              facebookService.login(function(){
+                addHints(1);
+                vm.isConnectedToFacebook = true;
+                shareToFacebook();
+              });
+            }
+          };
+          vm.shareToFacebook = shareToFacebook;
+
+
+          vm.isInviteFacebook = coinsService.isInviteFacebook();
+          var inviteToFacebook = function(){
+            if(vm.isConnectedToFacebook){
+              facebookService.inviteFriends(function(){
+                addHints(3);
+                vm.isInviteFacebook = false;
+              });
+            }
+            else{
+              facebookService.login(function(){
+                addHints(1);
+                vm.isConnectedToFacebook = true;
+                inviteToFacebook();
+              });
+            }
+          };
+          vm.inviteToFacebook = inviteToFacebook;
+        
+        };
+
         var addHints = function(value){
             starService.incrementHints(value);
             vm.hints+= value;
@@ -78,6 +127,7 @@
         function init(){
            
             initRewardVideo();
+            initFacebookConnextion();
 
             vm.hints = dataModel.hints;
             vm.addHints = addHints;

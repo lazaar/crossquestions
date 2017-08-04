@@ -4,16 +4,20 @@
     angular.module('crossQuestions').constant('cqConstantes', {
         ios:'1084782640',
         android:'com.gamelaz.xflip',
-        states:{		
-        	home:'home',
-        	levels:'levels',
-        	group:'group',
-        	crossWord:'crossWord',
-        	question:'question'
-    	},
+        facebookId:'668484603351045',
+        daysBetweenShareHints:20,
+        daysBetweenInviteHints:20,
+        states:{        
+            home:'home',
+            levels:'levels',
+            group:'group',
+            crossWord:'crossWord',
+            question:'question'
+        },
         localStorage:{
             correctedQuestions : 'correctedQuestions',
             letters:'letters',
+            facebook:'facebook',
             playInfo:'playInfo',
             coinsList:'coinsList'
         },
@@ -38,6 +42,12 @@
             interGroup:0.2,
             interCrossWords:0.1,
             interLose:0.1,
+        },
+        shareFacebook:{
+            sharePicture:'https://lh3.googleusercontent.com/-NLrQAWucQKk/VsERBdxKB9I/AAAAAAAABQE/Nuq0kHx9XgU/s346/tmp.png',
+            hashTag:'CrossWordsGame',
+            inviteFriend:'I invite you to play this nice a game',
+            quote:'The best Cross Word Application'
         }
     });
 })();

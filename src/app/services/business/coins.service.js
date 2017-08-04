@@ -2,7 +2,7 @@
     'use strict';
     angular
         .module('crossQuestions')
-        .factory('coinsService', function(storageHelper){
+        .factory('coinsService', function(storageHelper, cqConstantes){
 
 
         // ############################################# //
@@ -43,6 +43,34 @@
          }
 
 
+         function shareFacebook(){
+            coinsConfiguration.shareFacebook = new Date().toDateString();
+            storageHelper.setItem('coinsList', coinsConfiguration);
+         }
+         function inviteFacebook(){
+            coinsConfiguration.inviteFacebook = new Date().toDateString();
+            storageHelper.setItem('coinsList', coinsConfiguration);
+         }
+
+         function isShareFacebook(){
+            var value = _.get(coinsConfiguration,'shareFacebook', undefined);
+            if(!value){
+              return true;
+            }
+            var lastShareDate = moment(new Date(value));
+            return new moment().diff(lastShareDate, 'days') > cqConstantes.daysBetweenShareHints;
+         }
+
+         function isInviteFacebook(){
+            var value = _.get(coinsConfiguration,'inviteFacebook', undefined);
+            if(!value){
+              return true;
+            }
+            var lastInviteDate = moment(new Date(value));
+            return new moment().diff(lastInviteDate, 'days') > cqConstantes.daysBetweenInviteHints;
+         }
+
+
         // ############################################### //
         // ############### Private BUSINESS ############# //
         // ############################################# //
@@ -50,7 +78,11 @@
             return {
                 init:init,
                 isShowVideo:isShowVideo,
-                showVideo:showVideo
+                showVideo:showVideo,
+                shareFacebook:shareFacebook,
+                inviteFacebook:inviteFacebook,
+                isShareFacebook:isShareFacebook,
+                isInviteFacebook:isInviteFacebook
             };
         });
 }());

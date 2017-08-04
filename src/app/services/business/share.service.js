@@ -21,8 +21,8 @@
               url: url
             };
 
-            var onSuccess = function() {
-              $log.debug('Share Finished');
+            var onSuccess = function(data) {
+              $log.debug('Share Finished', data);
             };
 
             var onError = function(msg) {
