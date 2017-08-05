@@ -92,7 +92,7 @@
     <plugin name="com.darktalker.cordova.screenshot" spec="https://github.com/gitawego/cordova-screenshot.git" />
     <plugin name="cordova-plugin-admobpro" spec="~2.29.21" />
     <plugin name="cordova-plugin-admobpro" spec="~2.29.21" />
-    <plugin name="phonegap-facebook-plugin" spec="https://github.com/Wizcorp/phonegap-facebook-plugin">
+    <plugin name="cordova-plugin-facebook4" spec="https://github.com/Wizcorp/phonegap-facebook-plugin">
         <variable name="APP_ID" value="668484603351045" />
         <variable name="APP_NAME" value="Cross Words" />
     </plugin>

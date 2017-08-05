@@ -8,9 +8,17 @@
         .controller('homeController', HomeControllerFct);
 
 
-    function HomeControllerFct(shareService, $scope, cqConstantes, soundService,starService, popupService,  dataModel){
+    function HomeControllerFct(shareService,admobService, $scope, cqConstantes, soundService,starService, popupService,  dataModel){
 
         var vm = this;
+
+
+        $scope.$on( '$ionicView.beforeEnter', function( scopes, states ) {
+            if(states.fromCache){
+                admobService.removeBanner();
+            }
+        });
+
 
         var gift = function(){
             var lastDate = starService.getLastDate(), 

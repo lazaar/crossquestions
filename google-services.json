@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "63119111167",
+    "firebase_url": "https://lmjereb.firebaseio.com",
+    "project_id": "lmjereb",
+    "storage_bucket": "lmjereb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63119111167:android:b94feeb67c5a2cef",
+        "android_client_info": {
+          "package_name": "com.lazcha.crossWords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63119111167-b5mfmkqer7dlrl1nfs6c2ukt2kkqksg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFv8VLw7buPiS8Q6CuMrVq3_Cz74hzr9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
