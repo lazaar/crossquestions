@@ -8,7 +8,7 @@
         .controller('levelsController', LevelsControllerFct);
 
 
-    function LevelsControllerFct($ionicScrollDelegate,cqConstantes, $timeout, $location, admobService, dataService,$scope, starService, dataModel){
+    function LevelsControllerFct($ionicScrollDelegate,analyticsService, cqConstantes, $timeout, $location, admobService, dataService,$scope, starService, dataModel){
 
         var vm = this;
 
@@ -40,6 +40,7 @@
          * init of the controler
          */
         function init(){
+            analyticsService.setScreenName('levels');
             reload();
             dataService.getData().then(function(datas){
                 vm.levels = updateData(datas);

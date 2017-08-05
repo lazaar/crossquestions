@@ -8,7 +8,7 @@
         .controller('groupController', GroupControllerFct);
 
 
-    function GroupControllerFct($stateParams,popupService,admobService,  $timeout, $scope, soundService, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
+    function GroupControllerFct($stateParams,analyticsService, popupService,admobService,  $timeout, $scope, soundService, starService, routerHelper, cqConstantes, cwService , dataModel, dataService, correctionService){
 
         var vm = this;
 
@@ -66,6 +66,9 @@
         function init(){
             var level;
             vm.level = parseInt($stateParams.level);
+            analyticsService.setScreenName('Groupes');
+            analyticsService.logEvent('select_content', {'content_type': 'group_view',  'item_id': level});
+
             reload(false);
             vm.activeSlide = (vm.level+1) === vm.currentLevel ? (vm.currentCw - 1) : 0;
             dataService.getData().then(function(datas){

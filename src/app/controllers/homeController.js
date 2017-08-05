@@ -8,7 +8,7 @@
         .controller('homeController', HomeControllerFct);
 
 
-    function HomeControllerFct(shareService,admobService, $scope, cqConstantes, soundService,starService, popupService,  dataModel){
+    function HomeControllerFct(shareService,admobService, analyticsService, $scope, cqConstantes, soundService,starService, popupService,  dataModel){
 
         var vm = this;
 
@@ -47,6 +47,7 @@
          * init of the controler
          */
         function init(){
+            analyticsService.setScreenName('home');
             gift();
             soundService.playMenuMusic();
             vm.share = shareService.shareApp;

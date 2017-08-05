@@ -2,7 +2,7 @@
     'use strict';
     angular
         .module('crossQuestions')
-        .factory('facebookService', function(storageHelper, cqConstantes, coinsService){
+        .factory('facebookService', function(storageHelper, analyticsService, cqConstantes, coinsService){
 
           var isConnected = false, facebookProfile={};
 
@@ -11,6 +11,7 @@
                   return;
               }
               isConnected = true;
+              analyticsService.setUserProperty('facebookId', response.authResponse.userId);
               initFacebookProfile(response.authResponse.accessToken);
           };
 
@@ -89,7 +90,7 @@
                 method: 'apprequests',
                 message: cqConstantes.shareFacebook.inviteFriend,
               },function(data){
-                if(_.get(data,'to',[]).length >= 3){
+                if(_.get(data,'recipientsIds',[]).length >= 3){
                   successCallback();
                   coinsService.inviteFacebook();
                 }

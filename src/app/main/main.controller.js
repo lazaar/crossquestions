@@ -4,7 +4,7 @@
     angular
         .module('crossQuestions')
         //Controller of the main page
-        .controller('MainController', function (routerHelper, cqConstantes, soundService, starService, dataService, $ionicHistory) {
+        .controller('MainController', function (routerHelper, analyticsService, cqConstantes, soundService, starService, dataService, $ionicHistory) {
 
             var vm = this;
             vm.goBack = function (){
@@ -22,7 +22,7 @@
             };
 
             function init(){
-                
+                analyticsService.logEvent('app_open');
                 //Init Data
                 dataService.getData();
                 starService.init();

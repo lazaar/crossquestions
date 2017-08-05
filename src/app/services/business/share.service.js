@@ -2,7 +2,7 @@
     'use strict';
     angular
         .module('crossQuestions')
-        .factory('shareService', function($log, cqConstantes){
+        .factory('shareService', function($log, analyticsService,  cqConstantes){
 
 
         // ############################################# //
@@ -38,10 +38,15 @@
             navigator.screenshot.save(function(error,res){
               if(error){
                 $log.debug(error);
+                analyticsService.logEvent('use_hint', {'content_type': 'share_screen', 'is_done':false });
               }else{
                 $log.debug('ok',res.filePath);
                 var imageLink = res.filePath;
-                window.plugins.socialsharing.share(null, null,'file://'+imageLink, null);
+                window.plugins.socialsharing.share(function(){
+                  analyticsService.logEvent('use_hint', {'content_type': 'share_screen', 'is_done':true });
+                }, function(){
+                  analyticsService.logEvent('use_hint', {'content_type': 'share_screen', 'is_done':false });
+                },'file://'+imageLink, null);
               }
             },'jpg',70,'tmpScreen');
          }

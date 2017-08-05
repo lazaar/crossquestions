@@ -8,7 +8,7 @@
         .controller('hintsController', HintsControllerFct);
 
 
-    function HintsControllerFct($document, $log, $scope, facebookService, admobService, coinsService, dataModel, $timeout, starService){
+    function HintsControllerFct($document, analyticsService, $log, $scope, facebookService, admobService, coinsService, dataModel, $timeout, starService){
         var vm = this;
 
         var initRewardVideo = function(){
@@ -39,6 +39,7 @@
                 }
                  _.delay(function(){
                     addHints(watchVideo);
+                    analyticsService.logEvent('add_hints', {'event': 'watch_video','sub_event':'done'});
                     watchVideo = -1;
                 },500);
               }
@@ -67,7 +68,9 @@
         var initFacebookConnextion = function(){
           vm.isConnectedToFacebook = facebookService.isConnectedToFacebook();
           var loginToFacebook = function(){
+            analyticsService.logEvent('add_hints', {'event': 'login_facebook','sub_event':'start'});
             facebookService.login(function(){
+              analyticsService.logEvent('add_hints', {'event': 'login_facebook','sub_event':'done'});
               addHints(1);
               vm.isConnectedToFacebook = true;
             });
@@ -76,8 +79,11 @@
 
           vm.isShareFacebook = coinsService.isShareFacebook();
           var shareToFacebook = function(){
+              analyticsService.logEvent('add_hints', {'event': 'share_facebook','sub_event':'start'});
+
             if(vm.isConnectedToFacebook){
               facebookService.shareFacebook(function(){
+                analyticsService.logEvent('add_hints', {'event': 'share_facebook','sub_event':'done'});
                 addHints(3);
                 vm.isShareFacebook = false;
               });
@@ -96,7 +102,9 @@
           vm.isInviteFacebook = coinsService.isInviteFacebook();
           var inviteToFacebook = function(){
             if(vm.isConnectedToFacebook){
+              analyticsService.logEvent('add_hints', {'event': 'invite_firends','sub_event':'start'});
               facebookService.inviteFriends(function(){
+                analyticsService.logEvent('add_hints', {'event': 'invite_firends','sub_event':'done'});
                 addHints(3);
                 vm.isInviteFacebook = false;
               });
@@ -125,13 +133,16 @@
          * init of the controler
          */
         function init(){
-           
+            analyticsService.logEvent('add_hints', {'event': 'open_dialogs','sub_event':null});
             initRewardVideo();
             initFacebookConnextion();
 
             vm.hints = dataModel.hints;
             vm.addHints = addHints;
-            vm.showVideo = admobService.generateVideo;
+            vm.showVideo = function(){
+              analyticsService.logEvent('add_hints', {'event': 'watch_video','sub_event':'start'});
+              admobService.generateVideo();
+            };
         }
         // ################# INITALIZE ################# //
 

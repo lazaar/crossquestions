@@ -8,7 +8,7 @@
         .controller('crossWordController', CrossWordControllerFct);
 
 
-    function CrossWordControllerFct($stateParams,admobService, popupService, $scope, $timeout, dataModel, soundService, cwService, cqConstantes, routerHelper){
+    function CrossWordControllerFct($stateParams, analyticsService, admobService, popupService, $scope, $timeout, dataModel, soundService, cwService, cqConstantes, routerHelper){
 
         var vm = this, isInTransition= false;
 
@@ -53,6 +53,7 @@
          * init of the controler
          */
         function init(){
+            analyticsService.setScreenName('CrossWord');
             if(Math.random()<cqConstantes.ads.bannerCrossWords){
                 admobService.generateBanner();
             }
@@ -70,6 +71,8 @@
             vm.grid = dataModel.crosswords.grid;
             vm.stars = dataModel.crosswords.stars;
             vm.hints = dataModel.hints;
+
+            analyticsService.logEvent('select_content', {'content_type': 'crossword_view', 'item_id': dataModel.crosswords.levelId +'/'+vm.cw});
         }
         // ################# INITALIZE ################# //
 

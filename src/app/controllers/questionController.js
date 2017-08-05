@@ -8,7 +8,7 @@
         .controller('questionController', QuestionControllerFct);
 
 
-    function QuestionControllerFct($stateParams,shareService, popupService, admobService, soundService, $timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
+    function QuestionControllerFct($stateParams, analyticsService, shareService, popupService, admobService, soundService, $timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
 
         var vm = this;
         var grid = dataModel.crosswords.grid, numberLetter = 0, questionId;
@@ -72,6 +72,8 @@
 
                 starService.correctedQuestion();
                 vm.state = 'correct';
+                analyticsService.logEvent('corrected', {'item_id': dataModel.crosswords.levelId +'/'+dataModel.crosswords.id+'/'+questionId});
+
                 
                 soundService.playSound(cqConstantes.sounds.correct);
 
@@ -104,7 +106,7 @@
         };
 
         var showLetter=function(){
-
+            analyticsService.logEvent('use_hint', {'content_type': 'show_letter', 'is_done':vm.hints >= 5 });
             if(vm.hints < 5){
                 openHints();
                 return;
@@ -171,6 +173,7 @@
          * init of the controler
          */
         function init(){
+            analyticsService.setScreenName('Question');
             var i = parseInt($stateParams.i),
                 j = parseInt($stateParams.j),
                 direction = $stateParams.direction;
@@ -196,6 +199,8 @@
             vm.showLetter = showLetter;
             vm.stars = dataModel.crosswords.stars;
             vm.hints = dataModel.hints;
+            analyticsService.logEvent('select_content', {'content_type': 'crossword_view', 'item_id': dataModel.crosswords.levelId +'/'+dataModel.crosswords.id+'/'+questionId});
+
         }
 
         init();
