@@ -45,7 +45,7 @@
             initAppRate();
             _.delay(function(){
                 navigator.splashscreen.hide();
-            }, 800);
+            }, 950);
 
             toggleSounds();
             admobService.init();
