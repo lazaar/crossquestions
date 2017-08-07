@@ -96,5 +96,5 @@
         <variable name="APP_ID" value="668484603351045" />
         <variable name="APP_NAME" value="Cross Words" />
     </plugin>
-    <plugin name="cordova-plugin-firebase" spec="^0.1.23" />
+    <plugin name="cordova-plugin-firebase" spec="^0.1.22" />
 </widget>

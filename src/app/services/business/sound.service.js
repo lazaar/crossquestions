@@ -5,7 +5,8 @@
         .factory('soundService', function(cqConstantes, storageHelper, dataModel){
 
             var backgroundMusic,
-                menuMusic;
+                menuMusic,
+                currentMusic;
 
         // ############################################### //
         // ############### Private BUSINESS ############# //
@@ -48,6 +49,7 @@
                     });
                 }
                 backgroundMusic.play();
+                currentMusic = 2;
             }
 
             function playMenuMusic(){
@@ -67,6 +69,7 @@
                     });
                 }
                 menuMusic.play();
+                currentMusic = 1;
 
             }
 
@@ -96,6 +99,25 @@
                 else if(menuMusic){
                     menuMusic.pause(); 
                     menuMusic = undefined;
+                    currentMusic = -1;
+                }
+             }
+
+             function pauseCurrentMusic(){
+                if(currentMusic === 1 && menuMusic !== undefined){
+                    menuMusic.pause();
+                }
+                else if(currentMusic === 2 && backgroundMusic !== undefined ){
+                    backgroundMusic.pause();
+                }
+             }
+
+             function playCurrentMusic(){
+                if(currentMusic === 1){
+                    playMenuMusic();
+                }
+                else if(currentMusic === 2){
+                    playBackgroundMusic();
                 }
              }
 
@@ -106,7 +128,10 @@
                 toggleSounds:toggleSounds,
                 toggleMusic:toggleMusic,
                 getMenuMusic:getMenuMusic,
-                getBackgroundMusic:getBackgroundMusic
+                getBackgroundMusic:getBackgroundMusic,
+                pauseCurrentMusic:pauseCurrentMusic,
+                playCurrentMusic:playCurrentMusic
+
             };
         });
 }());

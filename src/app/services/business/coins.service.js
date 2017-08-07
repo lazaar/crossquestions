@@ -29,7 +29,7 @@
               coinsConfiguration.rewardVideo.count=0;
               result = true;
             }
-            else if(_.get(coinsConfiguration,'rewardVideo.count', 4) <= 3){
+            else if(_.get(coinsConfiguration,'rewardVideo.count', 4) < 3){
               result = true;
             }
 

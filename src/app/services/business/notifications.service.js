@@ -8,6 +8,13 @@
         // ############################################# //
         // ############### PUBLIC BUSINESS ############# //
         // ############################################# //
+        var  initIos = function(){
+            window.FirebasePlugin.hasPermission(function(data){
+                if(!data.isEnabled){
+                    window.FirebasePlugin.grantPermission();
+                }
+            });
+        };
 
         function init(){
           if(window.FirebasePlugin){
@@ -17,6 +24,9 @@
             }, function(error) {
                 $log.debug('error', error);
             });
+            if(typeof device !== 'undefined' && device.platform === 'iOS'){
+                initIos();
+            }
           }
         }
 

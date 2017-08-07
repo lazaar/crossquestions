@@ -127,3 +127,14 @@ $header-height:60px;
         }
     }
 }
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader){
+    height: 84px;
+}
+.platform-ios{
+    .nav-bar-block{
+        margin-top: 0 !important;
+    }
+    .levels-page, .group-page, .cw-page, .question-page{
+        padding-top:90px;
+    }
+}

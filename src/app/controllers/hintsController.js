@@ -8,13 +8,14 @@
         .controller('hintsController', HintsControllerFct);
 
 
-    function HintsControllerFct($document, analyticsService, $log, $scope, facebookService, admobService, coinsService, dataModel, $timeout, starService){
+    function HintsControllerFct($document, soundService, analyticsService, $log, $scope, facebookService, admobService, coinsService, dataModel, $timeout, starService){
         var vm = this;
 
         var initRewardVideo = function(){
             var  watchVideo = -1, failedCount = 0;
-             vm.videoReady=false;
-             if(coinsService.isShowVideo()){
+             vm.videoReady=coinsService.isShowVideo();
+             vm.videoNotLoaded=vm.videoReady;
+             if(vm.videoReady){
                 admobService.prepareVideo();
              }
 
@@ -32,16 +33,20 @@
             });
 
             $document.on('onAdDismiss', function(data) {
-              if(data.adType === 'rewardvideo' && watchVideo !== -1){
-                coinsService.showVideo();
-                if(coinsService.isShowVideo()){
-                    admobService.prepareVideo();
-                }
-                 _.delay(function(){
-                    addHints(watchVideo);
-                    analyticsService.logEvent('add_hints', {'event': 'watch_video','sub_event':'done'});
-                    watchVideo = -1;
-                },500);
+              if(data.adType === 'rewardvideo'){
+                soundService.playCurrentMusic();
+                if(watchVideo !== -1){
+                  coinsService.showVideo();
+                    if(coinsService.isShowVideo()){
+                        admobService.prepareVideo();
+                    }
+                  
+                   _.delay(function(){
+                      addHints(watchVideo);
+                      analyticsService.logEvent('add_hints', {'event': 'watch_video','sub_event':'done'});
+                      watchVideo = -1;
+                  },500);
+                } 
               }
             });
 
@@ -59,6 +64,7 @@
             document.addEventListener('onAdLoaded', function(data){
                 if(data.adType === 'rewardvideo'){
                   vm.videoReady = true; 
+                  vm.videoNotLoaded=false;
                   $scope.$apply(); 
                   failedCount=0;
                 } 
@@ -141,6 +147,7 @@
             vm.addHints = addHints;
             vm.showVideo = function(){
               analyticsService.logEvent('add_hints', {'event': 'watch_video','sub_event':'start'});
+              soundService.pauseCurrentMusic();
               admobService.generateVideo();
             };
         }

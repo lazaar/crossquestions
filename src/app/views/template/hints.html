@@ -2,8 +2,9 @@
 	<div class="hint-state" ng-class="hintCtrl.animateHint">{{hintCtrl.hints}} <i class="ion-ribbon-b"></i></div>
 	<ul class="hint-list">
 		<li ng-click="hintCtrl.videoReady && hintCtrl.showVideo()" ng-class="{'disable':!hintCtrl.videoReady}">
-			<span class="hint-description">Watch Video</span>
-			<span class="hint-plus"><i class="ion-plus"></i>2</span>
+			<span class="hint-description">Watch Video </span>
+			<span class="hint-spinner" ng-if="hintCtrl.videoNotLoaded"><ion-spinner icon="spiral" class="spinner-light"></ion-spinner></span>
+			<span class="hint-plus" ng-if="!hintCtrl.videoNotLoaded"><i class="ion-plus"></i>2</span>
 		</li>
 		<li ng-click="hintCtrl.loginToFacebook()" ng-if="!hintCtrl.isConnectedToFacebook">
 			<span class="hint-description">Connect to Facebook</span>
