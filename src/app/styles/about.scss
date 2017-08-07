@@ -1,0 +1,49 @@
+.about-page{
+	height:calc(100% + 1px);
+	background: $levels-background-color;
+	padding-top:70px;
+	text-align:center;
+	.title{
+		color: $red;
+		font-size: 30px;
+		font-family: 'mouse';
+		margin:30px 0;
+	}
+	.content{
+		font-family: 'tex';
+		padding:0 30px;
+		margin-bottom: 30px;
+	}
+	.contributors{
+		> div{
+			color: darken($blue,20%);
+			font-family: 'tex';
+		}
+		> p{
+			font-family: 'mouse';
+			margin-bottom: 30px;
+			color: $blue;
+		}
+	}
+	.bottom-bloc{
+		position: absolute;
+		bottom:20px;
+		left: 0;
+		right: 0;
+		margin:auto;
+		.company{
+			font-family: 'mouse';
+			color: #000000;
+			margin-bottom: 10px;
+		}
+	}
+	@media(max-height:567px){
+		.title{margin:10px 0;}
+		.content{
+			padding:0 10px;
+			margin-bottom: 10px;
+		}
+		.bottom-bloc{bottom:10px}
+		.contributors p{margin-bottom: 10px;}
+    }
+}

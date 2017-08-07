@@ -9,6 +9,7 @@
         daysBetweenInviteHints:20,
         states:{        
             home:'home',
+            about:'about',
             levels:'levels',
             group:'group',
             crossWord:'crossWord',

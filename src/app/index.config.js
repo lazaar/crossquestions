@@ -33,6 +33,10 @@
                 templateUrl: 'app/views/home.html',
                 controller: 'homeController as vm'
             })
+            .state(cqConstantes.states.about, {
+                url: '/'+ cqConstantes.states.about,
+                templateUrl: 'app/views/about.html'
+            })
             .state(cqConstantes.states.levels, {
                 url: '/'+cqConstantes.states.levels,
                 templateUrl: 'app/views/levels.html',
