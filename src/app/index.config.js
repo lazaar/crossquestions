@@ -35,7 +35,10 @@
             })
             .state(cqConstantes.states.about, {
                 url: '/'+ cqConstantes.states.about,
-                templateUrl: 'app/views/about.html'
+                templateUrl: 'app/views/about.html',
+                  controller: function($scope){
+                    $scope.facebookUrl = cqConstantes.facebookUrl;
+                  }
             })
             .state(cqConstantes.states.levels, {
                 url: '/'+cqConstantes.states.levels,

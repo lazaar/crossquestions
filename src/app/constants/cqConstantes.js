@@ -5,6 +5,7 @@
         ios:'1084782640',
         android:'com.gamelaz.xflip',
         facebookId:'668484603351045',
+        facebookUrl:'https://www.facebook.com/licom.ma',
         daysBetweenShareHints:20,
         daysBetweenInviteHints:20,
         states:{        

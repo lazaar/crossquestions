@@ -21,6 +21,12 @@
                 vm.clickSound();
             };
 
+            vm.open = function(url,target){
+                if(typeof cordova !== 'undefined'){
+                    cordova.InAppBrowser.open(url,target);
+                }
+            };
+
             function init(){
                 analyticsService.logEvent('app_open');
                 //Init Data
