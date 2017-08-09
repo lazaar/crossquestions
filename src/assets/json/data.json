@@ -9,102 +9,657 @@
 				"questions" :[
 					{
 						"questionId": 1,
-						"x":1,
+						"x":4,
 						"y":1,
 						"direction":"h",
-						"title":"Title here",
-						"content":"Question here",
-						"type":"image | text",
-						"answer":"ABC",
-						"letters":"ABCRDSZBHF"
-					},
-					{
+						"title":"President",
+						"content":"'MAKE AMERICA GREAT AGAIN'- ...",
+						"type":"text",
+						"answer":"TRUMP",
+						"letters":"APTCMDSUZRHF"
+					},{
 						"questionId": 2,
 						"x":0,
-						"y":3,
+						"y":4,
 						"direction":"v",
-						"title":"Title here",
-						"content":"http://lorempixel.com/output/animals-q-c-640-480-10.jpg",
-						"type":"image",
-						"answer":"ACEF",
-						"letters":"ABCEDSZBHF"
-					},
-					{
+						"title":"Cartoon",
+						"content":"Famous cartoon launched in 1997, and a popular mobile game launched in july 2016",
+						"type":" text",
+						"answer":"POKEMON",
+						"letters":"MANOOSZKPEW"
+					},{
 						"questionId": 3,
-						"x":5,
+						"x":2,
 						"y":2,
+						"direction":"v",
+						"title":"Logo",
+						"content":"../assets/images/FORD.png",
+						"type":"image",
+						"answer":"FORD",
+						"letters":"FESOERBD"
+					},{
+						"questionId": 4,
+						"x":1,
+						"y":4,
 						"direction":"h",
-						"title":"Title here",
-						"content":"Question here",
-						"type":"image | text",
-						"answer":"GHFER",
-						"letters":"ACRDSZBGHFE"
+						"title":"Zoom In",
+						"content":"../assets/images/orange.png",
+						"type":"image",
+						"answer":"ORANGE",
+						"letters":"MANOOSZKPEW"
 					}
 				]
 			},
 			{
-				"crosswordId" : 1,
-				"width":10,
-				"height":10,
+				"crosswordId" : 2,
+				"width":20,
+				"height":20,
 				"questions" :[
 					{
 						"questionId": 1,
-						"x":1,
+						"x":6,
 						"y":1,
-						"direction":"v | h",
+						"direction":"h",
+						"title":"Car Brand",
+						"content":"../assets/images/mercedes.png",
+						"type":"image",
+						"answer":"MERCEDES",
+						"letters":"DAEECMSZRFSE"
+					},{
+						"questionId": 2,
+						"x":2,
+						"y":4,
+						"direction":"v",
+						"title":"What Country ?",
+						"content":"../assets/images/france.png",
+						"type":"image",
+						"answer":"FRANCE",
+						"letters":"NAROFSCPEW"
+					},{
+						"questionId": 3,
+						"x":6,
+						"y":6,
+						"direction":"v",
 						"title":"Title here",
-						"content":"Question here",
+						"content":"../assets/images/dettol.png",
+						"type":"image",
+						"answer":"DETTOL",
+						"letters":"DETTOL"
+					},{
+						"questionId": 4,
+						"x":1,
+						"y":8,
+						"direction":"v",
+						"title":"translation",
+						"content":"What is pinneaple in french?",
+						"type":"text",
+						"answer":"ANANAS",
+						"letters":"ANANAS"
+					},{
+						"questionId": 5,
+						"x":1,
+						"y":8,
+						"direction":"h",
+						"title":"Job",
+						"content":"An ... is someone who plans, designs, and reviews the construction of buildings",
 						"type":"image | text",
-						"answer":"ABC",
-						"letters":"ABCRDSZBHF"
+						"answer":"ARCHITECT",
+						"letters":"CCHEANRTTKIEW"
+					},{
+						"questionId": 6,
+						"x":1,
+						"y":12,
+						"direction":"v",
+						"title":"iron",
+						"content":"../assets/images/ironman.png",
+						"type":"image",
+						"answer":"IRONMAN",
+						"letters":"IRONMAN"
+					},{
+						"questionId": 7,
+						"x":3,
+						"y":8,
+						"direction":"h",
+						"title":"A science",
+						"content":"Also known as the science of space",
+						"type":"text",
+						"answer":"ASTRONOMY",
+						"letters":"ASTRONOMY"
 					}
 				]
-			}
-			,
-			{
-				"crosswordId" : 1,
-				"width":10,
-				"height":10,
+			},{
+				"crosswordId" : 3,
+				"width":15,
+				"height":15,
 				"questions" :[
 					{
 						"questionId": 1,
-						"x":1,
-						"y":1,
-						"direction":"v | h",
+						"x":3,
+						"y":0,
+						"direction":"v",
 						"title":"Title here",
-						"content":"Question here",
-						"type":"image | text",
-						"answer":"ABC",
-						"letters":"ABCRDSZBHF"
+						"content":"../assets/images/support.png",
+						"type":"image",
+						"answer":"SUPPORT",
+						"letters":"SUPPORT"
+					},{
+						"questionId": 2,
+						"x":5,
+						"y":0,
+						"direction":"h",
+						"title":"one word",
+						"content":"../assets/images/Peace.png",
+						"type":"image",
+						"answer":"PEACE",
+						"letters":"PEACE"
+					},{
+						"questionId": 3,
+						"x":8,
+						"y":0,
+						"direction":"h",
+						"title":"Animal",
+						"content":"../assets/images/rhino.png",
+						"type":"image",
+						"answer":"RHINOCEROS",
+						"letters":"RHINOCEROS"
+					},{
+						"questionId": 4,
+						"x":1,
+						"y":2,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/odd.png",
+						"type":"image",
+						"answer":"ODD",
+						"letters":"ODD"
+					},{
+						"questionId": 5,
+						"x":1,
+						"y":2,
+						"direction":"v",
+						"title":"Title here",
+						"content":"../assets/images/obama.png",
+						"type":"image",
+						"answer":"OBAMA",
+						"letters":"OBAMA"
+					},{
+						"questionId": 6,
+						"x":3,
+						"y":2,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/amnesty.png",
+						"type":"image",
+						"answer":"AMNESTY",
+						"letters":"AMNESTY"
+					},{
+						"questionId": 7,
+						"x":1,
+						"y":4,
+						"direction":"v",
+						"title":"Title here",
+						"content":"At a ... party one should eat wisely but not too well, and talk well but not too wisely.",
+						"type":"text",
+						"answer":"DINNER",
+						"letters":"DINNER"
+					},{
+						"questionId": 8,
+						"x":3,
+						"y":6,
+						"direction":"v",
+						"title":"Title here",
+						"content":"good -> best; slim -> ... ",
+						"type":"text",
+						"answer":"SLIMMEST",
+						"letters":"SLIMMEST"
 					}
 				]
 			}
 		]
 	},
 	{
-		"levelId":1,
+		"levelId":2,
 		"crosswords" : [
 			{
 				"crosswordId" : 1,
-				"width":10,
-				"height":10,
+				"width":26,
+				"height":26,
 				"questions" :[
 					{
 						"questionId": 1,
-						"x":1,
-						"y":1,
-						"direction":"v | h",
+						"x":0,
+						"y":9,
+						"direction":"h",
+						"title":"Job",
+						"content":"../assets/images/PHARMACIST.png",
+						"type":"image | text",
+						"answer":"PHARMACIST",
+						"letters":"PHARMACIST"
+					},{
+						"questionId": 2,
+						"x":0,
+						"y":14,
+						"direction":"v",
+						"title":"Title here",
+						"content":"../assets/images/adobe.png",
+						"type":"image | text",
+						"answer":"ADOBE",
+						"letters":"ADOBE"
+					},{
+						"questionId": 3,
+						"x":0,
+						"y":22,
+						"direction":"v",
+						"title":"Title here",
+						"content":"../assets/images/adele.png",
+						"type":"image",
+						"answer":"ADELE",
+						"letters":"ADELE"
+					},{
+						"questionId": 4,
+						"x":2,
+						"y":8,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/LUXEMBOURG.png",
+						"type":"image",
+						"answer":"LUXEMBOURG",
+						"letters":"LUXEMBOURG"
+					},{
+						"questionId": 5,
+						"x":2,
+						"y":8,
+						"direction":"v",
+						"title":"Job",
+						"content":"A ... is a person who works professionally in a library",
+						"type":"text",
+						"answer":"LIBRARIAN",
+						"letters":"LIBRARIAN"
+					},{
+						"questionId": 5,
+						"x":4,
+						"y":5,
+						"direction":"h",
+						"title":"Synonym",
+						"content":"capturing, seizing or taking",
+						"type":"text",
+						"answer":"GRABBING",
+						"letters":"GRABBING"
+					},{
+						"questionId": 5,
+						"x":6,
+						"y":6,
+						"direction":"h",
+						"title":"Animal",
+						"content":"../assets/images/snake.png",
+						"type":"image ",
+						"answer":"SNAKE",
+						"letters":"SNAKE"
+					},{
+						"questionId": 5,
+						"x":8,
+						"y":6,
+						"direction":"v",
+						"title":"Title here",
+						"content":"../assets/images/CHEVROLET.png",
+						"type":"image | text",
+						"answer":"CHEVROLET",
+						"letters":"CHEVROLET"
+					},{
+						"questionId": 5,
+						"x":10,
+						"y":2,
+						"direction":"h",
+						"title":"Quote",
+						"content":"One ... a day keeps the doctor away",
+						"type":"image | text",
+						"answer":"APPLE",
+						"letters":"APPLE"
+					},{
+						"questionId": 5,
+						"x":13,
+						"y":0,
+						"direction":"h",
+						"title":"Title here",
+						"content":"In mathematics, a .. is a relation between a set of inputs and a set of permissible outputs ",
+						"type":"image | text",
+						"answer":"FUNCTION",
+						"letters":"FUNCTION"
+					},{
+						"questionId": 5,
+						"x":15,
+						"y":0,
+						"direction":"h",
+						"title":"quote ",
+						"content":"don't cry because it's over, smile because it ...",
+						"type":"text",
+						"answer":"HAPPENED",
+						"letters":"HAPPENED"
+					},{
+						"questionId": 5,
+						"x":9,
+						"y":6,
+						"direction":"h",
 						"title":"Title here",
 						"content":"Question here",
 						"type":"image | text",
-						"answer":"ABC",
+						"answer":"HEARTBREAKING",
+						"letters":"HEARTBREAKING"
+					},{
+						"questionId": 5,
+						"x":5,
+						"y":13,
+						"direction":"v",
+						"title":"Title here",
+						"content":"../assets/images/SIEMENS.png",
+						"type":"image",
+						"answer":"SIEMENS",
+						"letters":"SIEMENS"
+					},{
+						"questionId": 5,
+						"x":7,
+						"y":11,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/BIEBER.png",
+						"type":"image ",
+						"answer":"BIEBER",
+						"letters":"BIEBER"
+					},{
+						"questionId": 5,
+						"x":1,
+						"y":20,
+						"direction":"v",
+						"title":"Zoom In",
+						"content":"../assets/images/moon.png",
+						"type":"image",
+						"answer":"MOON",
 						"letters":"ABCRDSZBHF"
+					},{
+						"questionId": 5,
+						"x":3,
+						"y":18,
+						"direction":"v",
+						"title":"what is she doing ? (ing)",
+						"content":"../assets/images/SMILING.png",
+						"type":"image",
+						"answer":"SMILING",
+						"letters":"SMILING"
+					},{
+						"questionId": 5,
+						"x":4,
+						"y":18,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/monkey.png",
+						"type":"image | text",
+						"answer":"MONKEY",
+						"letters":"MONKEY"
 					}
+				]
+
+			},{"crosswordId" : 2,
+				"width":26,
+				"height":26,
+				"questions" :[
+					{
+						"questionId": 1,
+						"x":0,
+						"y":5,
+						"direction":"V",
+						"title":"Title here",
+						"content":"../assets/images/play.png",
+						"type":"image ",
+						"answer":"PLAY",
+						"letters":"PLAY"
+					},{
+						"questionId": 2,
+						"x":2,
+						"y":4,
+						"direction":"h",
+						"title":"Slice",
+						"content":"../assets/images/banana.png",
+						"type":"image ",
+						"answer":"BANANA",
+						"letters":"BANANA"
+					},{
+						"questionId": 3,
+						"x":2,
+						"y":9,
+						"direction":"v",
+						"title":"Country flag",
+						"content":"../assets/images/AUSTRALIA.png",
+						"type":"image",
+						"answer":"AUSTRALIA",
+						"letters":"AUSTRALIA"
+					},{
+						"questionId": 4,
+						"x":5,
+						"y":9,
+						"direction":"h",
+						"title":"Singer",
+						"content":"../assets/images/TAYLOR.png",
+						"type":"image",
+						"answer":"TAYLOR",
+						"letters":"TAYLOR"
+					},{
+						"questionId": 5,
+						"x":3,
+						"y":12,
+						"direction":"v",
+						"title":"Athlete",
+						"content":"the fastest man on earth",
+						"type":"image | text",
+						"answer":"BOLT",
+						"letters":"BOLT"
+					},{
+						"questionId": 6,
+						"x":5,
+						"y":4,
+						"direction":"v",
+						"title":"Job title",
+						"content":"A ... is a person who helps others to acquire knowledge, competences or values. ",
+						"type":"text",
+						"answer":"TEACHER",
+						"letters":"TEACHER"
+					},{
+						"questionId": 7,
+						"x":7,
+						"y":6,
+						"direction":"v",
+						"title":"quote",
+						"content":"change your thoughts and you change your .....",
+						"type":"text",
+						"answer":"WORLD",
+						"letters":"ABCRDSZBHF"
+					},{
+						"questionId": 8,
+						"x":8,
+						"y":3,
+						"direction":"h",
+						"title":"Logo",
+						"content":"../assets/images/MCDONALDS.png",
+						"type":"image",
+						"answer":"MCDONALDS",
+						"letters":"MCDONALDS"
+					}
+				]
+			},{"crosswordId" : 3,
+				"width":26,
+				"height":26,
+				"questions" :[
+							{
+						"questionId": 1,
+						"x":0,
+						"y":0,
+						"direction":"v",
+						"title":"Car logo",
+						"content":"../assets/images/RENAULT.png",
+						"type":"image ",
+						"answer":"RENAULT",
+						"letters":"RENAULT"
+							},{
+						"questionId": 1,
+						"x":3,
+						"y":0,
+						"direction":"h",
+						"title":"Actress",
+						"content":"../assets/images/ANGELINA.png",
+						"type":"image",
+						"answer":"ANGELINA",
+						"letters":"ANGELINA"
+							},{
+						"questionId": 1,
+						"x":5,
+						"y":0,
+						"direction":"h",
+						"title":"quote",
+						"content":"'Not all of us can do great things. But we can do small things with great ....' - Mother Teresa",
+						"type":"text",
+						"answer":"LOVE",
+						"letters":"LOVE"
+							},{
+						"questionId": 1,
+						"x":0,
+						"y":5,
+						"direction":"v",
+						"title":"Title here",
+						"content":"../assets/images/INDIA.png",
+						"type":"image | text",
+						"answer":"INDIA",
+						"letters":"INDIA"
+							},{
+						"questionId": 1,
+						"x":2,
+						"y":7,
+						"direction":"v",
+						"title":"Title here",
+						"content":"../assets/images/facebook.png",
+						"type":"image",
+						"answer":"FACEBOOK",
+						"letters":"FACEBOOK"
+							},{
+						"questionId": 1,
+						"x":4,
+						"y":7,
+						"direction":"h",
+						"title":"game",
+						"content":"../assets/images/CROSSWORD.png",
+						"type":"image",
+						"answer":"CROSSWORD",
+						"letters":"CROSSWORD"
+							},{
+						"questionId": 1,
+						"x":4,
+						"y":12,
+						"direction":"v",
+						"title":"Title here",
+						"content":"Monday +tuesday +wednesday +thursday +friday +saturday +sunday",
+						"type":"text",
+						"answer":"WEEK",
+						"letters":"WEEK"
+							}
+				]
+			},{
+				"crosswordId" : 1,
+				"width":20,
+				"height":20,
+				"questions" :[
+					{
+ 
+						 "questionId:": 1,
+						 "x": 1,
+						"y": 1,
+						"direction":"v" ,
+						"title":"chemical",
+						"content":"a medication used to treat pain and fever. It is typically used for mild to moderate pain. ",
+						"type":"image | text",
+						"answer":"paracetamol",
+						"letters":"BPaaabcelmooprt" 
+						 },{
+						 
+						 "questionId:": 2,
+						 "x": 3,
+						"y": 1,
+						"direction":"h" ,
+						"title":"soccer legend",
+						"content":"../assets/images/ronaldinho.png",
+						"type":"image",
+						"answer":"ronaldinho",
+						"letters":"EIacddhilnnoor" 
+						 },{
+						 
+						 "questionId:": 3,
+						 "x": 5,
+						"y": 3,
+						"direction":"v" ,
+						"title":"soda",
+						"content":"../assets/images/cocacola.png",
+						"type":"image",
+						"answer":"cocacola",
+						"letters":"Eaaacccglloo" 
+						 },{
+						 
+						 "questionId:": 4,
+						 "x": 9,
+						"y": 1,
+						"direction":"h" ,
+						"title":"Company Logo",
+						"content":"../assets/images/microsoft.png",
+						"type":"image",
+						"answer":"microsoft",
+						"letters":"EFPcfimoorsty" 
+						 },{
+						 
+						 "questionId:": 5,
+						 "x": 5,
+						"y": 6,
+						"direction":"v" ,
+						"title":"Application",
+						"content":"../assets/images/whatsapp.png",
+						"type":"image",
+						"answer":"whatsapp",
+						"letters":"RWaahjppstwy" 
+						 },{
+						 
+						 "questionId:": 6,
+						 "x": 7,
+						"y": 5,
+						"direction":"h" ,
+						"title":"Hobies",
+						"content":"an outdoor activity involving overnight stays away from home in a shelter, such as a tent, a caravan, or a motorhome",
+						"type":"text",
+						"answer":"camping",
+						"letters":"Qacgimnnopy" 
+						 },{
+						 
+						 "questionId:": 7,
+						 "x": 5,
+						"y": 8,
+						"direction":"h" ,
+						"title":"city",
+						"content":"../assets/images/paris.png",
+						"type":"image",
+						"answer":"paris",
+						"letters":"QXaiprstu" 
+						 },{
+						 
+						 "questionId:": 8,
+						 "x": 5,
+						"y": 9,
+						"direction":"v" ,
+						"title":"A greek Philosopher",
+						"content":"'Poverty is the parent of revolution and crime.'-...",
+						"type":"text",
+						"answer":"aristotle",
+						"letters":"AEafiorstty" 
+						 } 
 				]
 			}
 		]
 	},
-	{},
+	
+
 	{},
 	{},
 	{},
