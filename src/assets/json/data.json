@@ -566,95 +566,2830 @@
 				"height":20,
 				"questions" :[
 					{
- 
-						 "questionId:": 1,
-						 "x": 1,
-						"y": 1,
-						"direction":"v" ,
-						"title":"chemical",
-						"content":"a medication used to treat pain and fever. It is typically used for mild to moderate pain. ",
-						"type":"image | text",
-						"answer":"paracetamol",
-						"letters":"BPaaabcelmooprt" 
-						 },{
-						 
-						 "questionId:": 2,
-						 "x": 3,
-						"y": 1,
-						"direction":"h" ,
-						"title":"soccer legend",
-						"content":"../assets/images/ronaldinho.png",
-						"type":"image",
-						"answer":"ronaldinho",
-						"letters":"EIacddhilnnoor" 
-						 },{
-						 
-						 "questionId:": 3,
-						 "x": 5,
-						"y": 3,
-						"direction":"v" ,
-						"title":"soda",
-						"content":"../assets/images/cocacola.png",
-						"type":"image",
-						"answer":"cocacola",
-						"letters":"Eaaacccglloo" 
-						 },{
-						 
-						 "questionId:": 4,
-						 "x": 9,
-						"y": 1,
-						"direction":"h" ,
-						"title":"Company Logo",
-						"content":"../assets/images/microsoft.png",
-						"type":"image",
-						"answer":"microsoft",
-						"letters":"EFPcfimoorsty" 
-						 },{
-						 
-						 "questionId:": 5,
-						 "x": 5,
-						"y": 6,
-						"direction":"v" ,
-						"title":"Application",
-						"content":"../assets/images/whatsapp.png",
-						"type":"image",
-						"answer":"whatsapp",
-						"letters":"RWaahjppstwy" 
-						 },{
-						 
-						 "questionId:": 6,
-						 "x": 7,
-						"y": 5,
-						"direction":"h" ,
-						"title":"Hobies",
-						"content":"an outdoor activity involving overnight stays away from home in a shelter, such as a tent, a caravan, or a motorhome",
-						"type":"text",
-						"answer":"camping",
-						"letters":"Qacgimnnopy" 
-						 },{
-						 
-						 "questionId:": 7,
-						 "x": 5,
-						"y": 8,
-						"direction":"h" ,
-						"title":"city",
-						"content":"../assets/images/paris.png",
-						"type":"image",
-						"answer":"paris",
-						"letters":"QXaiprstu" 
-						 },{
-						 
-						 "questionId:": 8,
-						 "x": 5,
-						"y": 9,
-						"direction":"v" ,
-						"title":"A greek Philosopher",
-						"content":"'Poverty is the parent of revolution and crime.'-...",
-						"type":"text",
-						"answer":"aristotle",
-						"letters":"AEafiorstty" 
-						 } 
+					 
+					 "questionId:":1 ,
+					 "x": 1,
+					"y": 1,
+					"direction":"h",
+					"title":"Title here",
+					"content":"Sport",
+					"type":"image | text",
+					"answer":"paracetamol",
+					"letters":"KMUaaaceilmoprt" 
+					 },{
+					 
+					 "questionId:":2 ,
+					"x": 1,
+					"y": 3,
+					"direction":"v", 
+					"title":"Title here",
+					"content":"A mix of ice and milk",
+					"type":"image | text",
+					"answer":"ronaldinho",
+					"letters":"HLadhhilnnoorx" 
+					 },{
+					 
+					 "questionId:":3 ,
+					 "x": 5,
+					"y": 1,
+					"direction":"v", 
+					"title":"Title here",
+					"content":"A heroic champion or paragon of chivalry.",
+					"type":"image | text",
+					"answer":"whatsapp",
+					"letters":"BHXaahppsstw" 
+					 },{
+					 
+					 "questionId:":4 ,
+					 "x": 7,
+					"y": 1,
+					"direction":"h",
+					"title":"Title here",
+					"content":"Children in germany - a chocolate brand.",
+					"type":"image | text",
+					"answer":"aristotle",
+					"letters":"abeeiilorsttz" 
+					 },{
+					 
+					 "questionId:":5 ,
+					 "x": 3,
+					"y": 6,
+					"direction":"v", 
+					"title":"Title here",
+					"content":"Shifting the emphasis of a beat to the normally weak beat.",
+					"type":"image | text",
+					"answer":"microsoft",
+					"letters":"Lccfimmooprst" 
+					 },{
+					 
+					 "questionId:":6 ,
+					 "x": 5,
+					"y": 6,
+					"direction":"h",
+					"title":"Title here",
+					"content":"Picture ..",
+					"type":"image | text",
+					"answer":"cocacola",
+					"letters":"DMWaacccloot" 
+					 },{
+					 
+					 "questionId:":7 ,
+					 "x": 4,
+					"y": 13,
+					"direction":"v", 
+					"title":"Title here",
+					"content":"Lost the WORLD WAR I and II",
+					"type":"image | text",
+					"answer":"camping",
+					"letters":"AIOacghimnp" 
+					 },{
+					 
+					 "questionId:":8 ,
+					 "x": 8,
+					"y": 10,
+					"direction":"h",
+					"title":"Title here",
+					"content":"His job is to write the news",
+					"type":"image | text",
+					"answer":"paris",
+					"letters":"KWaaiprst" 
+					 } 
 				]
+			},{
+				"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Lost the WORLD WAR I and II",
+				"type":"image | text",
+				"answer":"elizabeth",
+				"letters":"XZabeehilttvz" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 1,
+				"y": 5,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"What the mind of man can conceive and believe, the mind of man can ...- Napoleon hill",
+				"type":"image | text",
+				"answer":"achieve",
+				"letters":"FQaceeehivy" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 5,
+				"y": 4,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Shifting the emphasis of a beat to the normally weak beat.",
+				"type":"image | text",
+				"answer":"leather",
+				"letters":"FRSaeeehlrt" 
+				 },{
+				 
+				 "questionId:":4 ,
+				 "x": 7,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"A mix of ice and milk",
+				"type":"image | text",
+				"answer":"joker",
+				"letters":"ETYbejkor" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 6,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Job",
+				"type":"image | text",
+				"answer":"policeman",
+				"letters":"MYaceilmnnopq" 
+				 },{
+				 
+				 "questionId:":6 ,
+				 "x": 1,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Picture ..",
+				"type":"image | text",
+				"answer":"harley",
+				"letters":"JUaehlprxy" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 9,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"His job is to write the news",
+				"type":"image | text",
+				"answer":"nails",
+				"letters":"Gailnqsuz" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 3,
+				"y": 8,
+				"direction":"h",
+				"title":"Title here",
+				"content":"First country to win soccer world cup .",
+				"type":"image | text",
+				"answer":"uruguay",
+				"letters":"Pagjoruuuyy" 
+				 }
+				]
+			},{
+				"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"J. K. Rowling is a British novelist and screenwriter who, while delayed on a train, came up with the idea for the great novel series...",
+				"type":"image | text",
+				"answer":"harrypotter",
+				"letters":"MPaehopqrrrttty" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 8,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"First name",
+				"type":"image | text",
+				"answer":"tyrion",
+				"letters":"Zabcinorty" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 4,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Lost the WORLD WAR I and II",
+				"type":"image | text",
+				"answer":"brazil",
+				"letters":"Labilmrvzz" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 10,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Victory belongs to the most persevering - ...",
+				"type":"image | text",
+				"answer":"einstein",
+				"letters":"Eeeeiijnnstu" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 3,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Picture ..",
+				"type":"image | text",
+				"answer":"saxophone",
+				"letters":"aeghjnooppsxy" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 6,
+				"y": 7,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What the mind of man can conceive and believe, the mind of man can ...- Napoleon hill",
+				"type":"image | text",
+				"answer":"johncena",
+				"letters":"TZacehjnnoru" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 12,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"A mix of ice and milk",
+				"type":"image | text",
+				"answer":"chess",
+				"letters":"Wbcehkssx" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 10,
+				"y": 5,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"First country to win soccer world cup .",
+				"type":"image | text",
+				"answer":"tesla",
+				"letters":"DTaellmst" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 14,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Shifting the emphasis of a beat to the normally weak beat.",
+				"type":"image | text",
+				"answer":"koala",
+				"letters":"Paaklloqv" 
+				 }
+
+				]
+			},
+			{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"First name",
+				"type":"image | text",
+				"answer":"electricity",
+				"letters":"Vbcceeiiklqrtty" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 3,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What is the name for trees that never lose their leaves?",
+				"type":"image | text",
+				"answer":"evergreen",
+				"letters":"GOWaeeeegnrrv" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 2,
+				"y": 7,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"J. K. Rowling is a British novelist and screenwriter who, while delayed on a train, came up with the idea for the great novel series...",
+				"type":"image | text",
+				"answer":"lego",
+				"letters":"UYaefglo" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 1,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Lost the WORLD WAR I and II",
+				"type":"image | text",
+				"answer":"pinkpanther",
+				"letters":"IJMZaehiknnpprt" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 10,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What the mind of man can conceive and believe, the mind of man can ...- Napoleon hill",
+				"type":"image | text",
+				"answer":"titanic",
+				"letters":"Yaciinrttuz" 
+				 },{
+				 
+				 "questionId:":6 ,
+				 "x": 6,
+				"y": 5,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"A mix of ice and milk",
+				"type":"image | text",
+				"answer":"dominos",
+				"letters":"FMOdimnoost" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 4,
+				"y": 9,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Victory belongs to the most persevering - ...",
+				"type":"image | text",
+				"answer":"kobebryant",
+				"letters":"Qabbcdehknorty" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 8,
+				"y": 7,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Shifting the emphasis of a beat to the normally weak beat.",
+				"type":"image | text",
+				"answer":"jackson",
+				"letters":"Nacfijklnos" 
+				 },{
+				 
+				 "questionId:":9 ,
+				 "x": 14,
+				"y": 3,
+				"direction":"h",
+				"title":"Title here",
+				"content":"First country to win soccer world cup .",
+				"type":"image | text",
+				"answer":"japan",
+				"letters":"aahjlnpru" 
+				 }
+
+				]
+			},{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"J. K. Rowling is a British novelist and screenwriter who, while delayed on a train, came up with the idea for the great novel series...",
+				"type":"image | text",
+				"answer":"monalisa",
+				"letters":"BKYaailmnoos" 
+				 },{
+				 
+				 "questionId:":2 ,
+				 "x": 3,
+				"y": 2,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Victory belongs to the most persevering - ...",
+				"type":"image | text",
+				"answer":"fishing",
+				"letters":"effghiinstv" 
+				 },{
+				 
+				 "questionId:":3 ,
+				 "x": 3,
+				"y": 4,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Which of the traditional five senses are dolphins believed not to possess?",
+				"type":"image | text",
+				"answer":"smell",
+				"letters":"ANaellmst" 
+				 },{
+				 
+				 "questionId:":4 ,
+				 "x": 1,
+				"y": 7,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Shifting the emphasis of a beat to the normally weak beat.",
+				"type":"image | text",
+				"answer":"sleepy",
+				"letters":"KXeelmopsy" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 4,
+				"y": 4,
+				"direction":"h",
+				"title":"Title here",
+				"content":"First name",
+				"type":"image | text",
+				"answer":"mrbean",
+				"letters":"HKabefmnpr" 
+				 },{
+				 
+				 "questionId:":6 ,
+				 "x": 6,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"A mix of ice and milk",
+				"type":"image | text",
+				"answer":"hulk",
+				"letters":"SZahkluu" 
+				 },{
+				 
+				 "questionId:":7 ,
+				 "x": 4,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Lost the WORLD WAR I and II",
+				"type":"image | text",
+				"answer":"nivea",
+				"letters":"AHaaeinvx" 
+				 },{
+				 
+				 "questionId:":8 ,
+				 "x": 8,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":"First country to win soccer world cup .",
+				"type":"image | text",
+				"answer":"tomato",
+				"letters":"HHMaimoott" 
+				 }
+				]
+			},{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"the writer of romeo and juliet",
+				"type":"image | text",
+				"answer":"shakespeare",
+				"letters":"Oaaeeehkkprssww" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 2,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"there s no place like ....",
+				"type":"image | text",
+				"answer":"home",
+				"letters":"KMcehmor" 
+				 },{
+				 
+				 "questionId:":3 ,
+				 "x": 1,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Victory belongs to the most persevering - ...",
+				"type":"image | text",
+				"answer":"bmw",
+				"letters":"FJXbmwx" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 5,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Lost the WORLD WAR I and II",
+				"type":"image | text",
+				"answer":"edsheeran",
+				"letters":"AMaddeeeghnrs" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 2,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What the mind of man can conceive and believe, the mind of man can ...- Napoleon hill",
+				"type":"image | text",
+				"answer":"firefox",
+				"letters":"BBaeffioqrx" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 2,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"J. K. Rowling is a British novelist and screenwriter who, while delayed on a train, came up with the idea for the great novel series...",
+				"type":"image | text",
+				"answer":"ronaldo",
+				"letters":"JUaddilnoor" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 8,
+				"y": 3,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Shifting the emphasis of a beat to the normally weak beat.",
+				"type":"image | text",
+				"answer":"naruto",
+				"letters":"QUabnortuv" 
+				 },{
+				 
+				 "questionId:":8 ,
+				 "x": 1,
+				"y": 11,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"capital",
+				"type":"image | text",
+				"answer":"moscou",
+				"letters":"Obcmmooqsu" 
+				 },{
+				 
+				 "questionId:":9 ,
+				 "x": 11,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"First country to win soccer world cup .",
+				"type":"image | text",
+				"answer":"eye",
+				"letters":"CEeegny" 
+				 },{
+				 
+				 "questionId:":10 ,
+				 "x": 6,
+				"y": 10,
+				"direction":"h",
+				"title":"Title here",
+				"content":"A mix of ice and milk",
+				"type":"image | text",
+				"answer":"putin",
+				"letters":"PQXijnptu" 
+				 }
+				]
+
+			},
+			{
+				"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Lost the WORLD WAR I and II",
+				"type":"image | text",
+				"answer":"captainamerica",
+				"letters":"CRVaaaacceiiimnprt" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 3,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Shifting the emphasis of a beat to the normally weak beat.",
+				"type":"image | text",
+				"answer":"porsche",
+				"letters":"bcdehioprsu" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 6,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"First country to win soccer world cup .",
+				"type":"image | text",
+				"answer":"ironthrone",
+				"letters":"Wddefhinnoorrt" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 5,
+				"y": 4,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"the writer of romeo and juliet",
+				"type":"image | text",
+				"answer":"knitting",
+				"letters":"Yggiikknnttw" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 3,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Victory belongs to the most persevering - ...",
+				"type":"image | text",
+				"answer":"baseball",
+				"letters":"QVaabbelloqs" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 3,
+				"y": 10,
+				"direction":"h",
+				"title":"Title here",
+				"content":"there s no place like ....",
+				"type":"image | text",
+				"answer":"bigben",
+				"letters":"BCSVbbegin" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 8,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What the mind of man can conceive and believe, the mind of man can ...- Napoleon hill",
+				"type":"image | text",
+				"answer":"colgate",
+				"letters":"acegjlnotww" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 1,
+				"y": 14,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"A mix of ice and milk",
+				"type":"image | text",
+				"answer":"tree",
+				"letters":"BIWZeert" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 7,
+				"y": 12,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"capital",
+				"type":"image | text",
+				"answer":"merkel",
+				"letters":"UUWceeklmr" 
+				 },{
+				 
+				 "questionId:": 10,
+				 "x": 9,
+				"y": 12,
+				"direction":"h",
+				"title":"Title here",
+				"content":"The currency of RUSSIA",
+				"type":"image | text",
+				"answer":"ruble",
+				"letters":"IMbelpruz" 
+				 }
+
+				]
+
+			},{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"A mix of ice and milk",
+				"type":"image | text",
+				"answer":"carpenter",
+				"letters":"DUacceenpprrt" 
+				 },{
+				 
+				 "questionId:":2 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Lost the WORLD WAR I and II",
+				"type":"image | text",
+				"answer":"china",
+				"letters":"JOQachinw" 
+				 },{
+				 
+				 "questionId:":3 ,
+				 "x": 3,
+				"y": 4,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Shifting the emphasis of a beat to the normally weak beat.",
+				"type":"image | text",
+				"answer":"unicef",
+				"letters":"RVWcefinux" 
+				 },{
+				 
+				 "questionId:":4 ,
+				 "x": 1,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"What animal has the largest ears?",
+				"type":"image | text",
+				"answer":"elephant",
+				"letters":"Uaaeehllnptx" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 7,
+				"y": 3,
+				"direction":"h",
+				"title":"Title here",
+				"content":"there s no place like ....",
+				"type":"image | text",
+				"answer":"amazon",
+				"letters":"CVWaalmnoz" 
+				 },{
+				 
+				 "questionId:":6 ,
+				 "x": 6,
+				"y": 4,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Victory belongs to the most persevering - ...",
+				"type":"image | text",
+				"answer":"eminem",
+				"letters":"ETaeeimmnv" 
+				 },{
+				 
+				 "questionId:":7 ,
+				 "x": 5,
+				"y": 7,
+				"direction":"h",
+				"title":"Title here",
+				"content":"the writer of romeo and juliet",
+				"type":"image | text",
+				"answer":"chaplin",
+				"letters":"FFOacchilnp" 
+				 },{
+				 
+				 "questionId:":8 ,
+				 "x": 1,
+				"y": 12,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"The currency of RUSSIA",
+				"type":"image | text",
+				"answer":"spotify",
+				"letters":"CENfioopsty" 
+				 },{
+				 
+				 "questionId:":9 ,
+				 "x": 1,
+				"y": 12,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What the mind of man can conceive and believe, the mind of man can ...- Napoleon hill",
+				"type":"image | text",
+				"answer":"skin",
+				"letters":"Agiknrsy" 
+				 }
+				]
+
+			},
+
+			{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/pakistan.jpg",
+				"type":"image ",
+				"answer":"pakistan",
+				"letters":"Iaaiknppstxz" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 1,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/tyson.jpg",
+				"type":"image ",
+				"answer":"tyson",
+				"letters":"Cdnorstwy" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 4,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":"what is the animal that has three hearts?",
+				"type":"text",
+				"answer":"octopus",
+				"letters":"Ocgoopstuvy" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 2,
+				"y": 11,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/youtube.jpg",
+				"type":"image ",
+				"answer":"youtube",
+				"letters":"ENbennotuuy" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 6,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/cricket.jpg",
+				"type":"image ",
+				"answer":"cricket",
+				"letters":"KUVcceikmrt" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 8,
+				"y": 8,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/liberty.jpg",
+				"type":"image ",
+				"answer":"liberty",
+				"letters":"Xbeilprtuyz" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 11,
+				"y": 5,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Earth s highest mountain is mount ...",
+				"type":"text",
+				"answer":"everest",
+				"letters":"Ceeelqrstuv" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 11,
+				"y": 11,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/tire.jpg",
+				"type":"image ",
+				"answer":"tire",
+				"letters":"LMceirty" 
+				 }
+				]
+
+			},{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/windsurfing.jpg",
+				"type":"image ",
+				"answer":"windsurfing",
+				"letters":"Qdffgiinnrstuww" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 7,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/rollsroyce.jpg",
+				"type":"image ",
+				"answer":"rollsroyce",
+				"letters":"Pcdellloorrsxy" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 2,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"What is the official language in Hungary?",
+				"type":"text",
+				"answer":"hungarian",
+				"letters":"BIKaabghinnru" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 5,
+				"y": 4,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/wolverine.jpg",
+				"type":"image ",
+				"answer":"wolverine",
+				"letters":"Reeiilnorvwyz" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 3,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/rugby.jpg",
+				"type":"image ",
+				"answer":"rugby",
+				"letters":"JJKbgruuy" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 3,
+				"y": 11,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What is the official language of Chile?",
+				"type":"text",
+				"answer":"spanish",
+				"letters":"STadhinopss" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 5,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"you re in my spot - ...",
+				"type":"text",
+				"answer":"sheldon",
+				"letters":"HOVdehlnops" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 5,
+				"y": 10,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/smith.jpg",
+				"type":"image ",
+				"answer":"smith",
+				"letters":"VVghhimst" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 3,
+				"y": 12,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/philippines.jpg",
+				"type":"image ",
+				"answer":"philippines",
+				"letters":"GNehiiilnopppsu" 
+				 }
+				]
+			},{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/superman.jpg",
+				"type":"image ",
+				"answer":"superman",
+				"letters":"OPaekmnprssu" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 1,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"The pen is ... than the sword",
+				"type":"text",
+				"answer":"mightier",
+				"letters":"EUeghiimrtvv" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 6,
+				"y": 3,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/audi.jpg",
+				"type":"image ",
+				"answer":"audi",
+				"letters":"EJaddiuu" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 3,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"keep ... and play crosswords",
+				"type":"text",
+				"answer":"calm",
+				"letters":"ABPaclmr" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 8,
+				"y": 5,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/origami.jpg",
+				"type":"image ",
+				"answer":"origami",
+				"letters":"Cagiiimorsu" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 6,
+				"y": 8,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/mercury.jpg",
+				"type":"image ",
+				"answer":"mercury",
+				"letters":"MUceejmrruy" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 5,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"russian presidential building",
+				"type":"text",
+				"answer":"kremlin",
+				"letters":"DLOeiklmnpr" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 11,
+				"y": 8,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/arnold.jpg",
+				"type":"image ",
+				"answer":"arnold",
+				"letters":"KOWadlnnor" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 6,
+				"y": 14,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"the currency of china",
+				"type":"text",
+				"answer":"yuan",
+				"letters":"AJVanuvy" 
+				 },{
+				 
+				 "questionId:": 10,
+				 "x": 9,
+				"y": 14,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/nestle.jpg",
+				"type":"image ",
+				"answer":"nestle",
+				"letters":"XYeejlnnst" 
+				 },
+				{
+				 
+				 "questionId:":11 ,
+				 "x": 5,
+				"y": 19,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/coffee.jpg",
+				"type":"image ",
+				"answer":"coffee",
+				"letters":"DIceefforv" 
+				 }
+				]
+
+			},{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/burgerking.jpg",
+				"type":"image ",
+				"answer":"burgerking",
+				"letters":"Ubegghijknrruz" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 1,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"in its natural state; not yet processed or purified.",
+				"type":"text",
+				"answer":"raw",
+				"letters":"AAamqrw" 
+				 },{
+				 
+				 "questionId:":3 ,
+				 "x": 3,
+				"y": 3,
+				"direction":"h",
+				"title":"Title here",
+				"content":"a place where water flows over a vertical drop or a series of drops in the course of a stream or river.",
+				"type":"text",
+				"answer":"waterfall",
+				"letters":"LMQaaefkllrtw" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 1,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/gollum.jpg",
+				"type":"image ",
+				"answer":"gollum",
+				"letters":"Uagllmnotu" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 6,
+				"y": 10,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/mango.jpg",
+				"type":"image ",
+				"answer":"mango",
+				"letters":"CLaggmnou" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 3,
+				"y": 14,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/bacon.jpg",
+				"type":"image ",
+				"answer":"bacon",
+				"letters":"FOabcikno" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 4,
+				"y": 13,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Better ... than never",
+				"type":"text",
+				"answer":"late",
+				"letters":"CETaelnt" 
+				 },{
+				 
+				 "questionId:":8 ,
+				 "x": 6,
+				"y": 11,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/argentina.jpg",
+				"type":"image ",
+				"answer":"argentina",
+				"letters":"Paaeegiknnrtx" 
+				 },{
+				 
+				 "questionId:":9 ,
+				 "x": 14,
+				"y": 10,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/harvard.jpg",
+				"type":"image ",
+				"answer":"harvard",
+				"letters":"SVaabdfhrrv" 
+				 },{
+				 
+				 "questionId:":10 ,
+				 "x": 11,
+				"y": 16,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/jordan.jpg",
+				"type":"image ",
+				"answer":"jordan",
+				"letters":"TWadhjnorx" 
+				 },{
+				 
+				 "questionId:": 11,
+				 "x": 13,
+				"y": 14,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"joyful and delighted",
+				"type":"text",
+				"answer":"happy",
+				"letters":"Zahmppssy" 
+				 }
+				]
+			},{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/wonderwomen.jpg",
+				"type":"image ",
+				"answer":"wonderwomen",
+				"letters":"Iddeemnnooqrwwx" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/wendys.jpg",
+				"type":"image ",
+				"answer":"wendys",
+				"letters":"Xaddenoswy" 
+				 },{
+				 
+				 "questionId:":3 ,
+				 "x": 8,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/owl.jpg",
+				"type":"image ",
+				"answer":"owl",
+				"letters":"Kglloow" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 7,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/blackhole.jpg",
+				"type":"image ",
+				"answer":"blackhole",
+				"letters":"LWabcefhkllow" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 2,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"the temperature at which a liquid bubbles and turns to vapor.",
+				"type":"text",
+				"answer":"boil",
+				"letters":"Obiiilox" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 5,
+				"y": 8,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Birds of a feather ... together",
+				"type":"text",
+				"answer":"flock",
+				"letters":"QVbcfkloo" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 13,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/portugal.jpg",
+				"type":"image ",
+				"answer":"portugal",
+				"letters":"HYafgjloprtu" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 7,
+				"y": 8,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/pacific.jpg",
+				"type":"image ",
+				"answer":"pacific",
+				"letters":"ASaccfiipvw" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 7,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"A Navy and Coast Guard rank",
+				"type":"text",
+				"answer":"admiral",
+				"letters":"GMWaadgilmr" 
+				 },{
+				 
+				 "questionId:":10 ,
+				 "x": 9,
+				"y": 7,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/hammer.jpg",
+				"type":"image ",
+				"answer":"hammer",
+				"letters":"aabbdehmmr" 
+				 },{
+				 
+				 "questionId:":11 ,
+				 "x": 5,
+				"y": 11,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"What is the plural of the word crisis?",
+				"type":"text",
+				"answer":"crises",
+				"letters":"UXceeiirss" 
+				 }
+				]
+
+			},{"crosswordId" : 1,
+				 "width" : 14,
+				 "height" : 14,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/cadillac.jpg",
+				"type":"image ",
+				"answer":"cadillac",
+				"letters":"JPaaccdgijll" 
+				 },{
+				 
+				 "questionId:":2 ,
+				 "x": 1,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/denmark.jpg",
+				"type":"image ",
+				"answer":"denmark",
+				"letters":"Sabdekmnprs" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 6,
+				"y": 3,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/rihanna.jpg",
+				"type":"image ",
+				"answer":"rihanna",
+				"letters":"aabhimnnnrx" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 4,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/stalin.jpg",
+				"type":"image ",
+				"answer":"stalin",
+				"letters":"BDLNailnst" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 9,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"in which country is the nobel prize awarded?",
+				"type":"text",
+				"answer":"sweden",
+				"letters":"Edeelnssuw" 
+				 },{
+				 
+				 "questionId:":6 ,
+				 "x": 9,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/storm.jpg",
+				"type":"image ",
+				"answer":"storm",
+				"letters":"UWmnorstu" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 4,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"What is the largest animal currently on Earth?",
+				"type":"text",
+				"answer":"whale",
+				"letters":"JLYaehilw" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 4,
+				"y": 9,
+				"direction":"h",
+				"title":"Title here",
+				"content":"A picture is worth a thousand ...",
+				"type":"text",
+				"answer":"words",
+				"letters":"EGNdorswz" 
+				 },{
+				 
+				 "questionId:":9 ,
+				 "x": 9,
+				"y": 4,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/date.jpg",
+				"type":"image ",
+				"answer":"date",
+				"letters":"FUaadetw" 
+				 },{
+				 
+				 "questionId:":10 ,
+				 "x": 1,
+				"y": 12,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Au is the symbol for for what chemical element?",
+				"type":"text",
+				"answer":"gold",
+				"letters":"Vdglorwx" 
+				 },{
+				 
+				 "questionId:":11 ,
+				 "x": 11,
+				"y": 4,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/tajmahal.jpg",
+				"type":"image ",
+				"answer":"tajmahal",
+				"letters":"IKRTaaahjlmt" 
+					 }
+				]
+
+			},{"crosswordId" : 1,
+				 "width" : 17,
+				 "height" : 17,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/strawberry.jpg",
+				"type":"image ",
+				"answer":"strawberry",
+				"letters":"DJabeijrrrstwy" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 2,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/thor.jpg",
+				"type":"image ",
+				"answer":"thor",
+				"letters":"AAOchort" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 4,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":".... speak louder than words.",
+				"type":"text",
+				"answer":"actions",
+				"letters":"Eabcijnorst" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 6,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/bulldog.jpg",
+				"type":"image ",
+				"answer":"bulldog",
+				"letters":"Xbbbdgllouw" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 3,
+				"y": 5,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"daring, courageous and strong.",
+				"type":"text",
+				"answer":"bold",
+				"letters":"Aabdloqv" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 6,
+				"y": 7,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/ghandi.jpg",
+				"type":"image ",
+				"answer":"ghandi",
+				"letters":"Gadeefghin" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 3,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/hopkins.jpg",
+				"type":"image ",
+				"answer":"hopkins",
+				"letters":"Nchiklnopps" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 5,
+				"y": 8,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What planet in our solar system has the most gravity?",
+				"type":"text",
+				"answer":"jupiter",
+				"letters":"JXdeijprtuw" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 7,
+				"y": 7,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/hiking.jpg",
+				"type":"image ",
+				"answer":"hiking",
+				"letters":"ELNTghiikn" 
+				 },{
+				 
+				 "questionId:": 10,
+				 "x": 10,
+				"y": 5,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/fedex.jpg",
+				"type":"image ",
+				"answer":"fedex",
+				"letters":"ABbdeefrx" 
+				 },{
+				 
+				 "questionId:": 11,
+				 "x": 10,
+				"y": 5,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Which tennis player has won the most mens Grand Slam titles?",
+				"type":"text",
+				"answer":"federer",
+				"letters":"Gdeeefiknrr" 
+				 }
+
+				]
+
+			},{"crosswordId" : 1,
+				 "width" : 15,
+				 "height" : 15,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/timberlake.jpg",
+				"type":"image ",
+				"answer":"timberlake",
+				"letters":"NZZabeegiklmrt" 
+				 },{
+				 
+				 "questionId:":2 ,
+				 "x": 1,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/mini.jpg",
+				"type":"image ",
+				"answer":"mini",
+				"letters":"AQiiimnw" 
+				 },{
+				 
+				 "questionId:":3 ,
+				 "x": 1,
+				"y": 5,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"I have not failed. Ive just found 10,000 ways that wont work",
+				"type":"text",
+				"answer":"edison",
+				"letters":"PTdefinors" 
+				 },{
+				 
+				 "questionId:":4 ,
+				 "x": 6,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"If you cant beat them, .. them.",
+				"type":"text",
+				"answer":"join",
+				"letters":"Xcijnnor" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 4,
+				"y": 5,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/snail.jpg",
+				"type":"image ",
+				"answer":"snail",
+				"letters":"Taillmnss" 
+				 },{
+				 
+				 "questionId:":6 ,
+				 "x": 3,
+				"y": 7,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"the french empror who dagamed abu al-hawl s nose",
+				"type":"text",
+				"answer":"napoleon",
+				"letters":"CUWaellnnoop" 
+				 },{
+				 
+				 "questionId:":7 ,
+				 "x": 9,
+				"y": 2,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Who has won the most Olympic gold medals in history?",
+				"type":"text",
+				"answer":"philps",
+				"letters":"AXchilmpps" 
+				 },{
+				 
+				 "questionId:":8 ,
+				 "x": 10,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/hawking.jpg",
+				"type":"image ",
+				"answer":"hawking",
+				"letters":"PVaghiklnsw" 
+				 },{
+				 
+				 "questionId:":9 ,
+				 "x": 8,
+				"y": 5,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/vietnam.jpg",
+				"type":"image ",
+				"answer":"vietnam",
+				"letters":"QQadeimnstv" 
+				 },{
+				 
+				 "questionId:":10 ,
+				 "x": 6,
+				"y": 7,
+				"direction":"h",
+				"title":"Title here",
+				"content":"in the word (CEO) , the O stands for ..",
+				"type":"text",
+				"answer":"officer",
+				"letters":"BEMaceffior" 
+				 },{
+				 
+				 "questionId:":11 ,
+				 "x": 4,
+				"y": 11,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/nbc.jpg",
+				"type":"image ",
+				"answer":"nbc",
+				"letters":"JPbcnyz" 
+				 }
+				]
+
+			},{"crosswordId" : 1,
+			 "width" : 20,
+			 "height" : 20,
+			 "questions" : [
+			 {
+			 
+			 "questionId:": 1,
+			 "x": 1,
+			"y": 1,
+			"direction":"v", 
+			"title":"Title here",
+			"content":"../assets/images/mandela.jpg",
+			"type":"image ",
+			"answer":"mandela",
+			"letters":"UUaadelmnnt" 
+			 },{
+			 
+			 "questionId:":2 ,
+			 "x": 4,
+			"y": 1,
+			"direction":"h",
+			"title":"Title here",
+			"content":"who drew the mona lisa",
+			"type":"text",
+			"answer":"davinci",
+			"letters":"Oabcdiinvvw" 
+			 },{
+			 
+			 "questionId:":3 ,
+			 "x": 2,
+			"y": 3,
+			"direction":"h",
+			"title":"Title here",
+			"content":"../assets/images/guevara.jpg",
+			"type":"image ",
+			"answer":"guevara",
+			"letters":"CLTaaegruvz" 
+			 },{
+			 
+			 "questionId:": 4,
+			 "x": 2,
+			"y": 4,
+			"direction":"v", 
+			"title":"Title here",
+			"content":"../assets/images/unicorn.jpg",
+			"type":"image ",
+			"answer":"unicorn",
+			"letters":"FZcinnorrtu" 
+			 },{
+			 
+			 "questionId:":5 ,
+			 "x": 1,
+			"y": 5,
+			"direction":"v", 
+			"title":"Title here",
+			"content":"What is the chemical symbol for iron?",
+			"type":"text",
+			"answer":"fe",
+			"letters":"deffls" 
+			 },{
+			 
+			 "questionId:":6 ,
+			 "x": 6,
+			"y": 3,
+			"direction":"h",
+			"title":"Title here",
+			"content":"../assets/images/dobby.jpg",
+			"type":"image ",
+			"answer":"dobby",
+			"letters":"Xbbdfmory" 
+			 },{
+			 
+			 "questionId:":7 ,
+			 "x": 8,
+			"y": 2,
+			"direction":"h",
+			"title":"Title here",
+			"content":"../assets/images/london.jpg",
+			"type":"image ",
+			"answer":"london",
+			"letters":"HVdilnnoor" 
+			 },{
+			 
+			 "questionId:":8 ,
+			 "x": 8,
+			"y": 2,
+			"direction":"v", 
+			"title":"Title here",
+			"content":"A chain is only as strong as its weakest ...",
+			"type":"text",
+			"answer":"link",
+			"letters":"PYfiklnn" 
+			 },{
+			 
+			 "questionId:":9 ,
+			 "x": 8,
+			"y": 5,
+			"direction":"v", 
+			"title":"Title here",
+			"content":"../assets/images/drum.jpg",
+			"type":"text",
+			"answer":"drum",
+			"letters":"HIJdmruy" 
+			 },{
+			 
+			 "questionId:":10 ,
+			 "x": 8,
+			"y": 7,
+			"direction":"v", 
+			"title":"Title here",
+			"content":"../assets/images/nasa.jpg",
+			"type":"text",
+			"answer":"nasa",
+			"letters":"ARaansvz" 
+			 }
+			]
+
+			},{
+				"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/artichoke.jpg",
+				"type":"image ",
+				"answer":"artichoke",
+				"letters":"COaceehikorrt" 
+				 },{
+				 
+				 "questionId:":2 ,
+				 "x": 6,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"... is the best policy",
+				"type":"text",
+				"answer":"honesty",
+				"letters":"HRTehnoqsty" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 3,
+				"y": 4,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/spain.jpg",
+				"type":"image ",
+				"answer":"spain",
+				"letters":"Nafinprrs" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 3,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Highest-grossing film ever (not considering inflation) ",
+				"type":"text",
+				"answer":"avatar",
+				"letters":"UXaaarrtvx" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 1,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"the  natural movement of the air",
+				"type":"text",
+				"answer":"wind",
+				"letters":"DKdeinqw" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 6,
+				"y": 4,
+				"direction":"v", 
+				"title":"Title here",
+				"content":" impatient and hopeful",
+				"type":"text",
+				"answer":"eager",
+				"letters":"Wacdeeglr" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 10,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/corn.jpg",
+				"type":"image ",
+				"answer":"corn",
+				"letters":"BNcinory" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 8,
+				"y": 4,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/giraffe.jpg",
+				"type":"image ",
+				"answer":"giraffe",
+				"letters":"QTXaeffgirx" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 6,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Roquefort is a French blue cheese made from the milk of what animal?",
+				"type":"text",
+				"answer":"sheep",
+				"letters":"BLVceehps" 
+				 },{
+				 
+				 "questionId:": 10,
+				 "x": 6,
+				"y": 10,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/simba.jpg",
+				"type":"image ",
+				"answer":"simba",
+				"letters":"RYabhimsu" 
+				 },{
+				 
+				 "questionId:": 11,
+				 "x": 5,
+				"y": 14,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/hart.jpg",
+				"type":"image ",
+				"answer":"hart",
+				"letters":"BFUahlrt" 
+				 }
+
+				]
+
+			},{
+				"crosswordId" : 1,
+				 "width" : 14,
+				 "height" : 14,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":" when the Moon passes between Earth and the Sun",
+				"type":"text",
+				"answer":"eclipse",
+				"letters":"DHceeilmpsw" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 3,
+				"y": 3,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Shall I compare ... to a summers day- william shakespear",
+				"type":"text",
+				"answer":"thee",
+				"letters":"Geehpttw" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 1,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/shell.jpg",
+				"type":"image ",
+				"answer":"shell",
+				"letters":"Bdehllnsx" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 5,
+				"y": 5,
+				"direction":"h",
+				"title":"Title here",
+				"content":"each nation have one ",
+				"type":"text",
+				"answer":"flag",
+				"letters":"NOabfglw" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 8,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/monroe.jpg",
+				"type":"image ",
+				"answer":"monroe",
+				"letters":"DRTemnoorz" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 7,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"a device used for securing a door, gate, drawer or the like in position when closed",
+				"type":"text",
+				"answer":"lock",
+				"letters":"FKcikloy" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 5,
+				"y": 7,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/athena.jpg",
+				"type":"image ",
+				"answer":"athena",
+				"letters":"Aaaeehnttv" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 10,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/walnut.jpg",
+				"type":"image ",
+				"answer":"walnut",
+				"letters":"UVXalntuww" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 8,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Absence makes the heart grow ...",
+				"type":"text",
+				"answer":"fonder",
+				"letters":"BBdefnopry" 
+				 },{
+				 
+				 "questionId:": 10,
+				 "x": 8,
+				"y": 11,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/cat.jpg",
+				"type":"image ",
+				"answer":"cat",
+				"letters":"QXYacnt" 
+				 },{
+				 
+				 "questionId:": 11,
+				 "x": 13,
+				"y": 7,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/marx.jpg",
+				"type":"image ",
+				"answer":"marx",
+				"letters":"NXaemorx" 
+				 }
+				]
+			},{
+				"crosswordId" : 1,
+				 "width" : 14,
+				 "height" : 14,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/catapult.jpg",
+				"type":"image ",
+				"answer":"catapult",
+				"letters":"EIUVaaclpttu" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 2,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/android.jpg",
+				"type":"image ",
+				"answer":"android",
+				"letters":"FNYaddinoor" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 1,
+				"y": 5,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/pottery.jpg",
+				"type":"image ",
+				"answer":"pottery",
+				"letters":"aekopqrttty" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 5,
+				"y": 4,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What is the hottest planet in our solar system? ",
+				"type":"text",
+				"answer":"venus",
+				"letters":"Rdegnsuvw" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 8,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"In which South American country would you find the ancient Incan citadel Machu Picchu?",
+				"type":"text",
+				"answer":"thee",
+				"letters":"Eeeehptx" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 7,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"we spend one third of our lives on top of it",
+				"type":"text",
+				"answer":"bed",
+				"letters":"bdehoot" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 4,
+				"y": 7,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/judge.jpg",
+				"type":"image ",
+				"answer":"judge",
+				"letters":"DSdeggjux" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 8,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":"A metal disk made to commemorate an event or awarded as a distinction  ",
+				"type":"text",
+				"answer":"medal",
+				"letters":"CGKadeglm" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 8,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"Valletta is the capital of what Mediterranean country?",
+				"type":"text",
+				"answer":"malta",
+				"letters":"FGHaalmmt" 
+				 },{
+				 
+				 "questionId:": 10,
+				 "x": 6,
+				"y": 9,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/poker.jpg",
+				"type":"image ",
+				"answer":"poker",
+				"letters":"BCEekoprz" 
+				 },{
+				 
+				 "questionId:": 11,
+				 "x": 6,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/oil.jpg",
+				"type":"image ",
+				"answer":"oil",
+				"letters":"EKWilow" 
+				 }
+				]
+			},{
+				"crosswordId" : 1,
+				 "width" : 15,
+				 "height" : 15,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/pringles.jpg",
+				"type":"image ",
+				"answer":"pringles",
+				"letters":"JXeggilnprst" 
+				 },{
+				 
+				 "questionId:":2 ,
+				 "x": 3,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Lazy or inactive",
+				"type":"text",
+				"answer":"idle",
+				"letters":"APSdeikl" 
+				 },{
+				 
+				 "questionId:":3 ,
+				 "x": 8,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/shrimp.jpg",
+				"type":"image ",
+				"answer":"shrimp",
+				"letters":"Cehimprstw" 
+				 },{
+				 
+				 "questionId:":4 ,
+				 "x": 6,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"You can lead a ... to water, but you cant make him drink. -proverb",
+				"type":"text",
+				"answer":"horse",
+				"letters":"CVehmorsx" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 6,
+				"y": 3,
+				"direction":"h",
+				"title":"Title here",
+				"content":"crafted using hands",
+				"type":"text",
+				"answer":"handmade",
+				"letters":"CRaacddeghmn" 
+				 },{
+				 
+				 "questionId:":6 ,
+				 "x": 10,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":" What do we do to a chewing gum",
+				"type":"text",
+				"answer":"chew",
+				"letters":"JRTcehhw" 
+				 },{
+				 
+				 "questionId:":7 ,
+				 "x": 6,
+				"y": 5,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"it belongs to you, yet other people use it more often than you do ",
+				"type":"text",
+				"answer":"name",
+				"letters":"Raemnpsx" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 10,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/cow.jpg",
+				"type":"image ",
+				"answer":"cow",
+				"letters":"NPTcoqw" 
+				 },{
+				 
+				 "questionId:":9 ,
+				 "x": 2,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/kennedy.jpg",
+				"type":"image ",
+				"answer":"kennedy",
+				"letters":"Ydeegkknnwy" 
+				 },{
+				 
+				 "questionId:":10 ,
+				 "x": 4,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/trash.jpg",
+				"type":"image ",
+				"answer":"trash",
+				"letters":"AFZahorst" 
+				 },{
+				 
+				 "questionId:":11,
+				 "x": 7,
+				"y": 10,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/dubai.jpg",
+				"type":"image ",
+				"answer":"dubai",
+				"letters":"HKQabdiuy" 
+				 }
+
+				]
+			},{
+
+				"crosswordId" : 1,
+				 "width" : 15,
+				 "height" : 15,
+				 "questions" : [
+				 {
+				 
+				 "questionId:": 1,
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/dicaprio.jpg",
+				"type":"image ",
+				"answer":"dicaprio",
+				"letters":"Nacdiiikoprv" 
+				 },{
+				 
+				 "questionId:":2 ,
+				 "x": 3,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":" intelligent, smart or  sharp ",
+				"type":"text",
+				"answer":"clever",
+				"letters":"LQQceeklrv" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 2,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/peach.jpg",
+				"type":"image ",
+				"answer":"peach",
+				"letters":"AOZZacehp" 
+				 },{
+				 
+				 "questionId:":4 ,
+				 "x": 3,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/rome.jpg",
+				"type":"image ",
+				"answer":"rome",
+				"letters":"IJdeimor" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 5,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/minions.jpg",
+				"type":"image ",
+				"answer":"minions",
+				"letters":"LXfiimnnoss" 
+				 },{
+				 
+				 "questionId:":6 ,
+				 "x": 5,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"its better than GOD, worse than the devil, the poors have it, the rich need it, and if we eat it we die!",
+				"type":"text",
+				"answer":"nothing",
+				"letters":"TWghinnootv" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 9,
+				"y": 4,
+				"direction":"h",
+				"title":"Title here",
+				"content":"it holds us to the ground",
+				"type":"text",
+				"answer":"gravity",
+				"letters":"UZagiqrttvy" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 2,
+				"y": 11,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"what was the first planet to be discovered using the telescope?",
+				"type":"text",
+				"answer":"uranus",
+				"letters":"GSafnrsuuw" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 8,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/lacoste.jpg",
+				"type":"image ",
+				"answer":"lacoste",
+				"letters":"BQacejlosty" 
+				 },{
+				 
+				 "questionId:":10 ,
+				 "x": 7,
+				"y": 11,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/shy.jpg",
+				"type":"image ",
+				"answer":"shy",
+				"letters":"EIhnsxy" 
+				 },{
+				 
+				 "questionId:":11 ,
+				 "x": 13,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":" all the food that ends up eaten goes through it",
+				"type":"text",
+				"answer":"throat",
+				"letters":"Qahjorrttu" 
+				 }
+
+				]
+			},{
+
+				"crosswordId" : 1,
+				 "width" : 15,
+				 "height" : 15,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":" What city connects two continents?",
+				"type":"text",
+				"answer":"istanbul",
+				"letters":"Xaabilnopstu" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 1,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"a slender woody shoot growing from a branch or stem of a tree or shrub.",
+				"type":"text",
+				"answer":"twig",
+				"letters":"OSZgitww" 
+				 },{
+				 
+				 "questionId:": 3,
+				 "x": 3,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":" NABUCHODONOSOR, king of Babylone, write this in 4 letters ",
+				"type":"text",
+				"answer":"this",
+				"letters":"MVhiinst" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 1,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/book.jpg",
+				"type":"image ",
+				"answer":"book",
+				"letters":"HNbkoorr" 
+				 },{
+				 
+				 "questionId:": 5,
+				 "x": 4,
+				"y": 6,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/knapping.jpg",
+				"type":"image ",
+				"answer":"knapping",
+				"letters":"AMNagiklnnpp" 
+				 },{
+				 
+				 "questionId:": 6,
+				 "x": 3,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/mammoth.jpg",
+				"type":"image ",
+				"answer":"mammoth",
+				"letters":"BPRYahmmmot" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 7,
+				"y": 5,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/morocco.jpg",
+				"type":"image ",
+				"answer":"morocco",
+				"letters":"GSbcckmooor" 
+				 },{
+				 
+				 "questionId:": 8,
+				 "x": 6,
+				"y": 6,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"what is the middle name of the current supreme leader of North Korea?",
+				"type":"text",
+				"answer":"jong",
+				"letters":"Kfgjnott" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 7,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/currie.jpg",
+				"type":"image ",
+				"answer":"currie",
+				"letters":"Iceiiqrrsu" 
+				 },{
+				 
+				 "questionId:": 10,
+				 "x": 10,
+				"y": 9,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What is the currency of swedden?",
+				"type":"text",
+				"answer":"krona",
+				"letters":"WXYaknorw" 
+				 },{
+				 
+				 "questionId:": 11,
+				 "x": 12,
+				"y": 9,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/fennec.jpg",
+				"type":"image ",
+				"answer":"fennec",
+				"letters":"FLVceefmnn" 
+				 }
+				]
+			},{
+				"crosswordId" : 1,
+				 "width" : 15,
+				 "height" : 15,
+				 "questions" : [
+				 {
+				 
+				 "questionId:":1 ,
+				 "x": 1,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"What was the largest island in the world before discovering Australia?",
+				"type":"text",
+				"answer":"australia",
+				"letters":"Gaaaijklrrstu" 
+				 },{
+				 
+				 "questionId:": 2,
+				 "x": 3,
+				"y": 4,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/erdogan.jpg",
+				"type":"image ",
+				"answer":"erdogan",
+				"letters":"Wadeeglnorv" 
+				 },{
+				 
+				 "questionId:":3 ,
+				 "x": 3,
+				"y": 4,
+				"direction":"v", 
+				"title":"Title here",
+				"content":" A penny saved is a penny ...",
+				"type":"text",
+				"answer":"earned",
+				"letters":"EJadeejnpr" 
+				 },{
+				 
+				 "questionId:": 4,
+				 "x": 7,
+				"y": 2,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"What is the name of the boy in the Jungle Book?",
+				"type":"text",
+				"answer":"mowgli",
+				"letters":"QYgillmoww" 
+				 },{
+				 
+				 "questionId:":5 ,
+				 "x": 1,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/atari.jpg",
+				"type":"image ",
+				"answer":"atari",
+				"letters":"BLSaairtt" 
+				 },{
+				 
+				 "questionId:":6 ,
+				 "x": 10,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/greece.jpg",
+				"type":"image ",
+				"answer":"greece",
+				"letters":"MXYceeegnr" 
+				 },{
+				 
+				 "questionId:": 7,
+				 "x": 5,
+				"y": 8,
+				"direction":"h",
+				"title":"Title here",
+				"content":"the organ that filters blood",
+				"type":"text",
+				"answer":"kidneys",
+				"letters":"DNXdefiknsy" 
+				 },{
+				 
+				 "questionId:":8 ,
+				 "x": 3,
+				"y": 12,
+				"direction":"v", 
+				"title":"Title here",
+				"content":" What type of food is manchego?",
+				"type":"text",
+				"answer":"cheese",
+				"letters":"HZaceeehsu" 
+				 },{
+				 
+				 "questionId:": 9,
+				 "x": 8,
+				"y": 7,
+				"direction":"h",
+				"title":"Title here",
+				"content":"../assets/images/popeye.jpg",
+				"type":"image ",
+				"answer":"popeye",
+				"letters":"Peehoppxxy" 
+				 },{
+				 
+				 "questionId:":10 ,
+				 "x": 8,
+				"y": 7,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/phelps.jpg",
+				"type":"image ",
+				"answer":"phelps",
+				"letters":"AWefhklpps" 
+				 },{
+				 
+				 "questionId:": 11,
+				 "x": 2,
+				"y": 14,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"../assets/images/parsley.jpg",
+				"type":"image ",
+				"answer":"parsley",
+				"letters":"OVaeeglprsy" 
+				 }]
 			}
 		]
 	},
