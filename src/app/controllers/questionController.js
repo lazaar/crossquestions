@@ -66,7 +66,7 @@
         };
 
         var checkAnswer = function(){
-            if(_.map(vm.answer, 'content').join('') === vm.question.answer){
+            if(_.map(vm.answer, 'content').join('').toLowerCase() === vm.question.answer.toLowerCase()){
                 correctionService.saveQuestions(questionId);
                 cwService.correctQuestion(questionId);
 
