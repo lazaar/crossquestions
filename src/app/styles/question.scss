@@ -41,9 +41,9 @@
 	    .img{
 		    height: 100%;
 		    width: 100%;
-		    background-size: cover;
+		    background-size: contain;
 		    &.contain{
-		    	background-size: contain;
+		    	background-size: cover;
 		    }
 	    }
 	}
