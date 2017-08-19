@@ -30,7 +30,7 @@
 						"y":2,
 						"direction":"v",
 						"title":"Logo",
-						"content":"assets/images/FORD.png",
+						"content":"assets/images/content/FORD.png",
 						"type":"image",
 						"answer":"FORD",
 						"letters":"FESOERBD"
@@ -39,7 +39,7 @@
 						"y":4,
 						"direction":"h",
 						"title":"Zoom In",
-						"content":"assets/images/orange.png",
+						"content":"assets/images/content/orange.png",
 						"type":"image",
 						"answer":"ORANGE",
 						"letters":"MANOORSZKPEW"
@@ -56,7 +56,7 @@
 						"y":1,
 						"direction":"h",
 						"title":"Car Brand",
-						"content":"assets/images/mercedes.png",
+						"content":"assets/images/content/mercedes.png",
 						"type":"image",
 						"answer":"MERCEDES",
 						"letters":"DAEECMSZRFSE"
@@ -65,7 +65,7 @@
 						"y":4,
 						"direction":"v",
 						"title":"What Country ?",
-						"content":"assets/images/france.png",
+						"content":"assets/images/content/france.png",
 						"type":"image",
 						"answer":"FRANCE",
 						"letters":"NAROFSCPEW"
@@ -74,7 +74,7 @@
 						"y":6,
 						"direction":"v",
 						"title":"Title here",
-						"content":"assets/images/dettol.png",
+						"content":"assets/images/content/dettol.png",
 						"type":"image",
 						"answer":"DETTOL",
 						"letters":"DETTOL"
@@ -101,7 +101,7 @@
 						"y":12,
 						"direction":"v",
 						"title":"iron",
-						"content":"assets/images/ironman.png",
+						"content":"assets/images/content/ironman.png",
 						"type":"image",
 						"answer":"IRONMAN",
 						"letters":"IRONMAN"
@@ -126,7 +126,7 @@
 						"y":0,
 						"direction":"v",
 						"title":"Title here",
-						"content":"assets/images/support.png",
+						"content":"assets/images/content/support.png",
 						"type":"image",
 						"answer":"SUPPORT",
 						"letters":"SUPPORT"
@@ -135,7 +135,7 @@
 						"y":0,
 						"direction":"h",
 						"title":"one word",
-						"content":"assets/images/Peace.png",
+						"content":"assets/images/content/Peace.png",
 						"type":"image",
 						"answer":"PEACE",
 						"letters":"PEACE"
@@ -144,7 +144,7 @@
 						"y":0,
 						"direction":"h",
 						"title":"Animal",
-						"content":"assets/images/rhino.png",
+						"content":"assets/images/content/rhino.png",
 						"type":"image",
 						"answer":"RHINOCEROS",
 						"letters":"RHINOCEROS"
@@ -153,7 +153,7 @@
 						"y":2,
 						"direction":"h",
 						"title":"Title here",
-						"content":"assets/images/odd.png",
+						"content":"assets/images/content/odd.png",
 						"type":"image",
 						"answer":"ODD",
 						"letters":"ODD"
@@ -162,7 +162,7 @@
 						"y":2,
 						"direction":"v",
 						"title":"Title here",
-						"content":"assets/images/obama.png",
+						"content":"assets/images/content/obama.png",
 						"type":"image",
 						"answer":"OBAMA",
 						"letters":"OBAMA"
@@ -171,7 +171,7 @@
 						"y":2,
 						"direction":"h",
 						"title":"Title here",
-						"content":"assets/images/amnesty.png",
+						"content":"assets/images/content/amnesty.png",
 						"type":"image",
 						"answer":"AMNESTY",
 						"letters":"AMNESTY"
@@ -222,7 +222,7 @@
 				"y": 4,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/erdogan.jpg",
+				"content":"assets/images/content/erdogan.jpg",
 				"type":"image",
 				"answer":"erdogan",
 				"letters":"Wadeeglnorv" 
@@ -252,7 +252,7 @@
 				"y": 9,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/atari.jpg",
+				"content":"assets/images/content/atari.jpg",
 				"type":"image",
 				"answer":"atari",
 				"letters":"BLSaairtt" 
@@ -262,7 +262,7 @@
 				"y": 2,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/greece.jpg",
+				"content":"assets/images/content/greece.jpg",
 				"type":"image",
 				"answer":"greece",
 				"letters":"MXYceeegnr" 
@@ -292,7 +292,7 @@
 				"y": 7,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/popeye.jpg",
+				"content":"assets/images/content/popeye.jpg",
 				"type":"image",
 				"answer":"popeye",
 				"letters":"Peehoppxxy" 
@@ -302,7 +302,7 @@
 				"y": 7,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/phelps.jpg",
+				"content":"assets/images/content/phelps.jpg",
 				"type":"image",
 				"answer":"phelps",
 				"letters":"AWefhklpps" 
@@ -312,7 +312,7 @@
 				"y": 14,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/parsley.jpg",
+				"content":"assets/images/content/parsley.jpg",
 				"type":"image",
 				"answer":"parsley",
 				"letters":"OVaeeglprsy" 
@@ -351,7 +351,7 @@
 				"y": 6,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/shell.jpg",
+				"content":"assets/images/content/shell.jpg",
 				"type":"image",
 				"answer":"shell",
 				"letters":"Bdehllnsx" 
@@ -371,7 +371,7 @@
 				"y": 2,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/monroe.jpg",
+				"content":"assets/images/content/monroe.jpg",
 				"type":"image",
 				"answer":"monroe",
 				"letters":"DRTemnoorz" 
@@ -391,7 +391,7 @@
 				"y": 7,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/athena.jpg",
+				"content":"assets/images/content/athena.jpg",
 				"type":"image",
 				"answer":"athena",
 				"letters":"Aaaeehnttv" 
@@ -401,7 +401,7 @@
 				"y": 6,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/walnut.jpg",
+				"content":"assets/images/content/walnut.jpg",
 				"type":"image",
 				"answer":"walnut",
 				"letters":"UVXalntuww" 
@@ -421,7 +421,7 @@
 				"y": 11,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/cat.jpg",
+				"content":"assets/images/content/cat.jpg",
 				"type":"image",
 				"answer":"cat",
 				"letters":"QXYacnt" 
@@ -431,7 +431,7 @@
 				"y": 7,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/marx.jpg",
+				"content":"assets/images/content/marx.jpg",
 				"type":"image",
 				"answer":"marx",
 				"letters":"NXaemorx" 
@@ -447,7 +447,7 @@
 			"y": 1,
 			"direction":"v", 
 			"title":"Title here",
-			"content":"assets/images/mandela.jpg",
+			"content":"assets/images/content/mandela.jpg",
 			"type":"image",
 			"answer":"mandela",
 			"letters":"UUaadelmnnt" 
@@ -467,7 +467,7 @@
 			"y": 3,
 			"direction":"h",
 			"title":"Title here",
-			"content":"assets/images/guevara.jpg",
+			"content":"assets/images/content/guevara.jpg",
 			"type":"image",
 			"answer":"guevara",
 			"letters":"CLTaaegruvz" 
@@ -477,7 +477,7 @@
 			"y": 4,
 			"direction":"v", 
 			"title":"Title here",
-			"content":"assets/images/unicorn.jpg",
+			"content":"assets/images/content/unicorn.jpg",
 			"type":"image",
 			"answer":"unicorn",
 			"letters":"FZcinnorrtu" 
@@ -497,7 +497,7 @@
 			"y": 3,
 			"direction":"h",
 			"title":"Title here",
-			"content":"assets/images/dobby.jpg",
+			"content":"assets/images/content/dobby.jpg",
 			"type":"image",
 			"answer":"dobby",
 			"letters":"Xbbdfmory" 
@@ -507,7 +507,7 @@
 			"y": 2,
 			"direction":"h",
 			"title":"Title here",
-			"content":"assets/images/london.jpg",
+			"content":"assets/images/content/london.jpg",
 			"type":"image",
 			"answer":"london",
 			"letters":"HVdilnnoor" 
@@ -527,7 +527,7 @@
 			"y": 5,
 			"direction":"v", 
 			"title":"Title here",
-			"content":"assets/images/drum.jpg",
+			"content":"assets/images/content/drum.jpg",
 			"type":"image",
 			"answer":"drum",
 			"letters":"HIJdmruy" 
@@ -537,7 +537,7 @@
 			"y": 7,
 			"direction":"v", 
 			"title":"Title here",
-			"content":"assets/images/nasa.jpg",
+			"content":"assets/images/content/nasa.jpg",
 			"type":"image",
 			"answer":"nasa",
 			"letters":"ARaansvz" 
@@ -564,7 +564,7 @@
 					"y": 3,
 					"direction":"v", 
 					"title":"Title here",
-					"content":"assets/images/ronaldinho.png",
+					"content":"assets/images/content/ronaldinho.png",
 					"type":"image",
 					"answer":"ronaldinho",
 					"letters":"HLadhhilnnoorx" 
@@ -574,7 +574,7 @@
 					"y": 1,
 					"direction":"v", 
 					"title":"Title here",
-					"content":"assets/images/whatsapp.png",
+					"content":"assets/images/content/whatsapp.png",
 					"type":"image",
 					"answer":"whatsapp",
 					"letters":"BHXaahppsstw" 
@@ -594,7 +594,7 @@
 					"y": 6,
 					"direction":"v", 
 					"title":"Title here",
-					"content":"assets/images/microsoft.png",
+					"content":"assets/images/content/microsoft.png",
 					"type":"image",
 					"answer":"microsoft",
 					"letters":"Lccfimmooprst" 
@@ -604,7 +604,7 @@
 					"y": 6,
 					"direction":"h",
 					"title":"Title here",
-					"content":"assets/images/cocacola.png",
+					"content":"assets/images/content/cocacola.png",
 					"type":"image",
 					"answer":"cocacola",
 					"letters":"DMWaacccloot" 
@@ -614,7 +614,7 @@
 					"y": 13,
 					"direction":"v", 
 					"title":"Title here",
-					"content":"assets/images/camping.jpg",
+					"content":"assets/images/content/camping.jpg",
 					"type":"image",
 					"answer":"camping",
 					"letters":"AIOacghimnp" 
@@ -624,7 +624,7 @@
 					"y": 10,
 					"direction":"h",
 					"title":"city",
-					"content":"assets/images/paris.png",
+					"content":"assets/images/content/paris.png",
 					"type":"image",
 					"answer":"paris",
 					"letters":"KWaaiprst" 
@@ -641,7 +641,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/Elizabeth.jpg",
+				"content":"assets/images/content/Elizabeth.jpg",
 				"type":"image",
 				"answer":"elizabeth",
 				"letters":"XZabeehilttvz" 
@@ -661,7 +661,7 @@
 				"y": 4,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/leather.jpg",
+				"content":"assets/images/content/leather.jpg",
 				"type":"image",
 				"answer":"leather",
 				"letters":"FRSaeeehlrt" 
@@ -671,7 +671,7 @@
 				"y": 2,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/Jocker.png",
+				"content":"assets/images/content/Jocker.png",
 				"type":"image",
 				"answer":"joker",
 				"letters":"ETYbejkcor" 
@@ -681,7 +681,7 @@
 				"y": 3,
 				"direction":"v", 
 				"title":"job",
-				"content":"assets/images/policeman.png",
+				"content":"assets/images/content/policeman.png",
 				"type":"image",
 				"answer":"policeman",
 				"letters":"MYaceilmnnopq" 
@@ -691,7 +691,7 @@
 				"y": 9,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/harley.png",
+				"content":"assets/images/content/harley.png",
 				"type":"image",
 				"answer":"harley",
 				"letters":"JUaehlprxy" 
@@ -701,7 +701,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/nails.png",
+				"content":"assets/images/content/nails.png",
 				"type":"image",
 				"answer":"nails",
 				"letters":"Gailnqsuz" 
@@ -738,7 +738,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/tyrion.png",
+				"content":"assets/images/content/tyrion.png",
 				"type":"image",
 				"answer":"tyrion",
 				"letters":"Zabcinorty" 
@@ -748,7 +748,7 @@
 				"y": 6,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/brazil.png",
+				"content":"assets/images/content/brazil.png",
 				"type":"image",
 				"answer":"brazil",
 				"letters":"Labilmrvzz" 
@@ -758,7 +758,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/einstein.png",
+				"content":"assets/images/content/einstein.png",
 				"type":"image",
 				"answer":"einstein",
 				"letters":"Eeeeiijnnstu" 
@@ -768,7 +768,7 @@
 				"y": 8,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/saxophone.png",
+				"content":"assets/images/content/saxophone.png",
 				"type":"image",
 				"answer":"saxophone",
 				"letters":"aeghjnooppsxy" 
@@ -778,7 +778,7 @@
 				"y": 7,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/johncena.png",
+				"content":"assets/images/content/johncena.png",
 				"type":"image",
 				"answer":"johncena",
 				"letters":"TZacehjnnoru" 
@@ -788,7 +788,7 @@
 				"y": 2,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/chess.png",
+				"content":"assets/images/content/chess.png",
 				"type":"image",
 				"answer":"chess",
 				"letters":"Wbcehkssx" 
@@ -798,7 +798,7 @@
 				"y": 5,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/tesla.png",
+				"content":"assets/images/content/tesla.png",
 				"type":"image",
 				"answer":"tesla",
 				"letters":"DTaellmst" 
@@ -808,7 +808,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/koala.png",
+				"content":"assets/images/content/koala.png",
 				"type":"image",
 				"answer":"koala",
 				"letters":"Paaklloqv" 
@@ -826,7 +826,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/electricity.png",
+				"content":"assets/images/content/electricity.png",
 				"type":"image",
 				"answer":"electricity",
 				"letters":"Vbcceeiiklqrtty" 
@@ -846,7 +846,7 @@
 				"y": 7,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/lego.png",
+				"content":"assets/images/content/lego.png",
 				"type":"image",
 				"answer":"lego",
 				"letters":"UYaefglo" 
@@ -856,7 +856,7 @@
 				"y": 9,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/pinkpanther.png",
+				"content":"assets/images/content/pinkpanther.png",
 				"type":"image",
 				"answer":"pinkpanther",
 				"letters":"IJMZaehiknnpprt" 
@@ -866,7 +866,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/titanic.png",
+				"content":"assets/images/content/titanic.png",
 				"type":"image",
 				"answer":"titanic",
 				"letters":"Yaciinrttuz" 
@@ -876,7 +876,7 @@
 				"y": 5,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/dominos.png",
+				"content":"assets/images/content/dominos.png",
 				"type":"image",
 				"answer":"dominos",
 				"letters":"FMOdimnoost" 
@@ -886,7 +886,7 @@
 				"y": 9,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/kobebryant.png",
+				"content":"assets/images/content/kobebryant.png",
 				"type":"image",
 				"answer":"kobebryant",
 				"letters":"Qabbcdehknorty" 
@@ -896,7 +896,7 @@
 				"y": 7,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/jackson.png",
+				"content":"assets/images/content/jackson.png",
 				"type":"image",
 				"answer":"jackson",
 				"letters":"Nacfijklnos" 
@@ -906,7 +906,7 @@
 				"y": 3,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/japan.png",
+				"content":"assets/images/content/japan.png",
 				"type":"image",
 				"answer":"japan",
 				"letters":"aahjlnpru" 
@@ -923,7 +923,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/monalisa.png",
+				"content":"assets/images/content/monalisa.png",
 				"type":"image",
 				"answer":"monalisa",
 				"letters":"BKYaailmnoos" 
@@ -933,7 +933,7 @@
 				"y": 2,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/fishing.png",
+				"content":"assets/images/content/fishing.png",
 				"type":"image",
 				"answer":"fishing",
 				"letters":"effghiinstv" 
@@ -953,7 +953,7 @@
 				"y": 7,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/sleepy.png",
+				"content":"assets/images/content/sleepy.png",
 				"type":"image",
 				"answer":"sleepy",
 				"letters":"KXeelmopsy" 
@@ -963,7 +963,7 @@
 				"y": 4,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/mrbean.png",
+				"content":"assets/images/content/mrbean.png",
 				"type":"image",
 				"answer":"mrbean",
 				"letters":"HKabefmnpr" 
@@ -973,7 +973,7 @@
 				"y": 2,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/hulk.png",
+				"content":"assets/images/content/hulk.png",
 				"type":"image",
 				"answer":"hulk",
 				"letters":"SZahkluu" 
@@ -983,7 +983,7 @@
 				"y": 9,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/nivea.png",
+				"content":"assets/images/content/nivea.png",
 				"type":"image",
 				"answer":"nivea",
 				"letters":"AHaaeinvx" 
@@ -993,7 +993,7 @@
 				"y": 6,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/tomato.png",
+				"content":"assets/images/content/tomato.png",
 				"type":"image",
 				"answer":"tomato",
 				"letters":"HHMaimoott" 
@@ -1029,7 +1029,7 @@
 				"y": 3,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/bmw.png",
+				"content":"assets/images/content/bmw.png",
 				"type":"image",
 				"answer":"bmw",
 				"letters":"FJXbmwx" 
@@ -1039,7 +1039,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/edsheeran.png",
+				"content":"assets/images/content/edsheeran.png",
 				"type":"image",
 				"answer":"edsheeran",
 				"letters":"AMaddeeeghnrs" 
@@ -1049,7 +1049,7 @@
 				"y": 6,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/firefox.png",
+				"content":"assets/images/content/firefox.png",
 				"type":"image",
 				"answer":"firefox",
 				"letters":"BBaeffioqrx" 
@@ -1059,7 +1059,7 @@
 				"y": 8,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/ronaldo.png",
+				"content":"assets/images/content/ronaldo.png",
 				"type":"image",
 				"answer":"ronaldo",
 				"letters":"JUaddilnoor" 
@@ -1069,7 +1069,7 @@
 				"y": 3,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/naruto.png",
+				"content":"assets/images/content/naruto.png",
 				"type":"image",
 				"answer":"naruto",
 				"letters":"QUabnortuv" 
@@ -1079,7 +1079,7 @@
 				"y": 11,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/moscou.png",
+				"content":"assets/images/content/moscou.png",
 				"type":"image",
 				"answer":"moscou",
 				"letters":"Obcmmooqsu" 
@@ -1089,7 +1089,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/eye.png",
+				"content":"assets/images/content/eye.png",
 				"type":"image",
 				"answer":"eye",
 				"letters":"CEeegny" 
@@ -1099,7 +1099,7 @@
 				"y": 10,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/putin.png",
+				"content":"assets/images/content/putin.png",
 				"type":"image",
 				"answer":"putin",
 				"letters":"PQXijnptu" 
@@ -1118,7 +1118,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/captainamerica.png",
+				"content":"assets/images/content/captainamerica.png",
 				"type":"image",
 				"answer":"captainamerica",
 				"letters":"CRVaaaacceiiimnprt" 
@@ -1128,7 +1128,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/porsche.png",
+				"content":"assets/images/content/porsche.png",
 				"type":"image",
 				"answer":"porsche",
 				"letters":"bcdehioprsu" 
@@ -1138,7 +1138,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/ironthrone.png",
+				"content":"assets/images/content/ironthrone.png",
 				"type":"image",
 				"answer":"ironthrone",
 				"letters":"Wddefhinnoorrt" 
@@ -1148,7 +1148,7 @@
 				"y": 4,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/knitting.png",
+				"content":"assets/images/content/knitting.png",
 				"type":"image",
 				"answer":"knitting",
 				"letters":"Yggiikknnttw" 
@@ -1158,7 +1158,7 @@
 				"y": 10,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/baseball.png",
+				"content":"assets/images/content/baseball.png",
 				"type":"image",
 				"answer":"baseball",
 				"letters":"QVaabbelloqs" 
@@ -1168,7 +1168,7 @@
 				"y": 10,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/bigben.png",
+				"content":"assets/images/content/bigben.png",
 				"type":"image",
 				"answer":"bigben",
 				"letters":"BCSVbbegin" 
@@ -1178,7 +1178,7 @@
 				"y": 6,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/colgate.png",
+				"content":"assets/images/content/colgate.png",
 				"type":"image",
 				"answer":"colgate",
 				"letters":"acegjlnotww" 
@@ -1188,7 +1188,7 @@
 				"y": 14,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/tree",
+				"content":"assets/images/content/tree",
 				"type":"image",
 				"answer":"tree",
 				"letters":"BIWZeert" 
@@ -1198,7 +1198,7 @@
 				"y": 12,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/merkel.png",
+				"content":"assets/images/content/merkel.png",
 				"type":"image",
 				"answer":"merkel",
 				"letters":"UUWceeklmr" 
@@ -1226,7 +1226,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/carpenter.png",
+				"content":"assets/images/content/carpenter.png",
 				"type":"image",
 				"answer":"carpenter",
 				"letters":"DUacceenpprrt" 
@@ -1236,7 +1236,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/china",
+				"content":"assets/images/content/china",
 				"type":"image",
 				"answer":"china",
 				"letters":"JOQachinw" 
@@ -1246,7 +1246,7 @@
 				"y": 4,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/unicef",
+				"content":"assets/images/content/unicef",
 				"type":"image",
 				"answer":"unicef",
 				"letters":"RVWcefinux" 
@@ -1266,7 +1266,7 @@
 				"y": 3,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/amazon.png",
+				"content":"assets/images/content/amazon.png",
 				"type":"image",
 				"answer":"amazon",
 				"letters":"CVWaalmnoz" 
@@ -1276,7 +1276,7 @@
 				"y": 4,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/chaplin",
+				"content":"assets/images/content/chaplin",
 				"type":"image",
 				"answer":"eminem",
 				"letters":"ETaeeimmnv" 
@@ -1286,7 +1286,7 @@
 				"y": 7,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/chaplin.png",
+				"content":"assets/images/content/chaplin.png",
 				"type":"image",
 				"answer":"chaplin",
 				"letters":"FFOacchilnp" 
@@ -1296,7 +1296,7 @@
 				"y": 12,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/spotify.png",
+				"content":"assets/images/content/spotify.png",
 				"type":"image",
 				"answer":"spotify",
 				"letters":"CENfioopsty" 
@@ -1306,7 +1306,7 @@
 				"y": 12,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/skin.png",
+				"content":"assets/images/content/skin.png",
 				"type":"image",
 				"answer":"skin",
 				"letters":"Agiknrsy" 
@@ -1325,7 +1325,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/pakistan.jpg",
+				"content":"assets/images/content/pakistan.jpg",
 				"type":"image",
 				"answer":"pakistan",
 				"letters":"Iaaiknppstxz" 
@@ -1335,7 +1335,7 @@
 				"y": 6,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/tyson.jpg",
+				"content":"assets/images/content/tyson.jpg",
 				"type":"image",
 				"answer":"tyson",
 				"letters":"Cdnorstwy" 
@@ -1355,7 +1355,7 @@
 				"y": 11,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/youtube.jpg",
+				"content":"assets/images/content/youtube.jpg",
 				"type":"image",
 				"answer":"youtube",
 				"letters":"ENbennotuuy" 
@@ -1365,7 +1365,7 @@
 				"y": 9,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/cricket.jpg",
+				"content":"assets/images/content/cricket.jpg",
 				"type":"image",
 				"answer":"cricket",
 				"letters":"KUVcceikmrt" 
@@ -1375,7 +1375,7 @@
 				"y": 8,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/liberty.jpg",
+				"content":"assets/images/content/liberty.jpg",
 				"type":"image",
 				"answer":"liberty",
 				"letters":"Xbeilprtuyz" 
@@ -1395,7 +1395,7 @@
 				"y": 11,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/tire.jpg",
+				"content":"assets/images/content/tire.jpg",
 				"type":"image",
 				"answer":"tire",
 				"letters":"LMceirty" 
@@ -1412,7 +1412,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/windsurfing.jpg",
+				"content":"assets/images/content/windsurfing.jpg",
 				"type":"image",
 				"answer":"windsurfing",
 				"letters":"Qdffgiinnrstuww" 
@@ -1422,7 +1422,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/rollsroyce.jpg",
+				"content":"assets/images/content/rollsroyce.jpg",
 				"type":"image",
 				"answer":"rollsroyce",
 				"letters":"Pcdellloorrsxy" 
@@ -1442,7 +1442,7 @@
 				"y": 4,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/wolverine.jpg",
+				"content":"assets/images/content/wolverine.jpg",
 				"type":"image",
 				"answer":"wolverine",
 				"letters":"Reeiilnorvwyz" 
@@ -1452,7 +1452,7 @@
 				"y": 8,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/rugby.jpg",
+				"content":"assets/images/content/rugby.jpg",
 				"type":"image",
 				"answer":"rugby",
 				"letters":"JJKbgruuy" 
@@ -1482,7 +1482,7 @@
 				"y": 10,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/smith.jpg",
+				"content":"assets/images/content/smith.jpg",
 				"type":"image",
 				"answer":"smith",
 				"letters":"VVghhimst" 
@@ -1492,7 +1492,7 @@
 				"y": 12,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/philippines.jpg",
+				"content":"assets/images/content/philippines.jpg",
 				"type":"image",
 				"answer":"philippines",
 				"letters":"GNehiiilnopppsu" 
@@ -1508,7 +1508,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/superman.jpg",
+				"content":"assets/images/content/superman.jpg",
 				"type":"image",
 				"answer":"superman",
 				"letters":"OPaekmnprssu" 
@@ -1528,7 +1528,7 @@
 				"y": 3,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/audi.jpg",
+				"content":"assets/images/content/audi.jpg",
 				"type":"image",
 				"answer":"audi",
 				"letters":"EJaddiuu" 
@@ -1548,7 +1548,7 @@
 				"y": 5,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/origami.jpg",
+				"content":"assets/images/content/origami.jpg",
 				"type":"image",
 				"answer":"origami",
 				"letters":"Cagiiimorsu" 
@@ -1558,7 +1558,7 @@
 				"y": 8,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/mercury.jpg",
+				"content":"assets/images/content/mercury.jpg",
 				"type":"image",
 				"answer":"mercury",
 				"letters":"MUceejmrruy" 
@@ -1578,7 +1578,7 @@
 				"y": 8,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/arnold.jpg",
+				"content":"assets/images/content/arnold.jpg",
 				"type":"image",
 				"answer":"arnold",
 				"letters":"KOWadlnnor" 
@@ -1598,7 +1598,7 @@
 				"y": 14,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/nestle.jpg",
+				"content":"assets/images/content/nestle.jpg",
 				"type":"image",
 				"answer":"nestle",
 				"letters":"XYeejlnnst" 
@@ -1609,7 +1609,7 @@
 				"y": 19,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/coffee.jpg",
+				"content":"assets/images/content/coffee.jpg",
 				"type":"image",
 				"answer":"coffee",
 				"letters":"DIceefforv" 
@@ -1626,7 +1626,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/burgerking.jpg",
+				"content":"assets/images/content/burgerking.jpg",
 				"type":"image",
 				"answer":"burgerking",
 				"letters":"Ubegghijknrruz" 
@@ -1656,7 +1656,7 @@
 				"y": 10,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/gollum.jpg",
+				"content":"assets/images/content/gollum.jpg",
 				"type":"image",
 				"answer":"gollum",
 				"letters":"Uagllmnotu" 
@@ -1666,7 +1666,7 @@
 				"y": 10,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/mango.jpg",
+				"content":"assets/images/content/mango.jpg",
 				"type":"image",
 				"answer":"mango",
 				"letters":"CLaggmnou" 
@@ -1676,7 +1676,7 @@
 				"y": 14,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/bacon.jpg",
+				"content":"assets/images/content/bacon.jpg",
 				"type":"image",
 				"answer":"bacon",
 				"letters":"FOabcikno" 
@@ -1696,7 +1696,7 @@
 				"y": 11,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/argentina.jpg",
+				"content":"assets/images/content/argentina.jpg",
 				"type":"image",
 				"answer":"argentina",
 				"letters":"Paaeegiknnrtx" 
@@ -1706,7 +1706,7 @@
 				"y": 10,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/harvard.jpg",
+				"content":"assets/images/content/harvard.jpg",
 				"type":"image",
 				"answer":"harvard",
 				"letters":"SVaabdfhrrv" 
@@ -1716,7 +1716,7 @@
 				"y": 16,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/jordan.jpg",
+				"content":"assets/images/content/jordan.jpg",
 				"type":"image",
 				"answer":"jordan",
 				"letters":"TWadhjnorx" 
@@ -1742,7 +1742,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/wonderwomen.jpg",
+				"content":"assets/images/content/wonderwomen.jpg",
 				"type":"image",
 				"answer":"wonderwomen",
 				"letters":"Iddeemnnooqrwwx" 
@@ -1752,7 +1752,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/wendys.jpg",
+				"content":"assets/images/content/wendys.jpg",
 				"type":"image",
 				"answer":"wendys",
 				"letters":"Xaddenoswy" 
@@ -1762,7 +1762,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/owl.jpg",
+				"content":"assets/images/content/owl.jpg",
 				"type":"image",
 				"answer":"owl",
 				"letters":"Kglloow" 
@@ -1772,7 +1772,7 @@
 				"y": 3,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/blackhole.jpg",
+				"content":"assets/images/content/blackhole.jpg",
 				"type":"image",
 				"answer":"blackhole",
 				"letters":"LWabcefhkllow" 
@@ -1802,7 +1802,7 @@
 				"y": 2,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/portugal.jpg",
+				"content":"assets/images/content/portugal.jpg",
 				"type":"image",
 				"answer":"portugal",
 				"letters":"HYafgjloprtu" 
@@ -1812,7 +1812,7 @@
 				"y": 8,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/pacific.jpg",
+				"content":"assets/images/content/pacific.jpg",
 				"type":"image",
 				"answer":"pacific",
 				"letters":"ASaccfiipvw" 
@@ -1832,7 +1832,7 @@
 				"y": 7,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/hammer.jpg",
+				"content":"assets/images/content/hammer.jpg",
 				"type":"image",
 				"answer":"hammer",
 				"letters":"aabbdehmmr" 
@@ -1859,7 +1859,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/cadillac.jpg",
+				"content":"assets/images/content/cadillac.jpg",
 				"type":"image",
 				"answer":"cadillac",
 				"letters":"JPaaccdgijll" 
@@ -1869,7 +1869,7 @@
 				"y": 3,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/denmark.jpg",
+				"content":"assets/images/content/denmark.jpg",
 				"type":"image",
 				"answer":"denmark",
 				"letters":"Sabdekmnprs" 
@@ -1879,7 +1879,7 @@
 				"y": 3,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/rihanna.jpg",
+				"content":"assets/images/content/rihanna.jpg",
 				"type":"image",
 				"answer":"rihanna",
 				"letters":"aabhimnnnrx" 
@@ -1889,7 +1889,7 @@
 				"y": 6,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/stalin.jpg",
+				"content":"assets/images/content/stalin.jpg",
 				"type":"image",
 				"answer":"stalin",
 				"letters":"BDLNailnst" 
@@ -1909,7 +1909,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/storm.jpg",
+				"content":"assets/images/content/storm.jpg",
 				"type":"image",
 				"answer":"storm",
 				"letters":"UWmnorstu" 
@@ -1939,7 +1939,7 @@
 				"y": 4,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/date.jpg",
+				"content":"assets/images/content/date.jpg",
 				"type":"image",
 				"answer":"date",
 				"letters":"FUaadetw" 
@@ -1959,7 +1959,7 @@
 				"y": 4,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/tajmahal.jpg",
+				"content":"assets/images/content/tajmahal.jpg",
 				"type":"image",
 				"answer":"tajmahal",
 				"letters":"IKRTaaahjlmt" 
@@ -1976,7 +1976,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/strawberry.jpg",
+				"content":"assets/images/content/strawberry.jpg",
 				"type":"image",
 				"answer":"strawberry",
 				"letters":"DJabeijrrrstwy" 
@@ -1986,7 +1986,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/thor.jpg",
+				"content":"assets/images/content/thor.jpg",
 				"type":"image",
 				"answer":"thor",
 				"letters":"AAOchort" 
@@ -2006,7 +2006,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/bulldog.jpg",
+				"content":"assets/images/content/bulldog.jpg",
 				"type":"image",
 				"answer":"bulldog",
 				"letters":"Xbbbdgllouw" 
@@ -2026,7 +2026,7 @@
 				"y": 7,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/ghandi.jpg",
+				"content":"assets/images/content/ghandi.jpg",
 				"type":"image",
 				"answer":"ghandi",
 				"letters":"Gadeefghin" 
@@ -2036,7 +2036,7 @@
 				"y": 10,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/hopkins.jpg",
+				"content":"assets/images/content/hopkins.jpg",
 				"type":"image",
 				"answer":"hopkins",
 				"letters":"Nchiklnopps" 
@@ -2056,7 +2056,7 @@
 				"y": 7,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/hiking.jpg",
+				"content":"assets/images/content/hiking.jpg",
 				"type":"image",
 				"answer":"hiking",
 				"letters":"ELNTghiikn" 
@@ -2066,7 +2066,7 @@
 				"y": 5,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/fedex.jpg",
+				"content":"assets/images/content/fedex.jpg",
 				"type":"image",
 				"answer":"fedex",
 				"letters":"ABbdeefrx" 
@@ -2094,7 +2094,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/timberlake.jpg",
+				"content":"assets/images/content/timberlake.jpg",
 				"type":"image",
 				"answer":"timberlake",
 				"letters":"NZZabeegiklmrt" 
@@ -2104,7 +2104,7 @@
 				"y": 3,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/mini.jpg",
+				"content":"assets/images/content/mini.jpg",
 				"type":"image",
 				"answer":"mini",
 				"letters":"AQiiimnw" 
@@ -2134,7 +2134,7 @@
 				"y": 5,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/snail.jpg",
+				"content":"assets/images/content/snail.jpg",
 				"type":"image",
 				"answer":"snail",
 				"letters":"Taillmnss" 
@@ -2164,7 +2164,7 @@
 				"y": 2,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/hawking.jpg",
+				"content":"assets/images/content/hawking.jpg",
 				"type":"image",
 				"answer":"hawking",
 				"letters":"PVaghiklnsw" 
@@ -2174,7 +2174,7 @@
 				"y": 5,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/vietnam.jpg",
+				"content":"assets/images/content/vietnam.jpg",
 				"type":"image",
 				"answer":"vietnam",
 				"letters":"QQadeimnstv" 
@@ -2194,7 +2194,7 @@
 				"y": 11,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/nbc.jpg",
+				"content":"assets/images/content/nbc.jpg",
 				"type":"image",
 				"answer":"nbc",
 				"letters":"JPbcnyz" 
@@ -2210,7 +2210,7 @@
 						"y":0,
 						"direction":"v",
 						"title":"Car logo",
-						"content":"assets/images/RENAULT.png",
+						"content":"assets/images/content/RENAULT.png",
 						"type":"image",
 						"answer":"RENAULT",
 						"letters":"RENAULT"
@@ -2219,7 +2219,7 @@
 						"y":0,
 						"direction":"h",
 						"title":"Actress",
-						"content":"assets/images/ANGELINA.png",
+						"content":"assets/images/content/ANGELINA.png",
 						"type":"image",
 						"answer":"ANGELINA",
 						"letters":"ANGELINA"
@@ -2237,7 +2237,7 @@
 						"y":5,
 						"direction":"v",
 						"title":"Title here",
-						"content":"assets/images/INDIA.png",
+						"content":"assets/images/content/INDIA.png",
 						"type":"image",
 						"answer":"INDIA",
 						"letters":"INDIA"
@@ -2246,7 +2246,7 @@
 						"y":7,
 						"direction":"v",
 						"title":"Title here",
-						"content":"assets/images/facebook.png",
+						"content":"assets/images/content/facebook.png",
 						"type":"image",
 						"answer":"FACEBOOK",
 						"letters":"FACEBOOK"
@@ -2255,7 +2255,7 @@
 						"y":7,
 						"direction":"h",
 						"title":"game",
-						"content":"assets/images/CROSSWORD.png",
+						"content":"assets/images/content/CROSSWORD.png",
 						"type":"image",
 						"answer":"CROSSWORD",
 						"letters":"CROSSWORD"
@@ -2282,7 +2282,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/artichoke.jpg",
+				"content":"assets/images/content/artichoke.jpg",
 				"type":"image",
 				"answer":"artichoke",
 				"letters":"COaceehikorrt" 
@@ -2302,7 +2302,7 @@
 				"y": 4,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/spain.jpg",
+				"content":"assets/images/content/spain.jpg",
 				"type":"image",
 				"answer":"spain",
 				"letters":"Nafinprrs" 
@@ -2342,7 +2342,7 @@
 				"y": 2,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/corn.jpg",
+				"content":"assets/images/content/corn.jpg",
 				"type":"image",
 				"answer":"corn",
 				"letters":"BNcinory" 
@@ -2352,7 +2352,7 @@
 				"y": 4,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/giraffe.jpg",
+				"content":"assets/images/content/giraffe.jpg",
 				"type":"image",
 				"answer":"giraffe",
 				"letters":"QTXaeffgirx" 
@@ -2372,7 +2372,7 @@
 				"y": 10,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/simba.jpg",
+				"content":"assets/images/content/simba.jpg",
 				"type":"image",
 				"answer":"simba",
 				"letters":"RYabhimsu" 
@@ -2382,7 +2382,7 @@
 				"y": 14,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/hart.jpg",
+				"content":"assets/images/content/hart.jpg",
 				"type":"image",
 				"answer":"hart",
 				"letters":"BFUahlrt" 
@@ -2399,7 +2399,7 @@
 						"y":5,
 						"direction":"V",
 						"title":"Title here",
-						"content":"assets/images/play.png",
+						"content":"assets/images/content/play.png",
 						"type":"image",
 						"answer":"PLAY",
 						"letters":"PLAY"
@@ -2408,7 +2408,7 @@
 						"y":4,
 						"direction":"h",
 						"title":"Slice",
-						"content":"assets/images/banana.png",
+						"content":"assets/images/content/banana.png",
 						"type":"image",
 						"answer":"BANANA",
 						"letters":"BANANA"
@@ -2417,7 +2417,7 @@
 						"y":9,
 						"direction":"v",
 						"title":"Country flag",
-						"content":"assets/images/AUSTRALIA.png",
+						"content":"assets/images/content/AUSTRALIA.png",
 						"type":"image",
 						"answer":"AUSTRALIA",
 						"letters":"AUSTRALIA"
@@ -2426,7 +2426,7 @@
 						"y":9,
 						"direction":"h",
 						"title":"Singer",
-						"content":"assets/images/TAYLOR.png",
+						"content":"assets/images/content/TAYLOR.png",
 						"type":"image",
 						"answer":"TAYLOR",
 						"letters":"TAYLOR"
@@ -2462,7 +2462,7 @@
 						"y":3,
 						"direction":"h",
 						"title":"Logo",
-						"content":"assets/images/MCDONALDS.png",
+						"content":"assets/images/content/MCDONALDS.png",
 						"type":"image",
 						"answer":"MCDONALDS",
 						"letters":"MCDONALDS"
@@ -2479,7 +2479,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/catapult.jpg",
+				"content":"assets/images/content/catapult.jpg",
 				"type":"image",
 				"answer":"catapult",
 				"letters":"EIUVaaclpttu" 
@@ -2489,7 +2489,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/android.jpg",
+				"content":"assets/images/content/android.jpg",
 				"type":"image",
 				"answer":"android",
 				"letters":"FNYaddinoor" 
@@ -2499,7 +2499,7 @@
 				"y": 5,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/pottery.jpg",
+				"content":"assets/images/content/pottery.jpg",
 				"type":"image",
 				"answer":"pottery",
 				"letters":"aekopqrttty" 
@@ -2539,7 +2539,7 @@
 				"y": 7,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/judge.jpg",
+				"content":"assets/images/content/judge.jpg",
 				"type":"image",
 				"answer":"judge",
 				"letters":"DSdeggjux" 
@@ -2569,7 +2569,7 @@
 				"y": 9,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/poker.jpg",
+				"content":"assets/images/content/poker.jpg",
 				"type":"image",
 				"answer":"poker",
 				"letters":"BCEekoprz" 
@@ -2579,7 +2579,7 @@
 				"y": 10,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/oil.jpg",
+				"content":"assets/images/content/oil.jpg",
 				"type":"image",
 				"answer":"oil",
 				"letters":"EKWilow" 
@@ -2596,7 +2596,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/pringles.jpg",
+				"content":"assets/images/content/pringles.jpg",
 				"type":"image",
 				"answer":"pringles",
 				"letters":"JXeggilnprst" 
@@ -2616,7 +2616,7 @@
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/shrimp.jpg",
+				"content":"assets/images/content/shrimp.jpg",
 				"type":"image",
 				"answer":"shrimp",
 				"letters":"Cehimprstw" 
@@ -2666,7 +2666,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/cow.jpg",
+				"content":"assets/images/content/cow.jpg",
 				"type":"image",
 				"answer":"cow",
 				"letters":"NPTcoqw" 
@@ -2676,7 +2676,7 @@
 				"y": 10,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/kennedy.jpg",
+				"content":"assets/images/content/kennedy.jpg",
 				"type":"image",
 				"answer":"kennedy",
 				"letters":"Ydeegkknnwy" 
@@ -2686,7 +2686,7 @@
 				"y": 8,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/trash.jpg",
+				"content":"assets/images/content/trash.jpg",
 				"type":"image",
 				"answer":"trash",
 				"letters":"AFZahorst" 
@@ -2696,7 +2696,7 @@
 				"y": 10,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/dubai.jpg",
+				"content":"assets/images/content/dubai.jpg",
 				"type":"image",
 				"answer":"dubai",
 				"letters":"HKQabdiuy" 
@@ -2715,7 +2715,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/dicaprio.jpg",
+				"content":"assets/images/content/dicaprio.jpg",
 				"type":"image",
 				"answer":"dicaprio",
 				"letters":"Nacdiiikoprv" 
@@ -2735,7 +2735,7 @@
 				"y": 3,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/peach.jpg",
+				"content":"assets/images/content/peach.jpg",
 				"type":"image",
 				"answer":"peach",
 				"letters":"AOZZacehp" 
@@ -2745,7 +2745,7 @@
 				"y": 6,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/rome.jpg",
+				"content":"assets/images/content/rome.jpg",
 				"type":"image",
 				"answer":"rome",
 				"letters":"IJdeimor" 
@@ -2755,7 +2755,7 @@
 				"y": 6,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/minions.jpg",
+				"content":"assets/images/content/minions.jpg",
 				"type":"image",
 				"answer":"minions",
 				"letters":"LXfiimnnoss" 
@@ -2795,7 +2795,7 @@
 				"y": 6,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/lacoste.jpg",
+				"content":"assets/images/content/lacoste.jpg",
 				"type":"image",
 				"answer":"lacoste",
 				"letters":"BQacejlosty" 
@@ -2805,7 +2805,7 @@
 				"y": 11,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/shy.jpg",
+				"content":"assets/images/content/shy.jpg",
 				"type":"image",
 				"answer":"shy",
 				"letters":"EIhnsxy" 
@@ -2864,7 +2864,7 @@
 				"y": 6,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/book.jpg",
+				"content":"assets/images/content/book.jpg",
 				"type":"image",
 				"answer":"book",
 				"letters":"HNbkoorr" 
@@ -2874,7 +2874,7 @@
 				"y": 6,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/knapping.jpg",
+				"content":"assets/images/content/knapping.jpg",
 				"type":"image",
 				"answer":"knapping",
 				"letters":"AMNagiklnnpp" 
@@ -2884,7 +2884,7 @@
 				"y": 8,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/mammoth.jpg",
+				"content":"assets/images/content/mammoth.jpg",
 				"type":"image",
 				"answer":"mammoth",
 				"letters":"BPRYahmmmot" 
@@ -2894,7 +2894,7 @@
 				"y": 5,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/morocco.jpg",
+				"content":"assets/images/content/morocco.jpg",
 				"type":"image",
 				"answer":"morocco",
 				"letters":"GSbcckmooor" 
@@ -2914,7 +2914,7 @@
 				"y": 10,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/currie.jpg",
+				"content":"assets/images/content/currie.jpg",
 				"type":"image",
 				"answer":"currie",
 				"letters":"Iceiiqrrsu" 
@@ -2934,7 +2934,7 @@
 				"y": 9,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/fennec.jpg",
+				"content":"assets/images/content/fennec.jpg",
 				"type":"image",
 				"answer":"fennec",
 				"letters":"FLVceefmnn" 
@@ -2949,7 +2949,7 @@
 						"y":9,
 						"direction":"h",
 						"title":"Job",
-						"content":"assets/images/PHARMACIST.png",
+						"content":"assets/images/content/PHARMACIST.png",
 						"type":"image",
 						"answer":"PHARMACIST",
 						"letters":"PHARMACIST"
@@ -2958,7 +2958,7 @@
 						"y":14,
 						"direction":"v",
 						"title":"Title here",
-						"content":"assets/images/adobe.png",
+						"content":"assets/images/content/adobe.png",
 						"type":"image",
 						"answer":"ADOBE",
 						"letters":"ADOBE"
@@ -2967,7 +2967,7 @@
 						"y":22,
 						"direction":"v",
 						"title":"Title here",
-						"content":"assets/images/adele.png",
+						"content":"assets/images/content/adele.png",
 						"type":"image",
 						"answer":"ADELE",
 						"letters":"ADELE"
@@ -2976,7 +2976,7 @@
 						"y":8,
 						"direction":"h",
 						"title":"Title here",
-						"content":"assets/images/LUXEMBOURG.png",
+						"content":"assets/images/content/LUXEMBOURG.png",
 						"type":"image",
 						"answer":"LUXEMBOURG",
 						"letters":"LUXEMBOURG"
@@ -3003,7 +3003,7 @@
 						"y":6,
 						"direction":"h",
 						"title":"Animal",
-						"content":"assets/images/snake.png",
+						"content":"assets/images/content/snake.png",
 						"type":"image",
 						"answer":"SNAKE",
 						"letters":"SNAKE"
@@ -3012,7 +3012,7 @@
 						"y":6,
 						"direction":"v",
 						"title":"Title here",
-						"content":"assets/images/CHEVROLET.png",
+						"content":"assets/images/content/CHEVROLET.png",
 						"type":"image",
 						"answer":"CHEVROLET",
 						"letters":"CHEVROLET"
@@ -3057,7 +3057,7 @@
 						"y":13,
 						"direction":"v",
 						"title":"Title here",
-						"content":"assets/images/SIEMENS.png",
+						"content":"assets/images/content/SIEMENS.png",
 						"type":"image",
 						"answer":"SIEMENS",
 						"letters":"SIEMENS"
@@ -3066,7 +3066,7 @@
 						"y":11,
 						"direction":"h",
 						"title":"Title here",
-						"content":"assets/images/BIEBER.png",
+						"content":"assets/images/content/BIEBER.png",
 						"type":"image",
 						"answer":"BIEBER",
 						"letters":"BIEBER"
@@ -3075,7 +3075,7 @@
 						"y":20,
 						"direction":"v",
 						"title":"Zoom In",
-						"content":"assets/images/moon.png",
+						"content":"assets/images/content/moon.png",
 						"type":"image",
 						"answer":"MOON",
 						"letters":"ABCRDSZBHF"
@@ -3084,7 +3084,7 @@
 						"y":18,
 						"direction":"v",
 						"title":"what is she doing ? (ing)",
-						"content":"assets/images/SMILING.png",
+						"content":"assets/images/content/SMILING.png",
 						"type":"image",
 						"answer":"SMILING",
 						"letters":"SMILING"
@@ -3093,7 +3093,7 @@
 						"y":18,
 						"direction":"h",
 						"title":"Title here",
-						"content":"assets/images/monkey.png",
+						"content":"assets/images/content/monkey.png",
 						"type":"text",
 						"answer":"MONKEY",
 						"letters":"MONKEY"
