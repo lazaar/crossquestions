@@ -42,6 +42,8 @@
 		    height: 100%;
 		    width: 100%;
 		    background-size: contain;
+		    background-repeat: no-repeat;
+		    background-position: center;
 		    &.contain{
 		    	background-size: cover;
 		    }
@@ -62,6 +64,7 @@
 		     font-family: 'tex';
 		     color: $blue;
 		     font-size: 20px;
+		     text-transform: uppercase;
 		}
 	}
 	.answer.correct{

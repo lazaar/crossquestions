@@ -27,9 +27,7 @@
 
         $scope.$on( '$ionicView.beforeEnter', function( scopes, states ) {
             if(states.fromCache){
-                if(vm.stars !== dataModel.crosswords.stars){
-                   vm.hints = dataModel.hints;
-                }
+                vm.hints = dataModel.hints;
             }
         });
 
