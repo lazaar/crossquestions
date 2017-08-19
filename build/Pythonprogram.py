@@ -299,13 +299,12 @@ class Crossword(object):
         outStr = ''
 
         text_file = open("Crossword.txt","w")
-        text_file.write('"crosswordId" : 1,\n '  )
         text_file.write('"width" : 20,\n '  )
         text_file.write('"height" : 20,\n '  )
         text_file.write('"questions" : [\n '  )
         for word in self.current_word_list:
             outStr += '%d. (%d,%d) %s: %s\n' % (word.number, word.col, word.row, word.down_across(), word.clue )
-            text_file.write('{\n \n "questionId:": ,\n "x": %d,\n' % word.row)
+            text_file.write('{\n "x": %d,\n' % (word.row-1))
             text_file.write('"y": %d,\n' % word.col)
             if word.down_across() == "down":
               text_file.write('"direction":"v", \n')
@@ -319,7 +318,7 @@ class Crossword(object):
               text_file.write('"type":"text",\n')         
             else:
               text_file.write('"content":"../assets/images/content/%s.jpg",\n' % word.word)
-              text_file.write('"type":"image ",\n')         
+              text_file.write('"type":"image",\n')         
             text_file.write('"answer":"%s",\n' % word.word) 
             randomized = word.word + random_char(4)
             randomized = ''.join(sorted(randomized)) 
@@ -353,17 +352,13 @@ class Word(object):
  
 #start_full = float(time.time())
  
-word_list = ['greece', 'p'], \
-    ['parsley', 'p'], \
-    ['erdogan', 'p'], \
-    ['phelps', 'p'], \
-    ['Australia', 'What was the largest island in the world before discovering Australia?'], \
-    ['atari', 'p'], \
-    ['cheese', ' What type of food is manchego?'], \
-    ['Mowgli', 'What is the name of the boy in the Jungle Book?'],\
-    ['popeye', 'p'],\
-    ['earned', ' A penny saved is a penny ...'],\
-    ['kidneys', 'the organ that filters blood'],
+word_list = ['mercedes', 'p'], \
+    ['france', 'p'], \
+    ['dettol', 'p'], \
+    ['ananas', 'What is pinneaple in french?'], \
+    ['architect', 'An ... is someone who plans, designs, and reviews the construction of buildings'], \
+    ['astronomy', ' Also known as the science of space'], \
+    ['ironman', 'p'],\
 
 
 a = Crossword(20, 20, '-', 5000, word_list)
