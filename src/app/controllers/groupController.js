@@ -58,6 +58,10 @@
             if(fromCache){
                 soundService.playMenuMusic();
             }
+            $timeout(function() {
+                 vm.left = 100*(vm.level+1 === vm.currentLevel ? vm.currentCw: vm.crosswords.length)/vm.crosswords.length;
+                 vm.left = 100 - vm.left;
+            }, 200);
         }
 
         /**
@@ -74,10 +78,7 @@
             dataService.getData().then(function(datas){
                 level = _.get(datas,vm.level);
                 vm.crosswords = updateData(level ? level.crosswords : []);
-                $timeout(function() {
-                     vm.left = 100*(vm.level+1 === vm.currentLevel ? (vm.currentCw - 1): vm.crosswords.length)/vm.crosswords.length;
-                     vm.left = vm.left === 0 ? 100 : vm.left;
-                }, 200);
+
 
 
             });

@@ -121,13 +121,26 @@
                     break;
                 }
             }
+            var content = answers[currentIndex];
 
             //update answer
             if(vm.answer[currentIndex].content !== '&nbsp;'){
                 vm.letters[vm.answer[currentIndex].index] = vm.answer[currentIndex].content;
                 vm.answer[currentIndex].index = -1;
+                numberLetter--;
             }
-            vm.answer[currentIndex].content = answers[currentIndex];
+
+            //remove from letters
+            var indexInLetter =  _.indexOf(vm.letters, content);
+            if(indexInLetter === -1){
+                indexInLetter =  _.indexOf(_.map(vm.answer, 'content'), content);
+                vm.answer[indexInLetter].content = '&nbsp;';
+            }else{
+                vm.letters[indexInLetter] = '&nbsp;';
+                numberLetter++;
+            }
+
+            vm.answer[currentIndex].content = content;
             vm.answer[currentIndex].type = 'corrected';
 
             //Update grid
@@ -141,24 +154,16 @@
                 jgrid = vm.question.y;
             }
             
-            cwService.updateCase(igrid,jgrid,answers[currentIndex], 'corrected');
+            cwService.updateCase(igrid,jgrid,content, 'corrected');
 
-            //remove from letters
-            var indexInLetter =  _.indexOf(vm.letters, answers[currentIndex]);
-            if(indexInLetter === -1){
-                indexInLetter =  _.indexOf(_.map(vm.answer, 'content'), answers[currentIndex]);
-                vm.answer[indexInLetter].content = '&nbsp;';
-            }else{
-                vm.letters[indexInLetter] = '&nbsp;';
-            }
             starService.incrementHints(-5);
             vm.hints -= 5;
 
             //add LocalStorage
-            correctionService.saveHint(igrid,jgrid,answers[currentIndex]);
+            correctionService.saveHint(igrid,jgrid,content);
 
             //Check Answer
-           if(++numberLetter === vm.answer.length){
+           if(numberLetter === vm.answer.length){
                 checkAnswer();  
             }
         };

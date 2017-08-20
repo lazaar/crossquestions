@@ -320,6 +320,8 @@ class Crossword(object):
               text_file.write('"content":"../assets/images/content/%s.jpg",\n' % word.word)
               text_file.write('"type":"image",\n')         
             text_file.write('"answer":"%s",\n' % word.word) 
+            if len(word.word) >= 10:
+              text_file.write('"long":"long",\n') 
             randomized = word.word + random_char(4)
             randomized = ''.join(sorted(randomized)) 
             text_file.write('"letters":"%s" \n },' % randomized)     

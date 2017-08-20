@@ -1,9 +1,7 @@
 [
 	{
-		"levelId":1,
 		"crosswords" : [
 			{
-				"crosswordId" : 1,
 				"width":10,
 				"height":10,
 				"questions" :[
@@ -11,7 +9,7 @@
 						"x":4,
 						"y":1,
 						"direction":"h",
-						"title":"President",
+						"title":"Politician",
 						"content":"'MAKE AMERICA GREAT AGAIN'- ...",
 						"type":"text",
 						"answer":"TRUMP",
@@ -42,157 +40,163 @@
 						"content":"assets/images/content/orange.png",
 						"type":"image",
 						"answer":"ORANGE",
-						"letters":"MANOORSZKPEW"
+						"letters":"MANOOGRSZKPEW"
 					}
 				]
 			},
 			{
-				"crosswordId" : 2,
-				"width":20,
-				"height":20,
-				"questions" :[
-					{
-						"x":6,
-						"y":1,
-						"direction":"h",
-						"title":"Car Brand",
-						"content":"assets/images/content/mercedes.png",
-						"type":"image",
-						"answer":"MERCEDES",
-						"letters":"DAEECMSZRFSE"
-					},{
-						"x":2,
-						"y":4,
-						"direction":"v",
-						"title":"What Country ?",
-						"content":"assets/images/content/france.png",
-						"type":"image",
-						"answer":"FRANCE",
-						"letters":"NAROFSCPEW"
-					},{
-						"x":6,
-						"y":6,
-						"direction":"v",
-						"title":"Title here",
-						"content":"assets/images/content/dettol.png",
-						"type":"image",
-						"answer":"DETTOL",
-						"letters":"DETTOL"
-					},{
-						"x":1,
-						"y":8,
-						"direction":"v",
-						"title":"translation",
-						"content":"What is pinneaple in french?",
-						"type":"text",
-						"answer":"ANANAS",
-						"letters":"ANANAS"
-					},{
-						"x":1,
-						"y":8,
-						"direction":"h",
-						"title":"Job",
-						"content":"An ... is someone who plans, designs, and reviews the construction of buildings",
-						"type":" text",
-						"answer":"ARCHITECT",
-						"letters":"CCHEANRTTKIEW"
-					},{
-						"x":1,
-						"y":12,
-						"direction":"v",
-						"title":"iron",
-						"content":"assets/images/content/ironman.png",
-						"type":"image",
-						"answer":"IRONMAN",
-						"letters":"IRONMAN"
-					},{
-						"x":3,
-						"y":8,
-						"direction":"h",
-						"title":"A science",
-						"content":"Also known as the science of space",
-						"type":"text",
-						"answer":"ASTRONOMY",
-						"letters":"ASTRONOMY"
-					}
-				]
+			   "width":13,
+			   "height":12,
+			   "questions":[
+			      {
+			         "x":0,
+			         "y":1,
+			         "direction":"v",
+			         "title":"A science",
+			         "content":" Also known as the science of space",
+			         "type":"text",
+			         "answer":"astronomy",
+			         "letters":"vamnooorsttwy"
+			      },
+			      {
+			         "x":0,
+			         "y":1,
+			         "direction":"h",
+			         "title":"Job",
+			         "content":"An ... is someone who plans, designs, and reviews the construction of buildings",
+			         "type":"text",
+			         "answer":"architect",
+			         "letters":"aswacceehirtt"
+			      },
+			      {
+			         "x":2,
+			         "y":5,
+			         "direction":"v",
+			         "title":"Country",
+			         "content":"../assets/images/content/france.jpg",
+			         "type":"image",
+			         "answer":"france",
+			         "letters":"aacdefmnor"
+			      },
+			      {
+			         "x":7,
+			         "y":1,
+			         "direction":"h",
+			         "title":"Car Brand",
+			         "content":"../assets/images/content/mercedes.jpg",
+			         "type":"image",
+			         "answer":"mercedes",
+			         "letters":"bkxcddeeemrs"
+			      },
+			      {
+			         "x":6,
+			         "y":3,
+			         "direction":"v",
+			         "title":"Superhero",
+			         "content":"../assets/images/content/ironman.jpg",
+			         "type":"image",
+			         "answer":"ironman",
+			         "letters":"kqaimnnoprx"
+			      },
+			      {
+			         "x":4,
+			         "y":5,
+			         "direction":"h",
+			         "title":"Translation",
+			         "content":"What is pinneaple in french?",
+			         "type":"text",
+			         "answer":"ananas",
+			         "letters":"zaaafnnswz"
+			      },
+			      {
+			         "x":6,
+			         "y":7,
+			         "direction":"v",
+			         "title":"Logo",
+			         "content":"../assets/images/content/dettol.jpg",
+			         "type":"image",
+			         "answer":"dettol",
+			         "letters":"odehloottx"
+			      }
+			   ]
 			},{
 				"crosswordId" : 3,
-				"width":15,
-				"height":15,
+				"width":10,
+				"height":12,
 				"questions" :[
 					{
-						"x":3,
-						"y":0,
+						"x":2,
+						"y":1,
 						"direction":"v",
 						"title":"Title here",
 						"content":"assets/images/content/support.png",
 						"type":"image",
 						"answer":"SUPPORT",
-						"letters":"SUPPORT"
+						"letters":"SKOUARPTLPF"
 					},{
-						"x":5,
-						"y":0,
+						"x":4,
+						"y":1,
 						"direction":"h",
 						"title":"one word",
 						"content":"assets/images/content/Peace.png",
 						"type":"image",
 						"answer":"PEACE",
-						"letters":"PEACE"
+						"letters":"PDACOEELX"
 					},{
-						"x":8,
-						"y":0,
+						"x":7,
+						"y":1,
 						"direction":"h",
 						"title":"Animal",
 						"content":"assets/images/content/rhino.png",
 						"type":"image",
+						"long":"long",
 						"answer":"RHINOCEROS",
-						"letters":"RHINOCEROS"
+						"letters":"RHQENROCBSXIOW"
 					},{
-						"x":1,
-						"y":2,
+						"x":0,
+						"y":3,
 						"direction":"h",
 						"title":"Title here",
 						"content":"assets/images/content/odd.png",
 						"type":"image",
 						"answer":"ODD",
-						"letters":"ODD"
+						"letters":"ODLDKASX"
 					},{
-						"x":1,
-						"y":2,
+						"x":0,
+						"y":3,
 						"direction":"v",
 						"title":"Title here",
 						"content":"assets/images/content/obama.png",
 						"type":"image",
 						"answer":"OBAMA",
-						"letters":"OBAMA"
+						"letters":"OXBAMSARD"
 					},{
-						"x":3,
-						"y":2,
+						"x":2,
+						"y":3,
 						"direction":"h",
 						"title":"Title here",
 						"content":"assets/images/content/amnesty.png",
 						"type":"image",
 						"answer":"AMNESTY",
-						"letters":"AMNESTY"
+						"letters":"AYFSDNTMLEV"
 					},{
-						"x":1,
-						"y":4,
+						"x":0,
+						"y":5,
 						"direction":"v",
 						"title":"Title here",
 						"content":"At a ... party one should eat wisely but not too well, and talk well but not too wisely.",
 						"type":"text",
 						"answer":"DINNER",
-						"letters":"DINNER"
+						"letters":"DMNNLRKEIG"
 					},{
-						"x":3,
-						"y":6,
+						"x":2,
+						"y":7,
 						"direction":"v",
 						"title":"Title here",
 						"content":"good -> best; slim -> ... ",
 						"type":"text",
 						"answer":"SLIMMEST",
-						"letters":"SLIMMEST"
+						"letters":"SEMLFAKMSITY"
 					}
 				]
 			}
