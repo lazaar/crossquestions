@@ -1,126 +1,68 @@
-"crosswordId" : 1,
- "width" : 20,
+"width" : 20,
  "height" : 20,
  "questions" : [
  {
- 
- "questionId:": ,
- "x": 1,
+ "x": 0,
+"y": 1,
+"direction":"v", 
+"title":"Title here",
+"content":"../assets/images/content/mercedesze.jpg",
+"type":"image",
+"answer":"mercedesze",
+"long":"long",
+"letters":"Ncdeeeeemorszz" 
+ },{
+ "x": 5,
 "y": 1,
 "direction":"h",
 "title":"Title here",
-"content":"What was the largest island in the world before discovering Australia?",
-"type":"text",
-"answer":"australia",
-"letters":"Gaaaijklrrstu" 
+"content":"../assets/images/content/dettol.jpg",
+"type":"image",
+"answer":"dettol",
+"letters":"FISbdelott" 
  },{
- 
- "questionId:": ,
- "x": 3,
-"y": 4,
-"direction":"h",
-"title":"Title here",
-"content":"../assets/images/erdogan.jpg",
-"type":"image ",
-"answer":"erdogan",
-"letters":"Wadeeglnorv" 
- },{
- 
- "questionId:": ,
- "x": 3,
-"y": 4,
-"direction":"v", 
-"title":"Title here",
-"content":" A penny saved is a penny ...",
-"type":"text",
-"answer":"earned",
-"letters":"EJadeejnpr" 
- },{
- 
- "questionId:": ,
- "x": 7,
-"y": 2,
-"direction":"v", 
-"title":"Title here",
-"content":"What is the name of the boy in the Jungle Book?",
-"type":"text",
-"answer":"mowgli",
-"letters":"QYgillmoww" 
- },{
- 
- "questionId:": ,
  "x": 1,
-"y": 9,
+"y": 5,
 "direction":"v", 
 "title":"Title here",
-"content":"../assets/images/atari.jpg",
-"type":"image ",
-"answer":"atari",
-"letters":"BLSaairtt" 
+"content":" Also known as the science of space",
+"type":"text",
+"answer":"astronomy",
+"letters":"AQamnoorsstuy" 
  },{
- 
- "questionId:": ,
- "x": 10,
-"y": 2,
+ "x": 1,
+"y": 5,
 "direction":"h",
 "title":"Title here",
-"content":"../assets/images/greece.jpg",
-"type":"image ",
-"answer":"greece",
-"letters":"MXYceeegnr" 
+"content":"An ... is someone who plans, designs, and reviews the construction of buildings",
+"type":"text",
+"answer":"architect",
+"letters":"KUaccdehiortt" 
  },{
- 
- "questionId:": ,
- "x": 5,
+ "x": 7,
+"y": 3,
+"direction":"h",
+"title":"Title here",
+"content":"../assets/images/content/ironman.jpg",
+"type":"image",
+"answer":"ironman",
+"letters":"FQadijmnnor" 
+ },{
+ "x": 7,
 "y": 8,
+"direction":"v", 
+"title":"Title here",
+"content":"What is pinneaple in french?",
+"type":"text",
+"answer":"ananas",
+"letters":"VZaaannrsw" 
+ },{
+ "x": 11,
+"y": 6,
 "direction":"h",
 "title":"Title here",
-"content":"the organ that filters blood",
-"type":"text",
-"answer":"kidneys",
-"letters":"DNXdefiknsy" 
- },{
- 
- "questionId:": ,
- "x": 3,
-"y": 12,
-"direction":"v", 
-"title":"Title here",
-"content":" What type of food is manchego?",
-"type":"text",
-"answer":"cheese",
-"letters":"HZaceeehsu" 
- },{
- 
- "questionId:": ,
- "x": 8,
-"y": 7,
-"direction":"h",
-"title":"Title here",
-"content":"../assets/images/popeye.jpg",
-"type":"image ",
-"answer":"popeye",
-"letters":"Peehoppxxy" 
- },{
- 
- "questionId:": ,
- "x": 8,
-"y": 7,
-"direction":"v", 
-"title":"Title here",
-"content":"../assets/images/phelps.jpg",
-"type":"image ",
-"answer":"phelps",
-"letters":"AWefhklpps" 
- },{
- 
- "questionId:": ,
- "x": 2,
-"y": 14,
-"direction":"v", 
-"title":"Title here",
-"content":"../assets/images/parsley.jpg",
-"type":"image ",
-"answer":"parsley",
-"letters":"OVaeeglprsy" 
+"content":"../assets/images/content/france.jpg",
+"type":"image",
+"answer":"france",
+"letters":"BCTacefhnr" 
  },]
