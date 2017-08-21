@@ -299,33 +299,35 @@ class Crossword(object):
         outStr = ''
 
         text_file = open("Crossword.txt","w")
-        text_file.write('"width" : 20,\n '  )
-        text_file.write('"height" : 20,\n '  )
-        text_file.write('"questions" : [\n '  )
+        text_file.write('{\n '  )
+        text_file.write('\t"width" : 20,\n '  )
+        text_file.write('\t"height" : 20,\n '  )
+        text_file.write('\t"questions" : [\n '  )
         for word in self.current_word_list:
             outStr += '%d. (%d,%d) %s: %s\n' % (word.number, word.col, word.row, word.down_across(), word.clue )
-            text_file.write('{\n "x": %d,\n' % (word.row-1))
-            text_file.write('"y": %d,\n' % word.col)
+            text_file.write('\t{\n \t\t"x": %d,\n' % (word.row-1))
+            text_file.write('\t\t"y": %d,\n' % word.col)
             if word.down_across() == "down":
-              text_file.write('"direction":"v", \n')
+              text_file.write('\t\t"direction":"v", \n')
             else:
-              text_file.write('"direction":"h",\n')    
+              text_file.write('\t\t"direction":"h",\n')    
             
-            text_file.write('"title":"Title here",\n')
+            text_file.write('\t\t"title":"Title here",\n')
             
             if word.clue != "p":
-              text_file.write('"content":"%s",\n' % word.clue)
-              text_file.write('"type":"text",\n')         
+              text_file.write('\t\t"content":"%s",\n' % word.clue)
+              text_file.write('\t\t"type":"text",\n')         
             else:
-              text_file.write('"content":"../assets/images/content/%s.jpg",\n' % word.word)
-              text_file.write('"type":"image",\n')         
-            text_file.write('"answer":"%s",\n' % word.word) 
+              text_file.write('\t\t"content":"../assets/images/content/%s.jpg",\n' % word.word)
+              text_file.write('\t\t"type":"image",\n')         
+            text_file.write('\t\t"answer":"%s",\n' % word.word) 
             if len(word.word) >= 10:
-              text_file.write('"long":"long",\n') 
+              text_file.write('\t\t"long":"long",\n') 
             randomized = word.word + random_char(4)
             randomized = ''.join(sorted(randomized)) 
-            text_file.write('"letters":"%s" \n },' % randomized)     
-        text_file.write(']')
+            text_file.write('\t\t"letters":"%s" \n \t},' % randomized)     
+        text_file.write('\t]\n')
+        text_file.write('}')
         text_file.close()
         return outStr
 
