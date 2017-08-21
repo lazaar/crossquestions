@@ -159,7 +159,7 @@
 						"content":"assets/images/content/odd.jpg",
 						"type":"image",
 						"answer":"ODD",
-						"letters":"ODLDKASX"
+						"letters":"DLFKAOSXD"
 					},{
 						"x":0,
 						"y":3,
@@ -168,7 +168,7 @@
 						"content":"assets/images/content/obama.jpg",
 						"type":"image",
 						"answer":"OBAMA",
-						"letters":"OXBAMSARD"
+						"letters":"FXBOMSARDA"
 					},{
 						"x":2,
 						"y":3,
@@ -205,116 +205,115 @@
 		"levelId":2,
 		"crosswords" : [
 			{
-				"crosswordId" : 1,
-				 "width" : 15,
-				 "height" : 15,
+				 "width" : 13,
+				 "height" : 14,
 				 "questions" : [
 				 {
 				 
-				 "x": 1,
-				"y": 1,
+				 "x": 0,
+				"y": 0,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Geography",
 				"content":"What was the largest island in the world before discovering Australia?",
 				"type":"text",
 				"answer":"australia",
 				"letters":"Gaaaijklrrstu" 
 				 },{
 				 
-				 "x": 3,
-				"y": 4,
+				 "x": 2,
+				"y": 3,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Politician",
 				"content":"assets/images/content/erdogan.jpg",
 				"type":"image",
 				"answer":"erdogan",
 				"letters":"Wadeeglnorv" 
 				 },{
 				 
-				 "x": 3,
-				"y": 4,
+				 "x": 2,
+				"y": 3,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Quote",
 				"content":" A penny saved is a penny ...",
 				"type":"text",
 				"answer":"earned",
 				"letters":"EJadeejnpr" 
 				 },{
 				 
-				 "x": 7,
-				"y": 2,
+				 "x": 6,
+				"y": 1,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Character",
 				"content":"What is the name of the boy in the Jungle Book?",
 				"type":"text",
 				"answer":"mowgli",
 				"letters":"QYgillmoww" 
 				 },{
 				 
-				 "x": 1,
-				"y": 9,
+				 "x": 0,
+				"y": 8,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Logo",
 				"content":"assets/images/content/atari.jpg",
 				"type":"image",
 				"answer":"atari",
 				"letters":"BLSaairtt" 
 				 },{
 				 
-				 "x": 10,
-				"y": 2,
+				 "x": 9,
+				"y": 1,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Country",
 				"content":"assets/images/content/greece.jpg",
 				"type":"image",
 				"answer":"greece",
 				"letters":"MXYceeegnr" 
 				 },{
 				 
-				 "x": 5,
-				"y": 8,
+				 "x": 4,
+				"y": 7,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Biology",
 				"content":"the organ that filters blood",
 				"type":"text",
 				"answer":"kidneys",
 				"letters":"DNXdefiknsy" 
 				 },{
 				 
-				 "x": 3,
-				"y": 12,
+				 "x": 2,
+				"y": 11,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Food",
 				"content":" What type of food is manchego?",
 				"type":"text",
 				"answer":"cheese",
 				"letters":"HZaceeehsu" 
 				 },{
 				 
-				 "x": 8,
-				"y": 7,
+				 "x": 7,
+				"y": 6,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Character",
 				"content":"assets/images/content/popeye.jpg",
 				"type":"image",
 				"answer":"popeye",
 				"letters":"Peehoppxxy" 
 				 },{
 				 
-				 "x": 8,
-				"y": 7,
+				 "x": 7,
+				"y": 6,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Celebrity",
 				"content":"assets/images/content/phelps.jpg",
 				"type":"image",
 				"answer":"phelps",
 				"letters":"AWefhklpps" 
 				 },{
 				 
-				 "x": 2,
-				"y": 14,
+				 "x": 1,
+				"y": 13,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Zoom In",
 				"content":"assets/images/content/parsley.jpg",
 				"type":"image",
 				"answer":"parsley",
@@ -324,116 +323,115 @@
 				]
 
 			},{
-				"crosswordId" : 1,
-				 "width" : 14,
-				 "height" : 14,
+				 "width" : 13,
+				 "height" : 11,
 				 "questions" : [
 				 {
 				 
-				 "x": 1,
-				"y": 1,
+				 "x": 0,
+				"y": 0,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Definition",
 				"content":" when the Moon passes between Earth and the Sun",
 				"type":"text",
 				"answer":"eclipse",
 				"letters":"DHceeilmpsw" 
 				 },{
 				 
-				 "x": 3,
-				"y": 3,
+				 "x": 2,
+				"y": 2,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Sonnet",
 				"content":"Shall I compare ... to a summers day- william shakespear",
 				"type":"text",
 				"answer":"thee",
 				"letters":"Geehpttw" 
 				 },{
 				 
-				 "x": 1,
-				"y": 6,
+				 "x": 0,
+				"y": 5,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Logo",
 				"content":"assets/images/content/shell.jpg",
 				"type":"image",
 				"answer":"shell",
 				"letters":"Bdehllnsx" 
 				 },{
 				 
-				 "x": 5,
-				"y": 5,
+				 "x": 4,
+				"y": 4,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Word",
 				"content":"each nation have one ",
 				"type":"text",
 				"answer":"flag",
 				"letters":"NOabfglw" 
 				 },{
 				 
-				 "x": 8,
-				"y": 2,
+				 "x": 7,
+				"y": 1,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Celebrity",
 				"content":"assets/images/content/monroe.jpg",
 				"type":"image",
 				"answer":"monroe",
 				"letters":"DRTemnoorz" 
 				 },{
 				 
-				 "x": 7,
-				"y": 3,
+				 "x": 6,
+				"y": 2,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Definition",
 				"content":"a device used for securing a door, gate, drawer or the like in position when closed",
 				"type":"text",
 				"answer":"lock",
 				"letters":"FKcikloy" 
 				 },{
 				 
-				 "x": 5,
-				"y": 7,
+				 "x": 4,
+				"y": 6,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"City",
 				"content":"assets/images/content/athena.jpg",
 				"type":"image",
 				"answer":"athena",
 				"letters":"Aaaeehnttv" 
 				 },{
 				 
-				 "x": 10,
-				"y": 6,
+				 "x": 9,
+				"y": 5,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Zoom In",
 				"content":"assets/images/content/walnut.jpg",
 				"type":"image",
 				"answer":"walnut",
 				"letters":"UVXalntuww" 
 				 },{
 				 
-				 "x": 8,
-				"y": 9,
+				 "x": 7,
+				"y": 8,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Proverb",
 				"content":"Absence makes the heart grow ...",
 				"type":"text",
 				"answer":"fonder",
 				"letters":"BBdefnopry" 
 				 },{
 				 
-				 "x": 8,
-				"y": 11,
+				 "x": 7,
+				"y": 10,
 				"direction":"v", 
-				"title":"Title here",
+				"title":"Zoom In",
 				"content":"assets/images/content/cat.jpg",
 				"type":"image",
 				"answer":"cat",
 				"letters":"QXYacnt" 
 				 },{
 				 
-				 "x": 13,
-				"y": 7,
+				 "x": 12,
+				"y": 6,
 				"direction":"h",
-				"title":"Title here",
+				"title":"Celebrity",
 				"content":"assets/images/content/marx.jpg",
 				"type":"image",
 				"answer":"marx",
