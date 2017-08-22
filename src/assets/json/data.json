@@ -206,124 +206,6 @@
 		"crosswords" : [
 			{
 				 "width" : 13,
-				 "height" : 14,
-				 "questions" : [
-				 {
-				 
-				 "x": 0,
-				"y": 0,
-				"direction":"h",
-				"title":"Geography",
-				"content":"What was the largest island in the world before discovering Australia?",
-				"type":"text",
-				"answer":"australia",
-				"letters":"Gaaaijklrrstu" 
-				 },{
-				 
-				 "x": 2,
-				"y": 3,
-				"direction":"h",
-				"title":"Politician",
-				"content":"assets/images/content/erdogan.jpg",
-				"type":"image",
-				"answer":"erdogan",
-				"letters":"Wadeeglnorv" 
-				 },{
-				 
-				 "x": 2,
-				"y": 3,
-				"direction":"v", 
-				"title":"Quote",
-				"content":" A penny saved is a penny ...",
-				"type":"text",
-				"answer":"earned",
-				"letters":"EJadeejnpr" 
-				 },{
-				 
-				 "x": 6,
-				"y": 1,
-				"direction":"v", 
-				"title":"Character",
-				"content":"What is the name of the boy in the Jungle Book?",
-				"type":"text",
-				"answer":"mowgli",
-				"letters":"QYgillmoww" 
-				 },{
-				 
-				 "x": 0,
-				"y": 8,
-				"direction":"v", 
-				"title":"Logo",
-				"content":"assets/images/content/atari.jpg",
-				"type":"image",
-				"answer":"atari",
-				"letters":"BLSaairtt" 
-				 },{
-				 
-				 "x": 9,
-				"y": 1,
-				"direction":"h",
-				"title":"Country",
-				"content":"assets/images/content/greece.jpg",
-				"type":"image",
-				"answer":"greece",
-				"letters":"MXYceeegnr" 
-				 },{
-				 
-				 "x": 4,
-				"y": 7,
-				"direction":"h",
-				"title":"Biology",
-				"content":"the organ that filters blood",
-				"type":"text",
-				"answer":"kidneys",
-				"letters":"DNXdefiknsy" 
-				 },{
-				 
-				 "x": 2,
-				"y": 11,
-				"direction":"v", 
-				"title":"Food",
-				"content":" What type of food is manchego?",
-				"type":"text",
-				"answer":"cheese",
-				"letters":"HZaceeehsu" 
-				 },{
-				 
-				 "x": 7,
-				"y": 6,
-				"direction":"h",
-				"title":"Character",
-				"content":"assets/images/content/popeye.jpg",
-				"type":"image",
-				"answer":"popeye",
-				"letters":"Peehoppxxy" 
-				 },{
-				 
-				 "x": 7,
-				"y": 6,
-				"direction":"v", 
-				"title":"Celebrity",
-				"content":"assets/images/content/phelps.jpg",
-				"type":"image",
-				"answer":"phelps",
-				"letters":"AWefhklpps" 
-				 },{
-				 
-				 "x": 1,
-				"y": 13,
-				"direction":"v", 
-				"title":"Zoom In",
-				"content":"assets/images/content/parsley.jpg",
-				"type":"image",
-				"answer":"parsley",
-				"letters":"OVaeeglprsy" 
-				 }
-				
-				]
-
-			},{
-				 "width" : 13,
 				 "height" : 11,
 				 "questions" : [
 				 {
@@ -987,7 +869,13 @@
 				"letters":"HHMaimoott" 
 				 }
 				]
-			},{"crosswordId" : 1,
+			}
+
+		]
+},{"levelId":2,
+		"crosswords" : [
+
+			{"crosswordId" : 1,
 				 "width" : 20,
 				 "height" : 20,
 				 "questions" : [
@@ -1224,7 +1112,7 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/content/china",
+				"content":"assets/images/content/china.jpg",
 				"type":"image",
 				"answer":"china",
 				"letters":"JOQachinw" 
@@ -1234,7 +1122,7 @@
 				"y": 4,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/content/unicef",
+				"content":"assets/images/content/unicef.jpg",
 				"type":"image",
 				"answer":"unicef",
 				"letters":"RVWcefinux" 
@@ -1264,7 +1152,7 @@
 				"y": 4,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/content/chaplin",
+				"content":"assets/images/content/eminem.jpg",
 				"type":"image",
 				"answer":"eminem",
 				"letters":"ETaeeimmnv" 
@@ -1720,7 +1608,11 @@
 				"letters":"Zahmppssy" 
 				 }
 				]
-			},{"crosswordId" : 1,
+			}
+		]
+},{"levelId":2,
+		"crosswords" :[
+			{"crosswordId" : 1,
 				 "width" : 20,
 				 "height" : 20,
 				 "questions" : [
@@ -2456,14 +2348,18 @@
 						"letters":"MCDONALDS"
 					}
 				]
-			},{
+			}
+		]
+	},{"levelId":2,
+		"crosswords" :[
+			{
 				"crosswordId" : 1,
-				 "width" : 14,
-				 "height" : 14,
-				 "questions" : [
-				 {
+				"width" : 14,
+				"height" : 14,
+				"questions" : [
+				{
 				 
-				 "x": 1,
+				"x": 1,
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
@@ -3082,18 +2978,656 @@
 						"direction":"h",
 						"title":"Title here",
 						"content":"assets/images/content/monkey.jpg",
-						"type":"text",
+						"type":"image",
 						"answer":"MONKEY",
 						"letters":"MONKEY"
 					}]
-			}
-		]
-	},
-	
+			},{
+				 	"width" : 20,
+				 	"height" : 20,
+				 	"questions" : [
+				 	{
+				 		"x": 0,
+						"y": 1,
+						"direction":"v", 
+						"title":"Title here",
+						"content":" sound before lightning strike",
+						"type":"text",
+						"answer":"thunder",
+						"letters":"Hdehlnrrtuz" 
+				 	},	{
+				 		"x": 0,
+						"y": 1,
+						"direction":"h",
+						"title":"Title here",
+						"content":" the most expensive vegetable",
+						"type":"text",
+						"answer":"truffle",
+						"letters":"OPefflmrttu" 
+				 	},	{
+				 		"x": 6,
+						"y": 1,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/rocky.jpg",
+						"type":"image",
+						"answer":"rocky",
+						"letters":"cklnorsuy" 
+				 	},	{
+				 		"x": 5,
+						"y": 5,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/hyundai.jpg",
+						"type":"image",
+						"answer":"hyundai",
+						"letters":"EGKadhinquy" 
+				 	},	{
+				 		"x": 8,
+						"y": 3,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/tongue.jpg",
+						"type":"image",
+						"answer":"tongue",
+						"letters":"TWdeginotu" 
+				 	},	{
+				 		"x": 3,
+						"y": 8,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"a perfectly round geometrical object in three-dimensional space that is the surface of a completely round ball.",
+						"type":"text",
+						"answer":"sphere",
+						"letters":"AGUeehprsw" 
+				 	},	{
+				 		"x": 6,
+						"y": 7,
+						"direction":"h",
+						"title":"Title here",
+						"content":"A state in the US",
+						"type":"text",
+						"answer":"texas",
+						"letters":"PSWaaestx" 
+				 	},	{
+				 		"x": 2,
+						"y": 11,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/wales.jpg",
+						"type":"image",
+						"answer":"wales",
+						"letters":"Zadeglmsw" 
+				 	},	{
+				 		"x": 11,
+						"y": 4,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/airbus.jpg",
+						"type":"image",
+						"answer":"airbus",
+						"letters":"GMPabirsuz" 
+				 	},	{
+				 		"x": 9,
+						"y": 9,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/castro.jpg",
+						"type":"image",
+						"answer":"castro",
+						"letters":"BDacoqrstz" 
+				 	},	{
+				 		"x": 13,
+						"y": 8,
+						"direction":"h",
+						"title":"Title here",
+						"content":"Too many cooks spoil the ...",
+						"type":"text",
+						"answer":"broth",
+						"letters":"CLbhoortt" 
+				 	}
+				 ]
+			},
+				{
+				 	"width" : 20,
+				 	"height" : 20,
+				 	"questions" : [
+				 	{
+				 		"x": 0,
+						"y": 1,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/tunisia.jpg",
+						"type":"image",
+						"answer":"tunisia",
+						"letters":"Bahhiinstuy" 
+				 	},	{
+				 		"x": 0,
+						"y": 4,
+						"direction":"h",
+						"title":"Title here",
+						"content":"the process or result of joining two or more things together to form a single entity ",
+						"type":"text",
+						"answer":"fusion",
+						"letters":"FFfinopstu" 
+				 	},	{
+				 		"x": 4,
+						"y": 1,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/stewart.jpg",
+						"type":"image",
+						"answer":"stewart",
+						"letters":"LLSaefrsttw" 
+				 	},	{
+				 		"x": 0,
+						"y": 6,
+						"direction":"v", 
+						"title":"Title here",
+						"content":" the most expensive spice",
+						"type":"text",
+						"answer":"saffron",
+						"letters":"Xaaffnorstz" 
+				 	},	{
+				 		"x": 6,
+						"y": 4,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/ginger.jpg",
+						"type":"image",
+						"answer":"ginger",
+						"letters":"Reggilnqrw" 
+				 	},	{
+				 		"x": 1,
+						"y": 11,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/lincoln.jpg",
+						"type":"image",
+						"answer":"lincoln",
+						"letters":"BELcillnnov" 
+				 	},	{
+				 		"x": 5,
+						"y": 9,
+						"direction":"v", 
+						"title":"Title here",
+						"content":" Two ... dont make a right.",
+						"type":"text",
+						"answer":"wrongs",
+						"letters":"LWbbgnorsw" 
+				 	},	{
+				 		"x": 5,
+						"y": 9,
+						"direction":"h",
+						"title":"Title here",
+						"content":"famous american golfer",
+						"type":"text",
+						"answer":"woods",
+						"letters":"HKdhoosuw" 
+				 	},	{
+				 		"x": 10,
+						"y": 9,
+						"direction":"h",
+						"title":"Title here",
+						"content":"large hot desert",
+						"type":"text",
+						"answer":"sahara",
+						"letters":"CFKLaaahrs" 
+				 	},	{
+				 		"x": 6,
+						"y": 14,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/zelda.jpg",
+						"type":"image",
+						"answer":"zelda",
+						"letters":"IMTadelqz" 
+				 	},	{
+				 		"x": 9,
+						"y": 11,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/whisk.jpg",
+						"type":"image",
+						"answer":"whisk",
+						"letters":"BMhhikssw" 
+				 	}	]
+				}
 
-	{},
-	{},
-	{},
-	{},
+			]
+} ,{"levelId":2,
+		"crosswords" :[
+				{
+				 	"width" : 20,
+				 	"height" : 20,
+				 	"questions" : [
+				 	{
+				 		"x": 0,
+						"y": 1,
+						"direction":"h",
+						"title":"Title here",
+						"content":" -the davinci code - is the best selling book in history, it was written by... ",
+						"type":"text",
+						"answer":"danbrown",
+						"letters":"BEINabdnnorw" 
+				 	},	{
+				 		"x": 2,
+						"y": 3,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/pantheon.jpg",
+						"type":"image",
+						"answer":"pantheon",
+						"letters":"EGXaehnnoptu" 
+				 	},	{
+				 		"x": 0,
+						"y": 6,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/oyster.jpg",
+						"type":"image",
+						"answer":"oyster",
+						"letters":"SYeforstyz" 
+				 	},	{
+				 		"x": 4,
+						"y": 2,
+						"direction":"h",
+						"title":"Title here",
+						"content":" a shortform of independence or independent",
+						"type":"text",
+						"answer":"indie",
+						"letters":"deeiinnoq" 
+				 	},	{
+				 		"x": 3,
+						"y": 6,
+						"direction":"h",
+						"title":"Title here",
+						"content":"the rise and fall of sea levels",
+						"type":"text",
+						"answer":"tides",
+						"letters":"Xadegisty" 
+				 	},	{
+				 		"x": 9,
+						"y": 1,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/jonsnow.jpg",
+						"type":"image",
+						"answer":"jonsnow",
+						"letters":"FOSYjnnoosw" 
+				 	},	{
+				 		"x": 7,
+						"y": 3,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/egypte.jpg",
+						"type":"image",
+						"answer":"egypte",
+						"letters":"GHNeegkpty" 
+				 	},	{
+				 		"x": 3,
+						"y": 10,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"in the famous series Beaking Bad, what was the name of the lawyer ",
+						"type":"text",
+						"answer":"saul",
+						"letters":"CLaclsux" 
+				 	},	{
+				 		"x": 5,
+						"y": 8,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/trudeau.jpg",
+						"type":"image",
+						"answer":"trudeau",
+						"letters":"Xadenrrtuuu" 
+				 	},	{
+				 		"x": 1,
+						"y": 13,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/mudbath.jpg",
+						"type":"image",
+						"answer":"mudbath",
+						"letters":"GRabdhkmqtu" 
+				 	},	{
+				 		"x": 7,
+						"y": 7,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"I get wet when drying. I get dirty when wiping. What am I?",
+						"type":"text",
+						"answer":"towel",
+						"letters":"QYeglottw" 
+				 	}	
+				 ]
+			},
+				{
+				 	"width" : 20,
+				 	"height" : 20,
+				 	"questions" : [
+				 	{
+				 		"x": 0,
+						"y": 1,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/motorola.jpg",
+						"type":"image",
+						"answer":"motorola",
+						"letters":"IJalmooorrtz" 
+				 	},	{
+				 		"x": 1,
+						"y": 1,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/oprah.jpg",
+						"type":"image",
+						"answer":"oprah",
+						"letters":"Gaehlopry" 
+				 	},	{
+				 		"x": 6,
+						"y": 1,
+						"direction":"h",
+						"title":"Title here",
+						"content":"I can go through glass without breaking it. What am I ??",
+						"type":"text",
+						"answer":"light",
+						"letters":"Qghhilqst" 
+				 	},	{
+				 		"x": 4,
+						"y": 4,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"the currency of thailand",
+						"type":"text",
+						"answer":"baht",
+						"letters":"LNabdhpt" 
+				 	},	{
+				 		"x": 4,
+						"y": 4,
+						"direction":"h",
+						"title":"Title here",
+						"content":"BBQ",
+						"type":"text",
+						"answer":"barbecue",
+						"letters":"Xabbceefjlru" 
+				 	},	{
+				 		"x": 2,
+						"y": 6,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/peru.jpg",
+						"type":"image",
+						"answer":"peru",
+						"letters":"FQSeppru" 
+				 	},	{
+				 		"x": 1,
+						"y": 8,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"six-second videos made generally to have fun, shared in social media",
+						"type":"text",
+						"answer":"vines",
+						"letters":"MXeeinstv" 
+				 	},	{
+				 		"x": 1,
+						"y": 11,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/firefly.jpg",
+						"type":"image",
+						"answer":"firefly",
+						"letters":"KKNeffilory" 
+				 	},	{
+				 		"x": 6,
+						"y": 9,
+						"direction":"h",
+						"title":"Title here",
+						"content":"A baby elephant is called a ...",
+						"type":"text",
+						"answer":"calf",
+						"letters":"RWacfglt" 
+				 	},	{
+				 		"x": 6,
+						"y": 9,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/cork.jpg",
+						"type":"image",
+						"answer":"cork",
+						"letters":"Obcdgkor" 
+				 	},	{
+				 		"x": 9,
+						"y": 9,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/kira.jpg",
+						"type":"image",
+						"answer":"kira",
+						"letters":"DNWaikrz" 
+				 	}	]
+				},
+
+				{
+				 	"width" : 20,
+				 	"height" : 20,
+				 	"questions" : [
+				 	{
+				 		"x": 0,
+						"y": 1,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/belgium.jpg",
+						"type":"image",
+						"answer":"belgium",
+						"letters":"Zabcegilmuu" 
+				 	},	{
+				 		"x": 0,
+						"y": 1,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/bugatti.jpg",
+						"type":"image",
+						"answer":"bugatti",
+						"letters":"GOUabgittux" 
+				 	},	{
+				 		"x": 3,
+						"y": 3,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/gates.jpg",
+						"type":"image",
+						"answer":"gates",
+						"letters":"IVaegmpst" 
+				 	},	{
+				 		"x": 2,
+						"y": 4,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"Dont count your chickens before they ...",
+						"type":"text",
+						"answer":"hatch",
+						"letters":"Xachhikot" 
+				 	},	{
+				 		"x": 0,
+						"y": 7,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"in soccer , who is the most awarded players with golden balls",
+						"type":"text",
+						"answer":"messi",
+						"letters":"BQegimqss" 
+				 	},	{
+				 		"x": 2,
+						"y": 7,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/soap.jpg",
+						"type":"image",
+						"answer":"soap",
+						"letters":"BWalopps" 
+				 	},	{
+				 		"x": 0,
+						"y": 9,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"I grown from darkness but shine with a pale light. Very round I am, and always a ladys delight. What am I?",
+						"type":"text",
+						"answer":"pearl",
+						"letters":"Naehklprt" 
+				 	},	{
+				 		"x": 6,
+						"y": 4,
+						"direction":"h",
+						"title":"Title here",
+						"content":"What were NFL players required to wear in games for the first time in 1943?",
+						"type":"text",
+						"answer":"helmets",
+						"letters":"EGJdeehlmst" 
+				 	},	{
+				 		"x": 5,
+						"y": 6,
+						"direction":"v", 
+						"title":"Title here",
+						"content":"../assets/images/content/vlc.jpg",
+						"type":"image",
+						"answer":"vlc",
+						"letters":"VWZclrv" 
+				 	},	{
+				 		"x": 4,
+						"y": 9,
+						"direction":"h",
+						"title":"Title here",
+						"content":"../assets/images/content/lemur.jpg",
+						"type":"image",
+						"answer":"lemur",
+						"letters":"NWXelmrux" 
+				 	}
+				]
+			},{
+				"width" : 13,
+				"height" : 14,
+				"questions" : [
+				{
+				 
+				"x": 0,
+				"y": 0,
+				"direction":"h",
+				"title":"Geography",
+				"content":"What was the largest island in the world before discovering Australia?",
+				"type":"text",
+				"answer":"australia",
+				"letters":"Gaaaijklrrstu" 
+				 },{
+				 
+				 "x": 2,
+				"y": 3,
+				"direction":"h",
+				"title":"Politician",
+				"content":"assets/images/content/erdogan.jpg",
+				"type":"image",
+				"answer":"erdogan",
+				"letters":"Wadeeglnorv" 
+				 },{
+				 
+				 "x": 2,
+				"y": 3,
+				"direction":"v", 
+				"title":"Quote",
+				"content":" A penny saved is a penny ...",
+				"type":"text",
+				"answer":"earned",
+				"letters":"EJadeejnpr" 
+				 },{
+				 
+				 "x": 6,
+				"y": 1,
+				"direction":"v", 
+				"title":"Character",
+				"content":"What is the name of the boy in the Jungle Book?",
+				"type":"text",
+				"answer":"mowgli",
+				"letters":"QYgillmoww" 
+				 },{
+				 
+				 "x": 0,
+				"y": 8,
+				"direction":"v", 
+				"title":"Logo",
+				"content":"assets/images/content/atari.jpg",
+				"type":"image",
+				"answer":"atari",
+				"letters":"BLSaairtt" 
+				 },{
+				 
+				 "x": 9,
+				"y": 1,
+				"direction":"h",
+				"title":"Country",
+				"content":"assets/images/content/greece.jpg",
+				"type":"image",
+				"answer":"greece",
+				"letters":"MXYceeegnr" 
+				 },{
+				 
+				 "x": 4,
+				"y": 7,
+				"direction":"h",
+				"title":"Biology",
+				"content":"the organ that filters blood",
+				"type":"text",
+				"answer":"kidneys",
+				"letters":"DNXdefiknsy" 
+				 },{
+				 
+				 "x": 2,
+				"y": 11,
+				"direction":"v", 
+				"title":"Food",
+				"content":" What type of food is manchego?",
+				"type":"text",
+				"answer":"cheese",
+				"letters":"HZaceeehsu" 
+				 },{
+				 
+				 "x": 7,
+				"y": 6,
+				"direction":"h",
+				"title":"Character",
+				"content":"assets/images/content/popeye.jpg",
+				"type":"image",
+				"answer":"popeye",
+				"letters":"Peehoppxxy" 
+				 },{
+				 
+				 "x": 7,
+				"y": 6,
+				"direction":"v", 
+				"title":"Celebrity",
+				"content":"assets/images/content/phelps.jpg",
+				"type":"image",
+				"answer":"phelps",
+				"letters":"AWefhklpps" 
+				 },{
+				 
+				 "x": 1,
+				"y": 13,
+				"direction":"v", 
+				"title":"Zoom In",
+				"content":"assets/images/content/parsley.jpg",
+				"type":"image",
+				"answer":"parsley",
+				"letters":"OVaeeglprsy" 
+				 }
+				
+				]
+
+			}
+
+		]
+
+		},
+	
 	{}
 ]
