@@ -426,91 +426,122 @@
 			"letters":"ARaansvz" 
 			 }
 				]
-			},{
-				"width":12,
-				"height":14,
-				"questions" :[
-					{
-					 
-					 "x": 0,
-					"y": 0,
-					"direction":"h",
-					"title":"General culture",
-					"content":"A medication used to treat pain and fever.",
-					"type":"text",
-					"answer":"paracetamol",
-					"letters":"KMUaaaceilmoprt" 
-					 },{
-					 
-					"x": 0,
-					"y": 2,
-					"direction":"v", 
-					"title":"Celebrity",
-					"content":"assets/images/content/ronaldinho.jpg",
-					"type":"image",
-					"answer":"ronaldinho",
-					"letters":"HLadhhilnnoorx" 
-					 },{
-					 
-					 "x": 4,
-					"y": 0,
-					"direction":"v", 
-					"title":"Logo",
-					"content":"assets/images/content/whatsapp.jpg",
-					"type":"image",
-					"answer":"whatsapp",
-					"letters":"BHXaahppsstw" 
-					 },{
-					 
-					 "x": 6,
-					"y": 0,
-					"direction":"h",
-					"title":"Quote",
-					"content":"Poverty is the parent of revolution and crime.- ...",
-					"type":"text",
-					"answer":"aristotle",
-					"letters":"abeeiilorsttz" 
-					 },{
-					 
-					 "x": 2,
-					"y": 5,
-					"direction":"v", 
-					"title":"Logo",
-					"content":"assets/images/content/microsoft.jpg",
-					"type":"image",
-					"answer":"microsoft",
-					"letters":"Lccfimmooprst" 
-					 },{
-					 
-					 "x": 4,
-					"y": 5,
-					"direction":"h",
-					"title":"Brand",
-					"content":"assets/images/content/cocacola.jpg",
-					"type":"image",
-					"answer":"cocacola",
-					"letters":"DMWaacccloot" 
-					 },{
-					 
-					 "x": 3,
-					"y": 12,
-					"direction":"v", 
-					"title":"Word",
-					"content":"assets/images/content/camping.jpg",
-					"type":"image",
-					"answer":"camping",
-					"letters":"AIOacghimnp" 
-					 },{
-					 
-					 "x": 7,
-					"y": 9,
-					"direction":"h",
-					"title":"City",
-					"content":"assets/images/content/paris.jpg",
-					"type":"image",
-					"answer":"paris",
-					"letters":"KWaaiprst" 
-					 } 
+			},{"crosswordId" : 1,
+				 "width" : 15,
+				 "height" : 15,
+				 "questions" : [
+				 {
+				 
+				 "x": 1,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"assets/images/content/pringles.jpg",
+				"type":"image",
+				"answer":"pringles",
+				"letters":"JXeggilnprst" 
+				 },{
+				 
+				 "x": 3,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"Lazy or inactive",
+				"type":"text",
+				"answer":"idle",
+				"letters":"APSdeikl" 
+				 },{
+				 
+				 "x": 8,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":"assets/images/content/shrimp.jpg",
+				"type":"image",
+				"answer":"shrimp",
+				"letters":"Cehimprstw" 
+				 },{
+				 
+				 "x": 6,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"You can lead a ... to water, but you cant make him drink. -proverb",
+				"type":"text",
+				"answer":"horse",
+				"letters":"CVehmorsx" 
+				 },{
+				 
+				 "x": 6,
+				"y": 3,
+				"direction":"h",
+				"title":"Title here",
+				"content":"crafted using hands",
+				"type":"text",
+				"answer":"handmade",
+				"letters":"CRaacddeghmn" 
+				 },{
+				 
+				 "x": 10,
+				"y": 1,
+				"direction":"h",
+				"title":"Title here",
+				"content":" What do we do to a chewing gum",
+				"type":"text",
+				"answer":"chew",
+				"letters":"JRTcehhw" 
+				 },{
+				 
+				 "x": 6,
+				"y": 5,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"it belongs to you, yet other people use it more often than you do ",
+				"type":"text",
+				"answer":"name",
+				"letters":"Raemnpsx" 
+				 },{
+				 
+				 "x": 10,
+				"y": 1,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"assets/images/content/cow.jpg",
+				"type":"image",
+				"answer":"cow",
+				"letters":"NPTcoqw" 
+				 },{
+				 
+				 "x": 2,
+				"y": 10,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"assets/images/content/kennedy.jpg",
+				"type":"image",
+				"answer":"kennedy",
+				"letters":"Ydeegkknnwy" 
+				 },{
+				 
+				 "x": 4,
+				"y": 8,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"assets/images/content/trash.jpg",
+				"type":"image",
+				"answer":"trash",
+				"letters":"AFZahorst" 
+				 },{
+				 
+				 "x": 7,
+				"y": 10,
+				"direction":"h",
+				"title":"Title here",
+				"content":"assets/images/content/dubai.jpg",
+				"type":"image",
+				"answer":"dubai",
+				"letters":"HKQabdiuy" 
+				 }
+
 				]
 			},{
 				 "width" : 14,
@@ -1612,121 +1643,91 @@
 		]
 },{"levelId":2,
 		"crosswords" :[
-			{"crosswordId" : 1,
-				 "width" : 20,
-				 "height" : 20,
-				 "questions" : [
-				 {
-				 
-				 "x": 1,
-				"y": 1,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"assets/images/content/wonderwomen.jpg",
-				"type":"image",
-				"answer":"wonderwomen",
-				"letters":"Iddeemnnooqrwwx" 
-				 },{
-				 
-				 "x": 1,
-				"y": 1,
-				"direction":"h",
-				"title":"Title here",
-				"content":"assets/images/content/wendys.jpg",
-				"type":"image",
-				"answer":"wendys",
-				"letters":"Xaddenoswy" 
-				 },{
-				 
-				 "x": 8,
-				"y": 1,
-				"direction":"h",
-				"title":"Title here",
-				"content":"assets/images/content/owl.jpg",
-				"type":"image",
-				"answer":"owl",
-				"letters":"Kglloow" 
-				 },{
-				 
-				 "x": 7,
-				"y": 3,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"assets/images/content/blackhole.jpg",
-				"type":"image",
-				"answer":"blackhole",
-				"letters":"LWabcefhkllow" 
-				 },{
-				 
-				 "x": 2,
-				"y": 9,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"the temperature at which a liquid bubbles and turns to vapor.",
-				"type":"text",
-				"answer":"boil",
-				"letters":"Obiiilox" 
-				 },{
-				 
-				 "x": 5,
-				"y": 8,
-				"direction":"h",
-				"title":"Title here",
-				"content":"Birds of a feather ... together",
-				"type":"text",
-				"answer":"flock",
-				"letters":"QVbcfkloo" 
-				 },{
-				 
-				 "x": 13,
-				"y": 2,
-				"direction":"h",
-				"title":"Title here",
-				"content":"assets/images/content/portugal.jpg",
-				"type":"image",
-				"answer":"portugal",
-				"letters":"HYafgjloprtu" 
-				 },{
-				 
-				 "x": 7,
-				"y": 8,
-				"direction":"h",
-				"title":"Title here",
-				"content":"assets/images/content/pacific.jpg",
-				"type":"image",
-				"answer":"pacific",
-				"letters":"ASaccfiipvw" 
-				 },{
-				 
-				 "x": 7,
-				"y": 9,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"A Navy and Coast Guard rank",
-				"type":"text",
-				"answer":"admiral",
-				"letters":"GMWaadgilmr" 
-				 },{
-				 
-				 "x": 9,
-				"y": 7,
-				"direction":"h",
-				"title":"Title here",
-				"content":"assets/images/content/hammer.jpg",
-				"type":"image",
-				"answer":"hammer",
-				"letters":"aabbdehmmr" 
-				 },{
-				 
-				 "x": 5,
-				"y": 11,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"What is the plural of the word crisis?",
-				"type":"text",
-				"answer":"crises",
-				"letters":"UXceeiirss" 
-				 }
+			{
+				"width":12,
+				"height":14,
+				"questions" :[
+					{
+					 
+					 "x": 0,
+					"y": 0,
+					"direction":"h",
+					"title":"General culture",
+					"content":"A medication used to treat pain and fever.",
+					"type":"text",
+					"answer":"paracetamol",
+					"letters":"KMUaaaceilmoprt" 
+					 },{
+					 
+					"x": 0,
+					"y": 2,
+					"direction":"v", 
+					"title":"Celebrity",
+					"content":"assets/images/content/ronaldinho.jpg",
+					"type":"image",
+					"answer":"ronaldinho",
+					"letters":"HLadhhilnnoorx" 
+					 },{
+					 
+					 "x": 4,
+					"y": 0,
+					"direction":"v", 
+					"title":"Logo",
+					"content":"assets/images/content/whatsapp.jpg",
+					"type":"image",
+					"answer":"whatsapp",
+					"letters":"BHXaahppsstw" 
+					 },{
+					 
+					 "x": 6,
+					"y": 0,
+					"direction":"h",
+					"title":"Quote",
+					"content":"Poverty is the parent of revolution and crime.- ...",
+					"type":"text",
+					"answer":"aristotle",
+					"letters":"abeeiilorsttz" 
+					 },{
+					 
+					 "x": 2,
+					"y": 5,
+					"direction":"v", 
+					"title":"Logo",
+					"content":"assets/images/content/microsoft.jpg",
+					"type":"image",
+					"answer":"microsoft",
+					"letters":"Lccfimmooprst" 
+					 },{
+					 
+					 "x": 4,
+					"y": 5,
+					"direction":"h",
+					"title":"Brand",
+					"content":"assets/images/content/cocacola.jpg",
+					"type":"image",
+					"answer":"cocacola",
+					"letters":"DMWaacccloot" 
+					 },{
+					 
+					 "x": 3,
+					"y": 12,
+					"direction":"v", 
+					"title":"Word",
+					"content":"assets/images/content/camping.jpg",
+					"type":"image",
+					"answer":"camping",
+					"letters":"AIOacghimnp" 
+					 },{
+					 
+					 "x": 7,
+					"y": 9,
+					"direction":"h",
+					"title":"City",
+					"content":"assets/images/content/paris.jpg",
+					"type":"image",
+					"answer":"paris",
+					"letters":"KWaaiprst" 
+					 } 
 				]
 
 			},{"crosswordId" : 1,
@@ -2469,10 +2470,9 @@
 				"letters":"EKWilow" 
 				 }
 				]
-			},{
-				"crosswordId" : 1,
-				 "width" : 15,
-				 "height" : 15,
+			},{"crosswordId" : 1,
+				 "width" : 20,
+				 "height" : 20,
 				 "questions" : [
 				 {
 				 
@@ -2480,113 +2480,113 @@
 				"y": 1,
 				"direction":"v", 
 				"title":"Title here",
-				"content":"assets/images/content/pringles.jpg",
+				"content":"assets/images/content/wonderwomen.jpg",
 				"type":"image",
-				"answer":"pringles",
-				"letters":"JXeggilnprst" 
+				"answer":"wonderwomen",
+				"letters":"Iddeemnnooqrwwx" 
 				 },{
 				 
-				 "x": 3,
+				 "x": 1,
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"Lazy or inactive",
-				"type":"text",
-				"answer":"idle",
-				"letters":"APSdeikl" 
+				"content":"assets/images/content/wendys.jpg",
+				"type":"image",
+				"answer":"wendys",
+				"letters":"Xaddenoswy" 
 				 },{
 				 
 				 "x": 8,
 				"y": 1,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/content/shrimp.jpg",
+				"content":"assets/images/content/owl.jpg",
 				"type":"image",
-				"answer":"shrimp",
-				"letters":"Cehimprstw" 
-				 },{
-				 
-				 "x": 6,
-				"y": 3,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"You can lead a ... to water, but you cant make him drink. -proverb",
-				"type":"text",
-				"answer":"horse",
-				"letters":"CVehmorsx" 
-				 },{
-				 
-				 "x": 6,
-				"y": 3,
-				"direction":"h",
-				"title":"Title here",
-				"content":"crafted using hands",
-				"type":"text",
-				"answer":"handmade",
-				"letters":"CRaacddeghmn" 
-				 },{
-				 
-				 "x": 10,
-				"y": 1,
-				"direction":"h",
-				"title":"Title here",
-				"content":" What do we do to a chewing gum",
-				"type":"text",
-				"answer":"chew",
-				"letters":"JRTcehhw" 
-				 },{
-				 
-				 "x": 6,
-				"y": 5,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"it belongs to you, yet other people use it more often than you do ",
-				"type":"text",
-				"answer":"name",
-				"letters":"Raemnpsx" 
-				 },{
-				 
-				 "x": 10,
-				"y": 1,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"assets/images/content/cow.jpg",
-				"type":"image",
-				"answer":"cow",
-				"letters":"NPTcoqw" 
-				 },{
-				 
-				 "x": 2,
-				"y": 10,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"assets/images/content/kennedy.jpg",
-				"type":"image",
-				"answer":"kennedy",
-				"letters":"Ydeegkknnwy" 
-				 },{
-				 
-				 "x": 4,
-				"y": 8,
-				"direction":"v", 
-				"title":"Title here",
-				"content":"assets/images/content/trash.jpg",
-				"type":"image",
-				"answer":"trash",
-				"letters":"AFZahorst" 
+				"answer":"owl",
+				"letters":"Kglloow" 
 				 },{
 				 
 				 "x": 7,
-				"y": 10,
+				"y": 3,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"assets/images/content/blackhole.jpg",
+				"type":"image",
+				"answer":"blackhole",
+				"letters":"LWabcefhkllow" 
+				 },{
+				 
+				 "x": 2,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"the temperature at which a liquid bubbles and turns to vapor.",
+				"type":"text",
+				"answer":"boil",
+				"letters":"Obiiilox" 
+				 },{
+				 
+				 "x": 5,
+				"y": 8,
 				"direction":"h",
 				"title":"Title here",
-				"content":"assets/images/content/dubai.jpg",
+				"content":"Birds of a feather ... together",
+				"type":"text",
+				"answer":"flock",
+				"letters":"QVbcfkloo" 
+				 },{
+				 
+				 "x": 13,
+				"y": 2,
+				"direction":"h",
+				"title":"Title here",
+				"content":"assets/images/content/portugal.jpg",
 				"type":"image",
-				"answer":"dubai",
-				"letters":"HKQabdiuy" 
+				"answer":"portugal",
+				"letters":"HYafgjloprtu" 
+				 },{
+				 
+				 "x": 7,
+				"y": 8,
+				"direction":"h",
+				"title":"Title here",
+				"content":"assets/images/content/pacific.jpg",
+				"type":"image",
+				"answer":"pacific",
+				"letters":"ASaccfiipvw" 
+				 },{
+				 
+				 "x": 7,
+				"y": 9,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"A Navy and Coast Guard rank",
+				"type":"text",
+				"answer":"admiral",
+				"letters":"GMWaadgilmr" 
+				 },{
+				 
+				 "x": 9,
+				"y": 7,
+				"direction":"h",
+				"title":"Title here",
+				"content":"assets/images/content/hammer.jpg",
+				"type":"image",
+				"answer":"hammer",
+				"letters":"aabbdehmmr" 
+				 },{
+				 
+				 "x": 5,
+				"y": 11,
+				"direction":"v", 
+				"title":"Title here",
+				"content":"What is the plural of the word crisis?",
+				"type":"text",
+				"answer":"crises",
+				"letters":"UXceeiirss" 
 				 }
-
 				]
+				
 			},{
 
 				"crosswordId" : 1,
