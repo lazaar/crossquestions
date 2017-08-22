@@ -213,7 +213,6 @@
       ]
    },
    {
-      "levelId":2,
       "crosswords":[
          {
             "width":13,
@@ -438,7 +437,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":12,
             "height":14,
             "questions":[
@@ -833,7 +831,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":9,
             "height":13,
             "questions":[
@@ -922,10 +919,8 @@
       ]
    },
    {
-      "levelId":2,
       "crosswords":[
          {
-            "crosswordId":1,
             "width":11,
             "height":14,
             "questions":[
@@ -1032,7 +1027,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":14,
             "height":16,
             "questions":[
@@ -1139,7 +1133,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":11,
             "height":15,
             "questions":[
@@ -1236,7 +1229,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":14,
             "height":14,
             "questions":[
@@ -1323,7 +1315,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":13,
             "height":14,
             "questions":[
@@ -1420,7 +1411,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":12,
             "height":17,
             "questions":[
@@ -1537,7 +1527,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":12,
             "height":16,
             "questions":[
@@ -1656,7 +1645,6 @@
       ]
    },
    {
-      "levelId":2,
       "crosswords":[
          {
             "width":12,
@@ -1745,7 +1733,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":14,
             "height":13,
             "questions":[
@@ -1862,7 +1849,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":16,
             "height":14,
             "questions":[
@@ -1979,7 +1965,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":14,
             "height":13,
             "questions":[
@@ -2096,7 +2081,6 @@
             ]
          },
          {
-            "crosswordId":3,
             "width":10,
             "height":16,
             "questions":[
@@ -2108,17 +2092,17 @@
                   "content":"assets/images/content/RENAULT.jpg",
                   "type":"image",
                   "answer":"RENAULT",
-                  "letters":"RENAULT"
+                  "letters":"RhLAjmUETNoz"
                },
                {
                   "x":3,
                   "y":0,
                   "direction":"h",
                   "title":"Actress",
-                  "content":"assets/images/content/ANGELINA.jpg",
+                  "content":"assets/images/content/angelina.jpg",
                   "type":"image",
-                  "answer":"ANGELINA",
-                  "letters":"ANGELINA"
+                  "answer":"angelina",
+                  "letters":"AAyENfcGLIhNc"
                },
                {
                   "x":8,
@@ -2128,7 +2112,7 @@
                   "content":"assets/images/content/monkey.jpg",
                   "type":"image",
                   "answer":"MONKEY",
-                  "letters":"MONKEY"
+                  "letters":"MExiKYkONxe"
                },
                {
                   "x":5,
@@ -2138,7 +2122,7 @@
                   "content":"'Not all of us can do great things. But we can do small things with great ....' - Mother Teresa",
                   "type":"text",
                   "answer":"LOVE",
-                  "letters":"LOVE"
+                  "letters":"LkVaEOujv"
                },
                {
                   "x":0,
@@ -2148,7 +2132,7 @@
                   "content":"assets/images/content/INDIA.jpg",
                   "type":"image",
                   "answer":"INDIA",
-                  "letters":"INDIA"
+                  "letters":"ItDIoxNoAh"
                },
                {
                   "x":2,
@@ -2158,7 +2142,7 @@
                   "content":"assets/images/content/facebook.jpg",
                   "type":"image",
                   "answer":"FACEBOOK",
-                  "letters":"FACEBOOK"
+                  "letters":"FjCysOnEKOABj"
                },
                {
                   "x":4,
@@ -2168,7 +2152,7 @@
                   "content":"assets/images/content/CROSSWORD.jpg",
                   "type":"image",
                   "answer":"crosswords",
-                  "letters":"crosswords"
+                  "letters":"crwospsosardw"
                },
                {
                   "x":4,
@@ -2178,12 +2162,11 @@
                   "content":"Monday +tuesday +wednesday +thursday +friday +saturday +sunday",
                   "type":"text",
                   "answer":"WEEK",
-                  "letters":"WEEK"
+                  "letters":"WdKExqqEd"
                }
             ]
          },
          {
-            "crosswordId":1,
             "width":10,
             "height":14,
             "questions":[
@@ -2300,7 +2283,6 @@
             ]
          },
          {
-            "crosswordId":2,
             "width":12,
             "height":12,
             "questions":[
@@ -2312,7 +2294,7 @@
                   "content":"assets/images/content/play.jpg",
                   "type":"image",
                   "answer":"PLAY",
-                  "letters":"PLAY"
+                  "letters":"PvzuLYgAh"
                },
                {
                   "x":2,
@@ -2322,17 +2304,17 @@
                   "content":"assets/images/content/banana.jpg",
                   "type":"image",
                   "answer":"BANANA",
-                  "letters":"BANANA"
+                  "letters":"yNBAcjAAoNa"
                },
                {
                   "x":2,
                   "y":6,
                   "direction":"v",
                   "title":"Country flag",
-                  "content":"assets/images/content/AUSTRALIA.jpg",
+                  "content":"assets/images/content/australia.jpg",
                   "type":"image",
                   "answer":"AUSTRALIA",
-                  "letters":"AUSTRALIA"
+                  "letters":"ALAlIaATSURamw"
                },
                {
                   "x":5,
@@ -2342,7 +2324,7 @@
                   "content":"assets/images/content/TAYLOR.jpg",
                   "type":"image",
                   "answer":"TAYLOR",
-                  "letters":"TAYLOR"
+                  "letters":"TRAutOakYLd"
                },
                {
                   "x":3,
@@ -2352,7 +2334,7 @@
                   "content":"the fastest man on earth",
                   "type":"text",
                   "answer":"BOLT",
-                  "letters":"BOLT"
+                  "letters":"BrcOsTtLu"
                },
                {
                   "x":5,
@@ -2362,7 +2344,7 @@
                   "content":"A ... is a person who helps others to acquire knowledge, competences or values. ",
                   "type":"text",
                   "answer":"TEACHER",
-                  "letters":"TEACHER"
+                  "letters":"RHTtAvERElvCa"
                },
                {
                   "x":7,
@@ -2372,7 +2354,7 @@
                   "content":"change your thoughts and you change your .....",
                   "type":"text",
                   "answer":"WORLD",
-                  "letters":"DBCWRSZOBHF"
+                  "letters":"DBCWRSZOBHFL"
                },
                {
                   "x":8,
@@ -2382,17 +2364,15 @@
                   "content":"assets/images/content/MCDONALDS.jpg",
                   "type":"image",
                   "answer":"MCDONALDS",
-                  "letters":"MCDONALDS"
+                  "letters":"MaSLCNDOArDc"
                }
             ]
          }
       ]
    },
    {
-      "levelId":2,
       "crosswords":[
          {
-            "crosswordId":1,
             "width":14,
             "height":13,
             "questions":[
@@ -2509,7 +2489,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":15,
             "height":14,
             "questions":[
@@ -2626,7 +2605,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":15,
             "height":13,
             "questions":[
@@ -2743,7 +2721,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":15,
             "height":14,
             "questions":[
@@ -2870,7 +2847,6 @@
             ]
          },
          {
-            "crosswordId":1,
             "width":17,
             "height":19,
             "questions":[
@@ -2882,7 +2858,7 @@
                   "content":"assets/images/content/PHARMACIST.jpg",
                   "type":"image",
                   "answer":"PHARMACIST",
-                  "letters":"PHARMACIST"
+                  "letters":"PICAMRHTASsd"
                },
                {
                   "x":0,
@@ -2892,7 +2868,7 @@
                   "content":"assets/images/content/adobe.jpg",
                   "type":"image",
                   "answer":"ADOBE",
-                  "letters":"ADOBE"
+                  "letters":"ABsDOfdEs"
                },
                {
                   "x":2,
@@ -2902,7 +2878,7 @@
                   "content":"assets/images/content/LUXEMBOURG.jpg",
                   "type":"image",
                   "answer":"LUXEMBOURG",
-                  "letters":"LUXEMBOURG"
+                  "letters":"osEURvGOLUXBMw"
                },
                {
                   "x":2,
@@ -2912,7 +2888,7 @@
                   "content":"A ... is a person who works professionally in a library",
                   "type":"text",
                   "answer":"LIBRARIAN",
-                  "letters":"LIBRARIAN"
+                  "letters":"IBsRLiAIANrRn"
                },
                {
                   "x":4,
@@ -2922,7 +2898,7 @@
                   "content":"capturing, seizing or taking",
                   "type":"text",
                   "answer":"GRABBING",
-                  "letters":"GRABBING"
+                  "letters":"IBBlANGRqa"
                },
                {
                   "x":6,
@@ -2932,7 +2908,7 @@
                   "content":"assets/images/content/snake.jpg",
                   "type":"image",
                   "answer":"SNAKE",
-                  "letters":"SNAKE"
+                  "letters":"SpEnaKNbAx"
                },
                {
                   "x":8,
@@ -2942,7 +2918,7 @@
                   "content":"assets/images/content/CHEVROLET.jpg",
                   "type":"image",
                   "answer":"CHEVROLET",
-                  "letters":"CHEVROLET"
+                  "letters":"CERVLqoTHaEOfh"
                },
                {
                   "x":10,
@@ -2952,7 +2928,7 @@
                   "content":"One ... a day keeps the doctor away",
                   "type":"text",
                   "answer":"APPLE",
-                  "letters":"APPLE"
+                  "letters":"tplEeAjLPPdsA"
                },
                {
                   "x":13,
@@ -2962,7 +2938,7 @@
                   "content":"In mathematics, a .. is a relation between a set of inputs and a set of permissible outputs ",
                   "type":"text",
                   "answer":"FUNCTION",
-                  "letters":"FUNCTION"
+                  "letters":"FpCONTINkaUd"
                },
                {
                   "x":15,
@@ -2972,7 +2948,7 @@
                   "content":"don't cry because it's over, smile because it ...",
                   "type":"text",
                   "answer":"HAPPENED",
-                  "letters":"HAPPENED"
+                  "letters":"HEANhDPEjPu"
                },
                {
                   "x":9,
@@ -2982,7 +2958,7 @@
                   "content":"Question here",
                   "type":"image| text",
                   "answer":"HEARTBREAKING",
-                  "letters":"HEARTBREAKING"
+                  "letters":"IEAAGkKRHRNBTEs"
                },
                {
                   "x":5,
@@ -2992,17 +2968,17 @@
                   "content":"assets/images/content/SIEMENS.jpg",
                   "type":"image",
                   "answer":"SIEMENS",
-                  "letters":"SIEMENS"
+                  "letters":"SMEdINjaESg"
                },
                {
                   "x":7,
                   "y":11,
                   "direction":"h",
                   "title":"Title here",
-                  "content":"assets/images/content/BIEBER.jpg",
+                  "content":"assets/images/content/bieber.jpg",
                   "type":"image",
-                  "answer":"BIEBER",
-                  "letters":"BIEBER"
+                  "answer":"bieber",
+                  "letters":"bzebireds"
                },
                {
                   "x":3,
@@ -3012,7 +2988,7 @@
                   "content":"assets/images/content/SMILING.jpg",
                   "type":"image",
                   "answer":"SMILING",
-                  "letters":"SMILING"
+                  "letters":"QNIrMsIGpLz"
                }
             ]
          },
@@ -3261,7 +3237,6 @@
       ]
    },
    {
-      "levelId":2,
       "crosswords":[
          {
             "width":12,
