@@ -30,9 +30,9 @@
                   "y":2,
                   "direction":"v",
                   "title":"Logo",
-                  "content":"assets/images/content/FORD.jpg",
+                  "content":"assets/images/content/ford.jpg",
                   "type":"image",
-                  "answer":"FORD",
+                  "answer":"ford",
                   "letters":"FESOERBD"
                },
                {
@@ -142,9 +142,9 @@
                   "y":1,
                   "direction":"h",
                   "title":"Logo",
-                  "content":"assets/images/content/Peace.jpg",
+                  "content":"assets/images/content/peace.jpg",
                   "type":"image",
-                  "answer":"PEACE",
+                  "answer":"peace",
                   "letters":"PDACOEELX"
                },
                {
@@ -561,7 +561,7 @@
                   "y":0,
                   "direction":"h",
                   "title":"Politician",
-                  "content":"assets/images/content/Elizabeth.jpg",
+                  "content":"assets/images/content/elizabeth.jpg",
                   "type":"image",
                   "answer":"elizabeth",
                   "letters":"XZabeehilttvz"
@@ -591,7 +591,7 @@
                   "y":1,
                   "direction":"h",
                   "title":"Superhero",
-                  "content":"assets/images/content/Jocker.jpg",
+                  "content":"assets/images/content/jocker.jpg",
                   "type":"image",
                   "answer":"joker",
                   "letters":"ETYbejkcor"
@@ -2089,9 +2089,9 @@
                   "y":0,
                   "direction":"v",
                   "title":"Car logo",
-                  "content":"assets/images/content/RENAULT.jpg",
+                  "content":"assets/images/content/renault.jpg",
                   "type":"image",
-                  "answer":"RENAULT",
+                  "answer":"renault",
                   "letters":"RhLAjmUETNoz"
                },
                {
@@ -2129,9 +2129,9 @@
                   "y":5,
                   "direction":"v",
                   "title":"Country",
-                  "content":"assets/images/content/INDIA.jpg",
+                  "content":"assets/images/content/india.jpg",
                   "type":"image",
-                  "answer":"INDIA",
+                  "answer":"india",
                   "letters":"ItDIoxNoAh"
                },
                {
@@ -2149,7 +2149,7 @@
                   "y":7,
                   "direction":"h",
                   "title":"game",
-                  "content":"assets/images/content/CROSSWORD.jpg",
+                  "content":"assets/images/content/crosswords.jpg",
                   "type":"image",
                   "answer":"crosswords",
                   "letters":"crwospsosardw"
@@ -2321,7 +2321,7 @@
                   "y":6,
                   "direction":"h",
                   "title":"Singer",
-                  "content":"assets/images/content/TAYLOR.jpg",
+                  "content":"assets/images/content/taylor.jpg",
                   "type":"image",
                   "answer":"TAYLOR",
                   "letters":"TRAutOakYLd"
@@ -2361,9 +2361,9 @@
                   "y":0,
                   "direction":"h",
                   "title":"Logo",
-                  "content":"assets/images/content/MCDONALDS.jpg",
+                  "content":"assets/images/content/macdonalds.jpg",
                   "type":"image",
-                  "answer":"MCDONALDS",
+                  "answer":"macdonalds",
                   "letters":"MaSLCNDOArDc"
                }
             ]
@@ -2855,9 +2855,9 @@
                   "y":9,
                   "direction":"h",
                   "title":"Job",
-                  "content":"assets/images/content/PHARMACIST.jpg",
+                  "content":"assets/images/content/pharmacist.jpg",
                   "type":"image",
-                  "answer":"PHARMACIST",
+                  "answer":"pharmacist",
                   "letters":"PICAMRHTASsd"
                },
                {
@@ -2875,9 +2875,9 @@
                   "y":8,
                   "direction":"h",
                   "title":"Title here",
-                  "content":"assets/images/content/LUXEMBOURG.jpg",
+                  "content":"assets/images/content/luxembourg.jpg",
                   "type":"image",
-                  "answer":"LUXEMBOURG",
+                  "answer":"luxembourg",
                   "letters":"osEURvGOLUXBMw"
                },
                {
@@ -2915,9 +2915,9 @@
                   "y":6,
                   "direction":"v",
                   "title":"Logo",
-                  "content":"assets/images/content/CHEVROLET.jpg",
+                  "content":"assets/images/content/chevrolet.jpg",
                   "type":"image",
-                  "answer":"CHEVROLET",
+                  "answer":"chevrolet",
                   "letters":"CERVLqoTHaEOfh"
                },
                {
@@ -2965,9 +2965,9 @@
                   "y":13,
                   "direction":"v",
                   "title":"Title here",
-                  "content":"assets/images/content/SIEMENS.jpg",
+                  "content":"assets/images/content/siemens.jpg",
                   "type":"image",
-                  "answer":"SIEMENS",
+                  "answer":"siemens",
                   "letters":"SMEdINjaESg"
                },
                {
@@ -2985,9 +2985,9 @@
                   "y":18,
                   "direction":"v",
                   "title":"what is she doing ? (ing)",
-                  "content":"assets/images/content/SMILING.jpg",
+                  "content":"assets/images/content/smiling.jpg",
                   "type":"image",
-                  "answer":"SMILING",
+                  "answer":"smiling",
                   "letters":"QNIrMsIGpLz"
                }
             ]
