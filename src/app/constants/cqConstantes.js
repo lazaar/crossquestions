@@ -48,7 +48,7 @@
         shareFacebook:{
             sharePicture:'https://lh3.googleusercontent.com/-NLrQAWucQKk/VsERBdxKB9I/AAAAAAAABQE/Nuq0kHx9XgU/s346/tmp.png',
             hashTag:'CrossWordsGame',
-            inviteFriend:'I invite you to play this nice a game',
+            inviteFriend:'Come join me in playing this amusing game',
             quote:'The best Cross Word Application'
         }
     });
