@@ -76,7 +76,7 @@
                   "y":5,
                   "direction":"v",
                   "title":"Country",
-                  "content":"../assets/images/content/france.jpg",
+                  "content":"assets/images/content/france.jpg",
                   "type":"image",
                   "answer":"france",
                   "letters":"aacdefmnor"
@@ -86,7 +86,7 @@
                   "y":1,
                   "direction":"h",
                   "title":"Car Brand",
-                  "content":"../assets/images/content/mercedes.jpg",
+                  "content":"assets/images/content/mercedes.jpg",
                   "type":"image",
                   "answer":"mercedes",
                   "letters":"bkxcddeeemrs"
@@ -96,7 +96,7 @@
                   "y":3,
                   "direction":"v",
                   "title":"Superhero",
-                  "content":"../assets/images/content/ironman.jpg",
+                  "content":"assets/images/content/ironman.jpg",
                   "type":"image",
                   "answer":"ironman",
                   "letters":"kqaimnnoprx"
@@ -116,7 +116,7 @@
                   "y":7,
                   "direction":"v",
                   "title":"Logo",
-                  "content":"../assets/images/content/dettol.jpg",
+                  "content":"assets/images/content/dettol.jpg",
                   "type":"image",
                   "answer":"dettol",
                   "letters":"odehloottx"
@@ -743,7 +743,7 @@
                "y": 1,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/pinkpanther.jpg",
+               "content":"assets/images/content/pinkpanther.jpg",
                "type":"image",
                "answer":"pinkpanther",
                "letters":"Pabehhiknnppprt" 
@@ -752,7 +752,7 @@
                "y": 4,
                "direction":"v", 
                "title":"Title here",
-               "content":"../assets/images/content/kobebryant.jpg",
+               "content":"assets/images/content/kobebryant.jpg",
                "type":"image",
                "answer":"kobebryant",
                "letters":"Zabbeknnoprtvy" 
@@ -770,7 +770,7 @@
                "y": 3,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/drake.jpg",
+               "content":"assets/images/content/drake.jpg",
                "type":"image",
                "answer":"drake",
                "letters":"BGadekmrs" 
@@ -779,7 +779,7 @@
                "y": 3,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/jackson.jpg",
+               "content":"assets/images/content/jackson.jpg",
                "type":"image",
                "answer":"jackson",
                "letters":"QRUacijknos" 
@@ -797,7 +797,7 @@
                "y": 9,
                "direction":"v", 
                "title":"Title here",
-               "content":"../assets/images/content/venice.jpg",
+               "content":"assets/images/content/venice.jpg",
                "type":"image",
                "answer":"venice",
                "letters":"FJRcdeeinv" 
@@ -815,7 +815,7 @@
                "y": 3,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/toyota.jpg",
+               "content":"assets/images/content/toyota.jpg",
                "type":"image",
                "answer":"toyota",
                "letters":"EIabiootty" 
@@ -1665,7 +1665,7 @@
                   "y": 1,
                   "direction":"v", 
                   "title":"Title here",
-                  "content":"../assets/images/content/armstrong.jpg",
+                  "content":"assets/images/content/armstrong.jpg",
                   "type":"image",
                   "answer":"armstrong",
                   "letters":"Eacggmnorrstw" 
@@ -1701,7 +1701,7 @@
                   "y": 7,
                   "direction":"h",
                   "title":"Title here",
-                  "content":"../assets/images/content/poland.jpg",
+                  "content":"assets/images/content/poland.jpg",
                   "type":"image",
                   "answer":"poland",
                   "letters":"EGKadjlnop" 
@@ -1710,7 +1710,7 @@
                   "y": 8,
                   "direction":"v", 
                   "title":"Title here",
-                  "content":"../assets/images/content/cooper.jpg",
+                  "content":"assets/images/content/cooper.jpg",
                   "type":"image",
                   "answer":"cooper",
                   "letters":"LSXceooprr" 
@@ -1728,7 +1728,7 @@
                   "y": 4,
                   "direction":"h",
                   "title":"Title here",
-                  "content":"../assets/images/content/lipstick.jpg",
+                  "content":"assets/images/content/lipstick.jpg",
                   "type":"image",
                   "answer":"lipstick",
                   "letters":"DGchiiklnpst" 
@@ -1737,7 +1737,7 @@
                   "y": 11,
                   "direction":"v", 
                   "title":"Title here",
-                  "content":"../assets/images/content/komodo.jpg",
+                  "content":"assets/images/content/komodo.jpg",
                   "type":"image",
                   "answer":"komodo",
                   "letters":"NZdhkmooow" 
@@ -1755,7 +1755,7 @@
                   "y": 7,
                   "direction":"h",
                   "title":"Title here",
-                  "content":"../assets/images/content/yahoo.jpg",
+                  "content":"assets/images/content/yahoo.jpg",
                   "type":"image",
                   "answer":"yahoo",
                   "letters":"ACFahoowy" 
@@ -3050,7 +3050,7 @@
                   "y":0,
                   "direction":"h",
                   "title":"Movies",
-                  "content":"../assets/images/content/rocky.jpg",
+                  "content":"assets/images/content/rocky.jpg",
                   "type":"image",
                   "answer":"rocky",
                   "letters":"cklnorsuy"
@@ -3060,7 +3060,7 @@
                   "y":4,
                   "direction":"v",
                   "title":"Car Brand",
-                  "content":"../assets/images/content/hyundai.jpg",
+                  "content":"assets/images/content/hyundai.jpg",
                   "type":"image",
                   "answer":"hyundai",
                   "letters":"EGKadhinquy"
@@ -3070,7 +3070,7 @@
                   "y":2,
                   "direction":"h",
                   "title":"Zoom In",
-                  "content":"../assets/images/content/tongue.jpg",
+                  "content":"assets/images/content/tongue.jpg",
                   "type":"image",
                   "answer":"tongue",
                   "letters":"TWdeginotu"
@@ -3100,7 +3100,7 @@
                   "y":10,
                   "direction":"v",
                   "title":"Country",
-                  "content":"../assets/images/content/wales.jpg",
+                  "content":"assets/images/content/wales.jpg",
                   "type":"image",
                   "answer":"wales",
                   "letters":"Zadeglmsw"
@@ -3110,7 +3110,7 @@
                   "y":3,
                   "direction":"h",
                   "title":"Logo",
-                  "content":"../assets/images/content/airbus.jpg",
+                  "content":"assets/images/content/airbus.jpg",
                   "type":"image",
                   "answer":"airbus",
                   "letters":"GMPabirsuz"
@@ -3120,7 +3120,7 @@
                   "y":8,
                   "direction":"v",
                   "title":"Militant",
-                  "content":"../assets/images/content/castro.jpg",
+                  "content":"assets/images/content/castro.jpg",
                   "type":"image",
                   "answer":"castro",
                   "letters":"BDacoqrstz"
@@ -3146,7 +3146,7 @@
                   "y":0,
                   "direction":"v",
                   "title":"Country",
-                  "content":"../assets/images/content/tunisia.jpg",
+                  "content":"assets/images/content/tunisia.jpg",
                   "type":"image",
                   "answer":"tunisia",
                   "letters":"Bahhiinstuy"
@@ -3166,7 +3166,7 @@
                   "y":0,
                   "direction":"h",
                   "title":"Comedian",
-                  "content":"../assets/images/content/stewart.jpg",
+                  "content":"assets/images/content/stewart.jpg",
                   "type":"image",
                   "answer":"stewart",
                   "letters":"LLSaefrsttw"
@@ -3186,7 +3186,7 @@
                   "y":3,
                   "direction":"h",
                   "title":"Zoom In",
-                  "content":"../assets/images/content/ginger.jpg",
+                  "content":"assets/images/content/ginger.jpg",
                   "type":"image",
                   "answer":"ginger",
                   "letters":"Reggilnqrw"
@@ -3206,7 +3206,7 @@
                   "y":10,
                   "direction":"v",
                   "title":"Politician",
-                  "content":"../assets/images/content/lincoln.jpg",
+                  "content":"assets/images/content/lincoln.jpg",
                   "type":"image",
                   "answer":"lincoln",
                   "letters":"BELcillnnov"
@@ -3246,7 +3246,7 @@
                   "y":13,
                   "direction":"v",
                   "title":"Video Game",
-                  "content":"../assets/images/content/zelda.jpg",
+                  "content":"assets/images/content/zelda.jpg",
                   "type":"image",
                   "answer":"zelda",
                   "letters":"IMTadelqz"
@@ -3256,7 +3256,7 @@
                   "y":10,
                   "direction":"v",
                   "title":"Zoom in",
-                  "content":"../assets/images/content/whisk.jpg",
+                  "content":"assets/images/content/whisk.jpg",
                   "type":"image",
                   "answer":"whisk",
                   "letters":"BMhhikssw"
@@ -3373,7 +3373,7 @@
                   "y":2,
                   "direction":"v",
                   "title":"Monument",
-                  "content":"../assets/images/content/pantheon.jpg",
+                  "content":"assets/images/content/pantheon.jpg",
                   "type":"image",
                   "answer":"pantheon",
                   "letters":"EGXaehnnoptu"
@@ -3383,7 +3383,7 @@
                   "y":5,
                   "direction":"v",
                   "title":"Zoom In",
-                  "content":"../assets/images/content/oyster.jpg",
+                  "content":"assets/images/content/oyster.jpg",
                   "type":"image",
                   "answer":"oyster",
                   "letters":"SYeforstyz"
@@ -3413,7 +3413,7 @@
                   "y":0,
                   "direction":"h",
                   "title":"Character",
-                  "content":"../assets/images/content/jonsnow.jpg",
+                  "content":"assets/images/content/jonsnow.jpg",
                   "type":"image",
                   "answer":"jonsnow",
                   "letters":"FOSYjnnoosw"
@@ -3423,7 +3423,7 @@
                   "y":2,
                   "direction":"h",
                   "title":"Country",
-                  "content":"../assets/images/content/egypte.jpg",
+                  "content":"assets/images/content/egypte.jpg",
                   "type":"image",
                   "answer":"egypte",
                   "letters":"GHNeegkpty"
@@ -3443,7 +3443,7 @@
                   "y":7,
                   "direction":"h",
                   "title":"Politician",
-                  "content":"../assets/images/content/trudeau.jpg",
+                  "content":"assets/images/content/trudeau.jpg",
                   "type":"image",
                   "answer":"trudeau",
                   "letters":"Xadenrrtuuu"
@@ -3453,7 +3453,7 @@
                   "y":12,
                   "direction":"v",
                   "title":"A word",
-                  "content":"../assets/images/content/mudbath.jpg",
+                  "content":"assets/images/content/mudbath.jpg",
                   "type":"image",
                   "answer":"mudbath",
                   "letters":"GRabdhkmqtu"
@@ -3479,7 +3479,7 @@
                   "y":1,
                   "direction":"v",
                   "title":"Logo",
-                  "content":"../assets/images/content/motorola.jpg",
+                  "content":"assets/images/content/motorola.jpg",
                   "type":"image",
                   "answer":"motorola",
                   "letters":"IJalmooorrtz"
@@ -3489,7 +3489,7 @@
                   "y":1,
                   "direction":"h",
                   "title":"Celebrity",
-                  "content":"../assets/images/content/oprah.jpg",
+                  "content":"assets/images/content/oprah.jpg",
                   "type":"image",
                   "answer":"oprah",
                   "letters":"Gaehlopry"
@@ -3529,7 +3529,7 @@
                   "y":6,
                   "direction":"v",
                   "title":"Country",
-                  "content":"../assets/images/content/peru.jpg",
+                  "content":"assets/images/content/peru.jpg",
                   "type":"image",
                   "answer":"peru",
                   "letters":"FQSeppru"
@@ -3549,7 +3549,7 @@
                   "y":11,
                   "direction":"v",
                   "title":"Insect",
-                  "content":"../assets/images/content/firefly.jpg",
+                  "content":"assets/images/content/firefly.jpg",
                   "type":"image",
                   "answer":"firefly",
                   "letters":"KKNeffilory"
@@ -3569,7 +3569,7 @@
                   "y":9,
                   "direction":"v",
                   "title":"Zoom In",
-                  "content":"../assets/images/content/cork.jpg",
+                  "content":"assets/images/content/cork.jpg",
                   "type":"image",
                   "answer":"cork",
                   "letters":"Obcdgkor"
@@ -3579,7 +3579,7 @@
                   "y":9,
                   "direction":"h",
                   "title":"Character",
-                  "content":"../assets/images/content/kira.jpg",
+                  "content":"assets/images/content/kira.jpg",
                   "type":"image",
                   "answer":"kira",
                   "letters":"DNWaikrz"
@@ -3595,7 +3595,7 @@
                   "y":0,
                   "direction":"h",
                   "title":"Country",
-                  "content":"../assets/images/content/belgium.jpg",
+                  "content":"assets/images/content/belgium.jpg",
                   "type":"image",
                   "answer":"belgium",
                   "letters":"Zabcegilmuu"
@@ -3605,7 +3605,7 @@
                   "y":0,
                   "direction":"v",
                   "title":"Car Brand",
-                  "content":"../assets/images/content/bugatti.jpg",
+                  "content":"assets/images/content/bugatti.jpg",
                   "type":"image",
                   "answer":"bugatti",
                   "letters":"GOUabgittux"
@@ -3615,7 +3615,7 @@
                   "y":2,
                   "direction":"h",
                   "title":"The Richest man",
-                  "content":"../assets/images/content/gates.jpg",
+                  "content":"assets/images/content/gates.jpg",
                   "type":"image",
                   "answer":"gates",
                   "letters":"IVaegmpst"
@@ -3645,7 +3645,7 @@
                   "y":6,
                   "direction":"h",
                   "title":"Zoom In",
-                  "content":"../assets/images/content/soap.jpg",
+                  "content":"assets/images/content/soap.jpg",
                   "type":"image",
                   "answer":"soap",
                   "letters":"BWalopps"
@@ -3675,7 +3675,7 @@
                   "y":5,
                   "direction":"v",
                   "title":"Software/Application",
-                  "content":"../assets/images/content/vlc.jpg",
+                  "content":"assets/images/content/vlc.jpg",
                   "type":"image",
                   "answer":"vlc",
                   "letters":"VWZclrv"
@@ -3685,7 +3685,7 @@
                   "y":8,
                   "direction":"h",
                   "title":"Animal",
-                  "content":"../assets/images/content/lemur.jpg",
+                  "content":"assets/images/content/lemur.jpg",
                   "type":"image",
                   "answer":"lemur",
                   "letters":"NWXelmrux"

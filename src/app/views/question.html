@@ -33,6 +33,6 @@
   </div>
   <div class="hints-buttons row" ng-if="!vm.question.isAlreadyCorrected">
     <a ng-click="vm.showLetter(); mainCtrl.clickSound()" class="col" ><i ng-class="vm.hints >= 5 ? 'ion-ios-lightbulb-outline' : 'ion-ribbon-b'"></i>{{vm.hints >= 5 ? 'Use Hint' : 'Add coins'}}<span class="coins" ng-if="vm.hints >= 5">5<i class="ion-ribbon-b"></i></span></a>
-    <a ng-click="vm.shareScreen(); mainCtrl.clickSound()" class="col"><i class="ion-android-share-alt"></i>Share</a> 
+    <a ng-click="vm.shareScreen(); mainCtrl.clickSound()" class="col"><i class="ion-android-share-alt"></i>Ask a friend</a> 
   </div>
 </ion-content>
