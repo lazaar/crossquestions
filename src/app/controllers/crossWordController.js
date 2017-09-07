@@ -51,6 +51,9 @@
             else{
                 routerHelper.goToState(cqConstantes.states.group,{'level': parseInt(dataModel.crosswords.levelId )+1});
             }
+            _.delay(function(){
+                $ionicHistory.removeBackView()
+            }, 500);
         };
 
         var openHints = function(){
