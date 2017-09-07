@@ -3,7 +3,7 @@
     'use strict';
     angular.module('crossQuestions').constant('cqConstantes', {
         ios:'1084782640',
-        android:'com.gamelaz.xflip',
+        android:'com.lazcha.crossWords',
         facebookId:'668484603351045',
         facebookUrl:'https://www.facebook.com/licom.ma',
         daysBetweenShareHints:20,
@@ -46,7 +46,7 @@
             interLose:0.1,
         },
         shareFacebook:{
-            sharePicture:'https://lh3.googleusercontent.com/-NLrQAWucQKk/VsERBdxKB9I/AAAAAAAABQE/Nuq0kHx9XgU/s346/tmp.png',
+            sharePicture:'https://img11.hostingpics.net/pics/552678iconcopie.png',
             hashTag:'CrossWordsGame',
             inviteFriend:'Come join me in playing this amusing game',
             quote:'The best Cross Word Application'

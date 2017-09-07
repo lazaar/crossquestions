@@ -29,7 +29,6 @@
 
         function reload(){
             vm.currentLevel = dataModel.currentLevel;
-            vm.currentLevel = dataModel.currentLevel;
             vm.currentCw = dataModel.currentCw;
             vm.numberStars = dataModel.numberStars;
             if(Math.random()<cqConstantes.ads.bannerLevels){

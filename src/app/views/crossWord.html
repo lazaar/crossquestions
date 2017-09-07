@@ -29,9 +29,10 @@
 		        	ng-click="vm.goToQuestion($parent.$index, $index, col.v != undefined ? 'v': 'h')">
 		        	<div class="content" ng-if="col.content" ng-class="col.type">
 		        		<span ng-bind-html="col.content"></span>
-		        	<div>
+		        	</div>
 		        </div>
 		    </div>
 		</div>
 	</div>
+	<a href="" ng-click="vm.goNext(); mainCtrl.clickSound()" class="cw-btn cw-blue-btn has-icon goNext" ng-if="vm.next != -1"><i class="ion-arrow-right-a"></i>Next {{vm.next == 1 ? "Level":""}}{{vm.next == 2 ? "Crosswords":""}}</a>
 </ion-content>

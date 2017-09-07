@@ -40,4 +40,12 @@
 			}
 		}
 	}
+	.goNext{
+		position: absolute;
+	    bottom: 10px;
+	    right: 15px;
+	    padding-left: 15px;
+	    padding-right: 35px;
+	    &.has-icon i {font-size: 22px;left: inherit;right: 10px;}
+	}
 }
