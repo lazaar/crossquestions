@@ -214,112 +214,121 @@
    },
    {
       "crosswords":[
-
          {
-            "width" : 20,
-            "height" : 20,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/lasvegas.jpg",
-               "type":"image",
-               "answer":"lasvegas",
-               "letters":"AUUaaaeglssv" 
-            }, {
-               "x": 3,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"Which student of Socrates, and teacher of Aristole, wrote Republic? ",
-               "type":"text",
-               "answer":"plato",
-               "letters":"BQafilopt" 
-            }, {
-               "x": 0,
-               "y": 5,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/escobar.jpg",
-               "type":"image",
-               "answer":"escobar",
-               "letters":"abcemopqrsx" 
-            }, {
-               "x": 5,
-               "y": 2,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/panama.jpg",
-               "type":"image",
-               "answer":"panama",
-               "letters":"OTaaamnopq" 
-            }, {
-               "x": 5,
-               "y": 2,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"A fool and his money are soon ... - proverb ",
-               "type":"text",
-               "answer":"parted",
-               "letters":"CLYadefprt" 
-            }, {
-               "x": 7,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"Libraries, schools, writing, the wheel, the aqueduct and alcoholic beer are inventions generally credited to which country?",
-               "type":"text",
-               "answer":"iraq",
-               "letters":"Iaabinqr" 
-            }, {
-               "x": 4,
-               "y": 7,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/bayer.jpg",
-               "type":"image",
-               "answer":"bayer",
-               "letters":"AAPabenry" 
-            }, {
-               "x": 10,
-               "y": 2,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/daenerys.jpg",
-               "type":"image",
-               "answer":"daenerys",
-               "letters":"NNadeeilnrsy" 
-            }, {
-               "x": 7,
-               "y": 6,
-               "direction":"h",
-               "title":"Title here",
-               "content":"If you lose me you may cause people around me to lose me too. ",
-               "type":"text",
-               "answer":"temper",
-               "letters":"NPTYeemprt" 
-            }, {
-               "x": 9,
-               "y": 5,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"a hormone that lowers the level of glucose in the blood",
-               "type":"text",
-               "answer":"insulin",
-               "letters":"LOZciilnnsu" 
-            }, {
-               "x": 13,
-               "y": 5,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/laos.jpg",
-               "type":"image",
-               "answer":"laos",
-               "letters":"NQSaelos" 
-            }
-         ]
+            "width":16,
+            "height":13,
+            "questions":[
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/lasvegas.jpg",
+                  "type":"image",
+                  "answer":"lasvegas",
+                  "letters":"AUUaaaeglssv"
+               },
+               {
+                  "x":3,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"Which student of Socrates, and teacher of Aristole, wrote Republic? ",
+                  "type":"text",
+                  "answer":"plato",
+                  "letters":"BQafilopt"
+               },
+               {
+                  "x":0,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/escobar.jpg",
+                  "type":"image",
+                  "answer":"escobar",
+                  "letters":"abcemopqrsx"
+               },
+               {
+                  "x":5,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/panama.jpg",
+                  "type":"image",
+                  "answer":"panama",
+                  "letters":"OTaaamnopq"
+               },
+               {
+                  "x":5,
+                  "y":2,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"A fool and his money are soon ... - proverb ",
+                  "type":"text",
+                  "answer":"parted",
+                  "letters":"CLYadefprt"
+               },
+               {
+                  "x":7,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"Libraries, schools, writing, the wheel, the aqueduct and alcoholic beer are inventions generally credited to which country?",
+                  "type":"text",
+                  "answer":"iraq",
+                  "letters":"Iaabinqr"
+               },
+               {
+                  "x":4,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/bayer.jpg",
+                  "type":"image",
+                  "answer":"bayer",
+                  "letters":"AAPabenry"
+               },
+               {
+                  "x":10,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/daenerys.jpg",
+                  "type":"image",
+                  "answer":"daenerys",
+                  "letters":"NNadeeilnrsy"
+               },
+               {
+                  "x":7,
+                  "y":6,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"If you lose me you may cause people around me to lose me too. ",
+                  "type":"text",
+                  "answer":"temper",
+                  "letters":"NPTYeemprt"
+               },
+               {
+                  "x":9,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"a hormone that lowers the level of glucose in the blood",
+                  "type":"text",
+                  "answer":"insulin",
+                  "letters":"LOZciilnnsu"
+               },
+               {
+                  "x":13,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/laos.jpg",
+                  "type":"image",
+                  "answer":"laos",
+                  "letters":"NQSaelos"
+               }
+            ]
          },
          {
             "width":13,
@@ -438,110 +447,120 @@
             ]
          },
          {
-            "width" : 20,
-            "height" : 20,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"Early to bed and early to rise, makes a man healthy, ... and wise. - proverb",
-               "type":"text",
-               "answer":"wealthy",
-               "letters":"KZaehlstwwy" 
-            }, {
-               "x": 1,
-               "y": 3,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/blair.jpg",
-               "type":"image",
-               "answer":"blair",
-               "letters":"Naabiklrs" 
-            }, {
-               "x": 5,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"In the series NCIS , Who plays Gibbs?",
-               "type":"text",
-               "answer":"harmon",
-               "letters":"SYahmnoprs" 
-            }, {
-               "x": 0,
-               "y": 6,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/gibson.jpg",
-               "type":"image",
-               "answer":"gibson",
-               "letters":"DUbggilnos" 
-            }, {
-               "x": 1,
-               "y": 5,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/timon.jpg",
-               "type":"image",
-               "answer":"timon",
-               "letters":"EJimnotww" 
-            }, {
-               "x": 3,
-               "y": 5,
-               "direction":"h",
-               "title":"Title here",
-               "content":"piece of land that is surrounded by water. ",
-               "type":"text",
-               "answer":"island",
-               "letters":"Uadilnsxyy" 
-            }, {
-               "x": 3,
-               "y": 8,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"the figure formed by two rays sharing a common endpoint ",
-               "type":"text",
-               "answer":"angle",
-               "letters":"LUaeglnru" 
-            }, {
-               "x": 7,
-               "y": 5,
-               "direction":"h",
-               "title":"Title here",
-               "content":"smooth and glossy",
-               "type":"text",
-               "answer":"sleek",
-               "letters":"Ideeeklsx" 
-            }, {
-               "x": 7,
-               "y": 6,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/libya.jpg",
-               "type":"image",
-               "answer":"libya",
-               "letters":"FGVabfily" 
-            }, {
-               "x": 5,
-               "y": 8,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/gucci.jpg",
-               "type":"image",
-               "answer":"gucci",
-               "letters":"GIcccgiku" 
-            }, {
-               "x": 9,
-               "y": 6,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/bangkok.jpg",
-               "type":"image",
-               "answer":"bangkok",
-               "letters":"NSUabgkknop" 
-            }
-         ]
+            "width":12,
+            "height":12,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"Early to bed and early to rise, makes a man healthy, ... and wise. - proverb",
+                  "type":"text",
+                  "answer":"wealthy",
+                  "letters":"KZaehlstwwy"
+               },
+               {
+                  "x":1,
+                  "y":2,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/blair.jpg",
+                  "type":"image",
+                  "answer":"blair",
+                  "letters":"Naabiklrs"
+               },
+               {
+                  "x":5,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"In the series NCIS , Who plays Gibbs?",
+                  "type":"text",
+                  "answer":"harmon",
+                  "letters":"SYahmnoprs"
+               },
+               {
+                  "x":0,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/gibson.jpg",
+                  "type":"image",
+                  "answer":"gibson",
+                  "letters":"DUbggilnos"
+               },
+               {
+                  "x":1,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/timon.jpg",
+                  "type":"image",
+                  "answer":"timon",
+                  "letters":"EJimnotww"
+               },
+               {
+                  "x":3,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"piece of land that is surrounded by water. ",
+                  "type":"text",
+                  "answer":"island",
+                  "letters":"Uadilnsxyy"
+               },
+               {
+                  "x":3,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"the figure formed by two rays sharing a common endpoint ",
+                  "type":"text",
+                  "answer":"angle",
+                  "letters":"LUaeglnru"
+               },
+               {
+                  "x":7,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"smooth and glossy",
+                  "type":"text",
+                  "answer":"sleek",
+                  "letters":"Ideeeklsx"
+               },
+               {
+                  "x":7,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/libya.jpg",
+                  "type":"image",
+                  "answer":"libya",
+                  "letters":"FGVabfily"
+               },
+               {
+                  "x":5,
+                  "y":7,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/gucci.jpg",
+                  "type":"image",
+                  "answer":"gucci",
+                  "letters":"GIcccgiku"
+               },
+               {
+                  "x":9,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/bangkok.jpg",
+                  "type":"image",
+                  "answer":"bangkok",
+                  "letters":"NSUabgkknop"
+               }
+            ]
          },
          {
             "width":11,
@@ -649,112 +668,122 @@
                }
             ]
          },
-            {
-               "width" : 20,
-               "height" : 20,
-               "questions" : [
+         {
+            "width":12,
+            "height":14,
+            "questions":[
                {
-                  "x": 0,
-                  "y": 1,
-                  "direction":"v", 
+                  "x":0,
+                  "y":1,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/holmes.jpg",
                   "type":"image",
                   "answer":"holmes",
-                  "letters":"CCMXehlmos" 
-               }, {
-                  "x": 1,
-                  "y": 1,
+                  "letters":"CCMXehlmos"
+               },
+               {
+                  "x":1,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"What mollusk was obliged to share its name with the first waterproof watch?",
                   "type":"text",
                   "answer":"oyster",
-                  "letters":"FLeorsttuy" 
-               }, {
-                  "x": 1,
-                  "y": 3,
-                  "direction":"v", 
+                  "letters":"FLeorsttuy"
+               },
+               {
+                  "x":1,
+                  "y":3,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/snoopy.jpg",
                   "type":"image",
                   "answer":"snoopy",
-                  "letters":"FPRTnoopsy" 
-               }, {
-                  "x": 5,
-                  "y": 3,
+                  "letters":"FPRTnoopsy"
+               },
+               {
+                  "x":5,
+                  "y":3,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/parrot.jpg",
                   "type":"image",
                   "answer":"parrot",
-                  "letters":"DEOaoprrtz" 
-               }, {
-                  "x": 0,
-                  "y": 8,
-                  "direction":"v", 
+                  "letters":"DEOaoprrtz"
+               },
+               {
+                  "x":0,
+                  "y":8,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"an estimate of income and expenditure for a set period of time.",
                   "type":"text",
                   "answer":"budget",
-                  "letters":"Bbdegjotuz" 
-               }, {
-                  "x": 4,
-                  "y": 5,
-                  "direction":"v", 
+                  "letters":"Bbdegjotuz"
+               },
+               {
+                  "x":4,
+                  "y":5,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/wreck.jpg",
                   "type":"image",
                   "answer":"wreck",
-                  "letters":"Bcehkrwxy" 
-               }, {
-                  "x": 1,
-                  "y": 8,
+                  "letters":"Bcehkrwxy"
+               },
+               {
+                  "x":1,
+                  "y":8,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/usher.jpg",
                   "type":"image",
                   "answer":"usher",
-                  "letters":"DSWYehrsu" 
-               }, {
-                  "x": 7,
-                  "y": 5,
+                  "letters":"DSWYehrsu"
+               },
+               {
+                  "x":7,
+                  "y":5,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/chile.jpg",
                   "type":"image",
                   "answer":"chile",
-                  "letters":"KNcefhilq" 
-               }, {
-                  "x": 7,
-                  "y": 7,
-                  "direction":"v", 
+                  "letters":"KNcefhilq"
+               },
+               {
+                  "x":7,
+                  "y":7,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"What is the third major Balearic Island with Majorca and Minorca?",
                   "type":"text",
                   "answer":"ibiza",
-                  "letters":"FTabfiiiz" 
-               }, {
-                  "x": 9,
-                  "y": 6,
+                  "letters":"FTabfiiiz"
+               },
+               {
+                  "x":9,
+                  "y":6,
                   "direction":"h",
                   "title":"Title here",
                   "content":"female fox name",
                   "type":"text",
                   "answer":"vixen",
-                  "letters":"PWeinuvxx" 
-               }, {
-                  "x": 11,
-                  "y": 6,
+                  "letters":"PWeinuvxx"
+               },
+               {
+                  "x":11,
+                  "y":6,
                   "direction":"h",
                   "title":"Title here",
                   "content":"I am gentle enough to soothe your skin, light enough to fly in the sky, strong enough to crack rocks. What am I?",
                   "type":"text",
                   "answer":"water",
-                  "letters":"CFTaeertw" 
+                  "letters":"CFTaeertw"
                }
-             ]
-          },
+            ]
+         },
          {
             "width":12,
             "height":14,
@@ -871,111 +900,121 @@
                }
             ]
          },
-            {
-               "width" : 20,
-               "height" : 20,
-               "questions" : [
+         {
+            "width":14,
+            "height":12,
+            "questions":[
                {
-                  "x": 0,
-                  "y": 1,
-                  "direction":"v", 
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/lebanon.jpg",
                   "type":"image",
                   "answer":"lebanon",
-                  "letters":"GKMabelnnoq" 
-               }, {
-                  "x": 4,
-                  "y": 1,
+                  "letters":"GKMabelnnoq"
+               },
+               {
+                  "x":4,
+                  "y":0,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/nigeria.jpg",
                   "type":"image",
                   "answer":"nigeria",
-                  "letters":"HKVacegiinr" 
-               }, {
-                  "x": 1,
-                  "y": 6,
-                  "direction":"v", 
+                  "letters":"HKVacegiinr"
+               },
+               {
+                  "x":1,
+                  "y":5,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/cruise.jpg",
                   "type":"image",
                   "answer":"cruise",
-                  "letters":"BCceeiprsu" 
-               }, {
-                  "x": 3,
-                  "y": 4,
-                  "direction":"v", 
+                  "letters":"BCceeiprsu"
+               },
+               {
+                  "x":3,
+                  "y":3,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/hermes.jpg",
                   "type":"image",
                   "answer":"hermes",
-                  "letters":"FLPVeehmrs" 
-               }, {
-                  "x": 2,
-                  "y": 5,
+                  "letters":"FLPVeehmrs"
+               },
+               {
+                  "x":2,
+                  "y":4,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/pride.jpg",
                   "type":"image",
                   "answer":"pride",
-                  "letters":"ABBdeiprv" 
-               }, {
-                  "x": 8,
-                  "y": 1,
+                  "letters":"ABBdeiprv"
+               },
+               {
+                  "x":8,
+                  "y":0,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/rousey.jpg",
                   "type":"image",
                   "answer":"rousey",
-                  "letters":"Telorsuwwy" 
-               }, {
-                  "x": 7,
-                  "y": 2,
-                  "direction":"v", 
+                  "letters":"Telorsuwwy"
+               },
+               {
+                  "x":7,
+                  "y":1,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"What is the name of the father in the famous series the Simpsons?",
                   "type":"text",
                   "answer":"homer",
-                  "letters":"Oeghmnnor" 
-               }, {
-                  "x": 1,
-                  "y": 9,
-                  "direction":"v", 
+                  "letters":"Oeghmnnor"
+               },
+               {
+                  "x":1,
+                  "y":8,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"I start with -T-, ends with -T-, and within me is -T-.",
                   "type":"text",
                   "answer":"teapot",
-                  "letters":"BGaeoprtty" 
-               }, {
-                  "x": 11,
-                  "y": 2,
+                  "letters":"BGaeoprtty"
+               },
+               {
+                  "x":11,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"Saudi Arabian currency ",
                   "type":"text",
                   "answer":"riyal",
-                  "letters":"Vagilrtuy" 
-               }, {
-                  "x": 5,
-                  "y": 8,
+                  "letters":"Vagilrtuy"
+               },
+               {
+                  "x":5,
+                  "y":7,
                   "direction":"h",
                   "title":"Title here",
                   "content":"Government entity authorized to resolve legal disputes ",
                   "type":"text",
                   "answer":"court",
-                  "letters":"NXYbcortu" 
-               }, {
-                  "x": 10,
-                  "y": 6,
-                  "direction":"v", 
+                  "letters":"NXYbcortu"
+               },
+               {
+                  "x":10,
+                  "y":5,
+                  "direction":"v",
                   "title":"Title here",
                   "content":" money or food given to poor people ",
                   "type":"text",
                   "answer":"alms",
-                  "letters":"EEahlmns" 
+                  "letters":"EEahlmns"
                }
-             ]
+            ]
          },
          {
             "width":14,
@@ -1062,111 +1101,122 @@
                   "letters":"Pagjoruuuyy"
                }
             ]
-         }, 
+         },
          {
-            "width" : 20,
-            "height" : 20,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"The most money is spent on what hobby?",
-               "type":"text",
-               "answer":"gardening",
-               "letters":"KYadegghinnrt" 
-            }, {
-               "x": 2,
-               "y": 2,
-               "direction":"h",
-               "title":"Title here",
-               "content":"Soft, hairy, from door to door. I am the pet that always stays on the floor. What am I? ",
-               "type":"text",
-               "answer":"carpet",
-               "letters":"SUacemprtt" 
-            }, {
-               "x": 0,
-               "y": 7,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/istanbul.jpg",
-               "type":"image",
-               "answer":"istanbul",
-               "letters":"Cabegilnstuw" 
-            }, {
-               "x": 4,
-               "y": 5,
-               "direction":"h",
-               "title":"Title here",
-               "content":"-It was beauty killed the beast - was the last line of which film? ",
-               "type":"text",
-               "answer":"kingkong",
-               "letters":"CTbggikknnop" 
-            }, {
-               "x": 7,
-               "y": 2,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/chanel.jpg",
-               "type":"image",
-               "answer":"chanel",
-               "letters":"CEacehlnqx" 
-            }, {
-               "x": 6,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/barney.jpg",
-               "type":"image",
-               "answer":"barney",
-               "letters":"BPabejmnry" 
-            }, {
-               "x": 9,
-               "y": 2,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/conor.jpg",
-               "type":"image",
-               "answer":"conor",
-               "letters":"KUXcnoorv" 
-            }, {
-               "x": 3,
-               "y": 10,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"in physics, it is any interaction that, when unopposed, will change the motion of an object. ",
-               "type":"text",
-               "answer":"force",
-               "letters":"FMYcefoqr" 
-            }, {
-               "x": 1,
-               "y": 12,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/hedgehog.jpg",
-               "type":"image",
-               "answer":"hedgehog",
-               "letters":"EFFNdeegghho" 
-            }, {
-               "x": 9,
-               "y": 6,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/russia.jpg",
-               "type":"image",
-               "answer":"russia",
-               "letters":"FRWaiorssu" 
-            }, {
-               "x": 13,
-               "y": 3,
-               "direction":"h",
-               "title":"Title here",
-               "content":"very vivid in color, especially so as to create an unpleasantly harsh or unnatural effect ",
-               "type":"text",
-               "answer":"lurid",
-               "letters":"Fcdeilrux" 
-            } ]
+            "width":16,
+            "height":14,
+            "questions":[
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"The most money is spent on what hobby?",
+                  "type":"text",
+                  "answer":"gardening",
+                  "letters":"KYadegghinnrt"
+               },
+               {
+                  "x":2,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"Soft, hairy, from door to door. I am the pet that always stays on the floor. What am I? ",
+                  "type":"text",
+                  "answer":"carpet",
+                  "letters":"SUacemprtt"
+               },
+               {
+                  "x":0,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/istanbul.jpg",
+                  "type":"image",
+                  "answer":"istanbul",
+                  "letters":"Cabegilnstuw"
+               },
+               {
+                  "x":4,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"-It was beauty killed the beast - was the last line of which film? ",
+                  "type":"text",
+                  "answer":"kingkong",
+                  "letters":"CTbggikknnop"
+               },
+               {
+                  "x":7,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/chanel.jpg",
+                  "type":"image",
+                  "answer":"chanel",
+                  "letters":"CEacehlnqx"
+               },
+               {
+                  "x":6,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/barney.jpg",
+                  "type":"image",
+                  "answer":"barney",
+                  "letters":"BPabejmnry"
+               },
+               {
+                  "x":9,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/conor.jpg",
+                  "type":"image",
+                  "answer":"conor",
+                  "letters":"KUXcnoorv"
+               },
+               {
+                  "x":3,
+                  "y":10,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"in physics, it is any interaction that, when unopposed, will change the motion of an object. ",
+                  "type":"text",
+                  "answer":"force",
+                  "letters":"FMYcefoqr"
+               },
+               {
+                  "x":1,
+                  "y":12,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/hedgehog.jpg",
+                  "type":"image",
+                  "answer":"hedgehog",
+                  "letters":"EFFNdeegghho"
+               },
+               {
+                  "x":9,
+                  "y":6,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/russia.jpg",
+                  "type":"image",
+                  "answer":"russia",
+                  "letters":"FRWaiorssu"
+               },
+               {
+                  "x":13,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"very vivid in color, especially so as to create an unpleasantly harsh or unnatural effect ",
+                  "type":"text",
+                  "answer":"lurid",
+                  "letters":"Fcdeilrux"
+               }
+            ]
          },
          {
             "width":14,
@@ -1265,215 +1315,236 @@
             ]
          },
          {
-            "width" : 20,
-            "height" : 20,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/pinkpanther.jpg",
-               "type":"image",
-               "answer":"pinkpanther",
-               "letters":"Pabehhiknnppprt" 
-            }, {
-               "x": 0,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/kobebryant.jpg",
-               "type":"image",
-               "answer":"kobebryant",
-               "letters":"Zabbeknnoprtvy" 
-            }, {
-               "x": 3,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"I shoot but never kills. What am I ??",
-               "type":"text",
-               "answer":"camera",
-               "letters":"KPWaacempr" 
-            }, {
-               "x": 5,
-               "y": 3,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/drake.jpg",
-               "type":"image",
-               "answer":"drake",
-               "letters":"BGadekmrs" 
-            }, {
-               "x": 7,
-               "y": 3,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/jackson.jpg",
-               "type":"image",
-               "answer":"jackson",
-               "letters":"QRUacijknos" 
-            }, {
-               "x": 0,
-               "y": 11,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"Sake is a Japanese meal made from ..",
-               "type":"text",
-               "answer":"rice",
-               "letters":"JWceeirx" 
-            }, {
-               "x": 5,
-               "y": 9,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/venice.jpg",
-               "type":"image",
-               "answer":"venice",
-               "letters":"FJRcdeeinv" 
-            }, {
-               "x": 11,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"a large number of people gathered together",
-               "type":"text",
-               "answer":"crowd",
-               "letters":"Bcdehorrw" 
-            }, {
-               "x": 13,
-               "y": 3,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/toyota.jpg",
-               "type":"image",
-               "answer":"toyota",
-               "letters":"EIabiootty" 
-            }, {
-               "x": 10,
-               "y": 7,
-               "direction":"h",
-               "title":"Title here",
-               "content":"The faster you run, the harder it is to catch me. ",
-               "type":"text",
-               "answer":"breath",
-               "letters":"Gabehqrttv" 
-            }, {
-               "x": 10,
-               "y": 8,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"When in Rome, do as the ...",
-               "type":"text",
-               "answer":"romans",
-               "letters":"DLMagmnors" 
-            } ]
+            "width":16,
+            "height":14,
+            "questions":[
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/pinkpanther.jpg",
+                  "type":"image",
+                  "answer":"pinkpanther",
+                  "letters":"Pabehhiknnppprt"
+               },
+               {
+                  "x":0,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/kobebryant.jpg",
+                  "type":"image",
+                  "answer":"kobebryant",
+                  "letters":"Zabbeknnoprtvy"
+               },
+               {
+                  "x":3,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"I shoot but never kills. What am I ??",
+                  "type":"text",
+                  "answer":"camera",
+                  "letters":"KPWaacempr"
+               },
+               {
+                  "x":5,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/drake.jpg",
+                  "type":"image",
+                  "answer":"drake",
+                  "letters":"BGadekmrs"
+               },
+               {
+                  "x":7,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/jackson.jpg",
+                  "type":"image",
+                  "answer":"jackson",
+                  "letters":"QRUacijknos"
+               },
+               {
+                  "x":0,
+                  "y":11,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"Sake is a Japanese meal made from ..",
+                  "type":"text",
+                  "answer":"rice",
+                  "letters":"JWceeirx"
+               },
+               {
+                  "x":5,
+                  "y":9,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/venice.jpg",
+                  "type":"image",
+                  "answer":"venice",
+                  "letters":"FJRcdeeinv"
+               },
+               {
+                  "x":11,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"a large number of people gathered together",
+                  "type":"text",
+                  "answer":"crowd",
+                  "letters":"Bcdehorrw"
+               },
+               {
+                  "x":13,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/toyota.jpg",
+                  "type":"image",
+                  "answer":"toyota",
+                  "letters":"EIabiootty"
+               },
+               {
+                  "x":10,
+                  "y":7,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"The faster you run, the harder it is to catch me. ",
+                  "type":"text",
+                  "answer":"breath",
+                  "letters":"Gabehqrttv"
+               },
+               {
+                  "x":10,
+                  "y":8,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"When in Rome, do as the ...",
+                  "type":"text",
+                  "answer":"romans",
+                  "letters":"DLMagmnors"
+               }
+            ]
          },
          {
-            "width" : 20,
-            "height" : 20,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"I am quick when I am thin. I am slow when I am fat. Wind is my worst nightmare. ",
-               "type":"text",
-               "answer":"candle",
-               "letters":"Iacdehllnq" 
-            }, {
-               "x": 0,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"an association of manufacturers or suppliers with the purpose of maintaining prices at a high level and restricting competition ",
-               "type":"text",
-               "answer":"cartel",
-               "letters":"Iacegglrst" 
-            }, {
-               "x": 5,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"the quality of being fair and impartial. ",
-               "type":"text",
-               "answer":"equity",
-               "letters":"PSeiqqqtuy" 
-            }, {
-               "x": 3,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/asics.jpg",
-               "type":"image",
-               "answer":"asics",
-               "letters":"ERacipqss" 
-            }, {
-               "x": 7,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/peas.jpg",
-               "type":"image",
-               "answer":"peas",
-               "letters":"KOadepss" 
-            }, {
-               "x": 3,
-               "y": 6,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/wayne.jpg",
-               "type":"image",
-               "answer":"wayne",
-               "letters":"NRaelnwwy" 
-            }, {
-               "x": 7,
-               "y": 6,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/eric.jpg",
-               "type":"image",
-               "answer":"eric",
-               "letters":"JUVceiru" 
-            }, {
-               "x": 5,
-               "y": 9,
-               "direction":"v", 
-               "title":"Title here",
-               "content": "If you have me, you want to share me. Once you share me, you wont have me. ",
-               "type":"text",
-               "answer":"secret",
-               "letters":"Eceeijrstt" 
-            }, {
-               "x": 5,
-               "y": 9,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/stark.jpg",
-               "type":"image",
-               "answer":"stark",
-               "letters":"ADSagkrst" 
-            }, {
-               "x": 4,
-               "y": 12,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/iran.jpg",
-               "type":"image",
-               "answer":"iran",
-               "letters":"IKQainrs" 
-            }, {
-               "x": 9,
-               "y": 8,
-               "direction":"h",
-               "title":"Title here",
-               "content":"What kind of insect can live up to one year without eating?",
-               "type":"text",
-               "answer":"bedbug",
-               "letters":"FZbbdeghpu" 
-            }
-         ]
+            "width":11,
+            "height":13,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"I am quick when I am thin. I am slow when I am fat. Wind is my worst nightmare. ",
+                  "type":"text",
+                  "answer":"candle",
+                  "letters":"Iacdehllnq"
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"an association of manufacturers or suppliers with the purpose of maintaining prices at a high level and restricting competition ",
+                  "type":"text",
+                  "answer":"cartel",
+                  "letters":"Iacegglrst"
+               },
+               {
+                  "x":5,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"the quality of being fair and impartial. ",
+                  "type":"text",
+                  "answer":"equity",
+                  "letters":"PSeiqqqtuy"
+               },
+               {
+                  "x":3,
+                  "y":3,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/asics.jpg",
+                  "type":"image",
+                  "answer":"asics",
+                  "letters":"ERacipqss"
+               },
+               {
+                  "x":7,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/peas.jpg",
+                  "type":"image",
+                  "answer":"peas",
+                  "letters":"KOadepss"
+               },
+               {
+                  "x":3,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/wayne.jpg",
+                  "type":"image",
+                  "answer":"wayne",
+                  "letters":"NRaelnwwy"
+               },
+               {
+                  "x":7,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/eric.jpg",
+                  "type":"image",
+                  "answer":"eric",
+                  "letters":"JUVceiru"
+               },
+               {
+                  "x":5,
+                  "y":8,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"If you have me, you want to share me. Once you share me, you wont have me. ",
+                  "type":"text",
+                  "answer":"secret",
+                  "letters":"Eceeijrstt"
+               },
+               {
+                  "x":5,
+                  "y":8,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/stark.jpg",
+                  "type":"image",
+                  "answer":"stark",
+                  "letters":"ADSagkrst"
+               },
+               {
+                  "x":4,
+                  "y":11,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/iran.jpg",
+                  "type":"image",
+                  "answer":"iran",
+                  "letters":"IKQainrs"
+               },
+               {
+                  "x":9,
+                  "y":7,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"What kind of insect can live up to one year without eating?",
+                  "type":"text",
+                  "answer":"bedbug",
+                  "letters":"FZbbdeghpu"
+               }
+            ]
          },
          {
             "width":9,
@@ -1565,219 +1636,238 @@
    },
    {
       "crosswords":[
-
-                    {
-                       "width" : 20,
-                       "height" : 20,
-                       "questions" : [
-                       {
-                          "x": 0,
-                          "y": 1,
-                          "direction":"v", 
-                          "title":"Title here",
-                          "content":"assets/images/content/shanghai.jpg",
-                          "type":"image",
-                          "answer":"shanghai",
-                          "letters":"Raaghhiinssz" 
-                       }, {
-                          "x": 4,
-                          "y": 1,
-                          "direction":"h",
-                          "title":"Title here",
-                          "content":"from Breaking Bad : he is a high level drug distributor who has a cover as an owner of a fast food chain.",
-                          "type":"text",
-                          "answer":"gustavo",
-                          "letters":"CGJacgostuv" 
-                       }, {
-                          "x": 1,
-                          "y": 5,
-                          "direction":"v", 
-                          "title":"Title here",
-                          "content":"assets/images/content/jamaica.jpg",
-                          "type":"image",
-                          "answer":"jamaica",
-                          "letters":"Waaaccijmqs" 
-                       }, {
-                          "x": 2,
-                          "y": 4,
-                          "direction":"h",
-                          "title":"Title here",
-                          "content":"I am good at concealing whats real and hide whats true. Sometime, I bring out the courage in you! What am I?",
-                          "type":"text",
-                          "answer":"makeup",
-                          "letters":"aeffkmpuuz" 
-                       }, {
-                          "x": 7,
-                          "y": 4,
-                          "direction":"h",
-                          "title":"Title here",
-                          "content":"the alternative common name for a Black Leopard",
-                          "type":"text",
-                          "answer":"panther",
-                          "letters":"Haefhnpqrtv" 
-                       }, {
-                          "x": 10,
-                          "y": 3,
-                          "direction":"h",
-                          "title":"Title here",
-                          "content":"the positive terminal of a battery, denoted by symbol(+).",
-                          "type":"text",
-                          "answer":"anode",
-                          "letters":"TZadeenoy" 
-                       }, {
-                          "x": 4,
-                          "y": 10,
-                          "direction":"v", 
-                          "title":"Title here",
-                          "content":"assets/images/content/lebron.jpg",
-                          "type":"image",
-                          "answer":"lebron",
-                          "letters":"CHZbelnorv" 
-                       }, {
-                          "x": 7,
-                          "y": 7,
-                          "direction":"v", 
-                          "title":"Title here",
-                          "content":"assets/images/content/teresa.jpg",
-                          "type":"image",
-                          "answer":"teresa",
-                          "letters":"BFUaeerrst" 
-                       }, {
-                          "x": 5,
-                          "y": 9,
-                          "direction":"h",
-                          "title":"Title here",
-                          "content":"assets/images/content/levis.jpg",
-                          "type":"image",
-                          "answer":"levis",
-                          "letters":"GNPSeilsv" 
-                       }, {
-                          "x": 4,
-                          "y": 12,
-                          "direction":"v", 
-                          "title":"Title here",
-                          "content":"What was the nickname of jazzman John Birks Gillespie?",
-                          "type":"text",
-                          "answer":"dizzy",
-                          "letters":"AEditxyzz" 
-                       }, {
-                          "x": 12,
-                          "y": 6,
-                          "direction":"h",
-                          "title":"Title here",
-                          "content":"assets/images/content/cameron.jpg",
-                          "type":"image",
-                          "answer":"cameron",
-                          "letters":"FGZaceemnor" 
-                       }
-                     ]
-                  },
-                  {
-                     "width" : 20,
-                     "height" : 20,
-                     "questions" : [
-                     {
-                        "x": 0,
-                        "y": 1,
-                        "direction":"v", 
-                        "title":"Title here",
-                        "content":"assets/images/content/manning.jpg",
-                        "type":"image",
-                        "answer":"manning",
-                        "letters":"HHabbgimnnn" 
-                     }, {
-                        "x": 0,
-                        "y": 3,
-                        "direction":"v", 
-                        "title":"Title here",
-                        "content":"assets/images/content/harvey.jpg",
-                        "type":"image",
-                        "answer":"harvey",
-                        "letters":"Caehhrvyyz" 
-                     }, {
-                        "x": 4,
-                        "y": 1,
-                        "direction":"h",
-                        "title":"Title here",
-                        "content":"assets/images/content/iceland.jpg",
-                        "type":"image",
-                        "answer":"iceland",
-                        "letters":"GHRacdeilnt" 
-                     }, {
-                        "x": 1,
-                        "y": 6,
-                        "direction":"v", 
-                        "title":"Title here",
-                        "content":"I am full of holes but still holds water.",
-                        "type":"text",
-                        "answer":"sponge",
-                        "letters":"Veeggnopsv" 
-                     }, {
-                        "x": 2,
-                        "y": 6,
-                        "direction":"h",
-                        "title":"Title here",
-                        "content":"assets/images/content/pascal.jpg",
-                        "type":"image",
-                        "answer":"pascal",
-                        "letters":"TTaaclpsuz" 
-                     }, {
-                        "x": 6,
-                        "y": 4,
-                        "direction":"h",
-                        "title":"Title here",
-                        "content":"assets/images/content/tweety.jpg",
-                        "type":"image",
-                        "answer":"tweety",
-                        "letters":"Xbeekttuwy" 
-                     }, {
-                        "x": 0,
-                        "y": 10,
-                        "direction":"v", 
-                        "title":"Title here",
-                        "content":"A boomslang is what type of creature?",
-                        "type":"text",
-                        "answer":"snake",
-                        "letters":"JKNaehkns" 
-                     }, {
-                        "x": 6,
-                        "y": 5,
-                        "direction":"v", 
-                        "title":"Title here",
-                        "content":"the state of the atmosphere at a place and time  ",
-                        "type":"text",
-                        "answer":"weather",
-                        "letters":"CNaabeehrtw" 
-                     }, {
-                        "x": 8,
-                        "y": 4,
-                        "direction":"h",
-                        "title":"Title here",
-                        "content":"In which country was Greenpeace founded? ",
-                        "type":"text",
-                        "answer":"canada",
-                        "letters":"AHOTaaacdn" 
-                     }, {
-                        "x": 8,
-                        "y": 8,
-                        "direction":"v", 
-                        "title":"Title here",
-                        "content":"assets/images/content/dolby.jpg",
-                        "type":"image",
-                        "answer":"dolby",
-                        "letters":"HIZbdlory" 
-                     }, {
-                        "x": 10,
-                        "y": 7,
-                        "direction":"h",
-                        "title":"Title here",
-                        "content":"body fluid in humans and other animals that delivers necessary substances such as nutrients and oxygen",
-                        "type":"text",
-                        "answer":"blood",
-                        "letters":"ATbdfloou" 
-                     }
-                   ]
-                  },
+         {
+            "width":13,
+            "height":13,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/shanghai.jpg",
+                  "type":"image",
+                  "answer":"shanghai",
+                  "letters":"Raaghhiinssz"
+               },
+               {
+                  "x":4,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"from Breaking Bad : he is a high level drug distributor who has a cover as an owner of a fast food chain.",
+                  "type":"text",
+                  "answer":"gustavo",
+                  "letters":"CGJacgostuv"
+               },
+               {
+                  "x":1,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/jamaica.jpg",
+                  "type":"image",
+                  "answer":"jamaica",
+                  "letters":"Waaaccijmqs"
+               },
+               {
+                  "x":2,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"I am good at concealing whats real and hide whats true. Sometime, I bring out the courage in you! What am I?",
+                  "type":"text",
+                  "answer":"makeup",
+                  "letters":"aeffkmpuuz"
+               },
+               {
+                  "x":7,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"the alternative common name for a Black Leopard",
+                  "type":"text",
+                  "answer":"panther",
+                  "letters":"Haefhnpqrtv"
+               },
+               {
+                  "x":10,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"the positive terminal of a battery, denoted by symbol(+).",
+                  "type":"text",
+                  "answer":"anode",
+                  "letters":"TZadeenoy"
+               },
+               {
+                  "x":4,
+                  "y":9,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/lebron.jpg",
+                  "type":"image",
+                  "answer":"lebron",
+                  "letters":"CHZbelnorv"
+               },
+               {
+                  "x":7,
+                  "y":6,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/teresa.jpg",
+                  "type":"image",
+                  "answer":"teresa",
+                  "letters":"BFUaeerrst"
+               },
+               {
+                  "x":5,
+                  "y":8,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/levis.jpg",
+                  "type":"image",
+                  "answer":"levis",
+                  "letters":"GNPSeilsv"
+               },
+               {
+                  "x":4,
+                  "y":11,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"What was the nickname of jazzman John Birks Gillespie?",
+                  "type":"text",
+                  "answer":"dizzy",
+                  "letters":"AEditxyzz"
+               },
+               {
+                  "x":12,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/cameron.jpg",
+                  "type":"image",
+                  "answer":"cameron",
+                  "letters":"FGZaceemnor"
+               }
+            ]
+         },
+         {
+            "width":13,
+            "height":13,
+            "questions":[
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/manning.jpg",
+                  "type":"image",
+                  "answer":"manning",
+                  "letters":"HHabbgimnnn"
+               },
+               {
+                  "x":0,
+                  "y":3,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/harvey.jpg",
+                  "type":"image",
+                  "answer":"harvey",
+                  "letters":"Caehhrvyyz"
+               },
+               {
+                  "x":4,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/iceland.jpg",
+                  "type":"image",
+                  "answer":"iceland",
+                  "letters":"GHRacdeilnt"
+               },
+               {
+                  "x":1,
+                  "y":6,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"I am full of holes but still holds water.",
+                  "type":"text",
+                  "answer":"sponge",
+                  "letters":"Veeggnopsv"
+               },
+               {
+                  "x":2,
+                  "y":6,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/pascal.jpg",
+                  "type":"image",
+                  "answer":"pascal",
+                  "letters":"TTaaclpsuz"
+               },
+               {
+                  "x":6,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/tweety.jpg",
+                  "type":"image",
+                  "answer":"tweety",
+                  "letters":"Xbeekttuwy"
+               },
+               {
+                  "x":0,
+                  "y":10,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"A boomslang is what type of creature?",
+                  "type":"text",
+                  "answer":"snake",
+                  "letters":"JKNaehkns"
+               },
+               {
+                  "x":6,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"the state of the atmosphere at a place and time  ",
+                  "type":"text",
+                  "answer":"weather",
+                  "letters":"CNaabeehrtw"
+               },
+               {
+                  "x":8,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"In which country was Greenpeace founded? ",
+                  "type":"text",
+                  "answer":"canada",
+                  "letters":"AHOTaaacdn"
+               },
+               {
+                  "x":8,
+                  "y":8,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/dolby.jpg",
+                  "type":"image",
+                  "answer":"dolby",
+                  "letters":"HIZbdlory"
+               },
+               {
+                  "x":10,
+                  "y":7,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"body fluid in humans and other animals that delivers necessary substances such as nutrients and oxygen",
+                  "type":"text",
+                  "answer":"blood",
+                  "letters":"ATbdfloou"
+               }
+            ]
+         },
          {
             "width":11,
             "height":14,
@@ -2087,110 +2177,120 @@
             ]
          },
          {
-            "width" : 20,
-            "height" : 20,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/rodgers.jpg",
-               "type":"image",
-               "answer":"rodgers",
-               "letters":"Padegorrsyy" 
-            }, {
-               "x": 0,
-               "y": 6,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"to repeat aloud a poem or passage from memory before an audience ",
-               "type":"text",
-               "answer":"recite",
-               "letters":"AEceeimrty" 
-            }, {
-               "x": 2,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/chanel.jpg",
-               "type":"image",
-               "answer":"chanel",
-               "letters":"Oacehjlnpx" 
-            }, {
-               "x": 4,
-               "y": 3,
-               "direction":"h",
-               "title":"Title here",
-               "content":"an association of manufacturers or suppliers with the purpose of maintaining prices at a high level and restricting competition ",
-               "type":"text",
-               "answer":"cartel",
-               "letters":"Aaceeglrrt" 
-            }, {
-               "x": 2,
-               "y": 6,
-               "direction":"h",
-               "title":"Title here",
-               "content":"I am quick when I am thin. I am slow when I am fat. Wind is my worst nightmare. ",
-               "type":"text",
-               "answer":"candle",
-               "letters":"CNNacdelnw" 
-            }, {
-               "x": 7,
-               "y": 3,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/albania.jpg",
-               "type":"image",
-               "answer":"albania",
-               "letters":"GRTaaabilnu" 
-            }, {
-               "x": 1,
-               "y": 11,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/newton.jpg",
-               "type":"image",
-               "answer":"newton",
-               "letters":"GRehknnotw" 
-            }, {
-               "x": 7,
-               "y": 5,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"What kind of insect can live up to one year without eating?",
-               "type":"text",
-               "answer":"bedbug",
-               "letters":"NTbbcdeguz" 
-            }, {
-               "x": 9,
-               "y": 5,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/daniel.jpg",
-               "type":"image",
-               "answer":"daniel",
-               "letters":"KLUadefiln" 
-            }, {
-               "x": 5,
-               "y": 9,
-               "direction":"h",
-               "title":"Title here",
-               "content":"What color are a zebras black stripes during the first six months of life?",
-               "type":"text",
-               "answer":"brown",
-               "letters":"Bbfmnorrw" 
-            }, {
-               "x": 11,
-               "y": 4,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/guard.jpg",
-               "type":"image",
-               "answer":"guard",
-               "letters":"Eadgiioru" 
-            }
-          ]
+            "width":13,
+            "height":13,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/rodgers.jpg",
+                  "type":"image",
+                  "answer":"rodgers",
+                  "letters":"Padegorrsyy"
+               },
+               {
+                  "x":0,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"to repeat aloud a poem or passage from memory before an audience ",
+                  "type":"text",
+                  "answer":"recite",
+                  "letters":"AEceeimrty"
+               },
+               {
+                  "x":2,
+                  "y":3,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/chanel.jpg",
+                  "type":"image",
+                  "answer":"chanel",
+                  "letters":"Oacehjlnpx"
+               },
+               {
+                  "x":4,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"an association of manufacturers or suppliers with the purpose of maintaining prices at a high level and restricting competition ",
+                  "type":"text",
+                  "answer":"cartel",
+                  "letters":"Aaceeglrrt"
+               },
+               {
+                  "x":2,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"I am quick when I am thin. I am slow when I am fat. Wind is my worst nightmare. ",
+                  "type":"text",
+                  "answer":"candle",
+                  "letters":"CNNacdelnw"
+               },
+               {
+                  "x":7,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/albania.jpg",
+                  "type":"image",
+                  "answer":"albania",
+                  "letters":"GRTaaabilnu"
+               },
+               {
+                  "x":1,
+                  "y":10,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/newton.jpg",
+                  "type":"image",
+                  "answer":"newton",
+                  "letters":"GRehknnotw"
+               },
+               {
+                  "x":7,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"What kind of insect can live up to one year without eating?",
+                  "type":"text",
+                  "answer":"bedbug",
+                  "letters":"NTbbcdeguz"
+               },
+               {
+                  "x":9,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/daniel.jpg",
+                  "type":"image",
+                  "answer":"daniel",
+                  "letters":"KLUadefiln"
+               },
+               {
+                  "x":5,
+                  "y":8,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"What color are a zebras black stripes during the first six months of life?",
+                  "type":"text",
+                  "answer":"brown",
+                  "letters":"Bbfmnorrw"
+               },
+               {
+                  "x":11,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/guard.jpg",
+                  "type":"image",
+                  "answer":"guard",
+                  "letters":"Eadgiioru"
+               }
+            ]
          },
          {
             "width":14,
@@ -2279,101 +2379,110 @@
             ]
          },
          {
-            "width" : 20,
-            "height" : 20,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/roosevelt.jpg",
-               "type":"image",
-               "answer":"roosevelt",
-               "letters":"MWYeelooprstv" 
-            }, {
-               "x": 0,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/sharp.jpg",
-               "type":"image",
-               "answer":"sharp",
-               "letters":"Vahprsttw" 
-            }, {
-               "x": 2,
-               "y": 2,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/iraq.jpg",
-               "type":"image",
-               "answer":"iraq",
-               "letters":"BGUaciqr" 
-            }, {
-               "x": 4,
-               "y": 4,
-               "direction":"h",
-               "title":"Title here",
-               "content":"Geometry : a flat two-dimensional surface (physical or theoretical) with infinite width and length, zero thickness and zero curvature",
-               "type":"text",
-               "answer":"plane",
-               "letters":"BMaeilnpx" 
-            }, {
-               "x": 7,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/zurich.jpg",
-               "type":"image",
-               "answer":"zurich",
-               "letters":"Gchioqruwz" 
-            }, {
-               "x": 6,
-               "y": 2,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"Which Harry Potter word was added to the Oxford English Dictionary in 2003 meaning -a person who possesses no magical powers, lacking particular skills, or who is regarded as inferior in some way-?",
-               "type":"text",
-               "answer":"muggle",
-               "letters":"DPbegglmru" 
-            }, {
-               "x": 3,
-               "y": 6,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"Tear me off and scratch my head, what once red is now black. What am I?   ",
-               "type":"text",
-               "answer":"match",
-               "letters":"CJSacghmt" 
-            }, {
-               "x": 7,
-               "y": 5,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"in law , it refers to a creditors assertion of a right to payment from a debtor or the debtors property.",
-               "type":"text",
-               "answer":"claim",
-               "letters":"GLabcilmn" 
-            }, {
-               "x": 6,
-               "y": 6,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/curry.jpg",
-               "type":"image",
-               "answer":"curry",
-               "letters":"DEUckrruy" 
-            }, {
-               "x": 9,
-               "y": 4,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/bale.jpg",
-               "type":"image",
-               "answer":"bale",
-               "letters":"EFTabelv" 
-            }
-          ]
+            "width":12,
+            "height":12,
+            "questions":[
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/roosevelt.jpg",
+                  "type":"image",
+                  "answer":"roosevelt",
+                  "letters":"MWYeelooprstv"
+               },
+               {
+                  "x":0,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/sharp.jpg",
+                  "type":"image",
+                  "answer":"sharp",
+                  "letters":"Vahprsttw"
+               },
+               {
+                  "x":2,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/iraq.jpg",
+                  "type":"image",
+                  "answer":"iraq",
+                  "letters":"BGUaciqr"
+               },
+               {
+                  "x":4,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"Geometry : a flat two-dimensional surface (physical or theoretical) with infinite width and length, zero thickness and zero curvature",
+                  "type":"text",
+                  "answer":"plane",
+                  "letters":"BMaeilnpx"
+               },
+               {
+                  "x":7,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/zurich.jpg",
+                  "type":"image",
+                  "answer":"zurich",
+                  "letters":"Gchioqruwz"
+               },
+               {
+                  "x":6,
+                  "y":2,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"Which Harry Potter word was added to the Oxford English Dictionary in 2003 meaning -a person who possesses no magical powers, lacking particular skills, or who is regarded as inferior in some way-?",
+                  "type":"text",
+                  "answer":"muggle",
+                  "letters":"DPbegglmru"
+               },
+               {
+                  "x":3,
+                  "y":6,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"Tear me off and scratch my head, what once red is now black. What am I?   ",
+                  "type":"text",
+                  "answer":"match",
+                  "letters":"CJSacghmt"
+               },
+               {
+                  "x":7,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"in law , it refers to a creditors assertion of a right to payment from a debtor or the debtors property.",
+                  "type":"text",
+                  "answer":"claim",
+                  "letters":"GLabcilmn"
+               },
+               {
+                  "x":6,
+                  "y":6,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/curry.jpg",
+                  "type":"image",
+                  "answer":"curry",
+                  "letters":"DEUckrruy"
+               },
+               {
+                  "x":9,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/bale.jpg",
+                  "type":"image",
+                  "answer":"bale",
+                  "letters":"EFTabelv"
+               }
+            ]
          },
          {
             "width":13,
@@ -2472,111 +2581,121 @@
             ]
          },
          {
-            "width" : 20,
-            "height" : 20,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"Which popular 1990s TV series that ran from 1994-2004 featured characters named Rachel, Monica, Phoebe, Joey, Chandler, and Ross?",
-               "type":"text",
-               "answer":"friends",
-               "letters":"JOYdefinors" 
-            }, {
-               "x": 0,
-               "y": 2,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/ragnar.jpg",
-               "type":"image",
-               "answer":"ragnar",
-               "letters":"BIKKaagnrr" 
-            }, {
-               "x": 2,
-               "y": 2,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/guetta.jpg",
-               "type":"image",
-               "answer":"guetta",
-               "letters":"AJMaegpttu" 
-            }, {
-               "x": 4,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/eagle.jpg",
-               "type":"image",
-               "answer":"eagle",
-               "letters":"Aabeefggl" 
-            }, {
-               "x": 4,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"What is Negan s Bat s name?",
-               "type":"text",
-               "answer":"lucille",
-               "letters":"Lcehikllluz" 
-            }, {
-               "x": 7,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"the financial centre and main city of Switzerland",
-               "type":"text",
-               "answer":"zurich",
-               "letters":"cchiknruuz" 
-            }, {
-               "x": 10,
-               "y": 3,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/germany.jpg",
-               "type":"image",
-               "answer":"germany",
-               "letters":"AHaegmmnpry" 
-            }, {
-               "x": 6,
-               "y": 9,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/heavy.jpg",
-               "type":"image",
-               "answer":"heavy",
-               "letters":"HQYaehtvy" 
-            }, {
-               "x": 8,
-               "y": 7,
-               "direction":"h",
-               "title":"Title here",
-               "content":"popular item of clothing originated in France",
-               "type":"text",
-               "answer":"jeans",
-               "letters":"DFYaejnsy" 
-            }, {
-               "x": 4,
-               "y": 11,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"What team was the first to win 3 NBA titles in a row since the Celtics in the 60s?",
-               "type":"text",
-               "answer":"bulls",
-               "letters":"TYbbllnsu" 
-            }, {
-               "x": 10,
-               "y": 8,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/nato.jpg",
-               "type":"image",
-               "answer":"nato",
-               "letters":"Rainottu" 
-            }
-          ]
-         }, 
+            "width":14,
+            "height":13,
+            "questions":[
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"Which popular 1990s TV series that ran from 1994-2004 featured characters named Rachel, Monica, Phoebe, Joey, Chandler, and Ross?",
+                  "type":"text",
+                  "answer":"friends",
+                  "letters":"JOYdefinors"
+               },
+               {
+                  "x":0,
+                  "y":2,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/ragnar.jpg",
+                  "type":"image",
+                  "answer":"ragnar",
+                  "letters":"BIKKaagnrr"
+               },
+               {
+                  "x":2,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/guetta.jpg",
+                  "type":"image",
+                  "answer":"guetta",
+                  "letters":"AJMaegpttu"
+               },
+               {
+                  "x":4,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/eagle.jpg",
+                  "type":"image",
+                  "answer":"eagle",
+                  "letters":"Aabeefggl"
+               },
+               {
+                  "x":4,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"What is Negan s Bat s name?",
+                  "type":"text",
+                  "answer":"lucille",
+                  "letters":"Lcehikllluz"
+               },
+               {
+                  "x":7,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"the financial centre and main city of Switzerland",
+                  "type":"text",
+                  "answer":"zurich",
+                  "letters":"cchiknruuz"
+               },
+               {
+                  "x":10,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/germany.jpg",
+                  "type":"image",
+                  "answer":"germany",
+                  "letters":"AHaegmmnpry"
+               },
+               {
+                  "x":6,
+                  "y":9,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/heavy.jpg",
+                  "type":"image",
+                  "answer":"heavy",
+                  "letters":"HQYaehtvy"
+               },
+               {
+                  "x":8,
+                  "y":7,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"popular item of clothing originated in France",
+                  "type":"text",
+                  "answer":"jeans",
+                  "letters":"DFYaejnsy"
+               },
+               {
+                  "x":4,
+                  "y":11,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"What team was the first to win 3 NBA titles in a row since the Celtics in the 60s?",
+                  "type":"text",
+                  "answer":"bulls",
+                  "letters":"TYbbllnsu"
+               },
+               {
+                  "x":10,
+                  "y":8,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/nato.jpg",
+                  "type":"image",
+                  "answer":"nato",
+                  "letters":"Rainottu"
+               }
+            ]
+         },
          {
             "width":12,
             "height":17,
@@ -2693,112 +2812,122 @@
                }
             ]
          },
-            {
-               "width" : 20,
-               "height" : 20,
-               "questions" : [
+         {
+            "width":12,
+            "height":13,
+            "questions":[
                {
-                  "x": 0,
-                  "y": 1,
+                  "x":0,
+                  "y":0,
                   "direction":"h",
                   "title":"Title here",
                   "content":"of a material is its mass per unit volume. ",
                   "type":"text",
                   "answer":"density",
-                  "letters":"DFJRdeinsty" 
-               }, {
-                  "x": 0,
-                  "y": 4,
-                  "direction":"v", 
+                  "letters":"DFJRdeinsty"
+               },
+               {
+                  "x":0,
+                  "y":3,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"What is the most often ordered seafood item in restaurants?",
                   "type":"text",
                   "answer":"shrimp",
-                  "letters":"RShijmprrs" 
-               }, {
-                  "x": 2,
-                  "y": 3,
+                  "letters":"RShijmprrs"
+               },
+               {
+                  "x":2,
+                  "y":2,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/arafat.jpg",
                   "type":"image",
                   "answer":"arafat",
-                  "letters":"aaabfprstw" 
-               }, {
-                  "x": 3,
-                  "y": 2,
-                  "direction":"v", 
+                  "letters":"aaabfprstw"
+               },
+               {
+                  "x":3,
+                  "y":1,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"female horse ",
                   "type":"text",
                   "answer":"mare",
-                  "letters":"GHabdemr" 
-               }, {
-                  "x": 5,
-                  "y": 2,
+                  "letters":"GHabdemr"
+               },
+               {
+                  "x":5,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/repsol.jpg",
                   "type":"image",
                   "answer":"repsol",
-                  "letters":"LNQeloprsz" 
-               }, {
-                  "x": 4,
-                  "y": 6,
-                  "direction":"v", 
+                  "letters":"LNQeloprsz"
+               },
+               {
+                  "x":4,
+                  "y":5,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"Whoever made me dont want me; Whoever bought me dont need me. Whoever use me dont know me. ",
                   "type":"text",
                   "answer":"coffin",
-                  "letters":"FKQQcffino" 
-               }, {
-                  "x": 9,
-                  "y": 5,
+                  "letters":"FKQQcffino"
+               },
+               {
+                  "x":9,
+                  "y":4,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/enjoy.jpg",
                   "type":"image",
                   "answer":"enjoy",
-                  "letters":"UYehjnoyz" 
-               }, {
-                  "x": 6,
-                  "y": 9,
-                  "direction":"v", 
+                  "letters":"UYehjnoyz"
+               },
+               {
+                  "x":6,
+                  "y":8,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/kenya.jpg",
                   "type":"image",
                   "answer":"kenya",
-                  "letters":"BQaeknnty" 
-               }, {
-                  "x": 7,
-                  "y": 9,
+                  "letters":"BQaeknnty"
+               },
+               {
+                  "x":7,
+                  "y":8,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/ellen.jpg",
                   "type":"image",
                   "answer":"ellen",
-                  "letters":"Cbeellnoq" 
-               }, {
-                  "x": 5,
-                  "y": 11,
-                  "direction":"v", 
+                  "letters":"Cbeellnoq"
+               },
+               {
+                  "x":5,
+                  "y":10,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/galilei.jpg",
                   "type":"image",
                   "answer":"galilei",
-                  "letters":"CKZacegiill" 
-               }, {
-                  "x": 3,
-                  "y": 13,
-                  "direction":"v", 
+                  "letters":"CKZacegiill"
+               },
+               {
+                  "x":3,
+                  "y":12,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"Which country hosts the world screaming championships?",
                   "type":"text",
                   "answer":"poland",
-                  "letters":"JOWadlnopr" 
+                  "letters":"JOWadlnopr"
                }
             ]
-          },
+         },
          {
             "width":12,
             "height":16,
@@ -2915,221 +3044,242 @@
                }
             ]
          },
-            {
-               "width" : 20,
-               "height" : 20,
-               "questions" : [
+         {
+            "width":15,
+            "height":13,
+            "questions":[
                {
-                  "x": 0,
-                  "y": 1,
+                  "x":0,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/voltaire.jpg",
                   "type":"image",
                   "answer":"voltaire",
-                  "letters":"HUVabeilortv" 
-               }, {
-                  "x": 2,
-                  "y": 1,
+                  "letters":"HUVabeilortv"
+               },
+               {
+                  "x":2,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"What is the name of Google web browser, launched in September 2008??",
                   "type":"text",
                   "answer":"chrome",
-                  "letters":"GRUccehmor" 
-               }, {
-                  "x": 0,
-                  "y": 5,
-                  "direction":"v", 
+                  "letters":"GRUccehmor"
+               },
+               {
+                  "x":0,
+                  "y":5,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/almond.jpg",
                   "type":"image",
                   "answer":"almond",
-                  "letters":"Gaccdlmnot" 
-               }, {
-                  "x": 5,
-                  "y": 3,
+                  "letters":"Gaccdlmnot"
+               },
+               {
+                  "x":5,
+                  "y":3,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/sydney.jpg",
                   "type":"image",
                   "answer":"sydney",
-                  "letters":"ATdennsvyy" 
-               }, {
-                  "x": 5,
-                  "y": 3,
-                  "direction":"v", 
+                  "letters":"ATdennsvyy"
+               },
+               {
+                  "x":5,
+                  "y":3,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"I have fangs and enjoy piecing holes with a single bit. ",
                   "type":"text",
                   "answer":"stapler",
-                  "letters":"IRaejlprstw" 
-               }, {
-                  "x": 7,
-                  "y": 1,
+                  "letters":"IRaejlprstw"
+               },
+               {
+                  "x":7,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/swatch.jpg",
                   "type":"image",
                   "answer":"swatch",
-                  "letters":"JKachnstwy" 
-               }, {
-                  "x": 2,
-                  "y": 8,
-                  "direction":"v", 
+                  "letters":"JKachnstwy"
+               },
+               {
+                  "x":2,
+                  "y":8,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/daryl.jpg",
                   "type":"image",
                   "answer":"daryl",
-                  "letters":"CIaddilry" 
-               }, {
-                  "x": 2,
-                  "y": 8,
+                  "letters":"CIaddilry"
+               },
+               {
+                  "x":2,
+                  "y":8,
                   "direction":"h",
                   "title":"Title here",
                   "content":"What did an enemy have to be, for a U. S. soldier to call him a -believer- in the Vietnam War?",
                   "type":"text",
                   "answer":"dead",
-                  "letters":"Faddettv" 
-               }, {
-                  "x": 1,
-                  "y": 10,
-                  "direction":"v", 
+                  "letters":"Faddettv"
+               },
+               {
+                  "x":1,
+                  "y":10,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"A simple shape that is the set of all points in a plane that are at a given distance from a given point, the centre.",
                   "type":"text",
                   "answer":"bail",
-                  "letters":"Jabfilop" 
-               }, {
-                  "x": 10,
-                  "y": 2,
+                  "letters":"Jabfilop"
+               },
+               {
+                  "x":10,
+                  "y":2,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/serena.jpg",
                   "type":"image",
                   "answer":"serena",
-                  "letters":"DGXaeenrsx" 
-               }, {
-                  "x": 9,
-                  "y": 5,
-                  "direction":"v", 
+                  "letters":"DGXaeenrsx"
+               },
+               {
+                  "x":9,
+                  "y":5,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"Pogonophobia is the fear of what?",
                   "type":"text",
                   "answer":"beards",
-                  "letters":"ETVabdenrs" 
+                  "letters":"ETVabdenrs"
                }
-             ]
+            ]
          }
       ]
    },
    {
       "crosswords":[
-            {
-               "width" : 20,
-               "height" : 20,
-               "questions" : [
+         {
+            "width":14,
+            "height":14,
+            "questions":[
                {
-                  "x": 0,
-                  "y": 1,
-                  "direction":"v", 
+                  "x":0,
+                  "y":1,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/armstrong.jpg",
                   "type":"image",
                   "answer":"armstrong",
-                  "letters":"Eacggmnorrstw" 
-               }, {
-                  "x": 0,
-                  "y": 3,
-                  "direction":"v", 
+                  "letters":"Eacggmnorrstw"
+               },
+               {
+                  "x":0,
+                  "y":3,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"Which weekday is domingo in Spanish and dimanche in French?",
                   "type":"text",
                   "answer":"sunday",
-                  "letters":"JJYadnosuy" 
-               }, {
-                  "x": 4,
-                  "y": 1,
+                  "letters":"JJYadnosuy"
+               },
+               {
+                  "x":4,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"to make a journey ",
                   "type":"text",
                   "answer":"travel",
-                  "letters":"GYaellqrtv" 
-               }, {
-                  "x": 3,
-                  "y": 5,
-                  "direction":"v", 
+                  "letters":"GYaellqrtv"
+               },
+               {
+                  "x":3,
+                  "y":5,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"In which sport can you win the Davis Cup?",
                   "type":"text",
                   "answer":"tennis",
-                  "letters":"Rehimnnnst" 
-               }, {
-                  "x": 1,
-                  "y": 7,
+                  "letters":"Rehimnnnst"
+               },
+               {
+                  "x":1,
+                  "y":7,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/poland.jpg",
                   "type":"image",
                   "answer":"poland",
-                  "letters":"EGKadjlnop" 
-               }, {
-                  "x": 0,
-                  "y": 8,
-                  "direction":"v", 
+                  "letters":"EGKadjlnop"
+               },
+               {
+                  "x":0,
+                  "y":8,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/cooper.jpg",
                   "type":"image",
                   "answer":"cooper",
-                  "letters":"LSXceooprr" 
-               }, {
-                  "x": 0,
-                  "y": 10,
-                  "direction":"v", 
+                  "letters":"LSXceooprr"
+               },
+               {
+                  "x":0,
+                  "y":10,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"What is both a French wine region and a luxury American automobile?",
                   "type":"text",
                   "answer":"cadillac",
-                  "letters":"Maabccdijllq" 
-               }, {
-                  "x": 7,
-                  "y": 4,
+                  "letters":"Maabccdijllq"
+               },
+               {
+                  "x":7,
+                  "y":4,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/lipstick.jpg",
                   "type":"image",
                   "answer":"lipstick",
-                  "letters":"DGchiiklnpst" 
-               }, {
-                  "x": 7,
-                  "y": 11,
-                  "direction":"v", 
+                  "letters":"DGchiiklnpst"
+               },
+               {
+                  "x":7,
+                  "y":11,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/komodo.jpg",
                   "type":"image",
                   "answer":"komodo",
-                  "letters":"NZdhkmooow" 
-               }, {
-                  "x": 10,
-                  "y": 8,
-                  "direction":"v", 
+                  "letters":"NZdhkmooow"
+               },
+               {
+                  "x":10,
+                  "y":8,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"What do you call a motorcycle with four wheels?",
                   "type":"text",
                   "answer":"quad",
-                  "letters":"JKKadlqu" 
-               }, {
-                  "x": 12,
-                  "y": 7,
+                  "letters":"JKKadlqu"
+               },
+               {
+                  "x":12,
+                  "y":7,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/yahoo.jpg",
                   "type":"image",
                   "answer":"yahoo",
-                  "letters":"ACFahoowy" 
-               } ]
-            },
+                  "letters":"ACFahoowy"
+               }
+            ]
+         },
          {
             "width":14,
             "height":13,
@@ -4636,93 +4786,92 @@
    },
    {
       "crosswords":[
-
-            {
-               "width":12,
-               "height":14,
-               "questions":[
-                  {
-                     "x":0,
-                     "y":0,
-                     "direction":"h",
-                     "title":"General culture",
-                     "content":"A medication used to treat pain and fever.",
-                     "type":"text",
-                     "answer":"paracetamol",
-                     "letters":"KMUaaaceilmoprt"
-                  },
-                  {
-                     "x":0,
-                     "y":2,
-                     "direction":"v",
-                     "title":"Sport",
-                     "content":"assets/images/content/ronaldinho.jpg",
-                     "type":"image",
-                     "answer":"ronaldinho",
-                     "letters":"HLadhhilnnoorx"
-                  },
-                  {
-                     "x":4,
-                     "y":0,
-                     "direction":"v",
-                     "title":"Application",
-                     "content":"assets/images/content/whatsapp.jpg",
-                     "type":"image",
-                     "answer":"whatsapp",
-                     "letters":"BHXaahppsstw"
-                  },
-                  {
-                     "x":6,
-                     "y":0,
-                     "direction":"h",
-                     "title":"Thinker - philosopher",
-                     "content":"Poverty is the parent of revolution and crime.- ...",
-                     "type":"text",
-                     "answer":"aristotle",
-                     "letters":"abeeiilorsttz"
-                  },
-                  {
-                     "x":2,
-                     "y":5,
-                     "direction":"v",
-                     "title":"Logo",
-                     "content":"assets/images/content/microsoft.jpg",
-                     "type":"image",
-                     "answer":"microsoft",
-                     "letters":"Lccfimmooprst"
-                  },
-                  {
-                     "x":4,
-                     "y":5,
-                     "direction":"h",
-                     "title":"Brand",
-                     "content":"assets/images/content/cocacola.jpg",
-                     "type":"image",
-                     "answer":"cocacola",
-                     "letters":"DMWaacccloot"
-                  },
-                  {
-                     "x":3,
-                     "y":12,
-                     "direction":"v",
-                     "title":"Hobby",
-                     "content":"assets/images/content/camping.jpg",
-                     "type":"image",
-                     "answer":"camping",
-                     "letters":"AIOacghimnp"
-                  },
-                  {
-                     "x":7,
-                     "y":9,
-                     "direction":"h",
-                     "title":"City",
-                     "content":"assets/images/content/paris.jpg",
-                     "type":"image",
-                     "answer":"paris",
-                     "letters":"KWaaiprst"
-                  }
-               ]
-            },
+         {
+            "width":12,
+            "height":14,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"h",
+                  "title":"General culture",
+                  "content":"A medication used to treat pain and fever.",
+                  "type":"text",
+                  "answer":"paracetamol",
+                  "letters":"KMUaaaceilmoprt"
+               },
+               {
+                  "x":0,
+                  "y":2,
+                  "direction":"v",
+                  "title":"Sport",
+                  "content":"assets/images/content/ronaldinho.jpg",
+                  "type":"image",
+                  "answer":"ronaldinho",
+                  "letters":"HLadhhilnnoorx"
+               },
+               {
+                  "x":4,
+                  "y":0,
+                  "direction":"v",
+                  "title":"Application",
+                  "content":"assets/images/content/whatsapp.jpg",
+                  "type":"image",
+                  "answer":"whatsapp",
+                  "letters":"BHXaahppsstw"
+               },
+               {
+                  "x":6,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Thinker - philosopher",
+                  "content":"Poverty is the parent of revolution and crime.- ...",
+                  "type":"text",
+                  "answer":"aristotle",
+                  "letters":"abeeiilorsttz"
+               },
+               {
+                  "x":2,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Logo",
+                  "content":"assets/images/content/microsoft.jpg",
+                  "type":"image",
+                  "answer":"microsoft",
+                  "letters":"Lccfimmooprst"
+               },
+               {
+                  "x":4,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Brand",
+                  "content":"assets/images/content/cocacola.jpg",
+                  "type":"image",
+                  "answer":"cocacola",
+                  "letters":"DMWaacccloot"
+               },
+               {
+                  "x":3,
+                  "y":12,
+                  "direction":"v",
+                  "title":"Hobby",
+                  "content":"assets/images/content/camping.jpg",
+                  "type":"image",
+                  "answer":"camping",
+                  "letters":"AIOacghimnp"
+               },
+               {
+                  "x":7,
+                  "y":9,
+                  "direction":"h",
+                  "title":"City",
+                  "content":"assets/images/content/paris.jpg",
+                  "type":"image",
+                  "answer":"paris",
+                  "letters":"KWaaiprst"
+               }
+            ]
+         },
          {
             "width":12,
             "height":14,
@@ -5177,429 +5326,469 @@
                }
             ]
          },
-           {
-               "width" : 20,
-               "height" : 20,
-               "questions" : [
+         {
+            "width":14,
+            "height":13,
+            "questions":[
                {
-                  "x": 0,
-               "y": 1,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"Game of thrones : What was the name of the explosive used in the Battle of Blackwater?",
-               "type":"text",
-               "answer":"wildfire",
-               "letters":"GKOdefhiilrw" 
-               }, {
-                  "x": 3,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"a feeling of revulsion or profound disapproval aroused by something unpleasant or offensive.",
-               "type":"text",
-               "answer":"disgust",
-               "letters":"KRdgiiksstu" 
-               }, {
-                  "x": 0,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/morgan.jpg",
-               "type":"image",
-               "answer":"morgan",
-               "letters":"ADZagmnorz" 
-               }, {
-                  "x": 1,
-               "y": 3,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/tokyo.jpg",
-               "type":"image",
-               "answer":"tokyo",
-               "letters":"Pbbkootty" 
-               }, {
-                  "x": 3,
-               "y": 6,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/socrates.jpg",
-               "type":"image",
-               "answer":"socrates",
-               "letters":"accegjorsstv" 
-               }, {
-                  "x": 5,
-               "y": 6,
-               "direction":"h",
-               "title":"Title here",
-               "content":"a mineral found in milk, biologically important in maintaining strong bones and teeth",
-               "type":"text",
-               "answer":"calcium",
-               "letters":"PVaccehilmu" 
-               }, {
-                  "x": 10,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/cuba.jpg",
-               "type":"image",
-               "answer":"cuba",
-               "letters":"Oabcdhuu" 
-               }, {
-                  "x": 8,
-               "y": 4,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/battery.jpg",
-               "type":"image",
-               "answer":"battery",
-               "letters":"ANSaberttvy" 
-               }, {
-                  "x": 8,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"What is Canadas national animal? ",
-               "type":"text",
-               "answer":"beaver",
-               "letters":"abeellrvvv" 
-               }, {
-                  "x": 2,
-               "y": 10,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"In mathematics, it is the point towards which a series or function converges",
-               "type":"text",
-               "answer":"limit",
-               "letters":"Faiilmtwx" 
-               }, {
-                  "x": 13,
-               "y": 2,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/durant.jpg",
-               "type":"image",
-               "answer":"durant",
-               "letters":"Nadknortuy" 
+                  "x":0,
+                  "y":1,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"Game of thrones : What was the name of the explosive used in the Battle of Blackwater?",
+                  "type":"text",
+                  "answer":"wildfire",
+                  "letters":"GKOdefhiilrw"
+               },
+               {
+                  "x":3,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"a feeling of revulsion or profound disapproval aroused by something unpleasant or offensive.",
+                  "type":"text",
+                  "answer":"disgust",
+                  "letters":"KRdgiiksstu"
+               },
+               {
+                  "x":0,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/morgan.jpg",
+                  "type":"image",
+                  "answer":"morgan",
+                  "letters":"ADZagmnorz"
+               },
+               {
+                  "x":1,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/tokyo.jpg",
+                  "type":"image",
+                  "answer":"tokyo",
+                  "letters":"Pbbkootty"
+               },
+               {
+                  "x":3,
+                  "y":6,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/socrates.jpg",
+                  "type":"image",
+                  "answer":"socrates",
+                  "letters":"accegjorsstv"
+               },
+               {
+                  "x":5,
+                  "y":6,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"a mineral found in milk, biologically important in maintaining strong bones and teeth",
+                  "type":"text",
+                  "answer":"calcium",
+                  "letters":"PVaccehilmu"
+               },
+               {
+                  "x":10,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/cuba.jpg",
+                  "type":"image",
+                  "answer":"cuba",
+                  "letters":"Oabcdhuu"
+               },
+               {
+                  "x":8,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/battery.jpg",
+                  "type":"image",
+                  "answer":"battery",
+                  "letters":"ANSaberttvy"
+               },
+               {
+                  "x":8,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"What is Canadas national animal? ",
+                  "type":"text",
+                  "answer":"beaver",
+                  "letters":"abeellrvvv"
+               },
+               {
+                  "x":2,
+                  "y":10,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"In mathematics, it is the point towards which a series or function converges",
+                  "type":"text",
+                  "answer":"limit",
+                  "letters":"Faiilmtwx"
+               },
+               {
+                  "x":13,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/durant.jpg",
+                  "type":"image",
+                  "answer":"durant",
+                  "letters":"Nadknortuy"
                }
             ]
          },
          {
-            "width" : 20,
-            "height" : 20,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"UNHCR is the United Nations High Commission for what? ",
-               "type":"text",
-               "answer":"refugees",
-               "letters":"AJQeeefgrssu" 
-            }, {
-               "x": 2,
-               "y": 1,
-               "direction":"h",
-               "title":"Title here",
-               "content":"the only English language single word anagram of the word crouton",
-               "type":"text",
-               "answer":"contour",
-               "letters":"AAHcnoorstu" 
-            }, {
-               "x": 2,
-               "y": 1,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"a person employed in an office or bank to keep records and accounts, and to perform other administrative duties",
-               "type":"text",
-               "answer":"clerk",
-               "letters":"NWcejklrz" 
-            }, {
-               "x": 0,
-               "y": 5,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"The South Ossetia war was fought between Russia and which other country?",
-               "type":"text",
-               "answer":"georgia",
-               "letters":"BJUYaeggior" 
-            }, {
-               "x": 5,
-               "y": 3,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/twitter.jpg",
-               "type":"image",
-               "answer":"twitter",
-               "letters":"BJWbeirtttw" 
-            }, {
-               "x": 8,
-               "y": 2,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/shape.jpg",
-               "type":"image",
-               "answer":"shape",
-               "letters":"Aaadeehps" 
-            }, {
-               "x": 7,
-               "y": 4,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/watson.jpg",
-               "type":"image",
-               "answer":"watson",
-               "letters":"OQYanoostw" 
-            }, {
-               "x": 5,
-               "y": 9,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"assets/images/content/reagan.jpg",
-               "type":"image",
-               "answer":"reagan",
-               "letters":"aacegnoprs" 
-            }, {
-               "x": 10,
-               "y": 4,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/sweden.jpg",
-               "type":"image",
-               "answer":"sweden",
-               "letters":"EPWdeegnsw" 
-            }, {
-               "x": 7,
-               "y": 8,
-               "direction":"h",
-               "title":"Title here",
-               "content":"assets/images/content/mario.jpg",
-               "type":"image",
-               "answer":"mario",
-               "letters":"DKWaimory" 
-            }, {
-               "x": 4,
-               "y": 12,
-               "direction":"v", 
-               "title":"Title here",
-               "content":"What 15-year-old rock icon-to-be was grounded for the whole summer after sneaking out to her first concert, to see David Bowie?",
-               "type":"text",
-               "answer":"madonna",
-               "letters":"CDaadlmnnoo" 
-               } 
+            "width":13,
+            "height":13,
+            "questions":[
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"UNHCR is the United Nations High Commission for what? ",
+                  "type":"text",
+                  "answer":"refugees",
+                  "letters":"AJQeeefgrssu"
+               },
+               {
+                  "x":2,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"the only English language single word anagram of the word crouton",
+                  "type":"text",
+                  "answer":"contour",
+                  "letters":"AAHcnoorstu"
+               },
+               {
+                  "x":2,
+                  "y":1,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"a person employed in an office or bank to keep records and accounts, and to perform other administrative duties",
+                  "type":"text",
+                  "answer":"clerk",
+                  "letters":"NWcejklrz"
+               },
+               {
+                  "x":0,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"The South Ossetia war was fought between Russia and which other country?",
+                  "type":"text",
+                  "answer":"georgia",
+                  "letters":"BJUYaeggior"
+               },
+               {
+                  "x":5,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/twitter.jpg",
+                  "type":"image",
+                  "answer":"twitter",
+                  "letters":"BJWbeirtttw"
+               },
+               {
+                  "x":8,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/shape.jpg",
+                  "type":"image",
+                  "answer":"shape",
+                  "letters":"Aaadeehps"
+               },
+               {
+                  "x":7,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/watson.jpg",
+                  "type":"image",
+                  "answer":"watson",
+                  "letters":"OQYanoostw"
+               },
+               {
+                  "x":5,
+                  "y":9,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"assets/images/content/reagan.jpg",
+                  "type":"image",
+                  "answer":"reagan",
+                  "letters":"aacegnoprs"
+               },
+               {
+                  "x":10,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/sweden.jpg",
+                  "type":"image",
+                  "answer":"sweden",
+                  "letters":"EPWdeegnsw"
+               },
+               {
+                  "x":7,
+                  "y":8,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"assets/images/content/mario.jpg",
+                  "type":"image",
+                  "answer":"mario",
+                  "letters":"DKWaimory"
+               },
+               {
+                  "x":4,
+                  "y":12,
+                  "direction":"v",
+                  "title":"Title here",
+                  "content":"What 15-year-old rock icon-to-be was grounded for the whole summer after sneaking out to her first concert, to see David Bowie?",
+                  "type":"text",
+                  "answer":"madonna",
+                  "letters":"CDaadlmnnoo"
+               }
             ]
          },
-            {
-               "width" : 20,
-               "height" : 20,
-               "questions" : [
+         {
+            "width":14,
+            "height":13,
+            "questions":[
                {
-                  "x": 0,
-                  "y": 1,
+                  "x":0,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"I will disappear every time you say my name. What am I?",
                   "type":"text",
                   "answer":"silence",
-                  "letters":"Mbcdeeilnos" 
-               }, {
-                  "x": 0,
-                  "y": 1,
-                  "direction":"v", 
+                  "letters":"Mbcdeeilnos"
+               },
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/saddam.jpg",
                   "type":"image",
                   "answer":"saddam",
-                  "letters":"NOPaaddims" 
-               }, {
-                  "x": 2,
-                  "y": 1,
+                  "letters":"NOPaaddims"
+               },
+               {
+                  "x":2,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/damon.jpg",
                   "type":"image",
                   "answer":"damon",
-                  "letters":"abdfgmnoq" 
-               }, {
-                  "x": 5,
-                  "y": 1,
+                  "letters":"abdfgmnoq"
+               },
+               {
+                  "x":5,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/mexico.jpg",
                   "type":"image",
                   "answer":"mexico",
-                  "letters":"HIXceikmox" 
-               }, {
-                  "x": 5,
-                  "y": 4,
-                  "direction":"v", 
+                  "letters":"HIXceikmox"
+               },
+               {
+                  "x":5,
+                  "y":4,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/intel.jpg",
                   "type":"image",
                   "answer":"intel",
-                  "letters":"BNceilnrt" 
-               }, {
-                  "x": 4,
-                  "y": 6,
-                  "direction":"v", 
+                  "letters":"BNceilnrt"
+               },
+               {
+                  "x":4,
+                  "y":6,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"Whats the term for an adult male pig?",
                   "type":"text",
                   "answer":"boar",
-                  "letters":"PTaborsu" 
-               }, {
-                  "x": 9,
-                  "y": 1,
+                  "letters":"PTaborsu"
+               },
+               {
+                  "x":9,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"The release, prior to trial, of a person accused of a crime, under specified conditions designed to assure that persons appearance in court when required",
                   "type":"text",
                   "answer":"bail",
-                  "letters":"EFQabilu" 
-               }, {
-                  "x": 8,
-                  "y": 2,
-                  "direction":"v", 
+                  "letters":"EFQabilu"
+               },
+               {
+                  "x":8,
+                  "y":2,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/batman.jpg",
                   "type":"image",
                   "answer":"batman",
-                  "letters":"JMSaabmntx" 
-               }, {
-                  "x": 6,
-                  "y": 6,
+                  "letters":"JMSaabmntx"
+               },
+               {
+                  "x":6,
+                  "y":6,
                   "direction":"h",
                   "title":"Title here",
                   "content":"enthusiastic or passionate ",
                   "type":"text",
                   "answer":"ardent",
-                  "letters":"JLSZadenrt" 
-               }, {
-                  "x": 2,
-                  "y": 10,
-                  "direction":"v", 
+                  "letters":"JLSZadenrt"
+               },
+               {
+                  "x":2,
+                  "y":10,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/grain.jpg",
                   "type":"image",
                   "answer":"grain",
-                  "letters":"abfgilnpr" 
-               }, {
-                  "x": 4,
-                  "y": 8,
+                  "letters":"abfgilnpr"
+               },
+               {
+                  "x":4,
+                  "y":8,
                   "direction":"h",
                   "title":"Title here",
                   "content":"At the end of harry potter : The Half-Blood Prince , who kills Dumbledore?",
                   "type":"text",
                   "answer":"snape",
-                  "letters":"VZaeenpss" 
+                  "letters":"VZaeenpss"
                }
-             ]
+            ]
          },
-                     {
-               "width" : 20,
-               "height" : 20,
-               "questions" : [
+         {
+            "width":15,
+            "height":14,
+            "questions":[
                {
-                  "x": 0,
-                  "y": 1,
-                  "direction":"v", 
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/sheldon.jpg",
                   "type":"image",
                   "answer":"sheldon",
-                  "letters":"Acdeghjlnos" 
-               }, {
-                  "x": 3,
-                  "y": 1,
+                  "letters":"Acdeghjlnos"
+               },
+               {
+                  "x":3,
+                  "y":0,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/lighter.jpg",
                   "type":"image",
                   "answer":"lighter",
-                  "letters":"CMPeghilnrt" 
-               }, {
-                  "x": 1,
-                  "y": 4,
+                  "letters":"CMPeghilnrt"
+               },
+               {
+                  "x":1,
+                  "y":3,
                   "direction":"h",
                   "title":"Title here",
                   "content":"Every fifteen minutes cockroaches do what?",
                   "type":"text",
                   "answer":"fart",
-                  "letters":"GZafrtxy" 
-               }, {
-                  "x": 3,
-                  "y": 4,
-                  "direction":"v", 
+                  "letters":"GZafrtxy"
+               },
+               {
+                  "x":3,
+                  "y":3,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"in Big Bang Theory series, Which character is an aerospace engineer?",
                   "type":"text",
                   "answer":"howard",
-                  "letters":"Aadghoqrwz" 
-               }, {
-                  "x": 1,
-                  "y": 7,
-                  "direction":"v", 
+                  "letters":"Aadghoqrwz"
+               },
+               {
+                  "x":1,
+                  "y":6,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/tarzan.jpg",
                   "type":"image",
                   "answer":"tarzan",
-                  "letters":"GRaaffnrtz" 
-               }, {
-                  "x": 8,
-                  "y": 1,
+                  "letters":"GRaaffnrtz"
+               },
+               {
+                  "x":8,
+                  "y":0,
                   "direction":"h",
                   "title":"Title here",
                   "content":"You can catch me but cannot throw me.",
                   "type":"text",
                   "answer":"cold",
-                  "letters":"HQacdlno" 
-               }, {
-                  "x": 8,
-                  "y": 1,
-                  "direction":"v", 
+                  "letters":"HQacdlno"
+               },
+               {
+                  "x":8,
+                  "y":0,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"financial assets or the financial value of assets, such as funds held in deposit accounts, as well as the tangible machinery and production equipment used in environments such as factories and other manufacturing facilities.",
                   "type":"text",
                   "answer":"capital",
-                  "letters":"BWaaciloptx" 
-               }, {
-                  "x": 6,
-                  "y": 6,
+                  "letters":"BWaaciloptx"
+               },
+               {
+                  "x":6,
+                  "y":5,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/knorr.jpg",
                   "type":"image",
                   "answer":"knorr",
-                  "letters":"Wciknorrv" 
-               }, {
-                  "x": 6,
-                  "y": 9,
-                  "direction":"v", 
+                  "letters":"Wciknorrv"
+               },
+               {
+                  "x":6,
+                  "y":8,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"What do Ombrophobes fear?",
                   "type":"text",
                   "answer":"rain",
-                  "letters":"JKacilnr" 
-               }, {
-                  "x": 8,
-                  "y": 8,
+                  "letters":"JKacilnr"
+               },
+               {
+                  "x":8,
+                  "y":7,
                   "direction":"h",
                   "title":"Title here",
                   "content":"assets/images/content/finland.jpg",
                   "type":"image",
                   "answer":"finland",
-                  "letters":"LSadfijlmnn" 
-               }, {
-                  "x": 4,
-                  "y": 12,
-                  "direction":"v", 
+                  "letters":"LSadfijlmnn"
+               },
+               {
+                  "x":4,
+                  "y":11,
+                  "direction":"v",
                   "title":"Title here",
                   "content":"assets/images/content/mumbai.jpg",
                   "type":"image",
                   "answer":"mumbai",
-                  "letters":"BNabimmnru" 
+                  "letters":"BNabimmnru"
                }
-             ]
+            ]
          }
       ]
    }
