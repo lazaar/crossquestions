@@ -36,6 +36,8 @@
             click:'/assets/sounds/click.wav',
             letterClick:'/assets/sounds/letterClick.mp3',
             correct:'/assets/sounds/correct.wav',
+            wrong:'/assets/sounds/wordMistake.wav',
+            unlocked:'/assets/sounds/unlocked.mp3',
             letterClickOut:'/assets/sounds/letterClickOut.wav',
         },
         ads:{

@@ -2,7 +2,7 @@
     'use strict';
     angular
         .module('crossQuestions')
-        .factory('starService', function(storageHelper, dataModel, popupService, cqConstantes){
+        .factory('starService', function(storageHelper,soundService, dataModel, popupService, cqConstantes){
 
         // ############################################# //
         // ############### PUBLIC BUSINESS ############# //
@@ -69,6 +69,8 @@
                 values.currentCw++;
                 popupService.infoText(cqConstantes.popupMessage.newCwUnlocked);
            }
+            soundService.playSound(cqConstantes.sounds.unlocked);
+
             dataModel.currentLevel = values.currentLevel;
             dataModel.currentCw = values.currentCw;
             values.hints += 5;

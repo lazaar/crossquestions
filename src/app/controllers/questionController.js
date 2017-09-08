@@ -93,6 +93,7 @@
                 $timeout(function(){
                     vm.state = '';
                 }, 200);
+                soundService.playSound(cqConstantes.sounds.wrong);
             }
         };
 
