@@ -46,14 +46,18 @@
 
         var goNext = function(){
             if(vm.next === 2){
-                routerHelper.goToState(cqConstantes.states.crossWord,{'cw': parseInt(vm.cw)+1});
+                var cw = _.get(dataModel.crosswordsLevel ,parseInt(vm.cw)+1);
+                cw.id = parseInt(vm.cw)+1;
+                cw.levelId = parseInt(dataModel.crosswords.levelId);
+                cwService.initCrossWords(cw);
+                routerHelper.goToState(cqConstantes.states.crossWord,{'cw': cw.id +'-'+cw.levelId});
+                _.delay(function(){
+                    $ionicHistory.removeBackView();
+                }, 500);
             }
             else{
-                routerHelper.goToState(cqConstantes.states.group,{'level': parseInt(dataModel.crosswords.levelId )+1});
+                $ionicHistory.goBack(-3);
             }
-            _.delay(function(){
-                $ionicHistory.removeBackView()
-            }, 500);
         };
 
         var openHints = function(){
@@ -63,10 +67,10 @@
         };
 
         var reload = function(){
-            if(dataModel.currentLevel > dataModel.crosswords.levelId && (parseInt(vm.cw)+1) === _.get(dataModel.data, dataModel.crosswords.levelId).crosswords.length){
+            if(dataModel.currentLevel - 1 > dataModel.crosswords.levelId && (parseInt(vm.cw)+1) === _.get(dataModel.data, dataModel.crosswords.levelId).crosswords.length){
                 vm.next = 1;
             }
-            else if(dataModel.currentLevel > dataModel.crosswords.levelId || (dataModel.currentLevel === dataModel.crosswords.levelId && dataModel.currentCw > vm.cw)){
+            else if(dataModel.currentLevel - 1 > dataModel.crosswords.levelId || (dataModel.currentLevel - 1 === dataModel.crosswords.levelId && dataModel.currentCw - 1 > parseInt(vm.cw))){
                 vm.next = 2;
             }
             else{
@@ -92,7 +96,7 @@
             vm.goToQuestion = goToQuestion;
             vm.goNext = goNext;
             vm.openHints = openHints;
-            vm.cw = $stateParams.cw;
+            vm.cw = $stateParams.cw.split('-')[0];
             vm.grid = dataModel.crosswords.grid;
             vm.stars = dataModel.crosswords.stars;
             vm.hints = dataModel.hints;

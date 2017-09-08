@@ -23,6 +23,7 @@
             if(vm.question.direction === 'h'){
                 for(i = 0; i < answerLength; i++){
                     if(grid[vm.question.x][vm.question.y+i].content !== '&nbsp;'){
+                        grid[vm.question.x][vm.question.y+i].content = grid[vm.question.x][vm.question.y+i].content.toLowerCase();
                         numberLetter++;
                         //remove Letter from propositions
                         vm.letters[_.indexOf(vm.letters, grid[vm.question.x][vm.question.y+i].content)] = '&nbsp;';
@@ -32,6 +33,7 @@
             }else{
                 for(i = 0; i < answerLength; i++){
                     if(grid[vm.question.x+i][vm.question.y].content !== '&nbsp;'){
+                        grid[vm.question.x+i][vm.question.y].content=grid[vm.question.x+i][vm.question.y].content.toLowerCase();
                         numberLetter++;
                         //remove Letter from propositions
                         vm.letters[_.indexOf(vm.letters, grid[vm.question.x+i][vm.question.y].content)] = '&nbsp;';
@@ -113,7 +115,7 @@
             }
             
             var ramdonIndex = _.random(0, vm.question.answer.length - 1),
-                answers = vm.question.answer.split(''), currentIndex;
+                answers = vm.question.answer.toLowerCase().split(''), currentIndex;
 
             for(var i = 0; i < answers.length; i++){
                 currentIndex = (i+ramdonIndex) % answers.length;
@@ -195,7 +197,7 @@
                 return;
             }
 
-            vm.letters = vm.question.letters.split('');
+            vm.letters = vm.question.letters.toLowerCase().split('');
             vm.answer = initAnswer();
             vm.openHints = openHints;
             vm.shareScreen = shareService.shareScreen;

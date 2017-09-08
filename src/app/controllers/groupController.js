@@ -16,6 +16,7 @@
             if(states.fromCache){
                 reload(true);
                 vm.crosswords = updateData(vm.crosswords);
+                dataModel.crosswordsLevel = vm.crosswords;
             }
         });
 
@@ -24,7 +25,7 @@
             cw.id = id;
             cw.levelId = vm.level;
             cwService.initCrossWords(cw);
-            routerHelper.goToState(cqConstantes.states.crossWord,{'cw': id});
+            routerHelper.goToState(cqConstantes.states.crossWord,{'cw': id+'-'+cw.levelId});
             soundService.playSound(cqConstantes.sounds.click);
         };
 
@@ -78,9 +79,7 @@
             dataService.getData().then(function(datas){
                 level = _.get(datas,vm.level);
                 vm.crosswords = updateData(level ? level.crosswords : []);
-
-
-
+                dataModel.crosswordsLevel = vm.crosswords;
             });
         }
         // ################# INITALIZE ################# //
