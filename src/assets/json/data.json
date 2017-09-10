@@ -2176,122 +2176,111 @@
                }
             ]
          },
-         {
-            "width":13,
-            "height":13,
-            "questions":[
-               {
-                  "x":0,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Sport",
-                  "content":"assets/images/content/rodgers.jpg",
-                  "type":"image",
-                  "answer":"rodgers",
-                  "letters":"Padegorrsyy"
-               },
-               {
-                  "x":0,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Definition",
-                  "content":"to repeat aloud a poem or passage from memory before an audience ",
-                  "type":"text",
-                  "answer":"recite",
-                  "letters":"AEceeimrty"
-               },
-               {
-                  "x":2,
-                  "y":3,
-                  "direction":"v",
-                  "title":"Logo",
-                  "content":"assets/images/content/chanel.jpg",
-                  "type":"image",
-                  "answer":"chanel",
-                  "letters":"Oacehjlnpx"
-               },
-               {
-                  "x":4,
-                  "y":2,
-                  "direction":"h",
-                  "title":"Economy",
-                  "content":"an association of manufacturers or suppliers with the purpose of maintaining prices at a high level and restricting competition ",
-                  "type":"text",
-                  "answer":"cartel",
-                  "letters":"Aaceeglrrt"
-               },
-               {
-                  "x":2,
-                  "y":5,
-                  "direction":"h",
-                  "title":"What am I?",
-                  "content":"I am quick when I am thin. I am slow when I am fat. Wind is my worst nightmare. ",
-                  "type":"text",
-                  "answer":"candle",
-                  "letters":"CNNacdelnw"
-               },
-               {
-                  "x":7,
-                  "y":2,
-                  "direction":"h",
-                  "title":"Country Flag",
-                  "content":"assets/images/content/albania.jpg",
-                  "type":"image",
-                  "answer":"albania",
-                  "letters":"GRTaaabilnu"
-               },
-               {
-                  "x":1,
-                  "y":10,
-                  "direction":"v",
-                  "title":"Scientist",
-                  "content":"assets/images/content/newton.jpg",
-                  "type":"image",
-                  "answer":"newton",
-                  "letters":"GRehknnotw"
-               },
-               {
-                  "x":7,
-                  "y":4,
-                  "direction":"v",
-                  "title":"General knowledge",
-                  "content":"What kind of insect can live up to one year without eating?",
-                  "type":"text",
-                  "answer":"bedbug",
-                  "letters":"NTbbcdeguz"
-               },
-               {
-                  "x":9,
-                  "y":4,
-                  "direction":"h",
-                  "title":"Series character",
-                  "content":"assets/images/content/daniel.jpg",
-                  "type":"image",
-                  "answer":"daniel",
-                  "letters":"KLUadefiln"
-               },
-               {
-                  "x":5,
-                  "y":8,
-                  "direction":"h",
-                  "title":"Animal",
-                  "content":"What color are a zebras black stripes during the first six months of life?",
-                  "type":"text",
-                  "answer":"brown",
-                  "letters":"Bbfmnorrw"
-               },
-               {
-                  "x":11,
-                  "y":3,
-                  "direction":"h",
-                  "title":"4 pics 1 word",
-                  "content":"assets/images/content/guard.jpg",
-                  "type":"image",
-                  "answer":"guard",
-                  "letters":"Eadgiioru"
-               }
-            ]
-         },
+          {
+            "width" : 20,
+            "height" : 20,
+            "questions" : [
+            {
+               "x": 0,
+               "y": 1,
+               "direction":"v", 
+               "title":"Title here",
+               "content":"../assets/images/content/albania.jpg",
+               "type":"image",
+               "answer":"albania",
+               "letters":"BEKOaaabiln" 
+            }, {
+               "x": 0,
+               "y": 1,
+               "direction":"h",
+               "title":"Title here",
+               "content":"A surprise attack, and collective noun for group of tigers",
+               "type":"text",
+               "answer":"ambush",
+               "letters":"Aabfhjkmsu" 
+            }, {
+               "x": 4,
+               "y": 1,
+               "direction":"h",
+               "title":"Title here",
+               "content":"../assets/images/content/newton.jpg",
+               "type":"image",
+               "answer":"newton",
+               "letters":"FIennotwwy" 
+            }, {
+               "x": 2,
+               "y": 6,
+               "direction":"v", 
+               "title":"Title here",
+               "content":"../assets/images/content/daniel.jpg",
+               "type":"image",
+               "answer":"daniel",
+               "letters":"OYZaadeiln" 
+            }, {
+               "x": 6,
+               "y": 5,
+               "direction":"h",
+               "title":"Title here",
+               "content":"to repeat aloud a poem or passage from memory before an audience",
+               "type":"text",
+               "answer":"recite",
+               "letters":"FNceeirsty" 
+            }, {
+               "x": 8,
+               "y": 3,
+               "direction":"v", 
+               "title":"Title here",
+               "content":"../assets/images/content/brown.jpg",
+               "type":"image",
+               "answer":"brown",
+               "letters":"bbflnoprw" 
+            }, {
+               "x": 4,
+               "y": 8,
+               "direction":"v", 
+               "title":"Title here",
+               "content":" Which popular 1990s TV series that ran from 1994-2004 featured characters named Rachel, Monica, Phoebe, Joey, Chandler, and Ross?",
+               "type":"text",
+               "answer":"friends",
+               "letters":"CTdeffinrsx" 
+            }, {
+               "x": 10,
+               "y": 2,
+               "direction":"h",
+               "title":"Title here",
+               "content":"../assets/images/content/rodgers.jpg",
+               "type":"image",
+               "answer":"rodgers",
+               "letters":"JNdegiorrsw" 
+            }, {
+               "x": 3,
+               "y": 9,
+               "direction":"h",
+               "title":"Title here",
+               "content":"../assets/images/content/chanel.jpg",
+               "type":"image",
+               "answer":"chanel",
+               "letters":"DWabcehlno" 
+            }, {
+               "x": 3,
+               "y": 10,
+               "direction":"v", 
+               "title":"Title here",
+               "content":"Barack Obamas best selling book is called The Audacity of.. what? ",
+               "type":"text",
+               "answer":"hope",
+               "letters":"LLSehopt" 
+            }, {
+               "x": 10,
+               "y": 5,
+               "direction":"v", 
+               "title":"Title here",
+               "content":"../assets/images/content/guard.jpg",
+               "type":"image",
+               "answer":"guard",
+               "letters":"DOadgkruu" 
+            }]
+          },
          {
             "width":14,
             "height":14,
@@ -2584,122 +2573,111 @@
                }
             ]
          },
-         {
-            "width":14,
-            "height":13,
-            "questions":[
+            {
+               "width" : 20,
+               "height" : 20,
+               "questions" : [
                {
-                  "x":0,
-                  "y":1,
-                  "direction":"h",
-                  "title":"TV Series",
-                  "content":"Which popular 1990s TV series that ran from 1994-2004 featured characters named Rachel, Monica, Phoebe, Joey, Chandler, and Ross?",
-                  "type":"text",
-                  "answer":"friends",
-                  "letters":"JOYdefinors"
-               },
-               {
-                  "x":0,
-                  "y":2,
-                  "direction":"v",
-                  "title":"Series Character",
-                  "content":"assets/images/content/ragnar.jpg",
-                  "type":"image",
-                  "answer":"ragnar",
-                  "letters":"BIKKaagnrr"
-               },
-               {
-                  "x":2,
-                  "y":2,
-                  "direction":"h",
-                  "title":"DJ",
-                  "content":"assets/images/content/guetta.jpg",
-                  "type":"image",
-                  "answer":"guetta",
-                  "letters":"AJMaegpttu"
-               },
-               {
-                  "x":4,
-                  "y":1,
-                  "direction":"h",
-                  "title":"Zoom In",
-                  "content":"assets/images/content/eagle.jpg",
-                  "type":"image",
-                  "answer":"eagle",
-                  "letters":"Aabeefggl"
-               },
-               {
-                  "x":4,
-                  "y":4,
-                  "direction":"v",
-                  "title":"TV Series",
-                  "content":"What is Negan s Bat s name?",
-                  "type":"text",
-                  "answer":"lucille",
-                  "letters":"Lcehikllluz"
-               },
-               {
-                  "x":7,
-                  "y":1,
-                  "direction":"h",
-                  "title":"Logo",
-                  "content":"the financial centre and main city of Switzerland",
-                  "type":"text",
-                  "answer":"zurich",
-                  "letters":"cchiknruuz"
-               },
-               {
-                  "x":10,
-                  "y":3,
-                  "direction":"h",
-                  "title":"Country",
-                  "content":"assets/images/content/germany.jpg",
+                  "x": 0,
+                  "y": 1,
+                  "direction":"v", 
+                  "title":"Title here",
+                  "content":"../assets/images/content/germany.jpg",
                   "type":"image",
                   "answer":"germany",
-                  "letters":"AHaegmmnpry"
-               },
-               {
-                  "x":6,
-                  "y":9,
-                  "direction":"v",
-                  "title":"4 pics 1 word",
-                  "content":"assets/images/content/heavy.jpg",
+                  "letters":"Yaegmmnrwxy" 
+               }, {
+                  "x": 2,
+                  "y": 1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"../assets/images/content/ragnar.jpg",
+                  "type":"image",
+                  "answer":"ragnar",
+                  "letters":"aagglnnrrs" 
+               }, {
+                  "x": 2,
+                  "y": 3,
+                  "direction":"v", 
+                  "title":"Title here",
+                  "content":"../assets/images/content/guetta.jpg",
+                  "type":"image",
+                  "answer":"guetta",
+                  "letters":"BHWaeegttu" 
+               }, {
+                  "x": 0,
+                  "y": 6,
+                  "direction":"v", 
+                  "title":"Title here",
+                  "content":"../assets/images/content/zurich.jpg",
+                  "type":"image",
+                  "answer":"zurich",
+                  "letters":"Jcdhirsuwz" 
+               }, {
+                  "x": 5,
+                  "y": 1,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"../assets/images/content/nato.jpg",
+                  "type":"image",
+                  "answer":"nato",
+                  "letters":"ALVanoty" 
+               }, {
+                  "x": 7,
+                  "y": 2,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"../assets/images/content/eagle.jpg",
+                  "type":"image",
+                  "answer":"eagle",
+                  "letters":"FNNQaeegl" 
+               }, {
+                  "x": 5,
+                  "y": 6,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"../assets/images/content/heavy.jpg",
                   "type":"image",
                   "answer":"heavy",
-                  "letters":"HQYaehtvy"
-               },
-               {
-                  "x":8,
-                  "y":7,
-                  "direction":"h",
-                  "title":"General knowledge",
+                  "letters":"Iaehhiovy" 
+               }, {
+                  "x": 3,
+                  "y": 8,
+                  "direction":"v", 
+                  "title":"Title here",
                   "content":"popular item of clothing originated in France",
                   "type":"text",
                   "answer":"jeans",
-                  "letters":"DFYaejnsy"
-               },
-               {
-                  "x":4,
-                  "y":11,
-                  "direction":"v",
-                  "title":"Sport",
-                  "content":"What team was the first to win 3 NBA titles in a row since the Celtics in the 60s?",
+                  "letters":"CYaehjnst" 
+               }, {
+                  "x": 7,
+                  "y": 5,
+                  "direction":"v", 
+                  "title":"Title here",
+                  "content":"What is Negan s Bat s name?",
+                  "type":"text",
+                  "answer":"lucille",
+                  "letters":"JLaceilllqu" 
+               }, {
+                  "x": 11,
+                  "y": 3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":"What team was the first to win 3 NBA titles in a row since the Celtics in the 60s? ",
                   "type":"text",
                   "answer":"bulls",
-                  "letters":"TYbbllnsu"
-               },
-               {
-                  "x":10,
-                  "y":8,
-                  "direction":"v",
-                  "title":"Organization",
-                  "content":"assets/images/content/nato.jpg",
-                  "type":"image",
-                  "answer":"nato",
-                  "letters":"Rainottu"
-               }
-            ]
-         },
+                  "letters":"GVbdllmsu" 
+               }, {
+                  "x": 13,
+                  "y": 3,
+                  "direction":"h",
+                  "title":"Title here",
+                  "content":" What colour is the letter L in the standard Google logo?",
+                  "type":"text",
+                  "answer":"green",
+                  "letters":"TWeeggnor" 
+               }]
+            },
          {
             "width":12,
             "height":17,
@@ -3048,122 +3026,111 @@
                }
             ]
          },
-         {
-            "width":15,
-            "height":13,
-            "questions":[
-               {
-                  "x":0,
-                  "y":1,
-                  "direction":"h",
-                  "title":"Philosopher",
-                  "content":"assets/images/content/voltaire.jpg",
-                  "type":"image",
-                  "answer":"voltaire",
-                  "letters":"HUVabeilortv"
-               },
-               {
-                  "x":2,
-                  "y":1,
-                  "direction":"h",
-                  "title":"Application",
-                  "content":"What is the name of Google web browser, launched in September 2008??",
-                  "type":"text",
-                  "answer":"chrome",
-                  "letters":"GRUccehmor"
-               },
-               {
-                  "x":0,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Zoom In",
-                  "content":"assets/images/content/almond.jpg",
-                  "type":"image",
-                  "answer":"almond",
-                  "letters":"Gaccdlmnot"
-               },
-               {
-                  "x":5,
-                  "y":3,
-                  "direction":"h",
-                  "title":"City",
-                  "content":"assets/images/content/sydney.jpg",
-                  "type":"image",
-                  "answer":"sydney",
-                  "letters":"ATdennsvyy"
-               },
-               {
-                  "x":5,
-                  "y":3,
-                  "direction":"v",
-                  "title":"What am I?",
-                  "content":"I have fangs and enjoy piecing holes with a single bit. ",
-                  "type":"text",
-                  "answer":"stapler",
-                  "letters":"IRaejlprstw"
-               },
-               {
-                  "x":7,
-                  "y":1,
-                  "direction":"h",
-                  "title":"Logo",
-                  "content":"assets/images/content/swatch.jpg",
-                  "type":"image",
-                  "answer":"swatch",
-                  "letters":"JKachnstwy"
-               },
-               {
-                  "x":2,
-                  "y":8,
-                  "direction":"v",
-                  "title":"Series Character",
-                  "content":"assets/images/content/daryl.jpg",
-                  "type":"image",
-                  "answer":"daryl",
-                  "letters":"CIaddilry"
-               },
-               {
-                  "x":2,
-                  "y":8,
-                  "direction":"h",
-                  "title":"General knowledge",
-                  "content":"What did an enemy have to be, for a U. S. soldier to call him a -believer- in the Vietnam War?",
-                  "type":"text",
-                  "answer":"dead",
-                  "letters":"Faddettv"
-               },
-               {
-                  "x":1,
-                  "y":10,
-                  "direction":"v",
-                  "title":"Law",
-                  "content":"A simple shape that is the set of all points in a plane that are at a given distance from a given point, the centre.",
-                  "type":"text",
-                  "answer":"bail",
-                  "letters":"Jabfilop"
-               },
-               {
-                  "x":10,
-                  "y":2,
-                  "direction":"h",
-                  "title":"Sport",
-                  "content":"assets/images/content/serena.jpg",
-                  "type":"image",
-                  "answer":"serena",
-                  "letters":"DGXaeenrsx"
-               },
-               {
-                  "x":9,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Phobia",
-                  "content":"Pogonophobia is the fear of what?",
-                  "type":"text",
-                  "answer":"beards",
-                  "letters":"ETVabdenrs"
-               }
-            ]
-         },
+          {
+            "width" : 20,
+            "height" : 20,
+            "questions" : [
+            {
+               "x": 0,
+               "y": 1,
+               "direction":"v", 
+               "title":"Title here",
+               "content":"../assets/images/content/voltaire.jpg",
+               "type":"image",
+               "answer":"voltaire",
+               "letters":"Maaeilortvwy" 
+            }, {
+               "x": 4,
+               "y": 1,
+               "direction":"h",
+               "title":"Title here",
+               "content":"../assets/images/content/almond.jpg",
+               "type":"image",
+               "answer":"almond",
+               "letters":"BFadlmnosv" 
+            }, {
+               "x": 0,
+               "y": 6,
+               "direction":"v", 
+               "title":"Title here",
+               "content":"Pogonophobia is the fear of what?",
+               "type":"text",
+               "answer":"beards",
+               "letters":"DMabdefmrs" 
+            }, {
+               "x": 2,
+               "y": 5,
+               "direction":"h",
+               "title":"Title here",
+               "content":"../assets/images/content/daryl.jpg",
+               "type":"image",
+               "answer":"daryl",
+               "letters":"Paddflrsy" 
+            }, {
+               "x": 5,
+               "y": 6,
+               "direction":"h",
+               "title":"Title here",
+               "content":"../assets/images/content/swatch.jpg",
+               "type":"image",
+               "answer":"swatch",
+               "letters":"GUachqrstw" 
+            }, {
+               "x": 4,
+               "y": 9,
+               "direction":"v", 
+               "title":"Title here",
+               "content":" I have fangs and enjoy piecing holes with a single bit.",
+               "type":"text",
+               "answer":"stapler",
+               "letters":"BVaaellprst" 
+            }, {
+               "x": 11,
+               "y": 2,
+               "direction":"h",
+               "title":"Title here",
+               "content":"../assets/images/content/guard.jpg",
+               "type":"image",
+               "answer":"guard",
+               "letters":"DOYadgrtu" 
+            }, {
+               "x": 13,
+               "y": 1,
+               "direction":"h",
+               "title":"Title here",
+               "content":"A simple shape that is the set of all points in a plane that are at a given distance from a given point, the centre. ",
+               "type":"text",
+               "answer":"circle",
+               "letters":"Gbcceilrtv" 
+            }, {
+               "x": 9,
+               "y": 6,
+               "direction":"h",
+               "title":"Title here",
+               "content":"../assets/images/content/serena.jpg",
+               "type":"image",
+               "answer":"serena",
+               "letters":"CMQaeenprs" 
+            }, {
+               "x": 9,
+               "y": 6,
+               "direction":"v", 
+               "title":"Title here",
+               "content":"../assets/images/content/sydney.jpg",
+               "type":"image",
+               "answer":"sydney",
+               "letters":"deelnosuyy" 
+            }, {
+               "x": 7,
+               "y": 11,
+               "direction":"v", 
+               "title":"Title here",
+               "content":"What did an enemy have to be, for a U. S. soldier to call him a -believer- in the Vietnam War?",
+               "type":"text",
+               "answer":"dead",
+               "letters":"aaddegko" 
+            } ]
+          },
          {
             "width":14,
             "height":14,
