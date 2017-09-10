@@ -354,17 +354,14 @@ class Word(object):
  
 #start_full = float(time.time())
  
-word_list = ['ragnar', 'p'], \
-    ['guetta', 'p'], \
+word_list = ['orange', 'p'], \
+    ['ford', 'p'], \
     ['eagle', 'p'], \
-    ['Lucille', 'What is Negan s Bat s name?'], \
+    ['Oxygen', 'What gas do all fuels need in order to burn? '], \
     ['jeans', 'popular item of clothing originated in France'], \
     ['bulls', 'What team was the first to win 3 NBA titles in a row since the Celtics in the 60s? '], \
     ['Green', ' What colour is the letter L in the standard Google logo?'], \
-    ['zurich', 'p'], \
-    ['germany', 'p'], \
-    ['nato', 'p'], \
-    ['heavy', 'p']
+    ['zurich', 'p']
 
 
 a = Crossword(20, 20, '-', 5000, word_list)
