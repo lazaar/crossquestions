@@ -17,7 +17,7 @@
                 values.numberStars = 0;
                 values.hints = 25;
                 values.isSound = 1;
-                values.isMusique = 1;
+                values.isMusique = 0;
                 storageHelper.setItem('playInfo', values);
             }
             dataModel.currentLevel = values.currentLevel;
