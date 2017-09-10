@@ -5,7 +5,7 @@
 	padding-top:70px;
 	.grid-wrapper{
 		position: relative;
-		top:50%;
+		top:45%;
 		transform:translateY(-50%);
 		.grid{
 			.col {
@@ -39,9 +39,6 @@
 			    }
 			}
 		}
-		@media(max-height:567px){
-			top:45%;
-	    }
 	}
 	.goNext{
 		position: absolute;

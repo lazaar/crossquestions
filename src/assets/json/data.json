@@ -2052,7 +2052,7 @@
                   "x":0,
                   "y":13,
                   "direction":"v",
-                  "title":"Title here",
+                  "title":"Slice",
                   "content":"assets/images/content/tree.jpg",
                   "type":"image",
                   "answer":"tree",
@@ -2177,66 +2177,66 @@
             ]
          },
           {
-            "width" : 20,
-            "height" : 20,
+            "width" : 15,
+            "height" : 14,
             "questions" : [
             {
                "x": 0,
-               "y": 1,
+               "y": 0,
                "direction":"v", 
-               "title":"Title here",
-               "content":"../assets/images/content/albania.jpg",
+               "title":"Country",
+               "content":"/assets/images/content/albania.jpg",
                "type":"image",
                "answer":"albania",
                "letters":"BEKOaaabiln" 
             }, {
                "x": 0,
-               "y": 1,
+               "y": 0,
                "direction":"h",
-               "title":"Title here",
+               "title":"General culture",
                "content":"A surprise attack, and collective noun for group of tigers",
                "type":"text",
                "answer":"ambush",
                "letters":"Aabfhjkmsu" 
             }, {
                "x": 4,
-               "y": 1,
+               "y": 0,
                "direction":"h",
-               "title":"Title here",
-               "content":"../assets/images/content/newton.jpg",
+               "title":"Scientist",
+               "content":"/assets/images/content/newton.jpg",
                "type":"image",
                "answer":"newton",
                "letters":"FIennotwwy" 
             }, {
                "x": 2,
-               "y": 6,
+               "y": 5,
                "direction":"v", 
                "title":"Title here",
-               "content":"../assets/images/content/daniel.jpg",
+               "content":"/assets/images/content/daniel.jpg",
                "type":"image",
                "answer":"daniel",
                "letters":"OYZaadeiln" 
             }, {
                "x": 6,
-               "y": 5,
+               "y": 4,
                "direction":"h",
-               "title":"Title here",
+               "title":"Definition",
                "content":"to repeat aloud a poem or passage from memory before an audience",
                "type":"text",
                "answer":"recite",
                "letters":"FNceeirsty" 
             }, {
                "x": 8,
-               "y": 3,
+               "y": 2,
                "direction":"v", 
                "title":"Title here",
-               "content":"../assets/images/content/brown.jpg",
+               "content":"/assets/images/content/brown.jpg",
                "type":"image",
                "answer":"brown",
                "letters":"bbflnoprw" 
             }, {
                "x": 4,
-               "y": 8,
+               "y": 7,
                "direction":"v", 
                "title":"Title here",
                "content":" Which popular 1990s TV series that ran from 1994-2004 featured characters named Rachel, Monica, Phoebe, Joey, Chandler, and Ross?",
@@ -2245,25 +2245,25 @@
                "letters":"CTdeffinrsx" 
             }, {
                "x": 10,
-               "y": 2,
+               "y": 1,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/rodgers.jpg",
+               "content":"/assets/images/content/rodgers.jpg",
                "type":"image",
                "answer":"rodgers",
                "letters":"JNdegiorrsw" 
             }, {
                "x": 3,
-               "y": 9,
+               "y": 8,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/chanel.jpg",
+               "content":"/assets/images/content/chanel.jpg",
                "type":"image",
                "answer":"chanel",
                "letters":"DWabcehlno" 
             }, {
                "x": 3,
-               "y": 10,
+               "y": 9,
                "direction":"v", 
                "title":"Title here",
                "content":"Barack Obamas best selling book is called The Audacity of.. what? ",
@@ -2272,10 +2272,10 @@
                "letters":"LLSehopt" 
             }, {
                "x": 10,
-               "y": 5,
+               "y": 4,
                "direction":"v", 
                "title":"Title here",
-               "content":"../assets/images/content/guard.jpg",
+               "content":"/assets/images/content/guard.jpg",
                "type":"image",
                "answer":"guard",
                "letters":"DOadgkruu" 
@@ -2574,15 +2574,15 @@
             ]
          },
             {
-               "width" : 20,
-               "height" : 20,
+               "width" : 14,
+               "height" : 11,
                "questions" : [
                {
                   "x": 0,
                   "y": 1,
                   "direction":"v", 
                   "title":"Title here",
-                  "content":"../assets/images/content/germany.jpg",
+                  "content":"/assets/images/content/germany.jpg",
                   "type":"image",
                   "answer":"germany",
                   "letters":"Yaegmmnrwxy" 
@@ -2591,7 +2591,7 @@
                   "y": 1,
                   "direction":"h",
                   "title":"Title here",
-                  "content":"../assets/images/content/ragnar.jpg",
+                  "content":"/assets/images/content/ragnar.jpg",
                   "type":"image",
                   "answer":"ragnar",
                   "letters":"aagglnnrrs" 
@@ -2600,7 +2600,7 @@
                   "y": 3,
                   "direction":"v", 
                   "title":"Title here",
-                  "content":"../assets/images/content/guetta.jpg",
+                  "content":"/assets/images/content/guetta.jpg",
                   "type":"image",
                   "answer":"guetta",
                   "letters":"BHWaeegttu" 
@@ -2609,7 +2609,7 @@
                   "y": 6,
                   "direction":"v", 
                   "title":"Title here",
-                  "content":"../assets/images/content/zurich.jpg",
+                  "content":"/assets/images/content/zurich.jpg",
                   "type":"image",
                   "answer":"zurich",
                   "letters":"Jcdhirsuwz" 
@@ -2618,7 +2618,7 @@
                   "y": 1,
                   "direction":"h",
                   "title":"Title here",
-                  "content":"../assets/images/content/nato.jpg",
+                  "content":"/assets/images/content/nato.jpg",
                   "type":"image",
                   "answer":"nato",
                   "letters":"ALVanoty" 
@@ -2627,7 +2627,7 @@
                   "y": 2,
                   "direction":"h",
                   "title":"Title here",
-                  "content":"../assets/images/content/eagle.jpg",
+                  "content":"/assets/images/content/eagle.jpg",
                   "type":"image",
                   "answer":"eagle",
                   "letters":"FNNQaeegl" 
@@ -2636,7 +2636,7 @@
                   "y": 6,
                   "direction":"h",
                   "title":"Title here",
-                  "content":"../assets/images/content/heavy.jpg",
+                  "content":"/assets/images/content/heavy.jpg",
                   "type":"image",
                   "answer":"heavy",
                   "letters":"Iaehhiovy" 
@@ -3027,15 +3027,15 @@
             ]
          },
           {
-            "width" : 20,
-            "height" : 20,
+            "width" : 15,
+            "height" : 13,
             "questions" : [
             {
                "x": 0,
                "y": 1,
                "direction":"v", 
-               "title":"Title here",
-               "content":"../assets/images/content/voltaire.jpg",
+               "title":"Scientist",
+               "content":"/assets/images/content/voltaire.jpg",
                "type":"image",
                "answer":"voltaire",
                "letters":"Maaeilortvwy" 
@@ -3044,7 +3044,7 @@
                "y": 1,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/almond.jpg",
+               "content":"/assets/images/content/almond.jpg",
                "type":"image",
                "answer":"almond",
                "letters":"BFadlmnosv" 
@@ -3062,7 +3062,7 @@
                "y": 5,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/daryl.jpg",
+               "content":"/assets/images/content/daryl.jpg",
                "type":"image",
                "answer":"daryl",
                "letters":"Paddflrsy" 
@@ -3071,7 +3071,7 @@
                "y": 6,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/swatch.jpg",
+               "content":"/assets/images/content/swatch.jpg",
                "type":"image",
                "answer":"swatch",
                "letters":"GUachqrstw" 
@@ -3089,7 +3089,7 @@
                "y": 2,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/guard.jpg",
+               "content":"/assets/images/content/guard.jpg",
                "type":"image",
                "answer":"guard",
                "letters":"DOYadgrtu" 
@@ -3107,7 +3107,7 @@
                "y": 6,
                "direction":"h",
                "title":"Title here",
-               "content":"../assets/images/content/serena.jpg",
+               "content":"/assets/images/content/serena.jpg",
                "type":"image",
                "answer":"serena",
                "letters":"CMQaeenprs" 
@@ -3116,7 +3116,7 @@
                "y": 6,
                "direction":"v", 
                "title":"Title here",
-               "content":"../assets/images/content/sydney.jpg",
+               "content":"/assets/images/content/sydney.jpg",
                "type":"image",
                "answer":"sydney",
                "letters":"deelnosuyy" 
@@ -3449,7 +3449,7 @@
                },
                {
                   "x":6,
-                  "y":7,
+                  "y":6,
                   "direction":"h",
                   "title":"Hobby",
                   "content":"assets/images/content/hiking.jpg",
@@ -3664,6 +3664,16 @@
                   "letters":"FjCysOnEKOABj"
                },
                {
+                  "x":2,
+                  "y":7,
+                  "direction":"h",
+                  "title":"Math",
+                  "content":"In mathematics, a .. is a relation between a set of inputs and a set of permissible outputs ",
+                  "type":"text",
+                  "answer":"FUNCTION",
+                  "letters":"FpCONTINkaUd"
+               },
+               {
                   "x":4,
                   "y":7,
                   "direction":"h",
@@ -3803,7 +3813,7 @@
          },
          {
             "width":12,
-            "height":12,
+            "height":13,
             "questions":[
                {
                   "x":0,
@@ -3862,7 +3872,7 @@
                   "title":"Job title",
                   "content":"A ... is a person who helps others to acquire knowledge, competences or values. ",
                   "type":"text",
-                  "answer":"TEACHER",
+                  "answer":"teacher",
                   "letters":"RHTtAvERElvCa"
                },
                {
@@ -3880,10 +3890,30 @@
                   "y":0,
                   "direction":"h",
                   "title":"Logo",
-                  "content":"assets/images/content/macdonalds.jpg",
+                  "content":"assets/images/content/mcdonalds.jpg",
                   "type":"image",
-                  "answer":"macdonalds",
+                  "answer":"mcdonalds",
                   "letters":"MaSLCNDOArDc"
+               },
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Quote",
+                  "content":"One ... a day keeps the doctor away",
+                  "type":"text",
+                  "answer":"APPLE",
+                  "letters":"tplEeAjLPPdsA"
+               },
+               {
+                  "x":10,
+                  "y":5,
+                  "direction":"h",
+                  "title":"quote ",
+                  "content":"don't cry because it's over, smile because it ...",
+                  "type":"text",
+                  "answer":"HAPPENED",
+                  "letters":"HEANhDPEjPu"
                }
             ]
          },
@@ -4363,11 +4393,11 @@
          },
          {
             "width":17,
-            "height":19,
+            "height":14,
             "questions":[
                {
                   "x":0,
-                  "y":9,
+                  "y":4,
                   "direction":"h",
                   "title":"Job",
                   "content":"assets/images/content/pharmacist.jpg",
@@ -4377,7 +4407,7 @@
                },
                {
                   "x":0,
-                  "y":14,
+                  "y":9,
                   "direction":"v",
                   "title":"Logo",
                   "content":"assets/images/content/adobe.jpg",
@@ -4387,7 +4417,7 @@
                },
                {
                   "x":2,
-                  "y":8,
+                  "y":3,
                   "direction":"h",
                   "title":"Country",
                   "content":"assets/images/content/luxembourg.jpg",
@@ -4397,7 +4427,7 @@
                },
                {
                   "x":2,
-                  "y":8,
+                  "y":3,
                   "direction":"v",
                   "title":"Job",
                   "content":"A ... is a person who works professionally in a library",
@@ -4407,17 +4437,17 @@
                },
                {
                   "x":4,
-                  "y":5,
+                  "y":0,
                   "direction":"h",
                   "title":"Synonym",
                   "content":"capturing, seizing or taking",
                   "type":"text",
                   "answer":"GRABBING",
-                  "letters":"IBBlANGRqa"
+                  "letters":"IBBlANGRqaG"
                },
                {
                   "x":6,
-                  "y":6,
+                  "y":1,
                   "direction":"h",
                   "title":"Animal",
                   "content":"assets/images/content/snake.jpg",
@@ -4427,7 +4457,7 @@
                },
                {
                   "x":8,
-                  "y":6,
+                  "y":1,
                   "direction":"v",
                   "title":"Logo",
                   "content":"assets/images/content/chevrolet.jpg",
@@ -4436,38 +4466,8 @@
                   "letters":"CERVLqoTHaEOfh"
                },
                {
-                  "x":10,
-                  "y":2,
-                  "direction":"h",
-                  "title":"Quote",
-                  "content":"One ... a day keeps the doctor away",
-                  "type":"text",
-                  "answer":"APPLE",
-                  "letters":"tplEeAjLPPdsA"
-               },
-               {
-                  "x":13,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Math",
-                  "content":"In mathematics, a .. is a relation between a set of inputs and a set of permissible outputs ",
-                  "type":"text",
-                  "answer":"FUNCTION",
-                  "letters":"FpCONTINkaUd"
-               },
-               {
-                  "x":15,
-                  "y":0,
-                  "direction":"h",
-                  "title":"quote ",
-                  "content":"don't cry because it's over, smile because it ...",
-                  "type":"text",
-                  "answer":"HAPPENED",
-                  "letters":"HEANhDPEjPu"
-               },
-               {
                   "x":9,
-                  "y":6,
+                  "y":1,
                   "direction":"h",
                   "title":"Title here",
                   "content":"Question here",
@@ -4477,7 +4477,7 @@
                },
                {
                   "x":5,
-                  "y":13,
+                  "y":8,
                   "direction":"v",
                   "title":"Logo",
                   "content":"assets/images/content/siemens.jpg",
@@ -4487,7 +4487,7 @@
                },
                {
                   "x":7,
-                  "y":11,
+                  "y":6,
                   "direction":"h",
                   "title":"Singer",
                   "content":"assets/images/content/bieber.jpg",
@@ -4497,7 +4497,7 @@
                },
                {
                   "x":3,
-                  "y":18,
+                  "y":13,
                   "direction":"v",
                   "title":"what is she doing ? (ing)",
                   "content":"assets/images/content/smiling.jpg",

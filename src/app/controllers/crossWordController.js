@@ -56,7 +56,7 @@
                 }, 500);
             }
             else{
-                $ionicHistory.goBack(-3);
+                $ionicHistory.goBack(-2);
             }
         };
 
