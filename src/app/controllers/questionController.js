@@ -11,7 +11,7 @@
     function QuestionControllerFct($stateParams, analyticsService, shareService, popupService, admobService, soundService, $timeout, $ionicHistory, starService, correctionService, routerHelper, cqConstantes, storageHelper, dataModel, cwService){
 
         var vm = this;
-        var grid = dataModel.crosswords.grid, numberLetter = 0, questionId;
+        var grid = dataModel.crosswords.grid, numberLetter = 0, questionId, wrongCount = 0;
         // ############## PRIVATE BUSINESS ############# //
 
         var initAnswer = function(){
@@ -85,6 +85,10 @@
             }
             else{
                 vm.state = 'wrong';
+                if(++wrongCount === 4){
+                    vm.animateHint = vm.animateHint === 0 ? 2 : (3 - vm.animateHint);
+                    wrongCount = 0;
+                }
                 if(Math.random()<cqConstantes.ads.interLose){
                     _.delay(function(){
                         admobService.generateInterstitial();
@@ -181,6 +185,7 @@
          * init of the controler
          */
         function init(){
+            vm.animateHint=0;
             analyticsService.setScreenName('Question');
             var i = parseInt($stateParams.i),
                 j = parseInt($stateParams.j),

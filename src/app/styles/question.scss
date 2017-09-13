@@ -104,6 +104,9 @@
 			position: relative;
 			padding-left: 40px; 
 			color: #FFFFFF;
+			&.animate{
+				animation:1s tada ease; 
+			}
 			> i{
 				position:absolute;
 				left: 18px;
