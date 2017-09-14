@@ -30,7 +30,7 @@
             if(typeof AdMob !== 'undefined'){
               AdMob.prepareInterstitial({
                 adId:admobid.inter,
-                isTesting: true,
+                isTesting: false,
                 autoShow:false
               });
             } 
@@ -41,7 +41,7 @@
               AdMob.createBanner({
                 adId: admobid.banner,
                 position: AdMob.AD_POSITION.BOTTOM_CENTER,
-                isTesting: true,
+                isTesting: false,
                 autoShow: true
               });
             } 
@@ -59,7 +59,7 @@
               _.delay(function(){
                 AdMob.prepareInterstitial({
                   adId:admobid.inter,
-                  isTesting: true,
+                  isTesting: false,
                   autoShow:false
                 });
               }, 3000);
@@ -76,7 +76,7 @@
           if(typeof AdMob !== 'undefined'){
             AdMob.prepareRewardVideoAd({
               adId:admobid.video,
-              isTesting: true,
+              isTesting: false,
               autoShow:false
             });
          }

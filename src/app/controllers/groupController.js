@@ -59,6 +59,8 @@
             if(fromCache){
                 soundService.playMenuMusic();
             }
+            
+            vm.activeSlide = (vm.level+1) === vm.currentLevel ? (vm.currentCw - 1) : 0;
             $timeout(function() {
                  vm.left = 100*(vm.level+1 === vm.currentLevel ? vm.currentCw: vm.crosswords.length)/vm.crosswords.length;
                  vm.left = 100 - vm.left;
@@ -75,7 +77,6 @@
             analyticsService.logEvent('select_content', {'content_type': 'group_view',  'item_id': level});
 
             reload(false);
-            vm.activeSlide = (vm.level+1) === vm.currentLevel ? (vm.currentCw - 1) : 0;
             dataService.getData().then(function(datas){
                 level = _.get(datas,vm.level);
                 vm.crosswords = updateData(level ? level.crosswords : []);

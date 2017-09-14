@@ -97,28 +97,31 @@
 		line-height: 35px;
 		background: $darkBlue;
 		font-family: 'mouse';
-		font-size: 16px;
+		font-size: 14px;
 		padding:0;
 		color: #FFFFFF;
+		@media(max-width:321px){
+			font-size: 11px;
+	    }
 		a{
 			position: relative;
-			padding-left: 40px; 
+			padding-left: 28px; 
 			color: #FFFFFF;
 			&.animate{
 				animation:1s tada ease; 
 			}
 			> i{
 				position:absolute;
-				left: 18px;
-    			font-size: 27px;
+				left: 10px;
+    			font-size: 22px;
 			}
 			&:first-child{
 				border-right:1px solid #FFFFFF;
 			}
 			.coins{
-				font-size: 14px;
+				font-size: 13px;
 			    display: inline-block;
-			    margin-left: 9px;
+			    margin-left: 5px;
 			    color: $yellow;
 			    position: relative;
 			    top: -8px;
