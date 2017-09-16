@@ -88,6 +88,8 @@ $header-height:60px;
         i{
             font-size: 20px;
             margin-left: 8px;
+            position: relative;
+            top: 4px;
         }
     }
     .cw-stars-state i {
@@ -126,6 +128,14 @@ $header-height:60px;
             animation:0.5s zoomIn ease; 
         }
     }
+}
+.coins-icon{
+    background-image: url("../assets/images/coins.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
 }
 .platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader){
     height: 84px;

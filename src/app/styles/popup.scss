@@ -89,7 +89,11 @@
 		    top: 13px;
 		    right: 12px;
     		i{
-    			font-size: 20px;
+			    width: 20px;
+			    height: 20px;
+			    margin-right: -5px;
+			    top: 3px;
+			    position: relative;
     		}
     		&.animatedHint{
     			animation:0.5s tada ease; 

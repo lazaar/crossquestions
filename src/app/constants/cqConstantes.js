@@ -33,7 +33,7 @@
         sounds:{
             backgroundMusic:'/assets/sounds/game.mp3',
             menuMusic:'/assets/sounds/menu.mp3',
-            click:'/assets/sounds/click.wav',
+            click:'/assets/sounds/click.mp3',
             letterClick:'/assets/sounds/letterClick.mp3',
             correct:'/assets/sounds/correct.wav',
             wrong:'/assets/sounds/wordMistake.wav',
