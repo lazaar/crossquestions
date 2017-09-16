@@ -46,80 +46,89 @@
                   "letters":"MANOOGRSZKPEW"
                }
             ]
-         },
-         {
-            "width":13,
-            "height":12,
+         },{
+            "width":9,
+            "height":13,
             "questions":[
                {
                   "x":0,
                   "y":1,
-                  "direction":"v",
-                  "title":"A science",
-                  "content":" Also known as the science of space",
-                  "type":"text",
-                  "answer":"astronomy",
-                  "letters":"vamnooorsttwy"
-               },
-               {
-                  "x":0,
-                  "y":1,
                   "direction":"h",
-                  "title":"Job",
-                  "content":"An ... is someone who plans, designs, and reviews the construction of buildings",
-                  "type":"text",
-                  "answer":"architect",
-                  "letters":"aswacceehirtt"
+                  "title":"General culture",
+                  "content":"assets/images/content/monalisa.jpg",
+                  "type":"image",
+                  "answer":"monalisa",
+                  "letters":"BKYaailmnoos"
                },
                {
                   "x":2,
-                  "y":5,
+                  "y":2,
                   "direction":"v",
-                  "title":"Country",
-                  "content":"assets/images/content/france.jpg",
+                  "title":"Hobby",
+                  "content":"assets/images/content/fishing.jpg",
                   "type":"image",
-                  "answer":"france",
-                  "letters":"aacdefmnor"
+                  "answer":"fishing",
+                  "letters":"effghiinstv"
+               },
+               {
+                  "x":2,
+                  "y":4,
+                  "direction":"v",
+                  "title":"A Word",
+                  "content":"Which of the traditional five senses are dolphins believed not to possess?",
+                  "type":"text",
+                  "answer":"smell",
+                  "letters":"ANaellmst"
+               },
+               {
+                  "x":0,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Feeling",
+                  "content":"assets/images/content/sleepy.jpg",
+                  "type":"image",
+                  "answer":"sleepy",
+                  "letters":"KXeelmopsy"
+               },
+               {
+                  "x":3,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Comedian",
+                  "content":"assets/images/content/mrbean.jpg",
+                  "type":"image",
+                  "answer":"mrbean",
+                  "letters":"HKabefmnpr"
+               },
+               {
+                  "x":5,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Superhero",
+                  "content":"assets/images/content/hulk.jpg",
+                  "type":"image",
+                  "answer":"hulk",
+                  "letters":"SZahkluu"
+               },
+               {
+                  "x":3,
+                  "y":9,
+                  "direction":"v",
+                  "title":"Logo",
+                  "content":"assets/images/content/nivea.jpg",
+                  "type":"image",
+                  "answer":"nivea",
+                  "letters":"AHaaeinvx"
                },
                {
                   "x":7,
-                  "y":1,
+                  "y":6,
                   "direction":"h",
-                  "title":"Car Brand",
-                  "content":"assets/images/content/mercedes.jpg",
+                  "title":"Vegetable",
+                  "content":"assets/images/content/tomato.jpg",
                   "type":"image",
-                  "answer":"mercedes",
-                  "letters":"bkxcddeeemrs"
-               },
-               {
-                  "x":6,
-                  "y":3,
-                  "direction":"v",
-                  "title":"Superhero",
-                  "content":"assets/images/content/ironman.jpg",
-                  "type":"image",
-                  "answer":"ironman",
-                  "letters":"kqaimnnoprx"
-               },
-               {
-                  "x":4,
-                  "y":5,
-                  "direction":"h",
-                  "title":"Translation",
-                  "content":"What is pinneaple in french?",
-                  "type":"text",
-                  "answer":"ananas",
-                  "letters":"zaaafnnswz"
-               },
-               {
-                  "x":6,
-                  "y":7,
-                  "direction":"v",
-                  "title":"Logo",
-                  "content":"assets/images/content/dettol.jpg",
-                  "type":"image",
-                  "answer":"dettol",
-                  "letters":"odehloottx"
+                  "answer":"tomato",
+                  "letters":"HHMaimoott"
                }
             ]
          },
@@ -131,7 +140,7 @@
                   "x":2,
                   "y":1,
                   "direction":"v",
-                  "title":"Word",
+                  "title":"4 pics 1 word",
                   "content":"assets/images/content/support.jpg",
                   "type":"image",
                   "answer":"SUPPORT",
@@ -216,117 +225,462 @@
       "crosswords":[
          {
             "width":16,
-            "height":13,
+            "height":14,
             "questions":[
                {
                   "x":0,
                   "y":1,
                   "direction":"h",
-                  "title":"City",
-                  "content":"assets/images/content/lasvegas.jpg",
+                  "title":"Cartoon character",
+                  "content":"assets/images/content/pinkpanther.jpg",
                   "type":"image",
-                  "answer":"lasvegas",
-                  "letters":"AUUaaaeglssv"
+                  "answer":"pinkpanther",
+                  "letters":"Pabehhiknnppprt"
+               },
+               {
+                  "x":0,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Sport",
+                  "content":"assets/images/content/kobebryant.jpg",
+                  "type":"image",
+                  "answer":"kobebryant",
+                  "letters":"Zabbeknnoprtvy"
                },
                {
                   "x":3,
                   "y":1,
                   "direction":"h",
-                  "title":"philosopher",
-                  "content":"Which student of Socrates, and teacher of Aristole, wrote Republic? ",
+                  "title":"What am I?",
+                  "content":"I shoot but never kills. What am I ??",
                   "type":"text",
-                  "answer":"plato",
-                  "letters":"BQafilopt"
+                  "answer":"camera",
+                  "letters":"KPWaacempr"
+               },
+               {
+                  "x":5,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Music",
+                  "content":"assets/images/content/drake.jpg",
+                  "type":"image",
+                  "answer":"drake",
+                  "letters":"BGadekmrs"
+               },
+               {
+                  "x":7,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Artist",
+                  "content":"assets/images/content/jackson.jpg",
+                  "type":"image",
+                  "answer":"jackson",
+                  "letters":"QRUacijknos"
+               },
+               {
+                  "x":0,
+                  "y":11,
+                  "direction":"v",
+                  "title":"Culture",
+                  "content":"Sake is a Japanese meal made from ..",
+                  "type":"text",
+                  "answer":"rice",
+                  "letters":"JWceeirx"
+               },
+               {
+                  "x":5,
+                  "y":9,
+                  "direction":"v",
+                  "title":"City",
+                  "content":"assets/images/content/venice.jpg",
+                  "type":"image",
+                  "answer":"venice",
+                  "letters":"FJRcdeeinv"
+               },
+               {
+                  "x":11,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Definition",
+                  "content":"a large number of people gathered together",
+                  "type":"text",
+                  "answer":"crowd",
+                  "letters":"Bcdehorrw"
+               },
+               {
+                  "x":13,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Logo",
+                  "content":"assets/images/content/toyota.jpg",
+                  "type":"image",
+                  "answer":"toyota",
+                  "letters":"EIabiootty"
+               },
+               {
+                  "x":10,
+                  "y":7,
+                  "direction":"h",
+                  "title":"What am I?",
+                  "content":"The faster you run, the harder it is to catch me. ",
+                  "type":"text",
+                  "answer":"breath",
+                  "letters":"Gabehqrttv"
+               },
+               {
+                  "x":10,
+                  "y":8,
+                  "direction":"v",
+                  "title":"Proverb",
+                  "content":"When in Rome, do as the ...",
+                  "type":"text",
+                  "answer":"romans",
+                  "letters":"DLMagmnors"
+               }
+            ]
+         },{
+            "width":14,
+            "height":12,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
+                  "title":"Country flag",
+                  "content":"assets/images/content/lebanon.jpg",
+                  "type":"image",
+                  "answer":"lebanon",
+                  "letters":"GKMabelnnoq"
+               },
+               {
+                  "x":4,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Country",
+                  "content":"assets/images/content/nigeria.jpg",
+                  "type":"image",
+                  "answer":"nigeria",
+                  "letters":"HKVacegiinr"
+               },
+               {
+                  "x":1,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Actor",
+                  "content":"assets/images/content/cruise.jpg",
+                  "type":"image",
+                  "answer":"cruise",
+                  "letters":"BCceeiprsu"
+               },
+               {
+                  "x":3,
+                  "y":3,
+                  "direction":"v",
+                  "title":"Logo",
+                  "content":"assets/images/content/hermes.jpg",
+                  "type":"image",
+                  "answer":"hermes",
+                  "letters":"FLPVeehmrs"
+               },
+               {
+                  "x":2,
+                  "y":4,
+                  "direction":"h",
+                  "title":"4 pics 1 word",
+                  "content":"assets/images/content/pride.jpg",
+                  "type":"image",
+                  "answer":"pride",
+                  "letters":"ABBdeiprv"
+               },
+               {
+                  "x":8,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Sport",
+                  "content":"assets/images/content/rousey.jpg",
+                  "type":"image",
+                  "answer":"rousey",
+                  "letters":"Telorsuwwy"
+               },
+               {
+                  "x":7,
+                  "y":1,
+                  "direction":"v",
+                  "title":"Cartoon series",
+                  "content":"What is the name of the father in the famous series the Simpsons?",
+                  "type":"text",
+                  "answer":"homer",
+                  "letters":"Oeghmnnor"
+               },
+               {
+                  "x":1,
+                  "y":8,
+                  "direction":"v",
+                  "title":"Riddle",
+                  "content":"I start with -T-, ends with -T-, and within me is -T-.",
+                  "type":"text",
+                  "answer":"teapot",
+                  "letters":"BGaeoprtty"
+               },
+               {
+                  "x":11,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Currency",
+                  "content":"Saudi Arabian currency ",
+                  "type":"text",
+                  "answer":"riyal",
+                  "letters":"Vagilrtuy"
+               },
+               {
+                  "x":5,
+                  "y":7,
+                  "direction":"h",
+                  "title":"Law",
+                  "content":"Government entity authorized to resolve legal disputes ",
+                  "type":"text",
+                  "answer":"court",
+                  "letters":"NXYbcortu"
+               },
+               {
+                  "x":10,
+                  "y":5,
+                  "direction":"v",
+                  "title":"one Word",
+                  "content":" money or food given to poor people ",
+                  "type":"text",
+                  "answer":"alms",
+                  "letters":"EEahlmns"
+               }
+            ]
+         },{
+            "width":11,
+            "height":11,
+            "questions":[
+               {
+                  "x":0,
+                  "y":1,
+                  "direction":"v",
+                  "title":"activist",
+                  "content":"assets/images/content/mandela.jpg",
+                  "type":"image",
+                  "answer":"mandela",
+                  "letters":"UUaadelmnnt"
+               },
+               {
+                  "x":3,
+                  "y":1,
+                  "direction":"h",
+                  "title":"General culture",
+                  "content":"Who drew the mona lisa",
+                  "type":"text",
+                  "answer":"davinci",
+                  "letters":"Oabcdiinvvw"
+               },
+               {
+                  "x":1,
+                  "y":3,
+                  "direction":"h",
+                  "title":"militant",
+                  "content":"assets/images/content/guevara.jpg",
+                  "type":"image",
+                  "answer":"guevara",
+                  "letters":"CLTaaegruvz"
+               },
+               {
+                  "x":1,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Zoom In",
+                  "content":"assets/images/content/unicorn.jpg",
+                  "type":"image",
+                  "answer":"unicorn",
+                  "letters":"FZcinnorrtu"
                },
                {
                   "x":0,
                   "y":5,
                   "direction":"v",
-                  "title":"personality",
-                  "content":"assets/images/content/escobar.jpg",
-                  "type":"image",
-                  "answer":"escobar",
-                  "letters":"abcemopqrsx"
+                  "title":"Chemistry",
+                  "content":"What is the chemical symbol for iron?",
+                  "type":"text",
+                  "answer":"fe",
+                  "letters":"deffls"
                },
                {
                   "x":5,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Character",
+                  "content":"assets/images/content/dobby.jpg",
+                  "type":"image",
+                  "answer":"dobby",
+                  "letters":"Xbbdfmory"
+               },
+               {
+                  "x":7,
                   "y":2,
                   "direction":"h",
-                  "title":"Flag",
-                  "content":"assets/images/content/panama.jpg",
+                  "title":"City",
+                  "content":"assets/images/content/london.jpg",
                   "type":"image",
-                  "answer":"panama",
-                  "letters":"OTaaamnopq"
+                  "answer":"london",
+                  "letters":"HVdilnnoor"
                },
                {
-                  "x":5,
+                  "x":7,
                   "y":2,
                   "direction":"v",
                   "title":"Proverb",
-                  "content":"A fool and his money are soon ... - ",
+                  "content":"A chain is only as strong as its weakest ...",
                   "type":"text",
-                  "answer":"parted",
-                  "letters":"CLYadefprt"
+                  "answer":"link",
+                  "letters":"PYfiklnn"
                },
                {
                   "x":7,
-                  "y":1,
-                  "direction":"h",
-                  "title":"Country",
-                  "content":"Libraries, schools, writing, the wheel, the aqueduct and alcoholic beer are inventions generally credited to which country?",
-                  "type":"text",
-                  "answer":"iraq",
-                  "letters":"Iaabinqr"
+                  "y":5,
+                  "direction":"v",
+                  "title":"Music",
+                  "content":"assets/images/content/drum.jpg",
+                  "type":"image",
+                  "answer":"drum",
+                  "letters":"HIJdmruy"
                },
                {
-                  "x":4,
+                  "x":7,
                   "y":7,
                   "direction":"v",
                   "title":"Logo",
-                  "content":"assets/images/content/bayer.jpg",
+                  "content":"assets/images/content/nasa.jpg",
                   "type":"image",
-                  "answer":"bayer",
-                  "letters":"AAPabenry"
+                  "answer":"nasa",
+                  "letters":"ARaansvz"
+               }
+            ]
+         },{
+            "width":14,
+            "height":14,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
+                  "title":"Country",
+                  "content":"assets/images/content/tunisia.jpg",
+                  "type":"image",
+                  "answer":"tunisia",
+                  "letters":"Bahhiinstuy"
+               },
+               {
+                  "x":0,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Chemistry",
+                  "content":"the process or result of joining two or more things together to form a single entity ",
+                  "type":"text",
+                  "answer":"fusion",
+                  "letters":"FFfinopstu"
+               },
+               {
+                  "x":4,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Comedian",
+                  "content":"assets/images/content/stewart.jpg",
+                  "type":"image",
+                  "answer":"stewart",
+                  "letters":"LLSaefrsttw"
+               },
+               {
+                  "x":0,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Spice",
+                  "content":" the most expensive spice",
+                  "type":"text",
+                  "answer":"saffron",
+                  "letters":"Xaaffnorstz"
+               },
+               {
+                  "x":6,
+                  "y":3,
+                  "direction":"h",
+                  "title":"Zoom In",
+                  "content":"assets/images/content/ginger.jpg",
+                  "type":"image",
+                  "answer":"ginger",
+                  "letters":"Reggilnqrw"
+               },
+               {
+                  "x":8,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Zoom In",
+                  "content":"assets/images/content/moon.jpg",
+                  "type":"image",
+                  "answer":"MOON",
+                  "letters":"ABCORDOSNZBMHF"
+               },
+               {
+                  "x":1,
+                  "y":10,
+                  "direction":"v",
+                  "title":"Politician",
+                  "content":"assets/images/content/lincoln.jpg",
+                  "type":"image",
+                  "answer":"lincoln",
+                  "letters":"BELcillnnov"
+               },
+               {
+                  "x":5,
+                  "y":8,
+                  "direction":"v",
+                  "title":"Proverb",
+                  "content":" Two ... dont make a right.",
+                  "type":"text",
+                  "answer":"wrongs",
+                  "letters":"LWbbgnorsw"
+               },
+               {
+                  "x":5,
+                  "y":8,
+                  "direction":"h",
+                  "title":"Sport",
+                  "content":"famous american golfer",
+                  "type":"text",
+                  "answer":"woods",
+                  "letters":"HKdhoosuw"
                },
                {
                   "x":10,
-                  "y":2,
+                  "y":8,
                   "direction":"h",
-                  "title":"Series Character",
-                  "content":"assets/images/content/daenerys.jpg",
-                  "type":"image",
-                  "answer":"daenerys",
-                  "letters":"NNadeeilnrsy"
+                  "title":"General culture",
+                  "content":"large hot desert",
+                  "type":"text",
+                  "answer":"sahara",
+                  "letters":"CFKLaaahrs"
                },
                {
-                  "x":7,
-                  "y":6,
-                  "direction":"h",
-                  "title":"What am I?",
-                  "content":"If you lose me you may cause people around me to lose me too. ",
-                  "type":"text",
-                  "answer":"temper",
-                  "letters":"NPTYeemprt"
+                  "x":6,
+                  "y":13,
+                  "direction":"v",
+                  "title":"Video Game",
+                  "content":"assets/images/content/zelda.jpg",
+                  "type":"image",
+                  "answer":"zelda",
+                  "letters":"IMTadelqz"
                },
                {
                   "x":9,
-                  "y":5,
+                  "y":10,
                   "direction":"v",
-                  "title":"Health",
-                  "content":"a hormone that lowers the level of glucose in the blood",
-                  "type":"text",
-                  "answer":"insulin",
-                  "letters":"LOZciilnnsu"
-               },
-               {
-                  "x":13,
-                  "y":5,
-                  "direction":"h",
-                  "title":"Country",
-                  "content":"assets/images/content/laos.jpg",
+                  "title":"Zoom in",
+                  "content":"assets/images/content/whisk.jpg",
                   "type":"image",
-                  "answer":"laos",
-                  "letters":"NQSaelos"
+                  "answer":"whisk",
+                  "letters":"BMhhikssw"
                }
             ]
          },
@@ -443,228 +797,6 @@
                   "type":"image",
                   "answer":"marx",
                   "letters":"NXaemorx"
-               }
-            ]
-         },
-         {
-            "width":12,
-            "height":12,
-            "questions":[
-               {
-                  "x":0,
-                  "y":0,
-                  "direction":"v",
-                  "title":"Proverb",
-                  "content":"Early to bed and early to rise, makes a man healthy, ... and wise. ",
-                  "type":"text",
-                  "answer":"wealthy",
-                  "letters":"KZaehlstwwy"
-               },
-               {
-                  "x":1,
-                  "y":2,
-                  "direction":"v",
-                  "title":"Politician",
-                  "content":"assets/images/content/blair.jpg",
-                  "type":"image",
-                  "answer":"blair",
-                  "letters":"Naabiklrs"
-               },
-               {
-                  "x":5,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Series",
-                  "content":"In the series NCIS , Who plays Gibbs?",
-                  "type":"text",
-                  "answer":"harmon",
-                  "letters":"SYahmnoprs"
-               },
-               {
-                  "x":0,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Actor",
-                  "content":"assets/images/content/gibson.jpg",
-                  "type":"image",
-                  "answer":"gibson",
-                  "letters":"DUbggilnos"
-               },
-               {
-                  "x":1,
-                  "y":4,
-                  "direction":"h",
-                  "title":"Cartoon character",
-                  "content":"assets/images/content/timon.jpg",
-                  "type":"image",
-                  "answer":"timon",
-                  "letters":"EJimnotww"
-               },
-               {
-                  "x":3,
-                  "y":4,
-                  "direction":"h",
-                  "title":"General knowledge",
-                  "content":"piece of land that is surrounded by water. ",
-                  "type":"text",
-                  "answer":"island",
-                  "letters":"Uadilnsxyy"
-               },
-               {
-                  "x":3,
-                  "y":7,
-                  "direction":"v",
-                  "title":"Mathematics",
-                  "content":"the figure formed by two rays sharing a common endpoint ",
-                  "type":"text",
-                  "answer":"angle",
-                  "letters":"LUaeglnru"
-               },
-               {
-                  "x":7,
-                  "y":4,
-                  "direction":"h",
-                  "title":"Synonym",
-                  "content":"smooth and glossy",
-                  "type":"text",
-                  "answer":"sleek",
-                  "letters":"Ideeeklsx"
-               },
-               {
-                  "x":7,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Country flag",
-                  "content":"assets/images/content/libya.jpg",
-                  "type":"image",
-                  "answer":"libya",
-                  "letters":"FGVabfily"
-               },
-               {
-                  "x":5,
-                  "y":7,
-                  "direction":"h",
-                  "title":"Logo",
-                  "content":"assets/images/content/gucci.jpg",
-                  "type":"image",
-                  "answer":"gucci",
-                  "letters":"GIcccgiku"
-               },
-               {
-                  "x":9,
-                  "y":5,
-                  "direction":"h",
-                  "title":"City",
-                  "content":"assets/images/content/bangkok.jpg",
-                  "type":"image",
-                  "answer":"bangkok",
-                  "letters":"NSUabgkknop"
-               }
-            ]
-         },
-         {
-            "width":11,
-            "height":11,
-            "questions":[
-               {
-                  "x":0,
-                  "y":1,
-                  "direction":"v",
-                  "title":"activist",
-                  "content":"assets/images/content/mandela.jpg",
-                  "type":"image",
-                  "answer":"mandela",
-                  "letters":"UUaadelmnnt"
-               },
-               {
-                  "x":3,
-                  "y":1,
-                  "direction":"h",
-                  "title":"General culture",
-                  "content":"Who drew the mona lisa",
-                  "type":"text",
-                  "answer":"davinci",
-                  "letters":"Oabcdiinvvw"
-               },
-               {
-                  "x":1,
-                  "y":3,
-                  "direction":"h",
-                  "title":"militant",
-                  "content":"assets/images/content/guevara.jpg",
-                  "type":"image",
-                  "answer":"guevara",
-                  "letters":"CLTaaegruvz"
-               },
-               {
-                  "x":1,
-                  "y":4,
-                  "direction":"v",
-                  "title":"Zoom In",
-                  "content":"assets/images/content/unicorn.jpg",
-                  "type":"image",
-                  "answer":"unicorn",
-                  "letters":"FZcinnorrtu"
-               },
-               {
-                  "x":0,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Chemistry",
-                  "content":"What is the chemical symbol for iron?",
-                  "type":"text",
-                  "answer":"fe",
-                  "letters":"deffls"
-               },
-               {
-                  "x":5,
-                  "y":3,
-                  "direction":"h",
-                  "title":"Character",
-                  "content":"assets/images/content/dobby.jpg",
-                  "type":"image",
-                  "answer":"dobby",
-                  "letters":"Xbbdfmory"
-               },
-               {
-                  "x":7,
-                  "y":2,
-                  "direction":"h",
-                  "title":"City",
-                  "content":"assets/images/content/london.jpg",
-                  "type":"image",
-                  "answer":"london",
-                  "letters":"HVdilnnoor"
-               },
-               {
-                  "x":7,
-                  "y":2,
-                  "direction":"v",
-                  "title":"Proverb",
-                  "content":"A chain is only as strong as its weakest ...",
-                  "type":"text",
-                  "answer":"link",
-                  "letters":"PYfiklnn"
-               },
-               {
-                  "x":7,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Music",
-                  "content":"assets/images/content/drum.jpg",
-                  "type":"image",
-                  "answer":"drum",
-                  "letters":"HIJdmruy"
-               },
-               {
-                  "x":7,
-                  "y":7,
-                  "direction":"v",
-                  "title":"Logo",
-                  "content":"assets/images/content/nasa.jpg",
-                  "type":"image",
-                  "answer":"nasa",
-                  "letters":"ARaansvz"
                }
             ]
          },
@@ -902,122 +1034,6 @@
          },
          {
             "width":14,
-            "height":12,
-            "questions":[
-               {
-                  "x":0,
-                  "y":0,
-                  "direction":"v",
-                  "title":"Country flag",
-                  "content":"assets/images/content/lebanon.jpg",
-                  "type":"image",
-                  "answer":"lebanon",
-                  "letters":"GKMabelnnoq"
-               },
-               {
-                  "x":4,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Country",
-                  "content":"assets/images/content/nigeria.jpg",
-                  "type":"image",
-                  "answer":"nigeria",
-                  "letters":"HKVacegiinr"
-               },
-               {
-                  "x":1,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Actor",
-                  "content":"assets/images/content/cruise.jpg",
-                  "type":"image",
-                  "answer":"cruise",
-                  "letters":"BCceeiprsu"
-               },
-               {
-                  "x":3,
-                  "y":3,
-                  "direction":"v",
-                  "title":"Logo",
-                  "content":"assets/images/content/hermes.jpg",
-                  "type":"image",
-                  "answer":"hermes",
-                  "letters":"FLPVeehmrs"
-               },
-               {
-                  "x":2,
-                  "y":4,
-                  "direction":"h",
-                  "title":"4 pics 1 word",
-                  "content":"assets/images/content/pride.jpg",
-                  "type":"image",
-                  "answer":"pride",
-                  "letters":"ABBdeiprv"
-               },
-               {
-                  "x":8,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Sport",
-                  "content":"assets/images/content/rousey.jpg",
-                  "type":"image",
-                  "answer":"rousey",
-                  "letters":"Telorsuwwy"
-               },
-               {
-                  "x":7,
-                  "y":1,
-                  "direction":"v",
-                  "title":"Cartoon series",
-                  "content":"What is the name of the father in the famous series the Simpsons?",
-                  "type":"text",
-                  "answer":"homer",
-                  "letters":"Oeghmnnor"
-               },
-               {
-                  "x":1,
-                  "y":8,
-                  "direction":"v",
-                  "title":"Riddle",
-                  "content":"I start with -T-, ends with -T-, and within me is -T-.",
-                  "type":"text",
-                  "answer":"teapot",
-                  "letters":"BGaeoprtty"
-               },
-               {
-                  "x":11,
-                  "y":1,
-                  "direction":"h",
-                  "title":"Currency",
-                  "content":"Saudi Arabian currency ",
-                  "type":"text",
-                  "answer":"riyal",
-                  "letters":"Vagilrtuy"
-               },
-               {
-                  "x":5,
-                  "y":7,
-                  "direction":"h",
-                  "title":"Law",
-                  "content":"Government entity authorized to resolve legal disputes ",
-                  "type":"text",
-                  "answer":"court",
-                  "letters":"NXYbcortu"
-               },
-               {
-                  "x":10,
-                  "y":5,
-                  "direction":"v",
-                  "title":"one Word",
-                  "content":" money or food given to poor people ",
-                  "type":"text",
-                  "answer":"alms",
-                  "letters":"EEahlmns"
-               }
-            ]
-         },
-         {
-            "width":14,
             "height":14,
             "questions":[
                {
@@ -1099,6 +1115,122 @@
                   "type":" text",
                   "answer":"uruguay",
                   "letters":"Pagjoruuuyy"
+               }
+            ]
+         },
+         {
+            "width":12,
+            "height":12,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
+                  "title":"Proverb",
+                  "content":"Early to bed and early to rise, makes a man healthy, ... and wise. ",
+                  "type":"text",
+                  "answer":"wealthy",
+                  "letters":"KZaehlstwwy"
+               },
+               {
+                  "x":1,
+                  "y":2,
+                  "direction":"v",
+                  "title":"Politician",
+                  "content":"assets/images/content/blair.jpg",
+                  "type":"image",
+                  "answer":"blair",
+                  "letters":"Naabiklrs"
+               },
+               {
+                  "x":5,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Series",
+                  "content":"In the series NCIS , Who plays Gibbs?",
+                  "type":"text",
+                  "answer":"harmon",
+                  "letters":"SYahmnoprs"
+               },
+               {
+                  "x":0,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Actor",
+                  "content":"assets/images/content/gibson.jpg",
+                  "type":"image",
+                  "answer":"gibson",
+                  "letters":"DUbggilnos"
+               },
+               {
+                  "x":1,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Cartoon character",
+                  "content":"assets/images/content/timon.jpg",
+                  "type":"image",
+                  "answer":"timon",
+                  "letters":"EJimnotww"
+               },
+               {
+                  "x":3,
+                  "y":4,
+                  "direction":"h",
+                  "title":"General knowledge",
+                  "content":"piece of land that is surrounded by water. ",
+                  "type":"text",
+                  "answer":"island",
+                  "letters":"Uadilnsxyy"
+               },
+               {
+                  "x":3,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Mathematics",
+                  "content":"the figure formed by two rays sharing a common endpoint ",
+                  "type":"text",
+                  "answer":"angle",
+                  "letters":"LUaeglnru"
+               },
+               {
+                  "x":7,
+                  "y":4,
+                  "direction":"h",
+                  "title":"Synonym",
+                  "content":"smooth and glossy",
+                  "type":"text",
+                  "answer":"sleek",
+                  "letters":"Ideeeklsx"
+               },
+               {
+                  "x":7,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Country flag",
+                  "content":"assets/images/content/libya.jpg",
+                  "type":"image",
+                  "answer":"libya",
+                  "letters":"FGVabfily"
+               },
+               {
+                  "x":5,
+                  "y":7,
+                  "direction":"h",
+                  "title":"Logo",
+                  "content":"assets/images/content/gucci.jpg",
+                  "type":"image",
+                  "answer":"gucci",
+                  "letters":"GIcccgiku"
+               },
+               {
+                  "x":9,
+                  "y":5,
+                  "direction":"h",
+                  "title":"City",
+                  "content":"assets/images/content/bangkok.jpg",
+                  "type":"image",
+                  "answer":"bangkok",
+                  "letters":"NSUabgkknop"
                }
             ]
          },
@@ -1217,102 +1349,6 @@
                   "letters":"Fcdeilrux"
                }
             ]
-         },
-         {
-            "width":14,
-            "height":14,
-            "questions":[
-               {
-                  "x":0,
-                  "y":0,
-                  "direction":"v",
-                  "title":"Book series",
-                  "content":"J. K. Rowling is a British novelist and screenwriter who, while delayed on a train, came up with the idea for the great novel series",
-                  "type":"text",
-                  "answer":"harrypotter",
-                  "letters":"MPaehopqrrrttty"
-               },
-               {
-                  "x":7,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Series Character",
-                  "content":"assets/images/content/tyrion.jpg",
-                  "type":"image",
-                  "answer":"tyrion",
-                  "letters":"Zabcinorty"
-               },
-               {
-                  "x":3,
-                  "y":5,
-                  "direction":"h",
-                  "title":"Country",
-                  "content":"assets/images/content/brazil.jpg",
-                  "type":"image",
-                  "answer":"brazil",
-                  "letters":"Labilmrvzz"
-               },
-               {
-                  "x":9,
-                  "y":0,
-                  "direction":"h",
-                  "title":"The Scientist",
-                  "content":"assets/images/content/einstein.jpg",
-                  "type":"image",
-                  "answer":"einstein",
-                  "letters":"Eeeeiijnnstu"
-               },
-               {
-                  "x":2,
-                  "y":7,
-                  "direction":"v",
-                  "title":"Music",
-                  "content":"assets/images/content/saxophone.jpg",
-                  "type":"image",
-                  "answer":"saxophone",
-                  "letters":"aeghjnooppsxy"
-               },
-               {
-                  "x":5,
-                  "y":6,
-                  "direction":"h",
-                  "title":"Sport",
-                  "content":"assets/images/content/johncena.jpg",
-                  "type":"image",
-                  "answer":"johncena",
-                  "letters":"TZacehjnnoru"
-               },
-               {
-                  "x":11,
-                  "y":1,
-                  "direction":"h",
-                  "title":"Game",
-                  "content":"assets/images/content/chess.jpg",
-                  "type":"image",
-                  "answer":"chess",
-                  "letters":"Wbcehkssx"
-               },
-               {
-                  "x":9,
-                  "y":4,
-                  "direction":"v",
-                  "title":"Car brand",
-                  "content":"assets/images/content/tesla.jpg",
-                  "type":"image",
-                  "answer":"tesla",
-                  "letters":"DTaellmst"
-               },
-               {
-                  "x":13,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Animal",
-                  "content":"assets/images/content/koala.jpg",
-                  "type":"image",
-                  "answer":"koala",
-                  "letters":"Paaklloqv"
-               }
-            ]
          }
       ]
    },
@@ -1320,117 +1356,222 @@
       "crosswords":[
          {
             "width":16,
-            "height":14,
+            "height":13,
             "questions":[
                {
                   "x":0,
                   "y":1,
                   "direction":"h",
-                  "title":"Cartoon character",
-                  "content":"assets/images/content/pinkpanther.jpg",
+                  "title":"City",
+                  "content":"assets/images/content/lasvegas.jpg",
                   "type":"image",
-                  "answer":"pinkpanther",
-                  "letters":"Pabehhiknnppprt"
-               },
-               {
-                  "x":0,
-                  "y":4,
-                  "direction":"v",
-                  "title":"Sport",
-                  "content":"assets/images/content/kobebryant.jpg",
-                  "type":"image",
-                  "answer":"kobebryant",
-                  "letters":"Zabbeknnoprtvy"
+                  "answer":"lasvegas",
+                  "letters":"AUUaaaeglssv"
                },
                {
                   "x":3,
                   "y":1,
                   "direction":"h",
-                  "title":"What am I?",
-                  "content":"I shoot but never kills. What am I ??",
+                  "title":"philosopher",
+                  "content":"Which student of Socrates, and teacher of Aristole, wrote Republic? ",
                   "type":"text",
-                  "answer":"camera",
-                  "letters":"KPWaacempr"
-               },
-               {
-                  "x":5,
-                  "y":3,
-                  "direction":"h",
-                  "title":"Music",
-                  "content":"assets/images/content/drake.jpg",
-                  "type":"image",
-                  "answer":"drake",
-                  "letters":"BGadekmrs"
-               },
-               {
-                  "x":7,
-                  "y":3,
-                  "direction":"h",
-                  "title":"Artist",
-                  "content":"assets/images/content/jackson.jpg",
-                  "type":"image",
-                  "answer":"jackson",
-                  "letters":"QRUacijknos"
+                  "answer":"plato",
+                  "letters":"BQafilopt"
                },
                {
                   "x":0,
-                  "y":11,
+                  "y":5,
                   "direction":"v",
-                  "title":"Culture",
-                  "content":"Sake is a Japanese meal made from ..",
+                  "title":"personality",
+                  "content":"assets/images/content/escobar.jpg",
+                  "type":"image",
+                  "answer":"escobar",
+                  "letters":"abcemopqrsx"
+               },
+               {
+                  "x":5,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Flag",
+                  "content":"assets/images/content/panama.jpg",
+                  "type":"image",
+                  "answer":"panama",
+                  "letters":"OTaaamnopq"
+               },
+               {
+                  "x":5,
+                  "y":2,
+                  "direction":"v",
+                  "title":"Proverb",
+                  "content":"A fool and his money are soon ... - ",
                   "type":"text",
-                  "answer":"rice",
-                  "letters":"JWceeirx"
+                  "answer":"parted",
+                  "letters":"CLYadefprt"
+               },
+               {
+                  "x":7,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Country",
+                  "content":"Libraries, schools, writing, the wheel, the aqueduct and alcoholic beer are inventions generally credited to which country?",
+                  "type":"text",
+                  "answer":"iraq",
+                  "letters":"Iaabinqr"
+               },
+               {
+                  "x":4,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Logo",
+                  "content":"assets/images/content/bayer.jpg",
+                  "type":"image",
+                  "answer":"bayer",
+                  "letters":"AAPabenry"
+               },
+               {
+                  "x":10,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Series Character",
+                  "content":"assets/images/content/daenerys.jpg",
+                  "type":"image",
+                  "answer":"daenerys",
+                  "letters":"NNadeeilnrsy"
+               },
+               {
+                  "x":7,
+                  "y":6,
+                  "direction":"h",
+                  "title":"What am I?",
+                  "content":"If you lose me you may cause people around me to lose me too. ",
+                  "type":"text",
+                  "answer":"temper",
+                  "letters":"NPTYeemprt"
+               },
+               {
+                  "x":9,
+                  "y":5,
+                  "direction":"v",
+                  "title":"Health",
+                  "content":"a hormone that lowers the level of glucose in the blood",
+                  "type":"text",
+                  "answer":"insulin",
+                  "letters":"LOZciilnnsu"
+               },
+               {
+                  "x":13,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Country",
+                  "content":"assets/images/content/laos.jpg",
+                  "type":"image",
+                  "answer":"laos",
+                  "letters":"NQSaelos"
+               }
+            ]
+         },{
+            "width":11,
+            "height":14,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
+                  "title":"Literature",
+                  "content":"the writer of romeo and juliet",
+                  "type":"text",
+                  "answer":"shakespeare",
+                  "letters":"Oaaeeehkkprssww"
+               },
+               {
+                  "x":1,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Proverb",
+                  "content":"there s no place like ....",
+                  "type":" text",
+                  "answer":"home",
+                  "letters":"KMcehmor"
+               },
+               {
+                  "x":0,
+                  "y":2,
+                  "direction":"v",
+                  "title":"Logo",
+                  "content":"assets/images/content/bmw.jpg",
+                  "type":"image",
+                  "answer":"bmw",
+                  "letters":"FJXbmwx"
+               },
+               {
+                  "x":4,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Music",
+                  "content":"assets/images/content/edsheeran.jpg",
+                  "type":"image",
+                  "answer":"edsheeran",
+                  "letters":"AMaddeeeghnrs"
+               },
+               {
+                  "x":1,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Logo",
+                  "content":"assets/images/content/firefox.jpg",
+                  "type":"image",
+                  "answer":"firefox",
+                  "letters":"BBaeffioqrx"
+               },
+               {
+                  "x":1,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Sport",
+                  "content":"assets/images/content/ronaldo.jpg",
+                  "type":"image",
+                  "answer":"ronaldo",
+                  "letters":"JUaddilnoor"
+               },
+               {
+                  "x":7,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Manga",
+                  "content":"assets/images/content/naruto.jpg",
+                  "type":"image",
+                  "answer":"naruto",
+                  "letters":"QUabnortuv"
+               },
+               {
+                  "x":0,
+                  "y":10,
+                  "direction":"v",
+                  "title":"City",
+                  "content":"assets/images/content/moscou.jpg",
+                  "type":"image",
+                  "answer":"moscou",
+                  "letters":"Obcmmooqsu"
+               },
+               {
+                  "x":10,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Zoom In",
+                  "content":"assets/images/content/eye.jpg",
+                  "type":"image",
+                  "answer":"eye",
+                  "letters":"CEeegny"
                },
                {
                   "x":5,
                   "y":9,
-                  "direction":"v",
-                  "title":"City",
-                  "content":"assets/images/content/venice.jpg",
-                  "type":"image",
-                  "answer":"venice",
-                  "letters":"FJRcdeeinv"
-               },
-               {
-                  "x":11,
-                  "y":4,
-                  "direction":"v",
-                  "title":"Definition",
-                  "content":"a large number of people gathered together",
-                  "type":"text",
-                  "answer":"crowd",
-                  "letters":"Bcdehorrw"
-               },
-               {
-                  "x":13,
-                  "y":3,
                   "direction":"h",
-                  "title":"Logo",
-                  "content":"assets/images/content/toyota.jpg",
+                  "title":"Politician",
+                  "content":"assets/images/content/putin.jpg",
                   "type":"image",
-                  "answer":"toyota",
-                  "letters":"EIabiootty"
-               },
-               {
-                  "x":10,
-                  "y":7,
-                  "direction":"h",
-                  "title":"What am I?",
-                  "content":"The faster you run, the harder it is to catch me. ",
-                  "type":"text",
-                  "answer":"breath",
-                  "letters":"Gabehqrttv"
-               },
-               {
-                  "x":10,
-                  "y":8,
-                  "direction":"v",
-                  "title":"Proverb",
-                  "content":"When in Rome, do as the ...",
-                  "type":"text",
-                  "answer":"romans",
-                  "letters":"DLMagmnors"
+                  "answer":"putin",
+                  "letters":"PQXijnptu"
                }
             ]
          },
@@ -1551,88 +1692,78 @@
             ]
          },
          {
-            "width":9,
-            "height":13,
+            "width":13,
+            "height":12,
             "questions":[
                {
                   "x":0,
                   "y":1,
-                  "direction":"h",
-                  "title":"General culture",
-                  "content":"assets/images/content/monalisa.jpg",
-                  "type":"image",
-                  "answer":"monalisa",
-                  "letters":"BKYaailmnoos"
-               },
-               {
-                  "x":2,
-                  "y":2,
                   "direction":"v",
-                  "title":"Hobby",
-                  "content":"assets/images/content/fishing.jpg",
-                  "type":"image",
-                  "answer":"fishing",
-                  "letters":"effghiinstv"
-               },
-               {
-                  "x":2,
-                  "y":4,
-                  "direction":"v",
-                  "title":"A Word",
-                  "content":"Which of the traditional five senses are dolphins believed not to possess?",
+                  "title":"A science",
+                  "content":" Also known as the science of space",
                   "type":"text",
-                  "answer":"smell",
-                  "letters":"ANaellmst"
+                  "answer":"astronomy",
+                  "letters":"vamnooorsttwy"
                },
                {
                   "x":0,
-                  "y":7,
-                  "direction":"v",
-                  "title":"Feeling",
-                  "content":"assets/images/content/sleepy.jpg",
-                  "type":"image",
-                  "answer":"sleepy",
-                  "letters":"KXeelmopsy"
-               },
-               {
-                  "x":3,
-                  "y":4,
+                  "y":1,
                   "direction":"h",
-                  "title":"Comedian",
-                  "content":"assets/images/content/mrbean.jpg",
-                  "type":"image",
-                  "answer":"mrbean",
-                  "letters":"HKabefmnpr"
+                  "title":"Job",
+                  "content":"An ... is someone who plans, designs, and reviews the construction of buildings",
+                  "type":"text",
+                  "answer":"architect",
+                  "letters":"aswacceehirtt"
                },
                {
-                  "x":5,
-                  "y":2,
-                  "direction":"h",
-                  "title":"Superhero",
-                  "content":"assets/images/content/hulk.jpg",
-                  "type":"image",
-                  "answer":"hulk",
-                  "letters":"SZahkluu"
-               },
-               {
-                  "x":3,
-                  "y":9,
+                  "x":2,
+                  "y":5,
                   "direction":"v",
-                  "title":"Logo",
-                  "content":"assets/images/content/nivea.jpg",
+                  "title":"Country",
+                  "content":"assets/images/content/france.jpg",
                   "type":"image",
-                  "answer":"nivea",
-                  "letters":"AHaaeinvx"
+                  "answer":"france",
+                  "letters":"aacdefmnor"
                },
                {
                   "x":7,
-                  "y":6,
+                  "y":1,
                   "direction":"h",
-                  "title":"Vegetable",
-                  "content":"assets/images/content/tomato.jpg",
+                  "title":"Car Brand",
+                  "content":"assets/images/content/mercedes.jpg",
                   "type":"image",
-                  "answer":"tomato",
-                  "letters":"HHMaimoott"
+                  "answer":"mercedes",
+                  "letters":"bkxcddeeemrs"
+               },
+               {
+                  "x":6,
+                  "y":3,
+                  "direction":"v",
+                  "title":"Superhero",
+                  "content":"assets/images/content/ironman.jpg",
+                  "type":"image",
+                  "answer":"ironman",
+                  "letters":"kqaimnnoprx"
+               },
+               {
+                  "x":4,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Translation",
+                  "content":"What is pinneaple in french?",
+                  "type":"text",
+                  "answer":"ananas",
+                  "letters":"zaaafnnswz"
+               },
+               {
+                  "x":6,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Logo",
+                  "content":"assets/images/content/dettol.jpg",
+                  "type":"image",
+                  "answer":"dettol",
+                  "letters":"odehloottx"
                }
             ]
          },
@@ -1869,108 +2000,98 @@
             ]
          },
          {
-            "width":11,
+            "width":14,
             "height":14,
             "questions":[
                {
                   "x":0,
                   "y":0,
                   "direction":"v",
-                  "title":"Literature",
-                  "content":"the writer of romeo and juliet",
+                  "title":"Book series",
+                  "content":"J. K. Rowling is a British novelist and screenwriter who, while delayed on a train, came up with the idea for the great novel series",
                   "type":"text",
-                  "answer":"shakespeare",
-                  "letters":"Oaaeeehkkprssww"
-               },
-               {
-                  "x":1,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Proverb",
-                  "content":"there s no place like ....",
-                  "type":" text",
-                  "answer":"home",
-                  "letters":"KMcehmor"
-               },
-               {
-                  "x":0,
-                  "y":2,
-                  "direction":"v",
-                  "title":"Logo",
-                  "content":"assets/images/content/bmw.jpg",
-                  "type":"image",
-                  "answer":"bmw",
-                  "letters":"FJXbmwx"
-               },
-               {
-                  "x":4,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Music",
-                  "content":"assets/images/content/edsheeran.jpg",
-                  "type":"image",
-                  "answer":"edsheeran",
-                  "letters":"AMaddeeeghnrs"
-               },
-               {
-                  "x":1,
-                  "y":5,
-                  "direction":"h",
-                  "title":"Logo",
-                  "content":"assets/images/content/firefox.jpg",
-                  "type":"image",
-                  "answer":"firefox",
-                  "letters":"BBaeffioqrx"
-               },
-               {
-                  "x":1,
-                  "y":7,
-                  "direction":"v",
-                  "title":"Sport",
-                  "content":"assets/images/content/ronaldo.jpg",
-                  "type":"image",
-                  "answer":"ronaldo",
-                  "letters":"JUaddilnoor"
+                  "answer":"harrypotter",
+                  "letters":"MPaehopqrrrttty"
                },
                {
                   "x":7,
-                  "y":2,
-                  "direction":"h",
-                  "title":"Manga",
-                  "content":"assets/images/content/naruto.jpg",
-                  "type":"image",
-                  "answer":"naruto",
-                  "letters":"QUabnortuv"
-               },
-               {
-                  "x":0,
-                  "y":10,
-                  "direction":"v",
-                  "title":"City",
-                  "content":"assets/images/content/moscou.jpg",
-                  "type":"image",
-                  "answer":"moscou",
-                  "letters":"Obcmmooqsu"
-               },
-               {
-                  "x":10,
                   "y":0,
                   "direction":"h",
-                  "title":"Zoom In",
-                  "content":"assets/images/content/eye.jpg",
+                  "title":"Series Character",
+                  "content":"assets/images/content/tyrion.jpg",
                   "type":"image",
-                  "answer":"eye",
-                  "letters":"CEeegny"
+                  "answer":"tyrion",
+                  "letters":"Zabcinorty"
+               },
+               {
+                  "x":3,
+                  "y":5,
+                  "direction":"h",
+                  "title":"Country",
+                  "content":"assets/images/content/brazil.jpg",
+                  "type":"image",
+                  "answer":"brazil",
+                  "letters":"Labilmrvzz"
+               },
+               {
+                  "x":9,
+                  "y":0,
+                  "direction":"h",
+                  "title":"The Scientist",
+                  "content":"assets/images/content/einstein.jpg",
+                  "type":"image",
+                  "answer":"einstein",
+                  "letters":"Eeeeiijnnstu"
+               },
+               {
+                  "x":2,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Music",
+                  "content":"assets/images/content/saxophone.jpg",
+                  "type":"image",
+                  "answer":"saxophone",
+                  "letters":"aeghjnooppsxy"
                },
                {
                   "x":5,
-                  "y":9,
+                  "y":6,
                   "direction":"h",
-                  "title":"Politician",
-                  "content":"assets/images/content/putin.jpg",
+                  "title":"Sport",
+                  "content":"assets/images/content/johncena.jpg",
                   "type":"image",
-                  "answer":"putin",
-                  "letters":"PQXijnptu"
+                  "answer":"johncena",
+                  "letters":"TZacehjnnoru"
+               },
+               {
+                  "x":11,
+                  "y":1,
+                  "direction":"h",
+                  "title":"Game",
+                  "content":"assets/images/content/chess.jpg",
+                  "type":"image",
+                  "answer":"chess",
+                  "letters":"Wbcehkssx"
+               },
+               {
+                  "x":9,
+                  "y":4,
+                  "direction":"v",
+                  "title":"Scientist",
+                  "content":"assets/images/content/tesla.jpg",
+                  "type":"image",
+                  "answer":"tesla",
+                  "letters":"DTaellmst"
+               },
+               {
+                  "x":13,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Animal",
+                  "content":"assets/images/content/koala.jpg",
+                  "type":"image",
+                  "answer":"koala",
+                  "letters":"Paaklloqv"
                }
             ]
          },
@@ -2081,98 +2202,88 @@
             ]
          },
          {
-            "width":11,
-            "height":15,
+            "width":14,
+            "height":14,
             "questions":[
                {
                   "x":0,
                   "y":0,
                   "direction":"h",
-                  "title":"Job",
-                  "content":"assets/images/content/carpenter.jpg",
+                  "title":"Country flag",
+                  "content":"assets/images/content/pakistan.jpg",
                   "type":"image",
-                  "answer":"carpenter",
-                  "letters":"DUacceenpprrt"
+                  "answer":"pakistan",
+                  "letters":"Iaaiknppstxz"
                },
                {
                   "x":0,
-                  "y":0,
+                  "y":5,
                   "direction":"v",
-                  "title":"Country",
-                  "content":"assets/images/content/china.jpg",
+                  "title":"Sport",
+                  "content":"assets/images/content/tyson.jpg",
                   "type":"image",
-                  "answer":"china",
-                  "letters":"JOQachinw"
+                  "answer":"tyson",
+                  "letters":"Cdnorstwy"
                },
                {
-                  "x":2,
-                  "y":3,
+                  "x":3,
+                  "y":5,
                   "direction":"h",
-                  "title":"NGO",
-                  "content":"assets/images/content/unicef.jpg",
-                  "type":"image",
-                  "answer":"unicef",
-                  "letters":"RVWcefinux"
-               },
-               {
-                  "x":0,
-                  "y":7,
-                  "direction":"v",
                   "title":"Animal",
-                  "content":"What animal has the largest ears?",
+                  "content":"what is the animal that has three hearts?",
                   "type":"text",
-                  "answer":"elephant",
-                  "letters":"Uaaeehllnptx"
+                  "answer":"octopus",
+                  "letters":"Ocgoopstuvy"
                },
                {
-                  "x":6,
-                  "y":2,
-                  "direction":"h",
+                  "x":1,
+                  "y":10,
+                  "direction":"v",
                   "title":"Logo",
-                  "content":"assets/images/content/amazon.jpg",
+                  "content":"assets/images/content/youtube.jpg",
                   "type":"image",
-                  "answer":"amazon",
-                  "letters":"CVWaalmnoz"
+                  "answer":"youtube",
+                  "letters":"ENbennotuuy"
                },
                {
                   "x":5,
-                  "y":3,
+                  "y":8,
                   "direction":"v",
-                  "title":"Musician",
-                  "content":"assets/images/content/eminem.jpg",
+                  "title":"Sport",
+                  "content":"assets/images/content/cricket.jpg",
                   "type":"image",
-                  "answer":"eminem",
-                  "letters":"ETaeeimmnv"
+                  "answer":"cricket",
+                  "letters":"KUVcceikmrt"
                },
                {
-                  "x":4,
-                  "y":6,
+                  "x":7,
+                  "y":7,
                   "direction":"h",
-                  "title":"Comedian",
-                  "content":"assets/images/content/chaplin.jpg",
+                  "title":"Monument : statue of ...",
+                  "content":"assets/images/content/liberty.jpg",
                   "type":"image",
-                  "answer":"chaplin",
-                  "letters":"FFOacchilnp"
+                  "answer":"liberty",
+                  "letters":"Xbeilprtuyz"
                },
                {
-                  "x":0,
-                  "y":11,
+                  "x":10,
+                  "y":4,
+                  "direction":"h",
+                  "title":"General culture",
+                  "content":"Earth s highest mountain is mount ...",
+                  "type":"text",
+                  "answer":"everest",
+                  "letters":"Ceeelqrstuv"
+               },
+               {
+                  "x":10,
+                  "y":10,
                   "direction":"v",
-                  "title":"Application",
-                  "content":"assets/images/content/spotify.jpg",
-                  "type":"image",
-                  "answer":"spotify",
-                  "letters":"CENfioopsty"
-               },
-               {
-                  "x":0,
-                  "y":11,
-                  "direction":"h",
                   "title":"Zoom in",
-                  "content":"assets/images/content/skin.jpg",
+                  "content":"assets/images/content/tire.jpg",
                   "type":"image",
-                  "answer":"skin",
-                  "letters":"Agiknrsy"
+                  "answer":"tire",
+                  "letters":"LMceirty"
                }
             ]
          },
@@ -2280,97 +2391,116 @@
                "answer":"guard",
                "letters":"DOadgkruu" 
             }]
-          },
-         {
-            "width":14,
-            "height":14,
-            "questions":[
-               {
-                  "x":0,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Country flag",
-                  "content":"assets/images/content/pakistan.jpg",
-                  "type":"image",
-                  "answer":"pakistan",
-                  "letters":"Iaaiknppstxz"
-               },
-               {
-                  "x":0,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Sport",
-                  "content":"assets/images/content/tyson.jpg",
-                  "type":"image",
-                  "answer":"tyson",
-                  "letters":"Cdnorstwy"
-               },
-               {
-                  "x":3,
-                  "y":5,
-                  "direction":"h",
-                  "title":"Animal",
-                  "content":"what is the animal that has three hearts?",
-                  "type":"text",
-                  "answer":"octopus",
-                  "letters":"Ocgoopstuvy"
-               },
-               {
-                  "x":1,
-                  "y":10,
-                  "direction":"v",
-                  "title":"Logo",
-                  "content":"assets/images/content/youtube.jpg",
-                  "type":"image",
-                  "answer":"youtube",
-                  "letters":"ENbennotuuy"
-               },
-               {
-                  "x":5,
-                  "y":8,
-                  "direction":"v",
-                  "title":"Sport",
-                  "content":"assets/images/content/cricket.jpg",
-                  "type":"image",
-                  "answer":"cricket",
-                  "letters":"KUVcceikmrt"
-               },
-               {
-                  "x":7,
-                  "y":7,
-                  "direction":"h",
-                  "title":"Monument : statue of ...",
-                  "content":"assets/images/content/liberty.jpg",
-                  "type":"image",
-                  "answer":"liberty",
-                  "letters":"Xbeilprtuyz"
-               },
-               {
-                  "x":10,
-                  "y":4,
-                  "direction":"h",
-                  "title":"General culture",
-                  "content":"Earth s highest mountain is mount ...",
-                  "type":"text",
-                  "answer":"everest",
-                  "letters":"Ceeelqrstuv"
-               },
-               {
-                  "x":10,
-                  "y":10,
-                  "direction":"v",
-                  "title":"Zoom in",
-                  "content":"assets/images/content/tire.jpg",
-                  "type":"image",
-                  "answer":"tire",
-                  "letters":"LMceirty"
-               }
-            ]
-         }
+          }
       ]
    },
    {
       "crosswords":[
+         {
+            "width" : 15,
+            "height" : 13,
+            "questions" : [
+            {
+               "x": 0,
+               "y": 1,
+               "direction":"v", 
+               "title":"Philosopher",
+               "content":"/assets/images/content/voltaire.jpg",
+               "type":"image",
+               "answer":"voltaire",
+               "letters":"Maaeilortvwy" 
+            }, {
+               "x": 4,
+               "y": 1,
+               "direction":"h",
+               "title":"Zoom In",
+               "content":"/assets/images/content/almond.jpg",
+               "type":"image",
+               "answer":"almond",
+               "letters":"BFadlmnosv" 
+            }, {
+               "x": 0,
+               "y": 6,
+               "direction":"v", 
+               "title":"Phobia",
+               "content":"Pogonophobia is the fear of what?",
+               "type":"text",
+               "answer":"beards",
+               "letters":"DMabdefmrs" 
+            }, {
+               "x": 2,
+               "y": 5,
+               "direction":"h",
+               "title":"The walking dead Character",
+               "content":"/assets/images/content/daryl.jpg",
+               "type":"image",
+               "answer":"daryl",
+               "letters":"Paddflrsy" 
+            }, {
+               "x": 5,
+               "y": 6,
+               "direction":"h",
+               "title":"Logo",
+               "content":"/assets/images/content/swatch.jpg",
+               "type":"image",
+               "answer":"swatch",
+               "letters":"GUachqrstw" 
+            }, {
+               "x": 4,
+               "y": 9,
+               "direction":"v", 
+               "title":"What am I?",
+               "content":" I have fangs and enjoy piecing holes with a single bit.",
+               "type":"text",
+               "answer":"stapler",
+               "letters":"BVaaellprst" 
+            }, {
+               "x": 11,
+               "y": 2,
+               "direction":"h",
+               "title":"4 pics 1 word",
+               "content":"/assets/images/content/guard.jpg",
+               "type":"image",
+               "answer":"guard",
+               "letters":"DOYadgrtu" 
+            }, {
+               "x": 13,
+               "y": 1,
+               "direction":"h",
+               "title":"Geometry",
+               "content":"A simple shape that is the set of all points in a plane that are at a given distance from a given point, the centre. ",
+               "type":"text",
+               "answer":"circle",
+               "letters":"Gbcceilrtv" 
+            }, {
+               "x": 9,
+               "y": 6,
+               "direction":"h",
+               "title":"Sport",
+               "content":"/assets/images/content/serena.jpg",
+               "type":"image",
+               "answer":"serena",
+               "letters":"CMQaeenprs" 
+            }, {
+               "x": 9,
+               "y": 6,
+               "direction":"v", 
+               "title":"City",
+               "content":"/assets/images/content/sydney.jpg",
+               "type":"image",
+               "answer":"sydney",
+               "letters":"deelnosuyy" 
+            }, {
+               "x": 7,
+               "y": 11,
+               "direction":"v", 
+               "title":"General knowledge",
+               "content":"What did an enemy have to be, for a U. S. soldier to call him a -believer- in the Vietnam War?",
+               "type":"text",
+               "answer":"dead",
+               "letters":"aaddegko" 
+            } ]
+          },
          {
             "width":12,
             "height":12,
@@ -3026,111 +3156,6 @@
                }
             ]
          },
-          {
-            "width" : 15,
-            "height" : 13,
-            "questions" : [
-            {
-               "x": 0,
-               "y": 1,
-               "direction":"v", 
-               "title":"Philosopher",
-               "content":"/assets/images/content/voltaire.jpg",
-               "type":"image",
-               "answer":"voltaire",
-               "letters":"Maaeilortvwy" 
-            }, {
-               "x": 4,
-               "y": 1,
-               "direction":"h",
-               "title":"Zoom In",
-               "content":"/assets/images/content/almond.jpg",
-               "type":"image",
-               "answer":"almond",
-               "letters":"BFadlmnosv" 
-            }, {
-               "x": 0,
-               "y": 6,
-               "direction":"v", 
-               "title":"Phobia",
-               "content":"Pogonophobia is the fear of what?",
-               "type":"text",
-               "answer":"beards",
-               "letters":"DMabdefmrs" 
-            }, {
-               "x": 2,
-               "y": 5,
-               "direction":"h",
-               "title":"The walking dead Character",
-               "content":"/assets/images/content/daryl.jpg",
-               "type":"image",
-               "answer":"daryl",
-               "letters":"Paddflrsy" 
-            }, {
-               "x": 5,
-               "y": 6,
-               "direction":"h",
-               "title":"Logo",
-               "content":"/assets/images/content/swatch.jpg",
-               "type":"image",
-               "answer":"swatch",
-               "letters":"GUachqrstw" 
-            }, {
-               "x": 4,
-               "y": 9,
-               "direction":"v", 
-               "title":"What am I?",
-               "content":" I have fangs and enjoy piecing holes with a single bit.",
-               "type":"text",
-               "answer":"stapler",
-               "letters":"BVaaellprst" 
-            }, {
-               "x": 11,
-               "y": 2,
-               "direction":"h",
-               "title":"4 pics 1 word",
-               "content":"/assets/images/content/guard.jpg",
-               "type":"image",
-               "answer":"guard",
-               "letters":"DOYadgrtu" 
-            }, {
-               "x": 13,
-               "y": 1,
-               "direction":"h",
-               "title":"Geometry",
-               "content":"A simple shape that is the set of all points in a plane that are at a given distance from a given point, the centre. ",
-               "type":"text",
-               "answer":"circle",
-               "letters":"Gbcceilrtv" 
-            }, {
-               "x": 9,
-               "y": 6,
-               "direction":"h",
-               "title":"Sport",
-               "content":"/assets/images/content/serena.jpg",
-               "type":"image",
-               "answer":"serena",
-               "letters":"CMQaeenprs" 
-            }, {
-               "x": 9,
-               "y": 6,
-               "direction":"v", 
-               "title":"City",
-               "content":"/assets/images/content/sydney.jpg",
-               "type":"image",
-               "answer":"sydney",
-               "letters":"deelnosuyy" 
-            }, {
-               "x": 7,
-               "y": 11,
-               "direction":"v", 
-               "title":"General knowledge",
-               "content":"What did an enemy have to be, for a U. S. soldier to call him a -believer- in the Vietnam War?",
-               "type":"text",
-               "answer":"dead",
-               "letters":"aaddegko" 
-            } ]
-          },
          {
             "width":14,
             "height":14,
@@ -3581,7 +3606,7 @@
                   "x":5,
                   "y":6,
                   "direction":"h",
-                  "title":"Word",
+                  "title":"Acronym",
                   "content":"in the acronym (CEO) , the O stands for ..",
                   "type":"text",
                   "answer":"officer",
@@ -4627,132 +4652,7 @@
    },
    {
       "crosswords":[
-         {
-            "width":14,
-            "height":14,
-            "questions":[
-               {
-                  "x":0,
-                  "y":0,
-                  "direction":"v",
-                  "title":"Country",
-                  "content":"assets/images/content/tunisia.jpg",
-                  "type":"image",
-                  "answer":"tunisia",
-                  "letters":"Bahhiinstuy"
-               },
-               {
-                  "x":0,
-                  "y":3,
-                  "direction":"h",
-                  "title":"Chemistry",
-                  "content":"the process or result of joining two or more things together to form a single entity ",
-                  "type":"text",
-                  "answer":"fusion",
-                  "letters":"FFfinopstu"
-               },
-               {
-                  "x":4,
-                  "y":0,
-                  "direction":"h",
-                  "title":"Comedian",
-                  "content":"assets/images/content/stewart.jpg",
-                  "type":"image",
-                  "answer":"stewart",
-                  "letters":"LLSaefrsttw"
-               },
-               {
-                  "x":0,
-                  "y":5,
-                  "direction":"v",
-                  "title":"Spice",
-                  "content":" the most expensive spice",
-                  "type":"text",
-                  "answer":"saffron",
-                  "letters":"Xaaffnorstz"
-               },
-               {
-                  "x":6,
-                  "y":3,
-                  "direction":"h",
-                  "title":"Zoom In",
-                  "content":"assets/images/content/ginger.jpg",
-                  "type":"image",
-                  "answer":"ginger",
-                  "letters":"Reggilnqrw"
-               },
-               {
-                  "x":8,
-                  "y":5,
-                  "direction":"h",
-                  "title":"Zoom In",
-                  "content":"assets/images/content/moon.jpg",
-                  "type":"image",
-                  "answer":"MOON",
-                  "letters":"ABCORDOSZBMHF"
-               },
-               {
-                  "x":1,
-                  "y":10,
-                  "direction":"v",
-                  "title":"Politician",
-                  "content":"assets/images/content/lincoln.jpg",
-                  "type":"image",
-                  "answer":"lincoln",
-                  "letters":"BELcillnnov"
-               },
-               {
-                  "x":5,
-                  "y":8,
-                  "direction":"v",
-                  "title":"Proverb",
-                  "content":" Two ... dont make a right.",
-                  "type":"text",
-                  "answer":"wrongs",
-                  "letters":"LWbbgnorsw"
-               },
-               {
-                  "x":5,
-                  "y":8,
-                  "direction":"h",
-                  "title":"Sport",
-                  "content":"famous american golfer",
-                  "type":"text",
-                  "answer":"woods",
-                  "letters":"HKdhoosuw"
-               },
-               {
-                  "x":10,
-                  "y":8,
-                  "direction":"h",
-                  "title":"General culture",
-                  "content":"large hot desert",
-                  "type":"text",
-                  "answer":"sahara",
-                  "letters":"CFKLaaahrs"
-               },
-               {
-                  "x":6,
-                  "y":13,
-                  "direction":"v",
-                  "title":"Video Game",
-                  "content":"assets/images/content/zelda.jpg",
-                  "type":"image",
-                  "answer":"zelda",
-                  "letters":"IMTadelqz"
-               },
-               {
-                  "x":9,
-                  "y":10,
-                  "direction":"v",
-                  "title":"Zoom in",
-                  "content":"assets/images/content/whisk.jpg",
-                  "type":"image",
-                  "answer":"whisk",
-                  "letters":"BMhhikssw"
-               }
-            ]
-         },
+         
          {
             "width":12,
             "height":14,
@@ -4849,7 +4749,7 @@
                   "y":0,
                   "direction":"h",
                   "title":"Literature",
-                  "content":" -the davinci code - is the best selling book in history, it was written by... ",
+                  "content":" -the davinci code - is the best selling novel in history, it was written by... ",
                   "type":"text",
                   "answer":"danbrown",
                   "letters":"BEINabdnnorw"
@@ -5639,6 +5539,101 @@
                   "type":"text",
                   "answer":"snape",
                   "letters":"VZaeenpss"
+               }
+            ]
+         },{
+            "width":11,
+            "height":15,
+            "questions":[
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"h",
+                  "title":"Job",
+                  "content":"assets/images/content/carpenter.jpg",
+                  "type":"image",
+                  "answer":"carpenter",
+                  "letters":"DUacceenpprrt"
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "direction":"v",
+                  "title":"Country",
+                  "content":"assets/images/content/china.jpg",
+                  "type":"image",
+                  "answer":"china",
+                  "letters":"JOQachinw"
+               },
+               {
+                  "x":2,
+                  "y":3,
+                  "direction":"h",
+                  "title":"NGO",
+                  "content":"assets/images/content/unicef.jpg",
+                  "type":"image",
+                  "answer":"unicef",
+                  "letters":"RVWcefinux"
+               },
+               {
+                  "x":0,
+                  "y":7,
+                  "direction":"v",
+                  "title":"Animal",
+                  "content":"What animal has the largest ears?",
+                  "type":"text",
+                  "answer":"elephant",
+                  "letters":"Uaaeehllnptx"
+               },
+               {
+                  "x":6,
+                  "y":2,
+                  "direction":"h",
+                  "title":"Logo",
+                  "content":"assets/images/content/amazon.jpg",
+                  "type":"image",
+                  "answer":"amazon",
+                  "letters":"CVWaalmnoz"
+               },
+               {
+                  "x":5,
+                  "y":3,
+                  "direction":"v",
+                  "title":"Musician",
+                  "content":"assets/images/content/eminem.jpg",
+                  "type":"image",
+                  "answer":"eminem",
+                  "letters":"ETaeeimmnv"
+               },
+               {
+                  "x":4,
+                  "y":6,
+                  "direction":"h",
+                  "title":"Comedian",
+                  "content":"assets/images/content/chaplin.jpg",
+                  "type":"image",
+                  "answer":"chaplin",
+                  "letters":"FFOacchilnp"
+               },
+               {
+                  "x":0,
+                  "y":11,
+                  "direction":"v",
+                  "title":"Application",
+                  "content":"assets/images/content/spotify.jpg",
+                  "type":"image",
+                  "answer":"spotify",
+                  "letters":"CENfioopsty"
+               },
+               {
+                  "x":0,
+                  "y":11,
+                  "direction":"h",
+                  "title":"Zoom in",
+                  "content":"assets/images/content/skin.jpg",
+                  "type":"image",
+                  "answer":"skin",
+                  "letters":"Agiknrsy"
                }
             ]
          },
