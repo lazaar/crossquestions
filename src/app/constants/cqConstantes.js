@@ -2,7 +2,7 @@
 
     'use strict';
     angular.module('crossQuestions').constant('cqConstantes', {
-        ios:'1084782640',
+        ios:'1286430557',
         android:'com.lazcha.crossWords',
         facebookId:'668484603351045',
         facebookUrl:'https://www.facebook.com/lazyGamesApp',
