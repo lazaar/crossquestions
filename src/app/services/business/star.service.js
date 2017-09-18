@@ -71,6 +71,10 @@
            }
             soundService.playSound(cqConstantes.sounds.unlocked);
 
+            if(typeof AppRate !== 'undefined'){
+                AppRate.promptForRating(false);
+            }
+
             dataModel.currentLevel = values.currentLevel;
             dataModel.currentCw = values.currentCw;
             values.hints += 5;

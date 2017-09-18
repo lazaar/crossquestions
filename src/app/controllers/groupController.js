@@ -73,10 +73,6 @@
         function init(){
             var level;
             vm.level = parseInt($stateParams.level);
-
-            if(typeof AppRate !== 'undefined'){
-                AppRate.promptForRating(false);
-            }
             
             analyticsService.setScreenName('Groupes');
             analyticsService.logEvent('select_content', {'content_type': 'group_view',  'item_id': level});
