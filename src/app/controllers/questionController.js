@@ -121,7 +121,6 @@
             
             var ramdonIndex = _.random(0, vm.question.answer.length - 1),
                 answers = vm.question.answer.toLowerCase().split(''), currentIndex;
-
             for(var i = 0; i < answers.length; i++){
                 currentIndex = (i+ramdonIndex) % answers.length;
                 if(vm.answer[currentIndex].type === 'blank'){
@@ -129,7 +128,6 @@
                 }
             }
             var content = answers[currentIndex];
-
             //update answer
             if(vm.answer[currentIndex].content !== '&nbsp;'){
                 vm.letters[vm.answer[currentIndex].index] = vm.answer[currentIndex].content;
@@ -140,8 +138,13 @@
             //remove from letters
             var indexInLetter =  _.indexOf(vm.letters, content);
             if(indexInLetter === -1){
-                indexInLetter =  _.indexOf(_.map(vm.answer, 'content'), content);
-                vm.answer[indexInLetter].content = '&nbsp;';
+                _.each(vm.answer, function(item, index) { 
+                    if(item.type !== 'corrected' && item.content ===content){
+                        indexInLetter = index;
+                        vm.answer[index].content = '&nbsp;';
+                        return false;
+                    }
+                });
             }else{
                 vm.letters[indexInLetter] = '&nbsp;';
                 numberLetter++;
