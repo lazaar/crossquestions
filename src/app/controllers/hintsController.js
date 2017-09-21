@@ -42,7 +42,7 @@
                     }
                   
                    _.delay(function(){
-                      addHints(watchVideo);
+                      addHints(3);
                       analyticsService.logEvent('add_hints', {'event': 'watch_video','sub_event':'done'});
                       watchVideo = -1;
                   },500);
@@ -74,10 +74,11 @@
         var initFacebookConnextion = function(){
           vm.isConnectedToFacebook = facebookService.isConnectedToFacebook();
           var loginToFacebook = function(){
+            admobService.removeBanner();
             analyticsService.logEvent('add_hints', {'event': 'login_facebook','sub_event':'start'});
             facebookService.login(function(){
               analyticsService.logEvent('add_hints', {'event': 'login_facebook','sub_event':'done'});
-              addHints(1);
+              addHints(5);
               vm.isConnectedToFacebook = true;
             });
           };
@@ -85,18 +86,19 @@
 
           vm.isShareFacebook = coinsService.isShareFacebook();
           var shareToFacebook = function(){
+            admobService.removeBanner();
               analyticsService.logEvent('add_hints', {'event': 'share_facebook','sub_event':'start'});
 
             if(vm.isConnectedToFacebook){
               facebookService.shareFacebook(function(){
                 analyticsService.logEvent('add_hints', {'event': 'share_facebook','sub_event':'done'});
-                addHints(3);
+                addHints(5);
                 vm.isShareFacebook = false;
               });
             }
             else{
               facebookService.login(function(){
-                addHints(1);
+                addHints(5);
                 vm.isConnectedToFacebook = true;
                 shareToFacebook();
               });
@@ -107,17 +109,18 @@
 
           vm.isInviteFacebook = coinsService.isInviteFacebook();
           var inviteToFacebook = function(){
+            admobService.removeBanner();
             if(vm.isConnectedToFacebook){
               analyticsService.logEvent('add_hints', {'event': 'invite_firends','sub_event':'start'});
               facebookService.inviteFriends(function(){
                 analyticsService.logEvent('add_hints', {'event': 'invite_firends','sub_event':'done'});
-                addHints(3);
+                addHints(5);
                 vm.isInviteFacebook = false;
               });
             }
             else{
               facebookService.login(function(){
-                addHints(1);
+                addHints(5);
                 vm.isConnectedToFacebook = true;
                 inviteToFacebook();
               });
@@ -146,6 +149,7 @@
             vm.hints = dataModel.hints;
             vm.addHints = addHints;
             vm.showVideo = function(){
+              admobService.removeBanner();
               analyticsService.logEvent('add_hints', {'event': 'watch_video','sub_event':'start'});
               soundService.pauseCurrentMusic();
               admobService.generateVideo();

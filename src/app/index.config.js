@@ -16,6 +16,7 @@
 
         //Disable the text in the back button
         $ionicConfigProvider.backButton.text('').icon('ion-ios-arrow-back');
+        $ionicConfigProvider.views.swipeBackEnabled(false);
     }
 
     /**

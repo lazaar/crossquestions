@@ -56,6 +56,7 @@
          function generateInterstitial(){
             if(typeof AdMob !== 'undefined'){
               AdMob.showInterstitial();
+              removeBanner();
               _.delay(function(){
                 AdMob.prepareInterstitial({
                   adId:admobid.inter,

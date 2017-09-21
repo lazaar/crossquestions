@@ -4,19 +4,19 @@
 		<li ng-click="hintCtrl.videoReady && hintCtrl.showVideo()" ng-class="{'disable':!hintCtrl.videoReady}">
 			<span class="hint-description">Watch Video </span>
 			<span class="hint-spinner" ng-if="hintCtrl.videoNotLoaded"><ion-spinner icon="spiral" class="spinner-light"></ion-spinner></span>
-			<span class="hint-plus" ng-if="!hintCtrl.videoNotLoaded"><i class="ion-plus"></i>2</span>
+			<span class="hint-plus" ng-if="!hintCtrl.videoNotLoaded"><i class="ion-plus"></i>3</span>
 		</li>
 		<li ng-click="hintCtrl.loginToFacebook()" ng-if="!hintCtrl.isConnectedToFacebook">
 			<span class="hint-description">Connect to Facebook</span>
-			<span class="hint-plus"><i class="ion-plus"></i>1</span>
+			<span class="hint-plus"><i class="ion-plus"></i>5</span>
 		</li>
 		<li ng-click="hintCtrl.shareToFacebook()" ng-if="hintCtrl.isShareFacebook">
 			<span class="hint-description">Share to Facebook</span>
-			<span class="hint-plus"><i class="ion-plus"></i>3</span>
+			<span class="hint-plus"><i class="ion-plus"></i>5</span>
 		</li>
 		<li ng-click="hintCtrl.inviteToFacebook()" ng-if="hintCtrl.isInviteFacebook">
 			<span class="hint-description">Invite +3 Friends</span>
-			<span class="hint-plus"><i class="ion-plus"></i>3</span>
+			<span class="hint-plus"><i class="ion-plus"></i>5</span>
 		</li>
 
 	</ul>
