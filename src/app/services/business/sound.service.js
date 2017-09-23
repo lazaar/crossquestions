@@ -14,23 +14,28 @@
             var getUrl = function(url){
                 if(typeof device !== 'undefined' && device.platform === 'Android')
                 {
-                        url = '/android_asset/www' + url;
+                        url = '/www' + url;
                 }
                 return url;
             };
 
-            var sounds = new Array(3), index=0;
-            function playSound(url){
+            function init(){
+                if(typeof window.plugins.NativeAudio !== 'undefined' ){
+                    window.plugins.NativeAudio.preloadSimple('click', cqConstantes.sounds.click, null, null);
+                    window.plugins.NativeAudio.preloadSimple('letterClick', cqConstantes.sounds.letterClick, null, null);
+                    window.plugins.NativeAudio.preloadSimple('correct', cqConstantes.sounds.correct, null, null);
+                    window.plugins.NativeAudio.preloadSimple('wrong', cqConstantes.sounds.wrong, null, null);
+                    window.plugins.NativeAudio.preloadSimple('unlocked', cqConstantes.sounds.unlocked, null, null);
+                    window.plugins.NativeAudio.preloadSimple('letterClickOut', cqConstantes.sounds.letterClickOut, null, null);
+                }
+            }
 
-                if(typeof Media === 'undefined' || !dataModel.isSound){
+            function playSound(id){
+
+                if(typeof window.plugins.NativeAudio === 'undefined' || !dataModel.isSound){
                     return;
                 }
-                if(sounds[index]){
-                    sounds[index].release();
-                }
-                sounds[index] = new Media(getUrl(url));
-                sounds[index].play();
-                index = (index+1) % 3;
+                window.plugins.NativeAudio.play(id);
             }
 
             function playBackgroundMusic(){
@@ -122,6 +127,7 @@
              }
 
             return {
+                init:init,
                 playSound:playSound,
                 playBackgroundMusic:playBackgroundMusic,
                 playMenuMusic:playMenuMusic,

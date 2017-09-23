@@ -59,7 +59,7 @@
             }
             vm.letters[index] = '&nbsp;';
             numberLetter++;
-            soundService.playSound(cqConstantes.sounds.letterClick);
+            soundService.playSound('letterClick');
 
             if(numberLetter === vm.answer.length){
                 checkAnswer();  
@@ -77,7 +77,7 @@
                 analyticsService.logEvent('corrected', {'item_id': dataModel.crosswords.levelId +'/'+dataModel.crosswords.id+'/'+questionId});
 
                 
-                soundService.playSound(cqConstantes.sounds.correct);
+                soundService.playSound('correct');
 
                 _.delay(function(){
                     $ionicHistory.goBack();
@@ -97,7 +97,7 @@
                 $timeout(function(){
                     vm.state = '';
                 }, 200);
-                soundService.playSound(cqConstantes.sounds.wrong);
+                soundService.playSound('wrong');
             }
         };
 
@@ -109,7 +109,7 @@
             vm.answer[index].content = '&nbsp;';
             vm.answer[index].index = -1;
             numberLetter--;
-            soundService.playSound(cqConstantes.sounds.letterClickOut);
+            soundService.playSound('letterClickOut');
         };
 
         var showLetter=function(){

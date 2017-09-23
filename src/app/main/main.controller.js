@@ -13,7 +13,7 @@
             };
 
             vm.clickSound = function(){
-                soundService.playSound(cqConstantes.sounds.click);
+                soundService.playSound('click');
             };
 
             vm.goToState = function(to, params, options){

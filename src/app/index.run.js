@@ -51,6 +51,7 @@
             admobService.init();
             facebookService.init();
             notificationsService.init();
+            soundService.init();
         };
 
 

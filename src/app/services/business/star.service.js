@@ -69,7 +69,7 @@
                 values.currentCw++;
                 popupService.infoText(cqConstantes.popupMessage.newCwUnlocked);
            }
-            soundService.playSound(cqConstantes.sounds.unlocked);
+            soundService.playSound('unlocked');
 
             if(typeof AppRate !== 'undefined'){
                 AppRate.promptForRating(false);

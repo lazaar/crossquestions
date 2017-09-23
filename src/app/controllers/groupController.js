@@ -26,7 +26,7 @@
             cw.levelId = vm.level;
             cwService.initCrossWords(cw);
             routerHelper.goToState(cqConstantes.states.crossWord,{'cw': id+'-'+cw.levelId});
-            soundService.playSound(cqConstantes.sounds.click);
+            soundService.playSound('click');
         };
 
         vm.showPopupHints = function(){
