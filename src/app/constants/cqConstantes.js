@@ -6,8 +6,8 @@
         android:'com.lazcha.crossWords',
         facebookId:'668484603351045',
         facebookUrl:'https://www.facebook.com/lazyGamesApp',
-        daysBetweenShareHints:20,
-        daysBetweenInviteHints:20,
+        daysBetweenShareHints:7,
+        daysBetweenInviteHints:7,
         states:{        
             home:'home',
             about:'about',
@@ -25,8 +25,8 @@
         },
         popupMessage:{
             newLevelUnlocked:'New Level unlocked',
-            newCwUnlocked:'New Cross Word unlocked',
-            shareTitle:'The best Cross Word Application',
+            newCwUnlocked:'New Crossword unlocked',
+            shareTitle:'Crossboss : The best Crosswords Application',
             giftTitle:'Daily Gift',
             giftContent:'You recieved {coins} Coins',
         },
@@ -49,9 +49,9 @@
         },
         shareFacebook:{
             sharePicture:'https://img11.hostingpics.net/pics/552678iconcopie.png',
-            hashTag:'CrossWordsGame',
+            hashTag:'CrossbossGame',
             inviteFriend:'Come join me in playing this amusing game',
-            quote:'The best Cross Word Application'
+            quote:'Crossboss : The best Crosswords Application'
         }
     });
 })();
