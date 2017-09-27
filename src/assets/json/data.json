@@ -2296,7 +2296,7 @@
                "y": 0,
                "direction":"v", 
                "title":"Country",
-               "content":"/assets/images/content/albania.jpg",
+               "content":"assets/images/content/albania.jpg",
                "type":"image",
                "answer":"albania",
                "letters":"BEKOaaabiln" 
@@ -2314,7 +2314,7 @@
                "y": 0,
                "direction":"h",
                "title":"Scientist",
-               "content":"/assets/images/content/newton.jpg",
+               "content":"assets/images/content/newton.jpg",
                "type":"image",
                "answer":"newton",
                "letters":"FIennotwwy" 
@@ -2323,7 +2323,7 @@
                "y": 5,
                "direction":"v", 
                "title":"Series Character (LOST)",
-               "content":"/assets/images/content/daniel.jpg",
+               "content":"assets/images/content/daniel.jpg",
                "type":"image",
                "answer":"daniel",
                "letters":"OYZaadeiln" 
@@ -2341,7 +2341,7 @@
                "y": 2,
                "direction":"v", 
                "title":"Singer",
-               "content":"/assets/images/content/brown.jpg",
+               "content":"assets/images/content/brown.jpg",
                "type":"image",
                "answer":"brown",
                "letters":"bbflnoprw" 
@@ -2359,7 +2359,7 @@
                "y": 1,
                "direction":"h",
                "title":"Sport (NFL)",
-               "content":"/assets/images/content/rodgers.jpg",
+               "content":"assets/images/content/rodgers.jpg",
                "type":"image",
                "answer":"rodgers",
                "letters":"JNdegiorrsw" 
@@ -2368,7 +2368,7 @@
                "y": 8,
                "direction":"h",
                "title":"Logo",
-               "content":"/assets/images/content/chanel.jpg",
+               "content":"assets/images/content/chanel.jpg",
                "type":"image",
                "answer":"chanel",
                "letters":"DWabcehlno" 
@@ -2386,7 +2386,7 @@
                "y": 4,
                "direction":"v", 
                "title":"4 pics 1 word",
-               "content":"/assets/images/content/guard.jpg",
+               "content":"assets/images/content/guard.jpg",
                "type":"image",
                "answer":"guard",
                "letters":"DOadgkruu" 
@@ -2405,7 +2405,7 @@
                "y": 1,
                "direction":"v", 
                "title":"Philosopher",
-               "content":"/assets/images/content/voltaire.jpg",
+               "content":"assets/images/content/voltaire.jpg",
                "type":"image",
                "answer":"voltaire",
                "letters":"Maaeilortvwy" 
@@ -2414,7 +2414,7 @@
                "y": 1,
                "direction":"h",
                "title":"Zoom In",
-               "content":"/assets/images/content/almond.jpg",
+               "content":"assets/images/content/almond.jpg",
                "type":"image",
                "answer":"almond",
                "letters":"BFadlmnosv" 
@@ -2432,7 +2432,7 @@
                "y": 5,
                "direction":"h",
                "title":"The walking dead Character",
-               "content":"/assets/images/content/daryl.jpg",
+               "content":"assets/images/content/daryl.jpg",
                "type":"image",
                "answer":"daryl",
                "letters":"Paddflrsy" 
@@ -2441,7 +2441,7 @@
                "y": 6,
                "direction":"h",
                "title":"Logo",
-               "content":"/assets/images/content/swatch.jpg",
+               "content":"assets/images/content/swatch.jpg",
                "type":"image",
                "answer":"swatch",
                "letters":"GUachqrstw" 
@@ -2459,7 +2459,7 @@
                "y": 2,
                "direction":"h",
                "title":"4 pics 1 word",
-               "content":"/assets/images/content/guard.jpg",
+               "content":"assets/images/content/guard.jpg",
                "type":"image",
                "answer":"guard",
                "letters":"DOYadgrtu" 
@@ -2477,7 +2477,7 @@
                "y": 6,
                "direction":"h",
                "title":"Sport",
-               "content":"/assets/images/content/serena.jpg",
+               "content":"assets/images/content/serena.jpg",
                "type":"image",
                "answer":"serena",
                "letters":"CMQaeenprs" 
@@ -2486,7 +2486,7 @@
                "y": 6,
                "direction":"v", 
                "title":"City",
-               "content":"/assets/images/content/sydney.jpg",
+               "content":"assets/images/content/sydney.jpg",
                "type":"image",
                "answer":"sydney",
                "letters":"deelnosuyy" 
@@ -2712,7 +2712,7 @@
                   "y": 1,
                   "direction":"v", 
                   "title":"Country",
-                  "content":"/assets/images/content/germany.jpg",
+                  "content":"assets/images/content/germany.jpg",
                   "type":"image",
                   "answer":"germany",
                   "letters":"Yaegmmnrwxy" 
@@ -2721,7 +2721,7 @@
                   "y": 1,
                   "direction":"h",
                   "title":"Vikings",
-                  "content":"/assets/images/content/ragnar.jpg",
+                  "content":"assets/images/content/ragnar.jpg",
                   "type":"image",
                   "answer":"ragnar",
                   "letters":"aagglnnrrs" 
@@ -2730,7 +2730,7 @@
                   "y": 3,
                   "direction":"v", 
                   "title":"DJ",
-                  "content":"/assets/images/content/guetta.jpg",
+                  "content":"assets/images/content/guetta.jpg",
                   "type":"image",
                   "answer":"guetta",
                   "letters":"BHWaeegttu" 
@@ -2739,7 +2739,7 @@
                   "y": 6,
                   "direction":"v", 
                   "title":"Logo",
-                  "content":"/assets/images/content/zurich.jpg",
+                  "content":"assets/images/content/zurich.jpg",
                   "type":"image",
                   "answer":"zurich",
                   "letters":"Jcdhirsuwz" 
@@ -2748,7 +2748,7 @@
                   "y": 1,
                   "direction":"h",
                   "title":"Flag",
-                  "content":"/assets/images/content/nato.jpg",
+                  "content":"assets/images/content/nato.jpg",
                   "type":"image",
                   "answer":"nato",
                   "letters":"ALVanoty" 
@@ -2757,7 +2757,7 @@
                   "y": 2,
                   "direction":"h",
                   "title":"Zoom In",
-                  "content":"/assets/images/content/eagle.jpg",
+                  "content":"assets/images/content/eagle.jpg",
                   "type":"image",
                   "answer":"eagle",
                   "letters":"FNNQaeegl" 
@@ -2766,7 +2766,7 @@
                   "y": 6,
                   "direction":"h",
                   "title":"4 pics 1 word",
-                  "content":"/assets/images/content/heavy.jpg",
+                  "content":"assets/images/content/heavy.jpg",
                   "type":"image",
                   "answer":"heavy",
                   "letters":"Iaehhiovy" 
