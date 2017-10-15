@@ -325,7 +325,7 @@ class Crossword(object):
               result += '\t\t\t\t\t\t"type":"text",\n'       
             else:
               result += '\t\t\t\t\t\t"content":"../assets/images/content/%s.jpg",\n' % word.word
-              result += '\t\t"type":"image",\n'      
+              result += '\t\t\t\t\t\t"type":"image",\n'      
             result += '\t\t\t\t\t\t"answer":"%s",\n' % word.word
             randomized = word.word + random_char(4)
             randomized = ''.join(sorted(randomized)) 

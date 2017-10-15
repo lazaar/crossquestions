@@ -13,17 +13,17 @@
 						"content":" question 2",
 						"type":"text",
 						"answer":"oxygen",
-						"letters":"Megnnovwxy" 
+						"letters":"OSegnorxxy" 
  					},
 					{
  						"x": 0,
 						"y": 0,
 						"direction":"h",
 						"title":" title 1",
-						"content":" question 1",
-						"type":"text",
+						"content":"../assets/images/content/orange.jpg",
+		"type":"image",
 						"answer":"orange",
-						"letters":"JLacegmnor" 
+						"letters":"BRaaegnopr" 
  					},
 					{
  						"x": 3,
@@ -33,7 +33,7 @@
 						"content":" question 1",
 						"type":"text",
 						"answer":"green",
-						"letters":"Yaeeglnqr" 
+						"letters":"LSeeghjnr" 
  					},
 					{
  						"x": 3,
@@ -43,7 +43,7 @@
 						"content":" question 1",
 						"type":"text",
 						"answer":"eagle",
-						"letters":"Lacdeegls" 
+						"letters":"RRaeegloz" 
  					},
 					{
  						"x": 7,
@@ -53,7 +53,7 @@
 						"content":" question 1",
 						"type":"text",
 						"answer":"jeans",
-						"letters":"DJaejnosw" 
+						"letters":"FRSabejns" 
  					},
 					{
  						"x": 1,
@@ -63,7 +63,7 @@
 						"content":" question 2",
 						"type":"text",
 						"answer":"bulls",
-						"letters":"WXbllrstu" 
+						"letters":"DHbbllnsu" 
  					},
 					{
  						"x": 2,
@@ -73,7 +73,7 @@
 						"content":" question 2",
 						"type":"text",
 						"answer":"zurich",
-						"letters":"PXYchilruz" 
+						"letters":"Kacehiruvz" 
  					},
 					{
  						"x": 5,
@@ -83,7 +83,7 @@
 						"content":" question 1",
 						"type":"text",
 						"answer":"test8",
-						"letters":"8GPegpstt" 
+						"letters":"8GNUefstt" 
  					},
 					{
  						"x": 5,
@@ -93,93 +93,93 @@
 						"content":" question 2",
 						"type":"text",
 						"answer":"test9",
-						"letters":"9HNRdestt" 
+						"letters":"9MYcegstt" 
  					}
  				]
 			},
 			{
- 				"width" : 9,
- 				"height" : 13,
+ 				"width" : 12,
+ 				"height" : 12,
  				"questions" : [
  					{
  						"x": 0,
 						"y": 0,
-						"direction":"v", 
-						"title":" title 1",
-						"content":" question 1",
-						"type":"text",
-						"answer":"test17",
-						"letters":"17LLTefstt" 
- 					},
-					{
- 						"x": 0,
-						"y": 0,
 						"direction":"h",
-						"title":" title 2",
-						"content":" question 2",
-						"type":"text",
-						"answer":"test16",
-						"letters":"16CNWZestt" 
- 					},
-					{
- 						"x": 3,
-						"y": 0,
-						"direction":"h",
-						"title":" title 2",
-						"content":" question 2",
-						"type":"text",
-						"answer":"test14",
-						"letters":"14HZelpstt" 
- 					},
-					{
- 						"x": 3,
-						"y": 3,
-						"direction":"v", 
 						"title":" title 1",
 						"content":" question 1",
 						"type":"text",
 						"answer":"test15",
-						"letters":"15JQWestty" 
+						"letters":"15MPSesstt" 
  					},
 					{
- 						"x": 6,
-						"y": 3,
-						"direction":"h",
+ 						"x": 0,
+						"y": 0,
+						"direction":"v", 
 						"title":" title 1",
 						"content":" question 1",
 						"type":"text",
 						"answer":"test10",
-						"letters":"01BGZenstt" 
- 					},
-					{
- 						"x": 2,
-						"y": 7,
-						"direction":"v", 
-						"title":" title 2",
-						"content":" question 2",
-						"type":"text",
-						"answer":"test12",
-						"letters":"12GISVestt" 
- 					},
-					{
- 						"x": 2,
-						"y": 7,
-						"direction":"h",
-						"title":" title 1",
-						"content":" question 1",
-						"type":"text",
-						"answer":"test13",
-						"letters":"13Qdefsttx" 
+						"letters":"01Kaacestt" 
  					},
 					{
  						"x": 0,
-						"y": 9,
+						"y": 3,
 						"direction":"v", 
 						"title":" title 2",
 						"content":" question 2",
 						"type":"text",
 						"answer":"test18",
-						"letters":"18Femrsstt" 
+						"letters":"18Ierssttv" 
+ 					},
+					{
+ 						"x": 3,
+						"y": 3,
+						"direction":"h",
+						"title":" title 1",
+						"content":" question 1",
+						"type":"text",
+						"answer":"test17",
+						"letters":"17HKeemstt" 
+ 					},
+					{
+ 						"x": 3,
+						"y": 6,
+						"direction":"v", 
+						"title":" title 2",
+						"content":" question 2",
+						"type":"text",
+						"answer":"test14",
+						"letters":"14BLRestty" 
+ 					},
+					{
+ 						"x": 6,
+						"y": 6,
+						"direction":"h",
+						"title":" title 1",
+						"content":" question 1",
+						"type":"text",
+						"answer":"test13",
+						"letters":"13befinstt" 
+ 					},
+					{
+ 						"x": 6,
+						"y": 9,
+						"direction":"v", 
+						"title":" title 2",
+						"content":" question 2",
+						"type":"text",
+						"answer":"test12",
+						"letters":"12Jeglnstt" 
+ 					},
+					{
+ 						"x": 10,
+						"y": 5,
+						"direction":"h",
+						"title":" title 2",
+						"content":" question 2",
+						"type":"text",
+						"answer":"test16",
+						"letters":"16WWegqstt" 
  					}
  				]
 			}
