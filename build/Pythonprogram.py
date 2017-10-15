@@ -1,4 +1,4 @@
-import random, re, time, string
+import random, re, time, string, csv
 from copy import copy as duplicate
 def random_char(y):
        return ''.join(random.choice(string.ascii_letters) for x in range(y))
@@ -28,9 +28,9 @@ class Crossword(object):
         temp_list = []
         for word in self.available_words:
             if isinstance(word, Word):
-                temp_list.append(Word(word.word, word.clue))
+                temp_list.append(Word(word.word, word.clue, word.title))
             else:
-                temp_list.append(Word(word[0], word[1]))
+                temp_list.append(Word(word[0], word[1], word[2]))
         random.shuffle(temp_list) # randomize word list
         temp_list.sort(key=lambda i: len(i.word), reverse=True) # sort by length
         self.available_words = temp_list
@@ -296,44 +296,50 @@ class Crossword(object):
         return outStr
  
     def legend(self): # must order first
-        outStr = ''
-
-        text_file = open("Crossword.txt","w")
-        text_file.write('{\n '  )
-        text_file.write('\t"width" : 20,\n '  )
-        text_file.write('\t"height" : 20,\n '  )
-        text_file.write('\t"questions" : [\n '  )
+        result = ''
+        width = 0
+        height = 0
         for word in self.current_word_list:
-            outStr += '%d. (%d,%d) %s: %s\n' % (word.number, word.col, word.row, word.down_across(), word.clue )
-            text_file.write('\t{\n \t\t"x": %d,\n' % (word.row-1))
-            text_file.write('\t\t"y": %d,\n' % word.col)
+            if(word.down_across() == "across" and (word.col + len(word.word) > height)):
+                height = word.col + len(word.word)
+            if(word.down_across() == "down" and word.row + len(word.word) > width):
+                width = word.row + len(word.word)
+        result += '\t\t\t{\n '  
+        result += '\t\t\t\t"width" : %d,\n '  % (width-1)
+        result += '\t\t\t\t"height" : %d,\n '  % (height-1)
+        result += '\t\t\t\t"questions" : [\n '  
+        for i,word in enumerate(self.current_word_list):
+            if i!=0:
+                result += ',\n'
+            result += '\t\t\t\t\t{\n \t\t\t\t\t\t"x": %d,\n' % (word.row-1)
+            result += '\t\t\t\t\t\t"y": %d,\n' % (word.col-1)
             if word.down_across() == "down":
-              text_file.write('\t\t"direction":"v", \n')
+              result += '\t\t\t\t\t\t"direction":"v", \n'
             else:
-              text_file.write('\t\t"direction":"h",\n')    
+              result += '\t\t\t\t\t\t"direction":"h",\n'  
             
-            text_file.write('\t\t"title":"Title here",\n')
+            result += '\t\t\t\t\t\t"title":"%s",\n' % word.title
             
-            if word.clue != "p":
-              text_file.write('\t\t"content":"%s",\n' % word.clue)
-              text_file.write('\t\t"type":"text",\n')         
+            if word.clue != "":
+              result += '\t\t\t\t\t\t"content":"%s",\n' % word.clue
+              result += '\t\t\t\t\t\t"type":"text",\n'       
             else:
-              text_file.write('\t\t"content":"../assets/images/content/%s.jpg",\n' % word.word)
-              text_file.write('\t\t"type":"image",\n')         
-            text_file.write('\t\t"answer":"%s",\n' % word.word)
+              result += '\t\t\t\t\t\t"content":"../assets/images/content/%s.jpg",\n' % word.word
+              result += '\t\t"type":"image",\n'      
+            result += '\t\t\t\t\t\t"answer":"%s",\n' % word.word
             randomized = word.word + random_char(4)
             randomized = ''.join(sorted(randomized)) 
-            text_file.write('\t\t"letters":"%s" \n \t},' % randomized)     
-        text_file.write('\t]\n')
-        text_file.write('}')
-        text_file.close()
-        return outStr
+            result += '\t\t\t\t\t\t"letters":"%s" \n \t\t\t\t\t}' % randomized   
+        result += '\n \t\t\t\t]\n'
+        result += '\t\t\t}'
+        return result
 
  
 class Word(object):
-    def __init__(self, word=None, clue=None):
+    def __init__(self, word=None, clue=None, title=None):
         self.word = re.sub(r'\s', '', word.lower())
         self.clue = clue
+        self.title = title
         self.length = len(self.word)
         # the below are set when placed on board
         self.row = None
@@ -351,25 +357,66 @@ class Word(object):
         return self.word
  
 ### end class, start execution
- 
-#start_full = float(time.time())
- 
-word_list = ['orange', 'p'], \
-    ['ford', 'p'], \
-    ['eagle', 'p'], \
-    ['Oxygen', 'What gas do all fuels need in order to burn? '], \
-    ['jeans', 'popular item of clothing originated in France'], \
-    ['bulls', 'What team was the first to win 3 NBA titles in a row since the Celtics in the 60s? '], \
-    ['Green', ' What colour is the letter L in the standard Google logo?'], \
-    ['zurich', 'p']
 
 
-a = Crossword(20, 20, '-', 5000, word_list)
-a.compute_crossword(2)
-print a.word_bank()
-print a.solution()
-print a.word_find()
-print a.display()
-print a.legend()
-print len(a.current_word_list), 'out of', len(word_list)
-print a.debug
+questions = []
+QUESTIONS_IN_EACH_CROSSWORD = 10
+CROSSWORD_IN_EACH_LEVEL = 10
+
+print("Start : Reading CSV file ... ")
+with open('questions.csv', 'rb') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        row[0] = re.sub(r'\s', '', row[0].lower())
+        questions.append(row)
+print("Finish : Reading CSV file ... ")
+
+
+number_crossword = len(questions)/QUESTIONS_IN_EACH_CROSSWORD + 1
+crosswordId = 0
+result = '[\n'
+while True:
+    words = questions[0:QUESTIONS_IN_EACH_CROSSWORD]
+    questions = questions[QUESTIONS_IN_EACH_CROSSWORD:]
+    
+
+    if(crosswordId%CROSSWORD_IN_EACH_LEVEL == 0):
+        if(crosswordId != 0):
+            result += '\n\t\t]\n' 
+            result += '\t},\n'
+        result += '\t{\n' 
+        result += '\t\t"crosswords": [\n'
+    else : 
+        result += ',\n' 
+
+    crosswordId += 1
+    print 'Generating Crossword ' + str(crosswordId) +'/' + str(number_crossword)
+    a = Crossword(20, 20, '-', 5000, words)
+    a.compute_crossword(2)
+    a.word_bank()
+    a.solution()
+    a.word_find()
+    a.display()
+    result += a.legend()
+
+    if(len(a.current_word_list) < len(words)):
+        currentWords = []
+        for currentWord in a.current_word_list:
+            currentWords.append(currentWord.word)
+        for word in words:
+            try:
+                currentWords.index(word[0])
+            except ValueError:
+                questions.insert(0,word)
+
+
+    if(len(questions) < 5):
+        if(len(questions) != 0):
+            print 'Questions not used : ' + str(questions)
+        break
+result += '\n\t\t]\n' 
+result += '\t}\n'
+result += ']'
+text_file = open("Crossword.json","w")
+text_file.write(result)
+text_file.close()
